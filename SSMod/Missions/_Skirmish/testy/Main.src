@@ -1,0 +1,29 @@
+Starting
+begin
+
+init;
+
+end;
+
+export MissionStarted;
+export Side6Buildings;
+
+export function init;
+begin
+
+MissionStarted := true;
+
+Side6Buildings := [[b_workshop, 88, 16, 0],
+                  [b_lab, 95, 10, 5],
+                  [b_oil_mine, 187, 219, 3],
+                  [b_oil_power, 187, 223, 3],
+                  [b_oil_power, 184, 210, 3],
+                  [b_armoury, 152, 204, 2],
+                  [b_armoury, 178, 207, 3],
+                  [b_bunker, 157, 204, 2],
+                  [b_bunker, 159, 202, 2],
+                  [b_bunker, 173, 209, 3],
+                  [b_bunker, 166, 203, 3],
+                  [b_oil_power, 150, 213, 3]];
+
+end;

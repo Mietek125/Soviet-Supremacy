@@ -19,81 +19,87 @@ begin
      SaveVariable(1, 'HintGatling');
      end;
 
-     if not LoadVariable('HintGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 44], [f_weapon, 27], [f_weapon, 5], [f_bweapon, 44], [f_bweapon, 27], [f_bweapon, 5]]]) then
+     if LoadVariable('HintGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 44], [f_weapon, 27], [f_weapon, 5], [f_bweapon, 44], [f_bweapon, 27], [f_bweapon, 5]]]) then
      begin
      HintSpec('Gun-hint', 3);
      SaveVariable(1, 'HintGun');
      end;
 
-     if not LoadVariable('HintHeavyGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 46], [f_weapon, 85], [f_weapon, 6], [f_bweapon, 46], [f_bweapon, 85], [f_bweapon, 6]]]) then
+     if LoadVariable('HintHeavyGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 46], [f_weapon, 85], [f_weapon, 6], [f_bweapon, 46], [f_bweapon, 85], [f_bweapon, 6]]]) then
      begin
      HintSpec('HeavyGun-hint', 3);
      SaveVariable(1, 'HintHeavyGun');
      end;
 
-     if not LoadVariable('HintRocketLauncher', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 45], [f_weapon, 28], [f_weapon, 7], [f_bweapon, 45], [f_bweapon, 28], [f_bweapon, 7]]]) then
+     if LoadVariable('HintRocketLauncher', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 45], [f_weapon, 28], [f_weapon, 7], [f_bweapon, 45], [f_bweapon, 28], [f_bweapon, 7]]]) then
      begin
      HintSpec('RocketLauncher-hint', 3);
      SaveVariable(1, 'HintRocketLauncher');
      end;
 
-     if not LoadVariable('HintFlameThrower', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 91], [f_weapon, 26], [f_bweapon, 91], [f_bweapon, 26]]]) then
+     if LoadVariable('HintFlameThrower', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 91], [f_weapon, 26], [f_bweapon, 91], [f_bweapon, 26]]]) then
      begin
      HintSpec('FlameThrower-hint', 3);
      SaveVariable(1, 'HintFlameThrower');
      end;
 
-     if not LoadVariable('HintLaser', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 9], [f_weapon, 10], [f_weapon, 105], [f_bweapon, 9], [f_bweapon, 10], [f_bweapon, 105]]]) then
+     if LoadVariable('HintLaser', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 9], [f_weapon, 10], [f_weapon, 105], [f_bweapon, 9], [f_bweapon, 10], [f_bweapon, 105]]]) then
      begin
      HintSpec('Laser-hint', 3);
      SaveVariable(1, 'HintLaser');
      end;
 
-     if not LoadVariable('HintRocket', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 47], [f_bweapon, 47]]]) then
+     if LoadVariable('HintRocket', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 47], [f_bweapon, 47]]]) then
      begin
      HintSpec('Rocket-hint', 3);
      SaveVariable(1, 'HintRocket');
      end;
 
-     if not LoadVariable('HintBalista', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 22], [f_bweapon, 22]]]) then
+     if LoadVariable('HintBalista', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 22], [f_bweapon, 22]]]) then
      begin
      HintSpec('Balista-hint', 3);
      SaveVariable(1, 'HintBalista');
      end;
 
-     if not LoadVariable('HintMineSweeper', 0) and FilterAllUnits([[f_side, 3], [f_weapon, 94]]) then
+     if LoadVariable('HintMineSweeper', 0) and FilterAllUnits([[f_side, 3], [f_weapon, 94]]) then
      begin
      HintSpec('MineSweeper-hint', 3);
      SaveVariable(1, 'HintMineSweeper');
      end;
 
-     if not LoadVariable('HintStaticCrane', 0) and FilterAllUnits([[f_side, 3], [f_bweapon, 93]]) then
+     if LoadVariable('HintStaticCrane', 0) and FilterAllUnits([[f_side, 3], [f_bweapon, 93]]) then
      begin
      HintSpec('StaticCrane-hint', 3);
      SaveVariable(1, 'HintStaticCrane');
      end;
 
-     if not LoadVariable('HintRussianRadar', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 92], [f_bweapon, 92]]]) then
+     if LoadVariable('HintRussianRadar', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 92], [f_bweapon, 92]]]) then
      begin
      HintSpec('RussianRadar-hint', 3);
      SaveVariable(1, 'HintRussianRadar');
      end;
 
-     if not LoadVariable('HintCalliopeRocketry', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 102], [f_bweapon, 102]]]) then
+     if LoadVariable('HintCalliopeRocketry', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 102], [f_bweapon, 102]]]) then
      begin
      HintSpec('CalliopeRocketry-hint', 3);
      SaveVariable(1, 'HintCalliopeRocketry');
      end;
 
-     if not LoadVariable('HintSiberiteGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 103], [f_bweapon, 103]]]) then
+     if LoadVariable('HintSiberiteGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 103], [f_bweapon, 103]]]) then
      begin
      HintSpec('SiberiteGun-hint', 3);
      SaveVariable(1, 'HintSiberiteGun');
      end;
 
-     if not LoadVariable('HintSalvoGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 104], [f_bweapon, 104]]]) then
+     if LoadVariable('HintSalvoGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 104], [f_bweapon, 104]]]) then
      begin
      HintSpec('SalvoGun-hint', 3);
      SaveVariable(1, 'HintSalvoGun');
+     end;
+
+     if LoadVariable('HintDevastatorGun', 0) and FilterAllUnits([[f_side, 3], [f_or, [f_weapon, 95], [f_bweapon, 95]]]) then
+     begin
+     HintSpec('DevastatorGun-hint', 3);
+     SaveVariable(1, 'HintDevastatorGun');
      end;
 end;

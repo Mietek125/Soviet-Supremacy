@@ -1,5 +1,5 @@
 Export Function InitAmerican;
-var i,j,k,l;
+var i,j,k,l,m;
 begin
 
      Uc_Side = 4;
@@ -39,6 +39,18 @@ begin
 
     If Difficulty = 3 then
     Begin
+
+         for m = 1 to 3 do
+         begin
+              PrepareVehicle(us_light_wheeled, engine_combustion, control_manual, rand(us_machine_gun, us_light_gun), 50);
+              AmVeh = CreateVehicle;
+              PrepareMechanic(rand(1,2),3);
+              AmM = CreateHuman;
+              Americans := Americans ^ AmVeh ^ AmM;
+              PlaceUnitArea(AmVeh,NewcomersArea,False);
+              PlaceHumanInUnit(AmM,AmVeh);
+         end;
+
          for k = 1 to 4 do
          begin
               PrepareSoldier(rand(1,2),5);

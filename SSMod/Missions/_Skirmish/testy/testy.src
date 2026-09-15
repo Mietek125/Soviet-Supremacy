@@ -1,0 +1,20 @@
+Every 0$10 Trigger FilterAllUnits([f_btype, b_siberite_mine]) do
+var depot, mine, miners, SibInDepot, i, j, tmp;
+begin
+
+     enable;
+
+     mine := FilterAllUnits([f_btype, b_siberite_mine]);
+     for i in mine do
+     begin
+          miners := UnitsInside(i);
+          depot := GetBase(i);
+
+          for j in miners do
+           if GetClass(j)=class_engineer then
+          begin
+               SibInDepot := GetResourceType(depot, 3);
+               SetResourceType(depot, 3, SibInDepot + 1);
+          end;
+     end;
+end;

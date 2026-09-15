@@ -1,0 +1,124 @@
+Export OmarTanks, OmarMechs,OmarMastodont;
+Export Function InitArabianAI;
+Var i, z, y, turrety, fabryka, lab, zbrojka;
+Begin
+
+ uc_side := 2;
+ uc_nation := 2;
+
+ Heike := PrepareUnit('Heike', False, '');
+ PlaceHumanInUnit(Heike,HeikeDepot);
+
+ Hc_Gallery := '';
+ Hc_Name := '';
+
+ HeikeCrew := [];
+
+ For i = 1 to 15 do
+  Begin
+   PrepareSoldier(rand(0,1),[3,5,7][Difficulty]);
+   HeikeCrew := HeikeCrew ^ CreateHuman;
+  End;
+ For i = 1 to 3 do
+  Begin
+   PrepareEngineer(rand(0,1),[3,5,7][Difficulty]);
+   HeikeCrew := HeikeCrew ^ CreateHuman;
+  End;
+ For i = 1 to 6 do
+  Begin
+   PrepareMechanic(rand(0,1), [3,5,7][Difficulty]);
+   HeikeCrew := HeikeCrew ^ CreateHuman;
+  End;
+ For i = 1 to 3 do
+  Begin
+   PrepareScientist(rand(0,1),[3,5,7][Difficulty]);
+   HeikeCrew := HeikeCrew ^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(HeikeBaseArea, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+ lab := FilterUnitsInArea(HeikeBaseArea, [[f_btype, b_lab_full]]);
+ fabryka := FilterUnitsInArea(HeikeBaseArea,[[f_btype, b_factory]]);
+ zbrojka := FilterUnitsInArea(HeikeBaseArea, [[f_btype, b_barracks]]);
+
+ y := 1;
+
+  For i in HeikeCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+      if y > 9 then PlaceHumanInUnit(i, zbrojka[1])
+      else PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   2:PlaceHumanInUnit(i, HeikeDepot);
+   3:PlaceHumanInUnit(i, fabryka[1]);
+   4:PlaceHumanInUnit(i, lab[1]);
+
+  end;
+ end;
+End;
+
+Export Function OmarAttack;
+Var i, z, y, turrety, fabryka, lab, zbrojka;
+Begin
+
+ uc_side := 5;
+ uc_nation := 2;
+
+ vc_chassis := 31;
+ vc_control := control_rider;
+
+ OmarMastodont := CreateVehicle;
+ OmarCrew := OmarCrew ^ OmarMastodont;
+
+ Omar := PrepareUnit('Omar', False, '');
+ PlaceHumanInUnit(Omar,OmarMastodont);
+
+ Hc_Gallery := '';
+ Hc_Name := '';
+
+ OmarCrew := [];
+
+ For i = 1 to 8 do
+  Begin
+   PrepareSoldier(rand(0,1),[3,4,5,7][Difficulty]);
+   OmarCrew := OmarCrew ^ CreateHuman;
+  End;
+ For i = 1 to 6 do
+  Begin
+   PrepareSoldier(rand(0,1),[3,4,5,7][Difficulty]);
+   OmarCrew := OmarCrew ^ CreateHuman;
+   SetClass(CreateHuman,8);
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareEngineer(rand(0,1),[3,4,5,7][Difficulty]);
+   OmarCrew := OmarCrew ^ CreateHuman;
+  End;
+ For i = 1 to 6 do
+  Begin
+   PrepareMechanic(rand(0,1), [3,4,5,7][Difficulty]);
+   OmarMechs = CreateHuman;
+   PlaceHumanInUnit(OmarMechs,OmarTanks);
+  End;
+ For i = 1 to 6 do
+  Begin
+  vc_chassis = rand(13,14);
+  vc_control = 1;
+  vc_engine = 1;
+  vc_fuel_battery = 80;
+  vc_weapon = rand(26,27);
+  OmarTanks = CreateVehicle;
+  OmarCrew := OmarCrew ^ OmarTanks;
+  End;
+ For i = 1 to 3 do
+  Begin
+   PrepareScientist(rand(0,1),[3,4,5,7][Difficulty]);
+   OmarCrew := OmarCrew ^ CreateHuman;
+  End;
+
+PlaceUnitArea(OmarCrew,OmarAttackArea,False);
+ComAgressiveMove(OmarCrew,333,236);
+
+end;
+

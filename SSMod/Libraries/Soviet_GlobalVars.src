@@ -1,64 +1,83 @@
 Export ru_radar, ru_big_cargo_bay, us_hack, us_artillery, ar_bio_bomb, ar_mortar, ar_crane, ar_miner, ru_flamethrower, ar_heavy_gun,
-ru_static_crane, ru_minesweeper, us_calliope_rocketry, us_siberite_gun, us_salvo_gun, us_ion_laser;
+ru_static_crane, ru_minesweeper, us_calliope_rocketry, us_siberite_gun, us_salvo_gun, us_ion_laser, ru_devastator_gun;
 Export ar_heavy_hovercraft, ru_minesweeper_chassis;
 Export tech_Artillery, tech_RadMat, tech_BasicTools, tech_Cargo, tech_Track, tech_Crane, tech_Bulldozer, tech_Hovercraft, tech_MultiBarrels, tech_ManualBunker,
 tech_StaticCrane, tech_CalliopeRocketry, tech_SiberiteGun, tech_RussianRadar, tech_RemoteControlledTurrets, tech_ComputerUpgrade4, tech_ComputerUpgrade5,
-tech_SalvoGun, tech_IonLaser, tech_Minesweeper;
+tech_SalvoGun, tech_IonLaser, tech_Minesweeper, tech_MineDetector, tech_Miner, tech_PowerOptimizer, tech_ReinforcedPumps, tech_SiberiteOreProcessing, tech_DevastatorGun,
+tech_NobleEquipment;
+Export b_AdvancedTechExt, b_HovercraftExt, b_RemoteTurret, b_MiningFacility;
 
 Export Function InitGlobalVariables;
 begin
 { ===== WEAPONS ===== }
 //ar weapons
-ar_miner := 81;
-ar_crane := 82;
-ar_bio_bomb := 83;
-ar_mortar := 84;
-ar_heavy_gun := 85;
+ar_miner                      := 81;
+ar_crane                      := 82;
+ar_bio_bomb                   := 83;
+ar_mortar                     := 84;
+ar_heavy_gun                  := 85;
 //ru weapons
-ru_big_cargo_bay := 90;
-ru_flamethrower := 91;
-ru_radar := 92;
-ru_static_crane := 93;
-ru_minesweeper := 94;
+ru_big_cargo_bay              := 90;
+ru_flamethrower               := 91;
+ru_radar                      := 92;
+ru_static_crane               := 93;
+ru_minesweeper                := 94;
+ru_devastator_gun             := 95;
 //us weapons
-us_artillery := 100;
-us_hack := 101;
-us_calliope_rocketry := 102;
-us_siberite_gun := 103;
-us_salvo_gun := 104;
-us_ion_laser := 105;
+us_artillery                  := 100;
+us_hack                       := 101;
+us_calliope_rocketry          := 102;
+us_siberite_gun               := 103;
+us_salvo_gun                  := 104;
+us_ion_laser                  := 105;
 
 { ===== CHASSIS ===== }
 //ar chassis
-ar_heavy_hovercraft := 32;
+ar_heavy_hovercraft           := 32;
 //ru chassis
-ru_minesweeper_chassis := 33;
+ru_minesweeper_chassis        := 33;
 
 { ===== TECHNOLOGIES ===== }
 //technologies for every nation or almost every nation
-tech_BasicTools := 82;
-tech_Cargo := 83;
-tech_Track := 84;
-tech_Crane := 85;
-tech_Bulldozer := 86;
-tech_ManualBunker := 90;
-tech_ComputerUpgrade4 := 96;
-tech_ComputerUpgrade5 := 97;
-//ar technologies
-tech_RadMat := 81;
-tech_Hovercraft := 87;
-tech_MultiBarrels := 88;
-tech_RemoteControlledTurrets := 95;
+tech_BasicTools               := 82;
+tech_Cargo                    := 83;
+tech_Track                    := 84;
+tech_Crane                    := 85;
+tech_Bulldozer                := 86;
+tech_Hovercraft               := 87;
+tech_ManualBunker             := 90;
+tech_ComputerUpgrade4         := 96;
+tech_ComputerUpgrade5         := 97;
+//ar technologies     
+tech_RadMat                   := 81;
+tech_MultiBarrels             := 88;
+tech_RemoteControlledTurrets  := 95;
+tech_Miner                    := 102;
+tech_ReinforcedPumps          := 104;
+tech_NobleEquipment           := 200;
 //ru technologies
-tech_StaticCrane := 91;
-tech_RussianRadar := 94;
-tech_Minesweeper := 100;
+tech_StaticCrane              := 91;
+tech_RussianRadar             := 94;
+tech_Minesweeper              := 100;
+tech_SiberiteOreProcessing    := 105;
+tech_DevastatorGun            := 106;
 //us technologies
-tech_Artillery := 80;
-tech_CalliopeRocketry := 92;
-tech_SiberiteGun := 93;
-tech_SalvoGun := 98;
-tech_IonLaser := 99;
+tech_Artillery                := 80;
+tech_CalliopeRocketry         := 92;
+tech_SiberiteGun              := 93;
+tech_SalvoGun                 := 98;
+tech_IonLaser                 := 99;
+tech_MineDetector             := 101;
+tech_PowerOptimizer           := 103;
+
+{ ===== BUILDINGS ===== }
+//ar
+b_HovercraftExt               := 45;
+b_RemoteTurret                := 46;
+//ru
+b_MiningFacility              := 47;
+//am
+b_AdvancedTechExt             := 44;
 
 End;
 

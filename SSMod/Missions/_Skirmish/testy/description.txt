@@ -1,0 +1,8 @@
+MISSION
+  MAP map.txt
+  TEXTS texts.txt
+  SOURCES sources.txt
+  CAMPAIGN 3 0
+  AUTOR Vlada
+  DISABLED_INPUT_OUTPUT "" ""
+  SIZE 100 100 END_OF_MISSION

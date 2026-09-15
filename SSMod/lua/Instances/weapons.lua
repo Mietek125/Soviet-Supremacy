@@ -75,6 +75,8 @@ UPG_LASERRANGE=49;
 UPG_SOLARPLANTPOWER=50;
 UPG_CONTAMRANGE=51;
 UPG_CONTAMDURATION=52;
+UPG_CONTAMRANGE=71;
+UPG_CONTAMDURATION=72;
 
 AA_SABRE = 1;
 AA_CARBINE = 2;
@@ -660,6 +662,7 @@ end;
 function Weap_RocketLauncher:getAmount(R)
 	return math.round(100*(SETTING_ROCKET_RANGE-R)/(SETTING_ROCKET_RANGE));
 end;
+
 
 function Weap_RocketLauncher:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
 	local hx,hy,hex, j;
@@ -1367,7 +1370,7 @@ function SpecWeap_Mine:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
 					
 					hex = OW_GET_HEX(hx,hy);
 					if (hex.UNIT ~= nil) then
-						j = 1;
+						j = 1;	
 						while (j <= units.COUNT) and (units.LIST[j].ID ~= hex.UNIT.ID) do
 							j = j + 1;
 						end;
@@ -1461,29 +1464,289 @@ end;
  SPECIALWEAPON CONTAMINATION TEST
 --]]
 
-SpecWeap_Contamination_Test = SpecialWeapon.make();
-function SpecWeap_Contamination_Test:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
-	TIME = TIME-1;
-	
-	local units = OW_GET_UNITS_WITHIN_RANGE(SETTING_CONTAMINATION_RANGE,X,Y);
-	local unit, vzd, T;	
-	local hex;
-	
-	for i = 1,units.COUNT do
-		unit = units.UNITS[i];
-		vzd  = unit.DISTANCE;
-		if (vzd <= SETTING_CONTAMINATION_RANGE) and (math.mod(unit.ID+OW_GET_TICK(),SETTING_CONTAMINATION_PERIOD) == 0) then
-			if (vzd == 0) then
-				vzd = 1;
-			end;
-			--TODO: Disable Exclamations
+SpecWeap_Contamination_Custom = SpecialWeapon.make();
+function SpecWeap_Contamination_Custom:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
+    TIME = TIME-1;
+    
+    local units = OW_GET_UNITS_WITHIN_RANGE(SETTING_CONTAMINATION_RANGE,X,Y);
+    local unit, vzd, T;    
+    local hex;
+    
+    for i = 1,units.COUNT do
+        unit = units.UNITS[i];
+        vzd  = unit.DISTANCE;
+        if (vzd <= SETTING_CONTAMINATION_RANGE) and (math.mod(unit.ID+OW_GET_TICK(),SETTING_CONTAMINATION_PERIOD) == 0) then
+            if (vzd == 0) then
+                vzd = 1;
+            end;
+            --TODO: Disable Exclamations
+            --TODO: Enable Exclamations
+            --TODO: ProcessExclamation ex_deposit_contaminated
 			OW_WEAPON_APPLY_ATTACK_EX(unit.ID,DAMAGE,(SETTING_CONTAMINATION_RANGE-vzd+1)/(SETTING_CONTAMINATION_RANGE+1),1);
-			--TODO: Enable Exclamations
-			--TODO: ProcessExclamation ex_deposit_contaminated
+        end;
+    end;
+    
+    OW_SET_SPECIAL_ATTACK_TIME(TIME);
+end;
+
+--[[
+NOWE MINY - MINA TELEPORTACYJNA
+--]]
+
+SpecWeap_TepMine              = SpecialWeapon.make();
+SpecWeap_TepMine.doDrawAttack = Weap_SpaceShifting.doDrawAttack;
+SpecWeap_TepMine.doFireWeapon = Weap_SpaceShifting.doFireWeapon;
+SpecWeap_TepMine.doShoot      = Weap_SpaceShifting.doShoot; 
+
+function SpecWeap_TepMine:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
+	local side, unitid = 0, 0;
+	if (UNIT ~= nil) then
+		side   = UNIT.SIDE;
+		unitid = UNIT.ID;
+	end;	
+	
+	local upgrade = OW_GET_UPGRADE_VALUE(UPG_EXPLOSIVESSTRENGTH,side);
+	local hx,hy,hex;
+	local units = BasicList.make();
+	
+	for i=1,3 do
+        DAMAGE[i] = DAMAGE[i]*(upgrade/2500);
+    end;
+	
+	if OW_VALID_HEX(X,Y) then
+		hex = OW_GET_HEX(X,Y);
+		if (hex.UNIT ~= nil) then
+			units:add({ID=hex.UNIT.ID,AMOUNT=100});
 		end;
 	end;
 	
-	OW_SET_SPECIAL_ATTACK_TIME(TIME);
+	for vzd = 1, SETTING_MINE_RANGE do
+		hx,hy = X+dxh[4]*vzd, Y+dyh[4]*vzd;
+		for dir = 0,5 do
+			for i = 1,vzd do
+				if OW_VALID_HEX(hx,hy) then
+					if vzd == 1 then
+						OW_DESTROY_ENVIRONMENT(hx,hy);
+					end;
+					
+					hex = OW_GET_HEX(hx,hy);
+					if (hex.UNIT ~= nil) then
+						j = 1;
+						while (j <= units.COUNT) and (units.LIST[j].ID ~= hex.UNIT.ID) do
+							j = j + 1;
+						end;
+			
+						if j > units.COUNT then
+							units:add({ID=hex.UNIT.ID,AMOUNT=math.round(100*(SETTING_MINE_RANGE-vzd+1)/SETTING_MINE_RANGE)});
+						else
+							if hex.UNIT.typ ~= TYPE_HUMAN then
+								units.LIST[j].AMOUNT = units.LIST[j].AMOUNT+math.round(100*(SETTING_MINE_RANGE-vzd+1)/SETTING_MINE_RANGE);
+							end;
+						end;
+					end;
+				end;
+				hx = hx + dxh[dir];
+				hy = hy + dyh[dir];
+			end;			
+		end;
+	end;
+	
+	for i=1,3 do
+        DAMAGE[i] = (DAMAGE[i]/10)*upgrade;
+    end;
+	
+	for i = 1,units.COUNT do
+		OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/100,1/3,unitid);
+	end;
+
+	local unitsTp   = OW_GET_UNITS_WITHIN_RANGE(SETTING_SPACESHIFITNG_RANGE,X,Y);
+	local upgradeTp = OW_GET_UPGRADE_VALUE(UPG_SPACESHIFTINGDISTANCE,UNIT.SIDE);
+	local dir,target;
+	
+	for i=1,unitsTp.COUNT do		
+		target = unitsTp.UNITS[i];
+		
+		if target.DISTANCE <= 0 then
+			dir = math.random(6);
+		else
+			dir = OW_GET_DIRECTION(X,Y,target.XS,target.YS);
+		end;
+		
+		OW_SPACESHIFT_UNIT(target.ID,math.floor(SETTING_SPACESHIFITNG_THROW_DIST[target.DISTANCE]*upgrade/100),dir)
+	end;
+	
+	OW_HEX_EXPLOSION_EFFECT(X,Y);
+	OW_DRAW_EXPLOSION(X,Y,6,EXPLOSION_MINE,1,0);
+	
+	OW_SET_SPECIAL_ATTACK_TIME(0);
+
+end;
+
+
+--[[
+NOWE MINY - MINA RADIACYJNA
+--]]
+
+SpecWeap_ContaMine = SpecialWeapon.make();
+
+function SpecWeap_ContaMine:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
+	local side, unitid = 0, 0;
+	if (UNIT ~= nil) then
+		side   = UNIT.SIDE;
+		unitid = UNIT.ID;
+	end;	
+	
+	local upgrade = OW_GET_UPGRADE_VALUE(UPG_EXPLOSIVESSTRENGTH,side);
+	
+	for i=1,3 do
+		DAMAGE[i] = DAMAGE[i]*(upgrade/2500);
+	end;
+	
+	local hx,hy,hex;
+	local units = BasicList.make();
+	
+	if OW_VALID_HEX(X,Y) then
+		hex = OW_GET_HEX(X,Y);
+		if (hex.UNIT ~= nil) then
+			units:add({ID=hex.UNIT.ID,AMOUNT=100});
+		end;
+	end;
+	
+	for vzd = 1, SETTING_MINE_RANGE do
+		hx,hy = X+dxh[4]*vzd, Y+dyh[4]*vzd;
+		for dir = 0,5 do
+			for i = 1,vzd do
+				if OW_VALID_HEX(hx,hy) then
+					if vzd == 1 then
+						OW_DESTROY_ENVIRONMENT(hx,hy);
+					end;
+					
+					hex = OW_GET_HEX(hx,hy);
+					if (hex.UNIT ~= nil) then
+						j = 1;
+						while (j <= units.COUNT) and (units.LIST[j].ID ~= hex.UNIT.ID) do
+							j = j + 1;
+						end;
+			
+						if j > units.COUNT then
+							units:add({ID=hex.UNIT.ID,AMOUNT=math.round(100*(SETTING_MINE_RANGE-vzd+1)/SETTING_MINE_RANGE)});
+						else
+							if hex.UNIT.typ ~= TYPE_HUMAN then
+								units.LIST[j].AMOUNT = units.LIST[j].AMOUNT+math.round(100*(SETTING_MINE_RANGE-vzd+1)/SETTING_MINE_RANGE);
+							end;
+						end;
+					end;
+				end;
+				hx = hx + dxh[dir];
+				hy = hy + dyh[dir];
+			end;			
+		end;
+	end;
+	
+	for i = 1,units.COUNT do
+		OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/100,1/3,unitid);
+	end;
+
+	local contam_upgrade_range  = OW_GET_UPGRADE_VALUE(UPG_CONTAMRANGE,UNIT.SIDE);
+	local contam_upgrade_duration  = OW_GET_UPGRADE_VALUE(UPG_CONTAMDURATION,UNIT.SIDE);		
+	local contam_duration = contam_upgrade_duration;
+	local contam_range = 
+	{
+	[1] = -102;
+	[2] = -103;
+	[3] = -104;
+	};
+	local contam_damage = {[1]=50,[2]=0,[3]=0};
+
+    OW_REGISTER_SPECIAL_ATTACK_EX(contam_duration,contam_range[contam_upgrade_range],X,Y,6,0,contam_damage);
+	
+	OW_HEX_EXPLOSION_EFFECT(X,Y);
+	OW_DRAW_EXPLOSION(X,Y,6,EXPLOSION_MINE,1,0);
+	OW_SET_SPECIAL_ATTACK_TIME(0);
+end;
+
+--[[
+NOWE MINY - MINA SPOWALNIAJACA
+--]]
+
+SpecWeap_TimeMine              = SpecialWeapon.make();
+SpecWeap_TimeMine.doIdle       = Weap_TimeShifting.doIdle;
+SpecWeap_TimeMine.doFireWeapon = Weap_TimeShifting.doFireWeapon;
+SpecWeap_TimeMine.doShoot      = Weap_TimeShifting.doShoot;
+SpecWeap_TimeMine.doDrawAttack = Weap_TimeShifting.doDrawAttack;
+
+function SpecWeap_TimeMine:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
+	local side, unitid = 0, 0;
+	if (UNIT ~= nil) then
+		side   = UNIT.SIDE;
+		unitid = UNIT.ID;
+	end;	
+	
+	local upgrade = OW_GET_UPGRADE_VALUE(UPG_EXPLOSIVESSTRENGTH,side);
+	local hx,hy,hex;
+	local units = BasicList.make();
+	
+	for i=1,3 do
+        DAMAGE[i] = DAMAGE[i]*(upgrade/2500);
+    end;
+	
+	if OW_VALID_HEX(X,Y) then
+		hex = OW_GET_HEX(X,Y);
+		if (hex.UNIT ~= nil) then
+			units:add({ID=hex.UNIT.ID,AMOUNT=100});
+		end;
+	end;
+	
+	for vzd = 1, SETTING_MINE_RANGE do
+		hx,hy = X+dxh[4]*vzd, Y+dyh[4]*vzd;
+		for dir = 0,5 do
+			for i = 1,vzd do
+				if OW_VALID_HEX(hx,hy) then
+					if vzd == 1 then
+						OW_DESTROY_ENVIRONMENT(hx,hy);
+					end;
+					
+					hex = OW_GET_HEX(hx,hy);
+					if (hex.UNIT ~= nil) then
+						j = 1;
+						while (j <= units.COUNT) and (units.LIST[j].ID ~= hex.UNIT.ID) do
+							j = j + 1;
+						end;
+			
+						if j > units.COUNT then
+							units:add({ID=hex.UNIT.ID,AMOUNT=math.round(100*(SETTING_MINE_RANGE-vzd+1)/SETTING_MINE_RANGE)});
+						else
+							if hex.UNIT.typ ~= TYPE_HUMAN then
+								units.LIST[j].AMOUNT = units.LIST[j].AMOUNT+math.round(100*(SETTING_MINE_RANGE-vzd+1)/SETTING_MINE_RANGE);
+							end;
+						end;
+					end;
+				end;
+				hx = hx + dxh[dir];
+				hy = hy + dyh[dir];
+			end;			
+		end;
+	end;
+	
+	for i=1,3 do
+        DAMAGE[i] = (DAMAGE[i]/10)*upgrade;
+    end;
+	
+	for i = 1,units.COUNT do
+		OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/100,1/3,unitid);
+	end;
+
+	local upgrade  = OW_GET_UPGRADE_VALUE(UPG_TAURAD,UNIT.SIDE);	
+	local duration = math.floor(SETTING_TIMESHIFITNG_DURATION*upgrade/100);
+	local range    = math.floor(SETTING_TIMESHIFITNG_RANGE*upgrade/100);
+	
+	OW_REGISTER_SPECIAL_ATTACK(duration,WEAPONTYPE_TIMESLOWDOWN,X,Y,0,range);
+	OW_REGISTER_TIMESHIFTING(X,Y,range);
+	
+	OW_HEX_EXPLOSION_EFFECT(X,Y);
+	OW_DRAW_EXPLOSION(X,Y,6,EXPLOSION_MINE,1,0);
+	
+	OW_SET_SPECIAL_ATTACK_TIME(0);
 end;
 
 --[[
@@ -1496,26 +1759,27 @@ Weap_GunAlaskite.doFireWeapon = Weap_Gun.doFireWeapon;
 Weap_GunAlaskite.doDrawAttack = Weap_Gun.doDrawAttack;
 
 function Weap_GunAlaskite:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
-	local upgrade_range  = OW_GET_UPGRADE_VALUE(UPG_CONTAMRANGE,UNIT.SIDE);
-	local upgrade_duration  = OW_GET_UPGRADE_VALUE(UPG_CONTAMDURATION,UNIT.SIDE);		
-	local duration = upgrade_duration;
-	local range = 
-	{
-	[1] = -102;
-	[2] = -103;
-	[3] = -104;
-	};
-	local units = self:doAttack_MakeUnitList(TIME, X, Y, DIRECTION, DAMAGE, true);
-	
-	for i=1,units.COUNT do
-		OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/3,1);
-	end;
-	
-	if WEAP_ID ~= 4 then
-		OW_DRAW_EXPLOSION(X,Y,DIRECTION,EXPLOSION_CANNON_OR_BAZOOKA_IMPACT,1,0);
-	end;
-		
-	OW_REGISTER_SPECIAL_ATTACK_LUAWEAPON(duration,range,X,Y,0,range);
+    local upgrade_range  = OW_GET_UPGRADE_VALUE(UPG_CONTAMRANGE,UNIT.SIDE);
+    local upgrade_duration  = OW_GET_UPGRADE_VALUE(UPG_CONTAMDURATION,UNIT.SIDE);        
+    local duration = upgrade_duration;
+    local range = 
+    {
+    [1] = -102;
+    [2] = -103;
+    [3] = -104;
+    };
+	local contam_damage = {[1]=50,[2]=0,[3]=0};
+    local units = self:doAttack_MakeUnitList(TIME, X, Y, DIRECTION, DAMAGE, true);
+    
+    for i=1,units.COUNT do
+        OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/3,1);
+    end;
+    
+    if WEAP_ID ~= 4 then
+        OW_DRAW_EXPLOSION(X,Y,DIRECTION,EXPLOSION_CANNON_OR_BAZOOKA_IMPACT,1,0);
+    end;
+        
+	OW_REGISTER_SPECIAL_ATTACK_EX(duration,range[upgrade_range],X,Y,6,0,contam_damage);
 end;
 
 --[[
@@ -1561,7 +1825,47 @@ end;
 Weap_RocketLauncher_Example              = BasicWeapon.make();
 Weap_RocketLauncher_Example.doFireWeapon = Weap_RocketLauncher.doFireWeapon;
 Weap_RocketLauncher_Example.getAmount    = Weap_RocketLauncher.getAmount;
-Weap_RocketLauncher_Example.doAttack     = Weap_RocketLauncher.doAttack;
+
+function Weap_RocketLauncher_Example:doAttack(TIME, X, Y, DIRECTION, DAMAGE)
+    local hx,hy,hex, j;
+    local units = BasicList.make();
+
+    hex = OW_GET_HEX(X,Y);
+    
+    if OW_VALID_HEX(hx,hy) and (hex.UNIT ~= nil) then
+        units:add({ID=hex.UNIT.ID,AMOUNT=100});
+    end;
+    
+    for i=1,SETTING_ROCKET_RANGE do
+        hx,hy = X+dxh[4]*i,Y+dyh[4]*i;
+        hex = OW_GET_HEX(hx,hy);
+
+        for dir = 0, 5 do
+            for d = 1, i do
+                if OW_VALID_HEX(hx,hy) and (hex.UNIT ~= nil) then
+                    j = 1;
+                    while (j <= units.COUNT) and (units.LIST[j].ID ~= hex.UNIT.ID) do
+                        j = j + 1;
+                    end;
+            
+                    if j > units.COUNT then
+                        units:add({ID=hex.UNIT.ID,AMOUNT=self:getAmount(i)});
+                    else
+                        if hex.UNIT.typ ~= TYPE_HUMAN then
+                            units.LIST[j].AMOUNT = units.LIST[j].AMOUNT+self:getAmount(i);
+                        end;
+                    end;
+                end;
+                hx = hx+dxh[dir];
+                hy = hy+dyh[dir];
+            end;
+        end;
+    end;
+    
+    for i=1,units.COUNT do
+		OW_WEAPON_APPLY_ATTACK_EX(units.LIST[i].ID,DAMAGE,units.LIST[i].AMOUNT/100,1);
+	end;
+end;
 
 function Weap_RocketLauncher_Example:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
 	local Proj = UNIT.NATION;
@@ -1577,40 +1881,57 @@ end;
  NOWA BAZOOKA ABY RAKIETY MIAŁY KOLORY
 --]]
 
-Weap_Bazooka_Example             = BasicWeapon.make();
+Weap_Bazooka_Example              = BasicWeapon.make();
 Weap_Bazooka_Example.doFireWeapon = Weap_Bazooka.doFireWeapon;
-Weap_Bazooka_Example.getAmount    = Weap_Bazooka.getAmount;
 Weap_Bazooka_Example.doAttack     = Weap_Bazooka.doAttack;
+Weap_Bazooka_Example.getAmount    = Weap_Bazooka.getAmount;
+Weap_Bazooka_Example.doIdle       = Weap_Bazooka.doIdle;
 
 function Weap_Bazooka_Example:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
 	local Proj = UNIT.NATION;
 
-	if (Proj < 1) or (Proj > 3) then
-		Proj = 2;
+	if (Proj < 4) or (Proj > 6) then
+		Proj = 5;
 	end;
 
-	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 4, UNIT.SIDE, 10, 1, 0);
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, UNIT.NATION, UNIT.SIDE, 10, 1, 0);
 end;
 
 --[[
  NOWY TESTOWY MIOTACZ FLAME
 --]]
---[[
-Weap_Flame_Example             = BasicWeapon.make();
-Weap_Flame_Example.doFireWeapon = Weap_Flame.doFireWeapon;
-Weap_Flame_Example.getAmount    = Weap_Flame.getAmount;
-Weap_Flame_Example.doAttack     = Weap_Flame.doAttack;
+Weap_SibFlame              = BasicWeapon.make();
+Weap_SibFlame.doFireWeapon = Weap_Flame.doFireWeapon;
+Weap_SibFlame.variation    = Weap_Flame.variation;
+Weap_SibFlame.getAmount    = Weap_Flame.getAmount;
+Weap_SibFlame.doAttack     = Weap_Flame.doAttack;
 
-function Weap_Flame_Example:doShoot(ATTACKTARGET, X, Y)
+function Weap_SibFlame:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
+
+    OW_DRAW_ATTACK_EX(math.floor((TIME*5)/4), X, Y, DIRECTION, 10, 0, 14, 0, 0, false, STARTX, STARTY);
+    
+end;
+
+
+--[[
+ NOWA TESTOWA ARTA
+--]]
+Weap_Artillery              = BasicWeapon.make();
+Weap_Artillery.getsm        = Weap_Mortar.getsm;
+Weap_Artillery.doFireWeapon = Weap_Mortar.doFireWeapon;
+Weap_Artillery.getAmount    = Weap_Mortar.getAmount;
+Weap_Artillery.doAttack     = Weap_Mortar.doAttack;
+Weap_Artillery.doDrawAttack = Weap_Mortar.doDrawAttack;
+
+function Weap_Artillery:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)
 	local Proj = UNIT.NATION;
 
 	if (Proj < 1) or (Proj > 3) then
 		Proj = 2;
 	end;
 
-	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 6, 0, 5, 0, 0);
+	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 9, 0, 2, 4, 75);
 end;
---]]
 
 --[[
 
@@ -1634,6 +1955,7 @@ MODE
 11 = Custom Projectile
 12 = Custom Siberite Rocket
 13 = Custom Rocket
+14 = Custom Flame
 
 AFTER_MODE (Explosion left behind)
 -1 = Do Nothing
@@ -1652,6 +1974,8 @@ Weap_RocketLauncher_Example_AHEAD              = BasicWeapon.make();
 Weap_RocketLauncher_Example_AHEAD.doFireWeapon = Weap_RocketLauncher.doFireWeapon;
 Weap_RocketLauncher_Example_AHEAD.getAmount    = Weap_RocketLauncher.getAmount;
 Weap_RocketLauncher_Example_AHEAD.doAttack     = Weap_RocketLauncher.doAttack;
+
+
 
 function Weap_RocketLauncher_Example_AHEAD:doDrawAttack(TIME, X, Y, DIRECTION, STARTX, STARTY)	
 	OW_DRAW_ATTACK_EX(TIME, X, Y, DIRECTION, 1, UNIT.SIDE, 10, 4, 0);
@@ -1755,14 +2079,21 @@ WeaponList[98] = Weap_GunAlaskite;
 WeaponList[99]  = Weap_Repair;
 WeaponList[100] = Weap_Prism;
 WeaponList[101] = Weap_Prism2;
-WeaponList[102] = SpecWeap_Contamination_Test;
-WeaponList[103] = SpecWeap_Contamination_Test;
-WeaponList[104] = SpecWeap_Contamination_Test;
+WeaponList[102] = SpecWeap_Contamination_Custom;
+WeaponList[103] = SpecWeap_Contamination_Custom;
+WeaponList[104] = SpecWeap_Contamination_Custom;
 
 WeaponList[200] = Weap_RocketLauncher_Example;
 WeaponList[201] = Weap_RocketLauncher_Example_AHEAD;
 WeaponList[202] = Weap_Bazooka_Example;
-WeaponList[203] = Weap_Flame_Example;
+WeaponList[203] = Weap_SibFlame;
+WeaponList[204] = Weap_Artillery;
+
+WeaponList[230] = SpecWeap_TepMine;
+WeaponList[231] = SpecWeap_ContaMine;
+WeaponList[232] = SpecWeap_TimeMine;
+WeaponList[233] = SpecWeap_SleepMine;
+WeaponList[234] = SpecWeap_AutoMine;
 
 
 ---------------------------
@@ -1958,4 +2289,3 @@ function doUpdateParameters(SHOOTER)
 	
 	return UNIT;
 end;
-

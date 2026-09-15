@@ -1,3 +1,7 @@
+//Status: 15% done
+//Authors: Mietek & Rahol
+//Note: "Jak mia³em ciê¿ki okres, pomaga³aœ w niedoli - jedn¹ rêk¹ wali³aœ mi konia, drug¹ lepi³aœ pierogi" ~Diho
+
 Starting
 var b, n;
 begin
@@ -26,31 +30,35 @@ for n in FilterUnitsInArea(NorthLeninArea,[[f_type, unit_building]]) do
 ComHold(Janusz);
 ComHold(Rahol);
 
+InitGlobalVariables;
 InitRussian;
 InitAction;
+
 
 end;
 
 Export YakotichTeam, BerezovTeam, PompaTeam, BukovTeam, GaydarTeam, NorthLeninTeam, SouthLeninTeam, CheckpointsTeam, SouthCheckpointTeam, HeikeTeam, OmarTeam, BergkampTeam, SchulzTeam, OtherTeam, OldCrewTeam; //Ekipy
 Export Tank, Cargo1, Cargo2;                                  //Tranport z 03
 Export Pompa, Smirnov, Petrov, Konajev, Radenko;              //Ekipa Pompy
-Export Morozov, Platonov, Popov, Gaydar, Yashin, Bukov, Sevi, Guard;                 //Dowódcy Ruskich + ochroniarze
+Export Morozov, Platonov, Popov, Gaydar, Yashin, Bukov, Sevi;                 //Dowódcy Ruskich
 
 
-Export Oblukov, Kozlov, Furmanov, Scholtze, Kapitsova, Balei, Jaunzeme, Benko, Kuklajs; //Ekipa po³udniowy Lenin (nasi potem)
-Export Natasha, Gnyevko, Saseda, Kovalyuk, Kuzmov, Jaworska;                                     //Ekipa Nataszy (nasi)
-Export Yakotich, Mietek, Kostyliev, Smirnovsky, Maxim, Tatiana, Dragunov;                        //Nasi Ludzie
-Export IvanBerezov, Sharonova, Lesov, Aleinik, Korotajev, Bautin, Zakharov,                      //Ekipa Bieriezowa
-Ozerov, Yembachtov, Umanets, Azarian, Kulikov, Fomchenko, Subkov, Pochinchuk;                    //Ekipa Bieriezowa
+Export Oblukov, Kozlov, Furmanov, Scholtze, Kapitsova, Balei, Jaunzeme, Benko, Kuklajs, Kuzmov, Jaworska, Saseda; //Ekipa po³udniowy Lenin (nasi potem)
+Export Natasha, Gnyevko,Kovalyuk;                                                                                 //Ekipa Nataszy (nasi)
+Export Yakotich, Mietek, Kostyliev, Smirnovsky, Maxim, Tatiana, Dragunov;                                         //Nasi Ludzie
+Export IvanBerezov, Sharonova, Lesov, Aleinik, Korotajev, Bautin, Zakharov,                                       //Ekipa Bieriezowa
+Ozerov, Yembachtov, Umanets, Azarian, Kulikov, Fomchenko, Subkov, Pochinchuk;                                     //Ekipa Bieriezowa
 
 Export Heike, Omar, Schulz, Bergkamp;                         //Dowódcy Arabów
 
 Export RetreatTime;
 
+Export CansToTransport, BarrelsToTransport, OurGuys;
+
 export Debug; //tests only!
 
 Export PrevMissionPrefix, MissionPrefix;
-Export StartEnded, RussianAI, HeikeAI, OmarAI, BergkampAI, SchulzAI, BerezovEscaped,
+Export StartEnded, OmarAI, BergkampAI, SchulzAI, BerezovEscaped,
 BukovEscaped, GaydarEscaped;
 
 
@@ -60,15 +68,15 @@ begin
 SetAttitude(9,3,1,True);
 SetAttitude(9,4,1,True);
 SetAttitude(9,6,1,True);
-ChangeSideFog(9,3);
+
+CansToTransport := [1000, 1500, 2500][Difficulty];
+BarrelsToTransport := [1500, 2000, 2500][Difficulty];
 
 PrevMissionPrefix := '03_';
 MissionPrefix := '04_';
-//Debug := True;
+Debug := True;
 
 StartEnded := False;
-RussianAI := False;
-HeikeAI := False;
 OmarAI := False;
 BergkampAI := False;
 SchulzAI := False;

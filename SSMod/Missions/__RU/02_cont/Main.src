@@ -1,6 +1,7 @@
 {
 General Info:
-Status: 0%
+Status: 100%
+Authors: Mietek & Rahol
 
 Global Vars:
 SaveVariable(SafeJarcin, 1); If value = 1 will be in last mission
@@ -39,14 +40,15 @@ Export Yakotich, Mietek, Smirnovsky, Kostyliev, Maxim;
 Export Tatiana;
 Export YakotichTeam, YakotichTeam2;
 Export VehicleCount, Tank1, Tank2, Tank3;
+Export usMobile;
 
 Export Kurin, Platonov, Grishko, Burlak;
-Export KurinTime;
+Export KurinTime, ConvoyEscapedMembers];
 
 Export UsSoldMinLevel, UsSoldMaxLevel;
 Export AIEnable;
 Export amDestroyedBuildings;
-Export will, Mike;
+Export Williams, Phillips, Mike;
 
 Export Debug;
 
@@ -55,7 +57,8 @@ Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuil
 
 Export Function Init;
 begin
-//Debug := true;
+Debug := true; //tests only!
+
 PrevMissionPrefix := '01_';
 MissionPrefix := '02_';
 
@@ -73,11 +76,12 @@ FirstContact := False;
 
 AmericansGotAway := 0;
 
-UsSoldMinLevel := 0;
-UsSoldMaxLevel := 0;
+UsSoldMinLevel := 3;
+UsSoldMaxLevel := 4;
 
 AiEnable = 1;
 amDestroyedBuildings = [];
+usMobile := [];
 
 KurinTime := 30$0;
 end;

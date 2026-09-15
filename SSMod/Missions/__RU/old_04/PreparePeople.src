@@ -1,0 +1,191 @@
+Export RuCargo1,RuCargo2;
+Export Function InitRussian;
+Begin
+
+     Uc_Nation:= 3;
+     Uc_Side := 3;
+     Uc_Direction := 2;
+
+     Yakotich := PrepareUnit('Yakotich', False, '03_');
+     Mietek := PrepareUnit('Mietek', False, '03_');
+     Boris := PrepareUnit('Boris', False, '03_');
+     Michail := PrepareUnit('Michail', False, '03_');
+     Vasilij := PrepareUnit('Vasilij', False, '03_');
+     Constantin := PrepareUnit('Constantin', False, '03_');
+     Maksim := PrepareUnit('Maksim', False, '03_');
+     Fiodor := PrepareUnit('Fiodor', False, '03_');
+     Aleksiej := PrepareUnit('Aleksiej', False, '03_');
+     Pavel := PrepareUnit('Pavel', False, '03_');
+     Zakhar := PrepareUnit('Zakhar', False, '03_');
+     Aleksandr := PrepareUnit('Aleksandr', False, '03_');
+     Stanislav := PrepareUnit('Stanislav', False, '03_');
+     Josif := PrepareUnit('Josif', False, '03_');
+     Jegor := PrepareUnit('Jegor', False, '03_');
+     Grigori := PrepareUnit('Grigori', False, '03_');
+     Anton := PrepareUnit('Anton', False, '03_');
+
+     YakotichCrew = YakotichCrew ^ Boris ^ Michail ^ Vasilij ^ Constantin ^ Maksim ^ Fiodor ^ Aleksiej ^ Pavel ^ Zakhar ^ Aleksandr ^ Stanislav ^ Josif ^ Jegor ^ Grigori ^ Anton;
+
+     SetClass([Yakotich,Mietek,Constantin,Maksim,Fiodor,Aleksiej,Zakhar,Aleksandr,Josif],1);
+     SetClass([Boris,Anton],2);
+     SetClass([Michail,Pavel,Jegor],3);
+     SetClass([Stanislav,Vasilij,Grigori],4);
+
+     vc_chassis = 24;
+     vc_control = 1;
+     vc_engine = 1;
+     vc_weapon = 89;
+     RuCargo1 = CreateVehicle;
+     PlaceUnitArea(RuCargo1,TanksEnterArea,False);
+     SetCargo(RuCargo1,mat_siberit,200);
+     PlaceHumanInUnit(Jegor,RuCargo1);
+
+     vc_chassis = 22;
+     vc_weapon = 51;
+     RuCargo2 = CreateVehicle;
+     PlaceUnitArea(RuCargo2,TanksEnterArea,False);
+     SetCargo(RuCargo2,mat_cans,100);
+     PlaceHumanInUnit(Anton,RuCargo2);
+
+     PlaceUnitArea(Yakotich,EnterArea,False);
+     PlaceUnitArea(Mietek,EnterArea,False);
+     PlaceUnitArea(Boris,EnterArea,False);
+     PlaceUnitArea(Vasilij,EnterArea,False);
+     PlaceUnitArea(Constantin,EnterArea,False);
+     PlaceUnitArea(Maksim,EnterArea,False);           
+     PlaceUnitArea(Fiodor,EnterArea,False);
+     PlaceUnitArea(Zakhar,EnterArea,False);
+     PlaceUnitArea(Aleksiej,EnterArea,False);
+     PlaceUnitArea(Aleksandr,EnterArea,False);
+     PlaceUnitArea(Stanislav,EnterArea,False);
+     PlaceUnitArea(Josif,EnterArea,False);
+     PlaceUnitArea(Grigori,EnterArea,False);
+     PlaceUnitArea(Pavel,EnterArea,False);
+
+     Natasza := PrepareUnit('Natasza',False,'');
+     Belkov2 := PrepareUnit('Belkov2',False,'');
+     Oblukov := PrepareUnit('Oblukov',False,'');
+     Kovalyuk := PrepareUnit('Kovalyuk',False,'');
+     Kozlov := PrepareUnit('Kozlov',False,'');
+
+     PlaceUnitArea(Natasza,NataszaSpawn,False);
+     ComTurnUnit(Natasza,Yakotich);
+
+     PlaceHumanInUnit(Belkov2,b1);
+     PlaceHumanInUnit(Oblukov,b2);
+     PlaceHumanInUnit(Kovalyuk,w1);
+     PlaceHumanInUnit(Kozlov,l1);
+
+end;
+
+Export Function InitMiotacz;
+begin
+if LoadVariable('03_FlameSaved', 1) then
+begin
+
+    Uc_Side = 3;
+    Uc_Nation = 2;
+    Uc_Direction = 2;
+    Vc_Chassis = 14;
+    Vc_Control = 1;
+    Vc_Engine = 1;
+    Vc_Weapon = 26;
+    Tank := CreateVehicle;
+    PlaceUnitArea(Tank,TanksEnterArea,False);
+    PlaceHumanInUnit(Michail,Tank);
+
+    end;
+
+end;
+
+Export Function InitPompa;
+Begin
+
+     Uc_Side = 6;
+
+     Pompa := PrepareUnit('Pompa', False, '');
+     Petrov := PrepareUnit('Petrov', False, '');
+     Konajev := PrepareUnit('Konajev', False, '');
+     Smirnov := PrepareUnit('Smirnov', False, '');
+     Radenko := PrepareUnit('Radenko', False, '');
+
+     PompaCrew := PompaCrew ^ Pompa ^ Petrov ^ Konajev ^ Smirnov ^ Radenko;
+
+     PlaceUnitArea(Pompa,EnterArea,False);
+     PlaceUnitArea(Petrov,EnterArea,False);
+     PlaceUnitArea(Konajev,EnterArea,False);
+     PlaceUnitArea(Smirnov,EnterArea,False);
+     PlaceUnitArea(Radenko,EnterArea,False);
+
+end;
+
+Export Function InitBierezov;
+Var i, z, y, turrety, fabryka, magazyn, lab, zbrojka;
+Begin
+
+ Uc_Side := 4;
+ Uc_Nation := 3;
+
+ Bierezov := PrepareUnit('Bierezov', False, '');
+ Sharonov := PrepareUnit('Sharonov', False, '');
+ Lesov := PrepareUnit('Lesov', False, '');
+ Aleinik := PrepareUnit('Aleinik', False, '');
+ Korotajev := PrepareUnit('Korotajev', False, '');
+ Bautin := PrepareUnit('Bautin', False, '');
+
+ BierezovCrew := BierezovCrew ^ Sharonov ^ Lesov ^ Aleinik ^ Korotajev ^ Bautin;
+
+ Hc_Gallery := '';
+ Hc_Name := '';
+
+ PlaceUnitXY(Bierezov,77,48,false);
+ ComTurnUnit(Bierezov,Yakotich);
+
+ BierezovCrew := [];
+
+ For i = 1 to 6 do
+  Begin
+   PrepareSoldier(rand(0,1),[5,4,3][Difficulty]);
+   BierezovCrew := BierezovCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareEngineer(rand(0,1),[5,4,3][Difficulty]);
+   BierezovCrew := BierezovCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareMechanic(rand(0,1), [5,4,3][Difficulty]);
+   BierezovCrew := BierezovCrew ^ CreateHuman;
+  End;
+ For i = 1 to 1 do
+  Begin
+   PrepareScientist(rand(0,1), [5,4,3][Difficulty]);
+   BierezovCrew := BierezovCrew ^ CreateHuman;
+  End;
+
+
+ turrety := FilterUnitsInArea(BierezovBaseArea, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+ lab := FilterUnitsInArea(BierezovBaseArea, [[f_btype, b_lab_full]]);
+ fabryka := FilterUnitsInArea(BierezovBaseArea,[[f_btype, b_factory]]);
+ magazyn := FilterUnitsInArea(BierezovBaseArea,[[f_btype, b_warehouse]]);
+ zbrojka := FilterUnitsInArea(BierezovBaseArea, [[f_btype, b_barracks]]);
+
+ y := 1;
+ z := 1;
+
+  For i in BierezovCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+      if y > 3 then PlaceHumanInUnit(i, zbrojka[1])
+      else PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   2:PlaceHumanInUnit(i, magazyn[1]);
+   3:PlaceHumanInUnit(i, fabryka[1]);
+   4:PlaceHumanInUnit(i, lab[1]);
+
+  end;
+ end;
+end;

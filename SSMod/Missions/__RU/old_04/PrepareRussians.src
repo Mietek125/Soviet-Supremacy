@@ -1,0 +1,324 @@
+Export Function InitCommanders;
+Begin
+
+     Uc_Side := 6;
+     Uc_Nation := 3;
+
+     Morozov := PrepareUnit('Morozov', false, '');
+     Platonov := PrepareUnit('Platonov', false, '');
+     Popov := PrepareUnit('Popov',false, '');
+     Bukov := PrepareUnit('Bukov', false, '');
+     Gaydar := PrepareUnit('Gaydar',false, '');
+
+     PlaceUnitArea(Morozov,CommanderSpawn,False);
+     PlaceUnitArea(Platonov,CommanderSpawn,False);
+     PlaceUnitArea(Popov,CommanderSpawn,False);
+
+     ComTurnXY([Morozov,Platonov,Popov],73,100);
+
+     PlaceUnitArea(Gaydar,GaydarSpawn,False);
+     ComTurnXY(Gaydar,214,160);
+
+     PlaceUnitArea(Bukov,BukovSpawn,False);
+     ComTurnXY(Bukov,312,218);
+
+end;
+
+Export SouthLeninEngineers,NorthLeninEngineers;
+Export Function InitRussianAI;
+Var i, z, y, turrety, fabryka, lab, zbrojka;
+Begin
+
+ Hc_Gallery := '';
+ Hc_Name := '';
+
+ NorthLeninCrew := [];
+
+ uc_side := 6;
+ uc_nation := 3;
+
+ For i = 1 to 8 do
+  Begin
+   PrepareSoldier(rand(0,1),[6,5,4,3][Difficulty]);
+   NorthLeninCrew := NorthLeninCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareEngineer(rand(0,1),[6,5,4,3][Difficulty]);
+   NorthLeninEngineers := NorthLeninEngineers ^ CreateHuman;
+  End;
+NorthLeninCrew := NorthLeninCrew ^ NorthLeninEngineers;
+ For i = 1 to 3 do
+  Begin
+   PrepareMechanic(rand(0,1), [6,5,3,3][Difficulty]);
+   NorthLeninCrew := NorthLeninCrew ^ CreateHuman;
+  End;
+ For i = 1 to 3 do
+  Begin
+   PrepareScientist(rand(0,1),[6,5,4,3][Difficulty]);
+   NorthLeninCrew := NorthLeninCrew ^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(NorthLeninArea, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+ lab := FilterUnitsInArea(NorthLeninArea, [[f_btype, b_lab_full]]);
+ fabryka := FilterUnitsInArea(NorthLeninArea,[[f_btype, b_factory]]);
+ zbrojka := FilterUnitsInArea(NorthLeninArea, [[f_btype, b_barracks]]);
+
+ y := 1;
+ z := 1;
+
+  For i in NorthLeninCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+      if y > 6 then PlaceHumanInUnit(i, zbrojka[1])
+      else PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   2:PlaceHumanInUnit(i, NorthLenin);
+   3:PlaceHumanInUnit(i, fabryka[1]);
+   4:PlaceHumanInUnit(i, lab[1]);
+
+  end;
+ end;
+
+ SouthLeninCrew := [];
+
+ For i = 1 to 6 do
+  Begin
+   PrepareSoldier(rand(0,1),[6,5,4,3][Difficulty]);
+   SouthLeninCrew := SouthLeninCrew ^ CreateHuman;
+  End;
+ For i = 1 to 1 do
+  Begin
+   PrepareEngineer(rand(0,1),[6,5,4,3][Difficulty]);
+   SouthLeninEngineers := SouthLeninEngineers ^ CreateHuman;
+  End;
+SouthLeninCrew := SouthLeninCrew ^ SouthLeninEngineers;
+ For i = 1 to 1 do
+  Begin
+   PrepareMechanic(rand(0,1), [6,5,4,3][Difficulty]);
+   SouthLeninCrew := SouthLeninCrew ^ CreateHuman;
+  End;
+ For i = 1 to 1 do
+  Begin
+   PrepareScientist(rand(0,1),[6,5,4,3][Difficulty]);
+   SouthLeninCrew := SouthLeninCrew ^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(SouthLeninArea, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+ lab := FilterUnitsInArea(SouthLeninArea, [[f_btype, b_lab_full]]);
+ fabryka := FilterUnitsInArea(SouthLeninArea,[[f_btype, b_factory]]);
+ zbrojka := FilterUnitsInArea(SouthLeninArea, [[f_btype, b_barracks]]);
+
+ y := 1;
+ z := 1;
+
+  For i in SouthLeninCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+      if y > 6 then PlaceHumanInUnit(i, zbrojka[1])
+      else PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   2:PlaceHumanInUnit(i,SouthLenin);
+   3:PlaceHumanInUnit(i, fabryka[1]);
+   4:PlaceHumanInUnit(i, lab[1]);
+
+  end;
+ end;
+
+ BukovCrew := [];
+
+ For i = 1 to 6 do
+  Begin
+   PrepareSoldier(rand(0,1),[6,5,4,3][Difficulty]);
+   BukovCrew := BukovCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareMechanic(rand(0,1), [6,5,4,3][Difficulty]);
+   BukovCrew := BukovCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareScientist(rand(0,1),[6,5,4,3][Difficulty]);
+   BukovCrew := BukovCrew ^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(BukovBaseArea, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+ lab := FilterUnitsInArea(BukovBaseArea, [[f_btype, b_lab_half]]);
+ fabryka := FilterUnitsInArea(BukovBaseArea,[[f_btype, b_factory]]);
+ zbrojka := FilterUnitsInArea(BukovBaseArea, [[f_btype, b_armoury]]);
+
+ y := 1;
+ z := 1;
+
+  For i in BukovCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+      if y > 4 then PlaceHumanInUnit(i, zbrojka[1])
+      else PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   3:PlaceHumanInUnit(i, fabryka[1]);
+   4:PlaceHumanInUnit(i, lab[1]);
+
+  end;
+ end;
+
+CheckpointsCrew := [];
+
+ For i = 1 to 6 do
+  Begin
+   PrepareSoldier(rand(0,1),[6,5,4,3][Difficulty]);
+   CheckpointsCrew := CheckpointsCrew^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(Checkpoints, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+
+ y := 1;
+
+  For i in CheckpointsCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+     PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+  end;
+ end;
+
+GaydarCrew := [];
+
+ For i = 1 to 6 do
+  Begin
+   PrepareSoldier(rand(0,1),[6,5,4,3][Difficulty]);
+   GaydarCrew := GaydarCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareEngineer(rand(0,1),[6,5,4,3][Difficulty]);
+   GaydarCrew := GaydarCrew ^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(MiddleCheckPoint, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+
+ y := 1;
+
+  For i in GaydarCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+     PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   2:PlaceHumanInUnit(i,GaydarDepot);
+
+  end;
+ end;
+
+ SouthCheckpointCrew := [];
+
+ For i = 1 to 4 do
+  Begin
+   PrepareSoldier(rand(0,1),[6,5,4,3][Difficulty]);
+   SouthCheckpointCrew := SouthCheckpointCrew ^ CreateHuman;
+  End;
+ For i = 1 to 2 do
+  Begin
+   PrepareEngineer(rand(0,1),[6,5,4,3][Difficulty]);
+   SouthCheckpointCrew := SouthCheckpointCrew ^ CreateHuman;
+  End;
+
+ turrety := FilterUnitsInArea(SouthCheckpoint, [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]]);
+
+ y := 1;
+
+  For i in SouthCheckpointCrew do
+  Begin
+   Case GetClass(i) of
+   1:Begin
+     PlaceHumanInUnit(i, turrety[y]);
+      y = y + 1;
+     End;
+   2:PlaceHumanInUnit(i,SouthDepot);
+
+  end;
+ end;
+End;
+
+{Every 0$1 trigger IsOk(NorthLenin) do
+var i, tmp, b, eng, crane, tag, sci, lab;
+begin
+enable;
+
+b := FilterUnitsInArea(NorthLeninArea, [[f_not, [f_lives, 1000]], [f_type, unit_building]]);
+eng := FilterAllUnits([[f_side, 6], [f_class, 2]]);
+crane := FilterAllUnits([[f_side, 6], [f_weapon, ru_crane]]);
+sci := FilterAllUnits([[f_side, 6], [f_class, 4]]);
+lab := HexInfo(61, 97);
+
+if sci and UnitFilter(eng, [f_tag, 2]) then
+   ComExitAll(sci)
+else if sci then
+   if UnitFilter(sci, [f_not, [f_inside]]) and IsOk(lab) then
+      ComEnterUnit(UnitFilter(sci, [f_not, [f_inside]]), lab);
+
+if UnitFilter(crane, [f_ok]) and b then
+   ComRepairBuilding(UnitFilter(crane, [f_ok]), b[1]);
+
+if eng then
+   begin
+   for i in eng do
+       begin
+       tag := GetTag(i);
+
+       if not b and not ruBuildList and tag = 1 then
+          begin
+          SetTag(i, 0);
+          ComEnterUnit(i, ruDep);
+          end;
+
+       if (b or ruBuildList) and tag = 0 then
+          SetTag(i, 1);
+
+       if IsInUnit(i) and tag = 1 then
+          ComExit(i);
+
+       if GetLives(i) < 500 and tag = 1 then
+          SetTag(i, 2); // need heal
+
+       if GetLives(i) = 1000 and tag = 2 then
+          SetTag(i, 1); // ok
+
+       if tag = 2 then
+          begin
+          if GetDistUnitXY(i, 65, 97) > 6 then
+             begin
+             ComMoveXY(i, 65, 97);
+             AddComHold(i);
+             end;
+          end;
+
+       if IsInArea(i, ruDefendArea) then
+          ComMoveToArea(i, NorthLeninArea);
+
+       if tag = 1 then // can work
+          begin
+          if b then
+             ComRepairBuilding(i, NearestUnitToUnit(b, i))
+          else if ruBuildList and FilterUnitsInArea(ruDefendArea, [f_enemy, 3]) = 0 and CanBeBuilt(ruDep, ruBuildList[1][1], ruBuildList[1][2], ruBuildList[1][3], ruBuildList[1][4]) then
+             ComBuild(i, ruBuildList[1][1], ruBuildList[1][2], ruBuildList[1][3], ruBuildList[1][4]);
+          end;
+       end;
+   end;
+End;
+
+
+
+
+
+

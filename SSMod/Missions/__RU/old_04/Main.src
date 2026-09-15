@@ -1,0 +1,81 @@
+Starting
+var b, n;
+begin
+
+ResetFog;
+Init;
+
+SetBname(NorthLenin,'lenin');
+SetBname(SouthLenin,'lenin');
+SetBname(MorozovBase,'OperationCentre');
+SetBname(YakotichBase,'Kamenev');
+SetBname(BukovBase,'Kuybyshev');
+SetBname(BerezovBase,'Zinoviev');
+
+AnimateTrees(true);
+
+Randomize;
+RandomizeAll;
+
+for b in FilterUnitsInArea(SouthLeninArea,[[f_type, unit_building]]) do
+    ComLinkToBase(SouthLenin, b);
+
+for n in FilterUnitsInArea(NorthLeninArea,[[f_type, unit_building]]) do
+    ComLinkToBase(NorthLenin, n);
+
+ComHold(Janusz);
+ComHold(Rahol);
+
+InitRussian;
+InitAction;
+
+end;
+
+Export YakotichTeam, BerezovTeam, PompaTeam, BukovTeam, GaydarTeam, NorthLeninTeam, SouthLeninTeam, CheckpointsTeam, SouthCheckpointTeam, HeikeTeam, OmarTeam, BergkampTeam, SchulzTeam, OtherTeam, OldCrewTeam; //Ekipy
+Export Tank, Cargo1, Cargo2;                                  //Tranport z 03
+Export Pompa, Smirnov, Petrov, Konajev, Radenko;              //Ekipa Pompy
+Export Morozov, Platonov, Popov, Gaydar, Yashin, Bukov, Sevi, Guard;                 //Dowódcy Ruskich + ochroniarze
+
+
+Export Oblukov, Kozlov, Furmanov, Scholtze, Kapitsova, Balei, Jaunzeme, Benko, Kuklajs; //Ekipa po³udniowy Lenin (nasi potem)
+Export Natasha, Gnyevko, Saseda, Kovalyuk, Kuzmov, Jaworska;                                     //Ekipa Nataszy (nasi)
+Export Yakotich, Mietek, Kostyliev, Smirnovsky, Maxim, Tatiana, Dragunov;                        //Nasi Ludzie
+Export IvanBerezov, Sharonova, Lesov, Aleinik, Korotajev, Bautin, Zakharov,                      //Ekipa Bieriezowa
+Ozerov, Yembachtov, Umanets, Azarian, Kulikov, Fomchenko, Subkov, Pochinchuk;                    //Ekipa Bieriezowa
+
+Export Heike, Omar, Schulz, Bergkamp;                         //Dowódcy Arabów
+
+Export RetreatTime;
+
+export Debug; //tests only!
+
+Export PrevMissionPrefix, MissionPrefix;
+Export StartEnded, RussianAI, HeikeAI, OmarAI, BergkampAI, SchulzAI, BerezovEscaped,
+BukovEscaped, GaydarEscaped;
+
+
+Function Init;
+begin
+
+SetAttitude(9,3,1,True);
+SetAttitude(9,4,1,True);
+SetAttitude(9,6,1,True);
+ChangeSideFog(9,3);
+
+PrevMissionPrefix := '03_';
+MissionPrefix := '04_';
+//Debug := True;
+
+StartEnded := False;
+RussianAI := False;
+HeikeAI := False;
+OmarAI := False;
+BergkampAI := False;
+SchulzAI := False;
+BerezovEscaped := False;
+GaydarEscaped := False;
+BukovEscaped := False;
+
+end;
+
+

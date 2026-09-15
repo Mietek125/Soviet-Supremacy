@@ -23,6 +23,8 @@ Begin
      ChangeMissionObjectives('Ob1');
      InGameOff;
 
+     SaveForQuickRestart;
+
 end;
 
 //Rozmowa na wzgórzu zanim weszliœmy do bazy
@@ -153,13 +155,15 @@ Begin
      InGameOff;
      Timer_Start = True;
      WasInBase = True;
-     SetSide(FilterAllUnits([[f_side, 6]]), 3);
+     SetSide(FilterAllUnits([[f_side, 6]]), 3);  
 
      If HillCheck and CaveCheck and RoadCheck and WasInBase then
      Begin
           ChangeMissionObjectives('ReconOut');
           Recon_Done = True;
      end;
+
+     SaveForQuickRestart;
 
 end;
 

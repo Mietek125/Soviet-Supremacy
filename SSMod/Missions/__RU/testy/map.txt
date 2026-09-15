@@ -12,97 +12,97 @@ END_OF_MAIN_DEFINITIONS
 
 HEXES
   LINE 0 0 99
-    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4 t4 t4 t4 t4 t4 t4 t4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4 t4 t4 t4 t4
+    t4 t4 t4 t4 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4 t4 t4 t4 t4 t4 t4 t4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4 t4 t4 t4 t4
   LINE 1 1 100
-    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2 t2 t2 t2 t2 t2 t2 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2 t2 t2 t2 t4
+    t4 t2 t2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2 t2 t2 t2 t2 t2 t2 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2 t2 t2 t2 t4
   LINE 2 1 100
-    t4 t2 "" "" "" "" "" f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
   LINE 3 2 101
-    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
   LINE 4 2 101
-    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
   LINE 5 3 102
-    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
+    t4 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
   LINE 6 3 102
-    t4 t2 "" "" "" f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4
+    t4 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4
   LINE 7 4 103
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f6 f4 f4 f4 f4 f4 t2f4 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f6 f4 f4 f4 f4 f4 t2f4 t4
   LINE 8 4 103
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 9 5 104
-    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 10 5 104
-    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 11 6 105
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 12 6 105
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 13 7 106
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 14 7 106
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 15 8 107
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 16 8 107
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 17 9 108
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 18 9 108
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 19 10 109
-    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2S f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 20 10 109
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 21 11 110
-    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 22 11 110
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 23 12 111
-    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 24 12 111
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
   LINE 25 13 112
-    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4
   LINE 26 13 112
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
   LINE 27 14 113
-    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
   LINE 28 14 113
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" "" t2 t4
   LINE 29 15 114
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" "" "" "" t2 t4
   LINE 30 15 114
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 "" "" "" "" "" "" "" t2 t4
   LINE 31 16 115
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 32 16 115
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 33 17 116
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 34 17 116
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 35 18 117
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 36 18 117
-    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 37 19 118
-    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 38 19 118
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 39 20 119
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4f2 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 40 20 119
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 41 21 120
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 42 21 120
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 43 22 121
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 44 22 121
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 45 23 122
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 46 23 122
     t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 47 24 123
@@ -158,15 +158,15 @@ HEXES
   LINE 72 36 135
     t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E f#3E f#3E f#3E f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 73 37 136
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 74 37 136
-    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 75 38 137
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy fy f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy fy f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 76 38 137
     t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 77 39 138
-    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 78 39 138
     t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 79 40 139
@@ -186,21 +186,21 @@ HEXES
   LINE 86 43 142
     t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fc fa fa fa fr fr fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
   LINE 87 44 143
-    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fa fa fa fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fa fa fa fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 88 44 143
-    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f6 fa fa fa fb fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fa fa fa fb fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
   LINE 89 45 144
-    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f4 fa fa fb fb fb fr fr fr fr fr f#BD f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f4 fa fa fb fb fb fr fr fr fr fr f#BD f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 90 45 144
-    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f2 f2 f2 f2 f2 f2 f2 "" "" "" fa fb fb fb fb fb fr fr fr fr f#B5 f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" fa fb fb fb fb fb fr fr fr fr f#B5 f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
   LINE 91 46 145
-    t4 t2 "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f2 f2 f2 f2 f2 f2 "" "" "" "" fa fb fb fb fb fb fr fr fr fr fr f#B5 f#B5 f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#F7 f#F7 f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
+    t4 t2 "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" fa fb fb fb fb fb fr fr fr fr fr f#B5 f#B5 f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#F7 f#F7 f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
   LINE 92 46 145
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 "" f2 f2 f2 f2 f2 "" "" "" f2 f2 f2 f2 f2 "" "" "" "" "" "" fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B5 f#B5 f#B5 f#B3 f#B3 f#B3 f#B7 f#F7 f#F7 f#C7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B5 f#B5 f#B5 f#B3 f#B3 f#B3 f#B7 f#F7 f#F7 f#C7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
   LINE 93 47 146
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 "" "" "" "" "" "" f2 f2 "" "" "" "" "" "" "" f1 f1 fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B1 f#B1 f#B1 f#B1 f#B3 f#B7 f#C7 f#C7 f#C7 f#C7 f#D7 f#D5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" f1 f1 fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B1 f#B1 f#B1 f#B1 f#B3 f#B7 f#C7 f#C7 f#C7 f#C7 f#D7 f#D5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
   LINE 94 47 146
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 fX fX fX fb fb fb fb fb fb fr fn fn f#B1 f#B1 f#B1 f#B1 f#A1 f#A1 f#81 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D4 f#D4 f#D4 f#D4 f#C4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" f1 f1 fX fX fX fb fb fb fb fb fb fr fn fn f#B1 f#B1 f#B1 f#B1 f#A1 f#A1 f#81 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D4 f#D4 f#D4 f#D4 f#C4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
   LINE 95 48 147
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 fX fX fX fX fX fX fX fX fX fX fX fX fX f#A1 f#A1 f#81 f#81 f#81 f#C1 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D0 f#D0 f#D0 f#D4 f#C4 f#C4 f#C4 f#C4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 t2f#80 t4f#80
   LINE 96 48 147
@@ -297,7 +297,107 @@ ATTITUDES
 END_OF_ATTITUDES
 
 TECHS
-  PARAMS 100 9
+  PARAMS 200 9
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
   F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
@@ -498,10 +598,12 @@ END_OF_RESTRICTS
 MISSION_OBJECTIVES 0
 
 SPECS
-  PARAMS 2 9
+  PARAMS 3 9
     57 84 2
     F F F F F F F F F F
     68 86 2
+    F F F F F F F F F F
+    24 15 2
     F F F F F F F F F F
   FLAG 0 0
 END_OF_SPECS
@@ -517,7 +619,6 @@ BASES
     CANS 1000
     OIL 250
     SIBERIUM 100
-  POOL 3
 
   BASE 1
     POOL_NUM 1
@@ -527,10 +628,6 @@ BASES
     POOL_NUM 2
     SIDE 2
     UNIT 3309
-  BASE 3
-    POOL_NUM 3
-    SIDE 1
-    UNIT 3362
 END_OF_BASES
 
 
@@ -538,26 +635,26 @@ END_OF_BASES
 RANDOMS
   MICROLOGIC 2 0 1
   RANDOM_SEED 1 753208480
-  RANDOM_SEED 2 2014893416
+  RANDOM_SEED 2 870795682
   RANDOM_SEED 3 925772155
   RANDOM_SEED 4 1542757151
   RANDOM_SEED 5 1971542774
   RANDOM_SEED 6 -1418428441
-  RANDOM_SEED 7 -64871210
+  RANDOM_SEED 7 -1948207445
   RANDOM_SEED 8 -1884144979
   RANDOM_SEED 9 -1752787220
-  RANDOM_SEED 10 -785773208
+  RANDOM_SEED 10 1356264436
   RANDOM_SEED 11 1724635388
   RANDOM_SEED 12 1333583782
   RANDOM_SEED 13 895708692
   RANDOM_SEED 14 1793692172
-  RANDOM_SEED 15 -1381450903
+  RANDOM_SEED 15 106230473
   RANDOM_SEED 16 907772
   RANDOM_SEED 17 1489549514
   RANDOM_SEED 18 136448
   RANDOM_SEED 19 -1254614339
   RANDOM_SEED 20 -974283553
-  RANDOM_SEED 21 -1643530438
+  RANDOM_SEED 21 -1291171189
   RANDOM_SEED 22 299074839
   WIND_TIME 974842 974865 974890
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -1163,7 +1260,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 895708692
     END_OF_DEFINITION
     GAME_STATE
@@ -1241,7 +1338,7 @@ NEW_UNITS
         COLOR_CODE 2BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 1095526474
     END_OF_DEFINITION
     GAME_STATE
@@ -1280,7 +1377,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 371145659
     END_OF_DEFINITION
     GAME_STATE
@@ -1358,7 +1455,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED -516072871
     END_OF_DEFINITION
     GAME_STATE
@@ -1553,7 +1650,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 427178434
     END_OF_DEFINITION
     GAME_STATE
@@ -1670,7 +1767,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 11
+        VOICE 13
         RANDOM_SEED 910804721
     END_OF_DEFINITION
     GAME_STATE
@@ -1709,7 +1806,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 13
+        VOICE 15
         RANDOM_SEED -675601954
     END_OF_DEFINITION
     GAME_STATE
@@ -1748,7 +1845,7 @@ NEW_UNITS
         COLOR_CODE 1BMYO
         FACE 0
         SPEAKER A
-        VOICE 15
+        VOICE 13
         RANDOM_SEED -196301281
     END_OF_DEFINITION
     GAME_STATE
@@ -1787,7 +1884,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 11
+        VOICE 15
         RANDOM_SEED 443546500
     END_OF_DEFINITION
     GAME_STATE
@@ -1826,7 +1923,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 11
+        VOICE 15
         RANDOM_SEED -359836899
     END_OF_DEFINITION
     GAME_STATE
@@ -1943,7 +2040,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 895708692
     END_OF_DEFINITION
     GAME_STATE
@@ -2009,7 +2106,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED 895708692
     END_OF_DEFINITION
     GAME_STATE
@@ -2048,7 +2145,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 1
+        VOICE 5
         RANDOM_SEED 1657889261
     END_OF_DEFINITION
     GAME_STATE
@@ -2087,7 +2184,7 @@ NEW_UNITS
         COLOR_CODE 2BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 5
         RANDOM_SEED 1095526474
     END_OF_DEFINITION
     GAME_STATE
@@ -2126,7 +2223,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 3
+        VOICE 1
         RANDOM_SEED 371145659
     END_OF_DEFINITION
     GAME_STATE
@@ -2204,7 +2301,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 5
+        VOICE 3
         RANDOM_SEED -516072871
     END_OF_DEFINITION
     GAME_STATE
@@ -2620,84 +2717,6 @@ NEW_UNITS
       LAST_ACTION 0
       BUILDING
     END_OF_GAME_STATE
-  UNIT 3362 BUILDING
-    DEFINITION
-      POS 60 76 3
-      SIDE 1
-      NATION 1
-      HP 1000
-      BUILDING
-        TYPE 1 LEVEL 1 BASE 3
-    END_OF_DEFINITION
-    GAME_STATE
-      ACTION 0 T 1 1
-      MOVE 60 76 3 6 F
-      UNITMODE F 60 76
-      STATE 4 24
-      WEAPON_LOADING 0 0
-      ATTACK 0 0 F 0
-      PLAN 0 T
-      ANIM_STATES 0 0 0 0
-      MASHA_FLAG 0 DYING 0
-      SELECTION 0 0 0 0
-      DRAW 616 1368 0
-      FROM_TO_POS 60 76 0 60 76 0
-      FROM_TO_XY 0 0 0 0
-      LAST_ACTION 0
-      BUILDING
-    END_OF_GAME_STATE
-  UNIT 3363 BUILDING
-    DEFINITION
-      POS 57 84 1
-      SIDE 1
-      NATION 1
-      HP 1000
-      BUILDING
-        TYPE 29 LEVEL 1 BASE 3
-    END_OF_DEFINITION
-    GAME_STATE
-      ACTION 0 T 222 1
-      MOVE 57 84 1 6 F
-      UNITMODE F 57 84
-      STATE 4 24
-      WEAPON_LOADING 0 0
-      ATTACK 0 24 F 0
-      PLAN 0 T
-      ANIM_STATES 0 0 0 0
-      MASHA_FLAG 0 DYING 0
-      SELECTION 0 0 0 0
-      DRAW 420 1512 0
-      FROM_TO_POS 57 84 0 57 84 0
-      FROM_TO_XY 0 0 0 0
-      LAST_ACTION 0
-      BUILDING
-    END_OF_GAME_STATE
-  UNIT 3365 BUILDING
-    DEFINITION
-      POS 68 86 4
-      SIDE 1
-      NATION 3
-      HP 1000
-      BUILDING
-        TYPE 88 LEVEL 1 BASE 3
-    END_OF_DEFINITION
-    GAME_STATE
-      ACTION 0 T 222 1
-      MOVE 68 86 4 6 F
-      UNITMODE F 68 86
-      STATE 4 24
-      WEAPON_LOADING 0 0
-      ATTACK 0 6 F 0
-      PLAN 0 T
-      ANIM_STATES 0 0 0 0
-      MASHA_FLAG 0 DYING 0
-      SELECTION 0 0 0 0
-      DRAW 700 1548 0
-      FROM_TO_POS 68 86 0 68 86 0
-      FROM_TO_XY 0 0 0 0
-      LAST_ACTION 0
-      BUILDING
-    END_OF_GAME_STATE
   UNIT 3366 HUMAN
     DEFINITION
       POS 54 76 3
@@ -2832,7 +2851,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 13
+        VOICE 15
         RANDOM_SEED -227847408
     END_OF_DEFINITION
     GAME_STATE
@@ -2871,7 +2890,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 0
         SPEAKER A
-        VOICE 13
+        VOICE 11
         RANDOM_SEED -516072871
     END_OF_DEFINITION
     GAME_STATE
@@ -3251,45 +3270,6 @@ NEW_UNITS
         ANIM 0 T
         LEAN 0 0 0
     END_OF_GAME_STATE
-  UNIT 3418 HUMAN
-    DEFINITION
-      POS 106 62 2
-      SIDE 7
-      NATION 3
-      HP 1000
-      HUMAN
-        NAME "Sergej Sedych"
-        SEX 1
-        ATTR 10 10
-        CLASS 9
-        BSKILLS 0 0 0 0
-        EXPERIENCES 1860 22107 18141 18247
-        COLORS 7308969 526344
-        COLOR_CODE 1M
-        FACE 0
-        SPEAKER A
-        VOICE 15
-        RANDOM_SEED 895708692
-    END_OF_DEFINITION
-    GAME_STATE
-      ACTION 0 F 1 1
-      MOVE 106 62 2 6 F
-      UNITMODE T 106 62
-      STATE 4 24
-      WEAPON_LOADING 0 0
-      ATTACK 0 0 F 0
-      PLAN 0 T
-      ANIM_STATES 0 0 0 0
-      MASHA_FLAG 0 DYING 0
-      SELECTION 0 0 0 0
-      DRAW 2100 1116 0
-      FROM_TO_POS 106 62 2 106 62 2
-      FROM_TO_XY 2100 1116 2100 1116
-      LAST_ACTION 0
-      HUMAN
-        ANIM_LEGS T
-        ACTIVE_ATTACK 1
-    END_OF_GAME_STATE
   UNIT 3419 VEHICLE
     DEFINITION
       POS 97 79 2
@@ -3377,6 +3357,439 @@ NEW_UNITS
         ANIM 0 T
         LEAN 0 0 0
     END_OF_GAME_STATE
+  UNIT 3437 HUMAN
+    DEFINITION
+      POS 62 28 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Sergej Bashashkin"
+        SEX 1
+        ATTR 10 10
+        CLASS 9
+        BSKILLS 0 0 0 0
+        EXPERIENCES 14365 6667 6312 10387
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 11
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 62 28 0 6 F
+      UNITMODE T 62 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1344 504 0
+      FROM_TO_POS 62 28 0 62 28 0
+      FROM_TO_XY 1344 504 1344 504
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3439 HUMAN
+    DEFINITION
+      POS 60 26 4
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Rudolf van Acker"
+        SEX 1
+        ATTR 10 10
+        CLASS 9
+        BSKILLS 0 0 0 0
+        EXPERIENCES 15016 26814 19066 481
+        COLORS 9413059 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 5
+        RANDOM_SEED 1657889261
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 60 26 4 6 F
+      UNITMODE T 60 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1316 468 0
+      FROM_TO_POS 60 26 4 60 26 4
+      FROM_TO_XY 1316 468 1316 468
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3446 VEHICLE
+    DEFINITION
+      POS 68 37 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 86
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 68 37 2 6 F
+      UNITMODE T 68 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1386 666 12
+      FROM_TO_POS 68 37 2 68 37 2
+      FROM_TO_XY 1386 666 1386 666
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3448 HUMAN
+    DEFINITION
+      POS 54 30 4
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Danilo Balakhonov"
+        SEX 1
+        ATTR 10 10
+        CLASS 30
+        BSKILLS 0 0 0 0
+        EXPERIENCES 19123 16793 12481 5682
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 30 4 6 F
+      UNITMODE T 54 30
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1092 540 0
+      FROM_TO_POS 54 30 4 54 30 4
+      FROM_TO_XY 1092 540 1092 540
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3449 BUILDING
+    DEFINITION
+      POS 88 7 2
+      SIDE 2
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 79 LEVEL 10 BASE 2 PARAMS 84 83
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 88 7 2 6 F
+      UNITMODE F 88 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2366 126 0
+      FROM_TO_POS 88 7 0 88 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 3453 BUILDING
+    DEFINITION
+      POS 63 33 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 4 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 63 33 5 6 F
+      UNITMODE F 63 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1302 594 0
+      FROM_TO_POS 63 33 0 63 33 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3456 BUILDING
+    DEFINITION
+      POS 59 39 5
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 37 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 59 39 5 6 F
+      UNITMODE F 59 39
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1106 702 0
+      FROM_TO_POS 59 39 0 59 39 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3458 BUILDING
+    DEFINITION
+      POS 24 15 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 88 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 222 1
+      MOVE 24 15 3 6 F
+      UNITMODE F 24 15
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 462 270 0
+      FROM_TO_POS 24 15 0 24 15 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3460 BUILDING
+    DEFINITION
+      POS 43 4 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 94 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 43 4 4 6 F
+      UNITMODE F 43 4
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1148 72 0
+      FROM_TO_POS 43 4 0 43 4 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3462 HUMAN
+    DEFINITION
+      POS 42 7 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME Mietek
+        SEX 1
+        ATTR 25 12
+        CLASS 3
+        IMPORTANCE 100
+        GALERY LozaSzydercow 2 BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 11122900 2171169
+        COLOR_CODE 1BMYO
+        FACE 2
+        SPEAKER A
+        VOICE 121
+        RANDOM_SEED 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 42 7 5 6 F
+      UNITMODE T 42 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1078 126 0
+      FROM_TO_POS 42 7 5 42 7 5
+      FROM_TO_XY 1078 126 1078 126
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3474 VEHICLE
+    DEFINITION
+      POS 46 3 1
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 2 30
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 46 3 1 6 F
+      UNITMODE T 46 3
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1246 54 6
+      FROM_TO_POS 46 3 1 46 3 1
+      FROM_TO_XY 1246 54 1246 54
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3475 VEHICLE
+    DEFINITION
+      POS 48 6 5
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 2 30
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 48 6 5 6 F
+      UNITMODE T 48 6
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1260 108 30
+      FROM_TO_POS 48 6 5 48 6 5
+      FROM_TO_XY 1260 108 1260 108
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3476 VEHICLE
+    DEFINITION
+      POS 49 3 4
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 2 30
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 49 3 4 6 F
+      UNITMODE T 49 3
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1330 54 24
+      FROM_TO_POS 49 3 4 49 3 4
+      FROM_TO_XY 1330 54 1330 54
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3482 VEHICLE
+    DEFINITION
+      POS 47 31 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 24 COMBINATION 3 3 95
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 47 31 3 6 F
+      UNITMODE T 47 31
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 882 558 18
+      FROM_TO_POS 47 31 3 47 31 3
+      FROM_TO_XY 882 558 882 558
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
 END_OF_NEW_UNITS
 
 COLDMEAT
@@ -3401,7 +3814,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 662 672 2180 1204 1
+  VIEW 30 -96 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 
@@ -4543,57 +4956,6 @@ SEXTRA
 
   255
   1
-    3362
-    2
-      20
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    3
-      F
-    4
-      F
-    5
-      0 0
-    6
-      1
-    7
-      F
-
-  255
-  1
-    3363
-    2
-      20
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    3
-      F
-    4
-      F
-    5
-      0 0
-    6
-      1
-    7
-      F
-
-  255
-  1
-    3365
-    2
-      20
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    3
-      F
-    4
-      F
-    5
-      0 0
-    6
-      1
-    7
-      F
-
-  255
-  1
     3366
     2
       20
@@ -4883,23 +5245,6 @@ SEXTRA
 
   255
   1
-    3418
-    2
-      20
-      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-    3
-      F
-    4
-      F
-    5
-      0 0
-    6
-      0
-    7
-      F
-
-  255
-  1
     3419
     2
       20
@@ -4935,6 +5280,244 @@ SEXTRA
   255
   1
     3435
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3437
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3439
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3446
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3448
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3449
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3453
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3456
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3458
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3460
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3462
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3474
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3475
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3476
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3482
     2
       20
       0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

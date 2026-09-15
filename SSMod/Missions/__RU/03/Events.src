@@ -16,38 +16,28 @@ On BuildingComplete(b) do
 begin
 
      if GetSide(b) = 3 and GetBType(b) = b_siberite_power then
-     SibPowerComplete := True;
+        SibPowerComplete := True;
 
-     if GetSide(b) = 3 and GetBType(b) = b_siberite_mine and OvsyenkoRecovered and not MineBuilt then
-     begin
+     if GetSide(b) = 6 then
+        Side6Buildings := Delete(Side6Buildings, 1);
 
-     DialogueOn;
-     CenterOnUnits(b);
-     Say(Mietek, 'DMietek-Mine-01');
-     Say(Mietek, 'DMietek-Mine-02');
-     SibQuery(1);
-     DialogueOff;
+     if GetSide(b) = 6 and GetBType(b) = b_lab then
+        ComEnterUnit([Tatiana,Smirnovsky], b);
 
-     MineBuilt := True;
-     end;
+     if GetSide(b) = 6 and GetBType(b) = b_workshop then
+        ComEnterUnit(Kostyliev, b);
 
+     if GetSide(b) = 6 and GetBType(b) = b_armoury then
+        ComEnterUnit(Maxim, b);
 end;
 
-On BuildingCaptured(cb, bfs, cu) do
+On BuildingCaptured(b, bf, cu) do
 begin
 
-   if GetSide(cu) = 3 and GetBType(cb) = b_siberite_mine and not MineBuilt then
-   begin
-
-     DialogueOn;
-     CenterOnUnits(cb);
-     Say(Mietek, 'DMietek-Mine-01');
-     Say(Mietek, 'DMietek-Mine-02');
-     SibQuery(1);
-     DialogueOff;
-
-     MineBuilt := True;
-
+     if GetBType(b) = b_lab_full and GetSide(bf) = 1 then
+     begin
+          ChangeMissionObjectives('ObLab2');
+          SaveVariable('OptoLabCaptured', 1);
      end;
 
 end;
@@ -58,6 +48,9 @@ begin
 
      if GetSide(veh) = 3 and GetWeapon(veh) = ru_rocket_launcher and not FirstRocket then
      begin
+
+     Wait(0$3);
+
      FirstRocket := True;
      CenterOnUnits(veh);
      DialogueOn;
@@ -106,8 +99,10 @@ begin
      if un = Mietek then
      YouLost('MietekDead');
 
-     if un = Tatiana or un = Smirnovsky or un = Kostyliev or un = Dragunov or un = Dimitri or un = Maxim then
+     if un in FilterAllUnits([[f_side, 3], [f_not, [f_nation, 0]], [f_type, unit_human]]) diff [Yakotich, Mietek, YakotichTeam, DimitriTeam] then
+     Begin
      YouLost('TeamDead');
+     end;
 
      if un = Ovsyenko and not OvsyenkoRecovered then
      YouLost('OvsyenkoDead');
@@ -116,3 +111,34 @@ begin
      YouLost('DepotDead');
 
 end;
+
+Every 0$1 Trigger GetLives(FilterAllUnits([f_control, control_remote])) < 250 do
+Begin
+
+     CenterOnUnits([[[f_not, [f_ok]], [f_control, control_remote]]]);
+     Say(Mietek, 'DMietek-Remote-01');
+     Say(Yakotich, 'DMietek-Remote-02');
+
+end;
+
+Every 0$1 Trigger See(3, usLab) do
+begin
+
+     DialogueOn;
+     Say(Yakotich, 'DYak-Lab-01');
+     ChangeMissionObjectives('ObLab');
+     DialogueOff;
+
+end;
+
+Every 0$1 Trigger See(3, usCt) do
+begin
+
+     DialogueOn;
+     Say(Mietek, 'DMietek-Remote-03');
+     Say(Yakotich, 'DYak-Remote-04');
+     DialogueOff;
+
+end;
+
+

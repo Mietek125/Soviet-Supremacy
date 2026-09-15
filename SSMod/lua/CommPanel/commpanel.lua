@@ -1,7 +1,7 @@
 --[[
 This file is used by the 2nd LUA Instance for the Command Panel Buttons as well as logic for commands they activate.
 --]]
-	 
+
 function canChangeProfession(HUMAN,BUILDING,NEWCLASS)
 --[[
 HUMAN
@@ -24,10 +24,10 @@ BUILDING
 	if BUILDING.BUILDINGTYPE == 0 then -- No Building
 		return RESULT_FALSE;
 	end;
-	
+
 	if NEWCLASS ~= HUMAN.CLASS then
 		if isInArray(HUMAN.CLASSTYPE,{clt_soldier,clt_engineer,clt_mechanic,clt_scientist,clt_noble}) then
-		
+
 			local sc = SPECIAL_CLASSES[NEWCLASS];
 			if (sc ~= nil) then
 				if (BUILDING.NATION ~= sc.NAT) or not GET_TECH(sc.TECH,BUILDING.SIDE).researched then
@@ -36,9 +36,9 @@ BUILDING
 			elseif not isInArray(NEWCLASS,{class_soldier,class_engineer,class_mechanic,class_scientist,class_noble}) then
 				return RESULT_FALSE;
 			end;
-			
+
 		elseif HUMAN.CLASSTYPE == clt_apeman then
-		
+
 			if NEWCLASS == class_soldier then
 				if HUMAN.CLASS == class_apeman_soldier then
 					return RESULT_FALSE;
@@ -50,12 +50,12 @@ BUILDING
 				end;
 				NEWCLASS = class_apeman_engineer;
 			end;
-			
+
 			if not isInArray(NEWCLASS,class_apes) then
 				return RESULT_FALSE;
 			else
 				local sca = SPECIAL_APE_CLASSES[NEWCLASS];
-			
+
 				if (sca ~= nil) then
 					if (isInArray(BUILDING.NATION,sca.NAT) or not GET_TECH(sca.TECH,BUILDING.SIDE).researched) then
 						return RESULT_FALSE;
@@ -65,7 +65,7 @@ BUILDING
 		else
 			return RESULT_FALSE;
 		end;
-	
+
 		if isInArray(NEWCLASS,{class_soldier,class_sniper,class_mortarer,class_bazooker,class_apeman_soldier,class_apeman_kamikaze,class_noble}) then
 			if not isInArray(BUILDING.KIND,{bud_armoury,bud_barracks}) then
 				return RESULT_FALSE;
@@ -83,7 +83,7 @@ BUILDING
 				return RESULT_FALSE;
 			end;
 		end;
-		
+
 		return NEWCLASS;
 	end;
 
@@ -114,7 +114,7 @@ function getButtons(BUTTONS,STATE,PAGEID)
     for b=1,9 do
         for h=1,2 do
             BUT = BUTTONS[b][h];
-            
+
             if BUT.ID >= 0 then            
                 BUT_OR = BUTTON_OVERRIDES[BUT.COMMAND];
                 if BUT_OR ~= nil then
@@ -124,7 +124,7 @@ function getButtons(BUTTONS,STATE,PAGEID)
                         BUT           = BUTTONS[b][h];
                     end;
                 end;
-            
+
                 if BUT.ID >= 0 then
                     -- Handle State HERE!
                 end;      
@@ -719,7 +719,7 @@ BUTTON_OVERRIDES[COMMAND_PLACEEXP] = {
 										if (STATE.CURUNIT.ISHUMAN and not STATE.CURUNIT.ISINSIDE) and (STATE.CURHUMAN.CHARGE > 0) then
 											return BUTTON_FIREEXP;
 										end;
-										
+
 										return BUTTONID;
 									end;
 									};
@@ -735,17 +735,17 @@ BUTTON_OVERRIDES[COMMAND_LR_COMP1] = {
                                                             return BUTTONID;
 														end;
                                     };
-									
+
 BUTTON_OVERRIDES[COMMAND_ACTIONRESUME] = {
 									func=function (STATE,BUTTONID)
 										if (STATE.CURUNIT.ISBUILDING or STATE.CURUNIT.ISINSIDE) and (STATE.CURUNIT.ACTIVITY ~= act_stand_by) then
 											return BUTTON_ACTIONPAUSE;
 										end;
-										
+
 										return BUTTONID;
 									end;
 									};
-									
+
 BUTTON_OVERRIDES[COMMAND_REPLACEWEAPON] = {
 									func=function (STATE,BUTTONID)
 										if (STATE.CURUNIT.ISBUILDING or STATE.CURUNIT.ISINSIDE) then
@@ -755,11 +755,11 @@ BUTTON_OVERRIDES[COMMAND_REPLACEWEAPON] = {
 												return BUTTON_PLACEWEAPON2;
 											end;
 										end;
-										
+
 										return BUTTONID;
 									end;
 									};
-									
+
 BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER] = {
 									func=function (STATE,BUTTONID)
 										if ((STATE.CURUNIT.ISBUILDING or STATE.CURUNIT.ISINSIDE) and isInArray(STATE.CURUNIT.KIND,{bud_armoury, bud_barracks})) then
@@ -769,7 +769,7 @@ BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER] = {
 												if (STATE.CURHUMAN ~= nil) and STATE.CURHUMAN.ACTIVITY == act_change_class then
 													return BUTTONID;
 												end;
-												
+
 												if (STATE.CURHUMAN ~= nil) and isInArray(STATE.CURHUMAN.CLASS, class_apes) and getCP(STATE, class_apeman_kamikaze) and not getCP(STATE, class_mortarer) then
 													return BUTTON_CP_KAMIKAZE;
 												elseif canChangeToSheik(STATE) then
@@ -783,15 +783,15 @@ BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER] = {
 												return BUTTON_CP_RUSSIANBAZOOKA;
 											end;
 										end;
-										
+
 										return BUTTONID;
 									end;
 									};
-									
+
 BUTTON_OVERRIDES[COMMAND_CP_RUSSIANBAZOOKA] = {
 									func=BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER].func
 									};
-									
+
 BUTTON_OVERRIDES[COMMAND_CP_ARABIANMORTARER] = {
 									func=BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER].func
 									};
@@ -799,45 +799,45 @@ BUTTON_OVERRIDES[COMMAND_CP_ARABIANMORTARER] = {
 BUTTON_OVERRIDES[COMMAND_CP_KAMIKAZE] = {
 									func=BUTTON_OVERRIDES[COMMAND_CP_AMERICANSNIPER].func
 									};
-									
+
 BUTTON_OVERRIDES[COMMAND_SPACESHIFTING] = {
 									func=function (STATE,BUTTONID)
 										if ((STATE.CURUNIT.ISBUILDING or STATE.CURUNIT.ISINSIDE) and isInArray(STATE.CURUNIT.KIND,{bud_armoury, bud_barracks, bud_breast}) and (STATE.CURUNIT.INSIDECOUNT > 0)) then
 											local hasBazooka, hasSniper = false, false;
-											
+
 											for u = 1, STATE.CURUNIT.INSIDECOUNT do
 												hasSniper  = hasSniper or (STATE.CURUNIT.INSIDE[u].CLASS == class_sniper);
 												hasBazooka = hasBazooka or (STATE.CURUNIT.INSIDE[u].CLASS == class_bazooker);
 											end;
-											
+
 											if hasSniper and not hasBazooka then
 												return BUTTON_SLEEPON;
 											end;
 										end;
-										
+
 										return BUTTONID;
 									end;
 									};
-									
+
 BUTTON_OVERRIDES[COMMAND_FIREEXP] = {
 									func=function (STATE,BUTTONID)
 										if ((STATE.CURUNIT.ISBUILDING or STATE.CURUNIT.ISINSIDE) and isInArray(STATE.CURUNIT.KIND,{bud_armoury, bud_barracks, bud_breast}) and (STATE.CURUNIT.INSIDECOUNT > 0)) then
 											local hasBazooka = false;
-											
+
 											for u = 1, STATE.CURUNIT.INSIDECOUNT do
 												hasBazooka = hasBazooka or (STATE.CURUNIT.INSIDE[u].CLASS == class_bazooker);
 											end;
-											
+
 											if hasBazooka then
 												return BUTTON_TIMEON;
 											end;
 										end;
-										
+
 										return BUTTONID;
 									end;
 									};
-									
-			
+
+
 
 -- [Nations] --
 nation_nature = 0;
@@ -1008,7 +1008,7 @@ class_prakun				= 21;
 
 class_animal                            = {class_baggie,class_tiger,class_phororhacos,class_frog,class_fish,class_prakun};
 class_apes                              = {class_apeman,class_apeman_soldier,class_apeman_engineer,class_apeman_kamikaze};
-                                        
+
 clt_soldier=1;
 clt_engineer=2;
 clt_mechanic=3;
@@ -1138,8 +1138,4 @@ function vardump(o, level)
     else
         return tostring(o);
     end;
-end;
-
-function dd(var)
-    LUA_TO_DEBUGLOG(dump(var)); 
 end;

@@ -1,9 +1,173 @@
 Export Function InitAction;
 Begin
+
      //RevealFogArea(3, RevealStartArea);
      InGameOn;
      Wait(0$3);
 
      Say(Yakotich, 'DYak-01-01');
+     Say(Yakotich, 'DYak-01-02');
+     Say(Mietek, 'DMietek-01-03');
+     Say(Yakotich, 'DYak-01-04');
+
+     ComMoveXY([Dragunov, Tatiana, Smirnovsky, Kostyliev], 72, 48);
+     ComMoveXY(YakotichTeam, 72, 48);
+     ComMoveXY(Yakotich, 86, 59);
+     AddComTurnUnit(Yakotich, IvanBerezov);
+     ComMoveXY(Mietek, 84, 57);
+     AddComTurnUnit(Mietek, IvanBerezov);
+
+     CenterOnXY(72, 47);
+
+     ChangeSideFog(9,3);
+     ChangeSideFog(6,3);
+     ChangeSideFog(4,3);
+end;
+
+Every 0$1 Trigger GetX(Yakotich) = 86 and GetY(Yakotich) = 59 do
+begin
+
+     CenterOnUnits(Yakotich);
+
+     SayNoName(IvanBerezov, 'DBer-01-05');
+     Say(Yakotich, 'DYak-01-06');
+
+     ChangeSideFog(9,3);
+     ChangeSideFog(6,3);
+     ChangeSideFog(4,3);
+
+     Say(IvanBerezov, 'DBer-01-07');
+     Say(IvanBerezov, 'DBer-01-08');
+     Say(Yakotich, 'DYak-01-09');
+     Say(IvanBerezov, 'DBer-01-10');
+     Say(Yakotich, 'DYak-01-11');
+     Say(IvanBerezov, 'DBer-01-12');
+     Say(Yakotich, 'DYak-01-13');
+     Say(IvanBerezov, 'DBer-01-14');
+     Say(Yakotich, 'DYak-01-15');
+     Say(IvanBerezov, 'DBer-01-16');
+
+     AddComMoveXY([Dragunov, Kostyliev], 80, 106);
+     AddComMoveXY(Tatiana, 87, 114);
+     AddComMoveXY(Smirnovsky, 82, 110);
+     ComMoveXY(YakotichTeam, 79, 96);
+     ComMoveXY(Yakotich, 68, 99);
+     AddComTurnUnit(Yakotich, Platonov);
+     ComMoveXY(Mietek, 72, 104);
+     AddComTurnUnit(Mietek, Platonov);
+
+     CenterOnXY(70, 100);
 
 end;
+
+Every 0$1 Trigger GetX(Yakotich) = 68 and GetY(Yakotich) = 99 and GetX(Smirnovsky) = 82 and GetY(Smirnovsky) = 110 and GetX(Tatiana) = 87 and GetY(Tatiana) = 114 do
+begin
+                                                                               
+     CenterOnUnits(Yakotich);
+
+     ComMoveXY(YakotichTeam, 86, 106);
+
+     SetSide([Smirnovsky, Tatiana, Cargo1, Cargo2], 6);
+     Wait(0$1);
+     AddComExitVehicle(Tatiana);
+     AddComExitVehicle(Smirnovsky);
+     Wait(0$1);
+     AddComEnterUnit([Smirnovsky, Tatiana], labhg);
+
+     Say(Yakotich,'DYak-01-17');
+     Say(Morozov,'DMor-01-18');
+     Say(Morozov,'DMor-01-19');
+     Say(Yakotich,'Dyak-01-20');
+     Say(Morozov,'DMor-01-21');
+     Say(Morozov,'DMor-01-22');
+
+     ComEnterUnit(Morozov,MorozovBase);
+
+     Say(Platonov,'DPlat-01-23');
+     Say(Yakotich,'DYak-01-24');
+     Say(Platonov,'DPlat-01-25');
+     Say(Popov,'DPop-01-26');
+     Say(Yakotich,'DYak-01-27');
+     Say(Popov,'DPop-01-28');
+     Say(Popov,'DPop-01-29');
+
+     InitFirstAttack;
+
+     CenterOnUnits(Gaydar);
+
+     SayRadioNoName(Gaydar,'DGay-01-30');
+     Say(Platonov,'DPlat-01-31');
+
+     CenterOnUnits(Yakotich);
+
+     Say(Platonov,'DPlat-01-32');
+     Say(Yakotich,'DYak-01-33');
+
+     ComEnterUnit([Platonov, Popov], MorozovBase);
+
+     AddComExitBuilding([Smirnovsky,Tatiana]);
+     SetSide([Smirnovsky,Tatiana, Cargo1, Cargo2], 3);
+     AddComEnterUnit(Smirnovsky, Cargo1);
+     AddComEnterUnit(Tatiana, Cargo2);
+     AddComMoveToArea(Smirnovsky, LeninCratesSend);
+     AddComExitVehicle(Smirnovsky);
+     ComMoveXY(Kovalyuk, 99, 166);
+     AddComMoveXY(YakotichTeam, 106, 108);
+     AddComMoveXY(YakotichTeam, 159, 233);
+     AddComMoveXY([Kostyliev, Maxim, Cargo2, Smirnovsky], 159,233);
+     AddComMoveXY(Mietek, 170, 238);
+     AddComTurnUnit(Mietek, Natasha);
+
+     AddComMoveXY(Yakotich, 102, 155);
+     AddComMoveXY(Dragunov, 100, 157);
+
+     CenterOnXY(102, 152);
+
+end;
+
+Every 0$5 Trigger IsInArea(Cargo1, LeninCratesSend) do
+begin
+    ComEnterUnit(Kovalyuk, Cargo1);
+end;
+
+Every 0$1 Trigger GetX(Yakotich) = 102 and GetY(Yakotich) = 155 do
+begin
+
+     ComExitBuilding(Scholtze);
+     AddComTurnUnit(Scholtze, Yakotich);
+     AddComTurnUnit([Dragunov, Yakotich], Scholtze);
+
+     Say(Scholtze, 'DSch-01-34');
+     Say(Scholtze, 'DSch-01-35');
+     Say(Yakotich, 'DYak-01-36');
+     Say(Scholtze, 'DSch-01-37');
+
+     SetSide(Dragunov, 6);
+     ComEnterUnit([Scholtze,Dragunov], lab2);
+
+     AddComMoveXY(Yakotich, 168, 237);
+     AddComTurnUnit(Yakotich, Natasha);
+
+     CenterOnUnits(Natasha);
+
+end;
+
+Every 0$1 Trigger GetX(Yakotich) = 168 and GetY(Yakotich) = 237 do
+begin
+
+     Say(Yakotich, 'DYak-01-38');
+     Say(Natasha, 'DNat-01-39');
+     Say(Mietek, 'DMietek-01-40');
+
+     ChangeMissionObjectives('Ob1');
+     InGameOff;
+     RevealFogArea(3, RevealStartArea);
+
+     StartEnded := True;
+
+     RussianAI;
+
+end;
+
+
+

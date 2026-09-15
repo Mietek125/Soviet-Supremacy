@@ -62,6 +62,11 @@ begin
      InGameOff;
      ChangeSideFog(6, 3);
 
+     ComMoveXY([Smirnovsky,Kostyliev,Tatiana,Maxim], 170, 218);
+     ComEnterUnit(YakotichTeam, Voroshilov);
+     AddComChangeProfession(YakotichTeam, 2);
+     AddComExitBuilding(YakotichTeam);
+
 end;
 
 Every 0$1 Trigger See(3, b1) or See(3, b2) or See(3, b3) do
@@ -143,7 +148,7 @@ begin
 
 end;
 
-Every 0$1 Trigger FilterAllUnits([[f_and, [f_side, 1], [f_side, 6]], [f_type, unit_human]]) = 0 and OvsyenkoRecovered do
+Every 0$1 Trigger FilterAllUnits([[f_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) = 0 and OvsyenkoRecovered and SiberiteGathered do
 begin
 
      InGameOn;
@@ -206,7 +211,7 @@ begin
      SaveCharacters(Dragunov, MissionPrefix & 'Dragunov');
      SaveCharacters(Dimitri, MissionPrefix & 'Dimitri');
      
-     SaveCharacters([Cholgovsky, Plotkov], MissionPrefix & 'DimitriTeam');
+     SaveCharacters([Cholgovsky, Plotkov, Kula], MissionPrefix & 'DimitriTeam');
      SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky, Tatiana, Dragunov, Dimitri, DimitriTeam], MissionPrefix & 'YakotichTeam');
 
      YouWin;

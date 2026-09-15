@@ -16,6 +16,14 @@ case Difficulty of
 end;
 End;
 
+Export function ResAllTechs(side, lab, nation);
+var i;
+begin
+for i = 1 to 100 do
+    if GetTech(i, side) = state_enabled and TechNationAvailable(i, nation) then
+       AddComResearch(lab, i);
+End;
+
 Export function RepairBuilding(side, building, area);
 var buildingsList, i, eng, engineerOkInside, engineerOkOutside;
 begin
@@ -164,10 +172,7 @@ if barrackList then
    end;
 End;
 
-Export Function Spawn(units, area);
-begin
-     PlaceUnitArea(units, area, 1);
-end;
+
 
 Every 0$2 trigger AIEnable do
 begin
@@ -191,8 +196,11 @@ else
 End;
 
 
-Every 0$1 trigger not IsInUnit(will) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
-ComEnterUnit(will, AmDep1);
+Every 0$1 trigger not IsInUnit(Williams) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
+ComEnterUnit(Williams, AmDep1);
+
+Every 0$1 trigger not IsInUnit(Phillips) and IsOk(AmDep2) and GetSide(AmDep2) = 4 do
+ComEnterUnit(Phillips, AmDep2);
 
 Every 0$2 trigger AIEnable do
 begin
@@ -215,18 +223,7 @@ else
     EnterBunkerOrBarrack(4, AmSouthBaseArea);
 End;
 
-Export Function ComRepairVehicleAndReturn(driver);
-var vehicle;
-begin
-if not driver or not IsInUnit(driver) then
-   exit;
 
-vehicle := IsInUnit(driver);
-SetTaskList(driver, [
-   ['\', 0, 0, 0, 0, 0, 0],
-   ['E', 0, 0, vehicle, 0, 0, 0]
-]);
-End;
 
 
 Every 1 trigger IsSelected(Jarcin) or GetLives(Jarcin) < 1000 do
@@ -324,6 +321,181 @@ for i = 1 to 2 do
     end;
 
 End;
+
+
+Export function RespawnConvoy(side, nation, soldierCount, vehCount, medCount, skill, spawnArea, targetArea);
+var i, j, un, soldiers, vehicles, medics, mechOutOfVeh, mechs, target;
+begin
+soldiers := [];
+medics := [];
+vehicles := [];
+mechs := [];
+
+for i = 1 to medCount do
+    begin
+    uc_side := side;
+    uc_nation := nation;
+
+    InitHC_All();
+    PrepareHuman(false, 4, skill);
+    un := CreateHuman;
+    medics := Join(medics, un);
+    PlaceUnitArea(un, spawnArea, false);
+    AddComMoveToArea(un, targetArea);
+    end;
+
+for i = 1 to soldierCount do
+    begin
+    uc_side := side;
+    uc_nation := nation;
+    InitHC_All();
+    PrepareHuman(false, 1, skill);
+    un := CreateHuman;
+    soldiers := Join(soldiers, un);
+    PlaceUnitArea(un, spawnArea, false);
+    ComAgressiveMove(un, 87, 58);
+    AddComAgressiveMove(un, 127, 63);
+    AddComAgressiveMove(un, 159, 98); //  159, 98
+    end;
+
+for i = 1 to vehCount do
+    begin
+    uc_side := side;
+    uc_nation := nation;
+
+    vc_chassis := [us_medium_wheeled, us_medium_tracked, us_heavy_tracked][i mod Difficulty + 1];
+    vc_engine := engine_combustion;
+    vc_control := control_manual;
+    vc_weapon := [us_double_gun, us_light_gun, us_gatling_gun, us_machine_gun][i mod Difficulty + 1];
+
+    j := CreateVehicle;
+    vehicles := Join(vehicles, j);
+    SetDir(j, 1);
+
+    PlaceUnitArea(j, spawnArea, false);
+
+    uc_side := side;
+    uc_nation := nation;
+
+    InitHC_All();
+    PrepareMechanic(false, 2 + Difficulty);
+    un := CreateHuman;
+    mechs := Join(mechs, un);
+    PlaceHumanInUnit(un, j);
+    ComAgressiveMove(j, 87, 58);
+    AddComAgressiveMove(j, 127, 63);
+    AddComAgressiveMove(j, 127, 40);
+    AddComAgressiveMove(un, 159, 98); //  159, 98
+    end;
+
+repeat
+    for i in soldiers do
+    begin
+        if IsDead(i) then
+        begin
+            soldiers := soldiers diff i;
+            continue;
+        end;
+
+        if IsInArea(i, targetArea) then
+        begin
+            RemoveUnit(i);
+            soldiers := soldiers diff i;
+            AmericansGotAway := AmericansGotAway + 1;
+            continue;
+        end;
+
+        if GetLives(i) < 600 then
+        begin
+            if GetTag(i) <> 1 then
+            begin
+                SetTag(i, 1);
+                ComMoveToArea(i, targetArea);
+            end;
+        end;
+    end;
+
+    if soldiers then
+        wait(0$0.5);
+
+until not soldiers;
+
+
+repeat
+    for i in mechs do
+    begin
+        if IsDead(i) then
+        begin
+            mechs := mechs diff i;
+            continue;
+        end;
+
+        if IsInArea(i, targetArea) then
+        begin
+            RemoveUnit(i);
+            mechs := mechs diff i;
+            AmericansGotAway := AmericansGotAway + 1;
+            continue;
+        end;
+
+        if not IsInUnit(i) then
+        begin
+            if GetTag(i) <> 1 then
+            begin
+                SetTag(i, 1);
+                ComMoveToArea(i, targetArea);
+            end;
+        end;
+    end;
+
+    if mechs then
+        wait(0$0.5);
+
+until not mechs;
+
+
+repeat
+    for i in medics do
+    begin
+        if IsDead(i) then
+        begin
+            medics := medics diff i;
+            continue;
+        end;
+
+        if IsInArea(i, targetArea) then
+        begin
+            RemoveUnit(i);
+            medics := medics diff i;
+            AmericansGotAway := AmericansGotAway + 1;
+            continue;
+        end;
+    end;
+
+    if medics then
+        wait(0$0.5);
+
+until not medics;
+end;
+
+Every 0$1 trigger FilterUnitsInArea(EscapeArea, [[f_or, [f_side, 1], [f_side, 4]]]) do
+var i, tmp, tmp2;
+begin
+ConvoyEscapedMembers := 0;
+
+repeat
+ wait(0$1);
+ tmp := FilterAllUnits([f_or, [f_side, 1], [f_side, 4]]);
+ tmp2 := UnitFilter(tmp, [f_inarea, EscapeArea]);
+
+ for i in tmp2 do
+     begin
+     RemoveUnit(i);
+     ConvoyEscapedMembers := ConvoyEscapedMembers + 1;
+     end;
+until not tmp;
+End;
+
 
 
 Every 0$1 Trigger BaseCaptured do

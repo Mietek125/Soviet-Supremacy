@@ -1,0 +1,9 @@
+Export Function InitAction;
+Begin
+     RevealFogArea(3, RevealStartArea);
+     InGameOn;
+     Wait(0$3);
+
+     Say(Yakotich, 'DYak-01-01');
+
+end;

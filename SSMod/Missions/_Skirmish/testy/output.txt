@@ -1,0 +1,103 @@
+// every 0 0$10 trigger FilterAllUnits ( [ f_btype , b_siberite_mine ] ) do var depot , mine , miners , SibInDepot , i , j , tmp ;
+   0: LD_INT 30
+   2: PUSH
+   3: LD_INT 30
+   5: PUSH
+   6: EMPTY
+   7: LIST
+   8: LIST
+   9: PPUSH
+  10: CALL_OW 69
+  14: IFFALSE 167
+  16: GO 18
+  18: DISABLE
+  19: LD_INT 0
+  21: PPUSH
+  22: PPUSH
+  23: PPUSH
+  24: PPUSH
+  25: PPUSH
+  26: PPUSH
+  27: PPUSH
+// begin enable ;
+  28: ENABLE
+// mine := FilterAllUnits ( [ f_btype , b_siberite_mine ] ) ;
+  29: LD_ADDR_VAR 0 2
+  33: PUSH
+  34: LD_INT 30
+  36: PUSH
+  37: LD_INT 30
+  39: PUSH
+  40: EMPTY
+  41: LIST
+  42: LIST
+  43: PPUSH
+  44: CALL_OW 69
+  48: ST_TO_ADDR
+// for i in mine do
+  49: LD_ADDR_VAR 0 5
+  53: PUSH
+  54: LD_VAR 0 2
+  58: PUSH
+  59: FOR_IN
+  60: IFFALSE 165
+// begin miners := UnitsInside ( i ) ;
+  62: LD_ADDR_VAR 0 3
+  66: PUSH
+  67: LD_VAR 0 5
+  71: PPUSH
+  72: CALL_OW 313
+  76: ST_TO_ADDR
+// depot := GetBase ( i ) ;
+  77: LD_ADDR_VAR 0 1
+  81: PUSH
+  82: LD_VAR 0 5
+  86: PPUSH
+  87: CALL_OW 274
+  91: ST_TO_ADDR
+// for j in miners do
+  92: LD_ADDR_VAR 0 6
+  96: PUSH
+  97: LD_VAR 0 3
+ 101: PUSH
+ 102: FOR_IN
+ 103: IFFALSE 161
+// if GetClass ( j ) = class_engineer then
+ 105: LD_VAR 0 6
+ 109: PPUSH
+ 110: CALL_OW 257
+ 114: PUSH
+ 115: LD_INT 2
+ 117: EQUAL
+ 118: IFFALSE 159
+// begin SibInDepot := GetResourceType ( depot , 3 ) ;
+ 120: LD_ADDR_VAR 0 4
+ 124: PUSH
+ 125: LD_VAR 0 1
+ 129: PPUSH
+ 130: LD_INT 3
+ 132: PPUSH
+ 133: CALL_OW 275
+ 137: ST_TO_ADDR
+// SetResourceType ( depot , 3 , SibInDepot + 1 ) ;
+ 138: LD_VAR 0 1
+ 142: PPUSH
+ 143: LD_INT 3
+ 145: PPUSH
+ 146: LD_VAR 0 4
+ 150: PUSH
+ 151: LD_INT 1
+ 153: PLUS
+ 154: PPUSH
+ 155: CALL_OW 277
+// end ;
+ 159: GO 102
+ 161: POP
+ 162: POP
+// end ;
+ 163: GO 59
+ 165: POP
+ 166: POP
+// end ;
+ 167: PPOPN 7
+ 169: END

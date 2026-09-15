@@ -1,0 +1,63 @@
+Every 1 trigger IsSelected(Janusz) or GetLives(Janusz) < 1000 do
+begin
+JanuszExp([1,2,3,4]);
+Wait(0$05);
+Say(Janusz,'DJanusz-Secret-01');
+TeleportUnit(Janusz,217,4,500,True);
+Wait(0$05);
+RemoveUnit(Janusz);
+SaveVariable(1,'SafeJanusz');
+SaveCharacters(Janusz,'Janusz');
+End;
+
+Export Function JanuszExp(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('JanuszQuery', q);
+  case dec of
+   1:begin
+     AddExperience_NoLimit(Yakotich,1,2000);
+     end;
+   2:begin
+     AddExperience_NoLimit(Yakotich,2,2000);
+     end;
+   3:begin
+     AddExperience_NoLimit(Yakotich,3,2000);
+     end;
+    4:begin
+     AddExperience_NoLimit(Yakotich,4,2000);
+     end;
+  end;
+end;
+
+Every 1 trigger IsSelected(Rahol) or GetLives(Rahol) < 1000 do
+begin
+RaholExp([1,2,3,4]);
+Wait(0$05);
+Say(Rahol,'DRahol-Secret-01');
+TeleportUnit(Rahol,214,2,500,True);
+Wait(0$05);
+RemoveUnit(Rahol);
+SaveVariable(1,'SafeRahol');
+SaveCharacters(Rahol,'Rahol');
+End;
+
+Export Function RaholExp(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('RaholQuery', q);
+  case dec of
+   1:begin
+     AddExperience_NoLimit(Yakotich,1,2500);
+     end;
+   2:begin
+     AddExperience_NoLimit(Yakotich,2,2500);
+     end;
+   3:begin
+     AddExperience_NoLimit(Yakotich,3,2500);
+     end;
+    4:begin
+     AddExperience_NoLimit(Yakotich,4,2500);
+     end;
+  end;
+end;

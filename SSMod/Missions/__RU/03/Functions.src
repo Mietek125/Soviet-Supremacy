@@ -86,6 +86,60 @@ begin
 
 end;
 
+Export Function GetSiberiteAmount(side);
+var i, bases;
+begin
+result := 0;
+
+bases := FilterAllUnits([[f_side, side], [f_or, [f_btype, b_depot], [f_btype, b_warehouse]]]);
+
+if not bases then
+   exit;
+
+for i in bases do
+    result := result + GetResourceType(GetBase(i), mat_siberit);
+End;
+
+Every 0$01 trigger OvsyenkoRecovered do
+var siberite, mine;
+begin
+enable;
+
+     siberite := GetSiberiteAmount(3);
+     mine := FilterUnitsInArea(OvsyenkoArea, [[f_side, 3], [f_btype, b_siberite_mine]]);
+
+     if siberite < 0 then
+        siberite := 0;
+
+     display_strings := ['#SibGathered', siberite, SibNeededToWin];
+
+     if siberite >= SibNeededToWin then
+     begin
+          Say(Mietek,'DMietek-Mine-03');
+          display_strings := '';
+          SiberiteGathered := True;
+          disable;
+     end;
+
+End;
+
+Every 0$1 Trigger OvsyenkoRecovered and GetSiberiteAmount(3) >= 25 and FilterAllUnits([[f_side, 3], [f_btype, b_siberite_mine]]) >= 1 do
+begin
+     DialogueOn;
+     Say(Mietek,'DMietek-Mine-01');
+     Say(Mietek,'DMietek-Mine-02');
+     SibQuery(1);
+     CenterOnUnits(FilterAllUnits([[f_side, 3], [f_btype, b_siberite_mine]]));
+     DialogueOff;
+end;
+
+
+
+
+
+
+
+
 
 
 

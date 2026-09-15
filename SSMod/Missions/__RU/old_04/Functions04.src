@@ -1,0 +1,386 @@
+Export Function PrepareSolBun(skill, b);
+var un, dir;
+begin
+uc_side := GetSide(b);
+uc_nation := GetNation(b);
+
+dir := GetDir(b) - 3;
+
+if dir < 0 then
+   dir := 6 + dir;
+
+un := CreateHuman;
+SetDir(un, dir);
+PlaceHumanInUnit(un, b);
+End;
+
+Every 1 trigger IsSelected(Janusz) do
+begin
+JanuszExp([1,2,3,4]);
+Wait(0$03);
+Say(Janusz,'4Janusz-Sikret');
+TeleportUnit(Janusz,120,246,246,True);
+Wait(0$03);
+RemoveUnit(Janusz);
+SaveVariable(1,'JanuszSaved');
+SaveCharacters(Janusz,'Janusz');
+End;
+
+Export Function JanuszExp(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('JanuszQuery', q);
+  case dec of
+   1:begin
+     AddExperience_NoLimit(Yakotich,1,2500);
+     end;
+   2:begin
+     AddExperience_NoLimit(Yakotich,2,2500);
+     end;
+   3:begin
+     AddExperience_NoLimit(Yakotich,3,2500);
+     end;
+    4:begin
+     AddExperience_NoLimit(Yakotich,4,2500);
+     end;
+
+  end;
+end;
+
+Export Function ResQuery(q);
+var dec, q1;
+begin
+  dec = SelectiveQuery('ResQuery', q);
+  case dec of
+   1:begin
+     end;
+  end;
+end;
+
+Every 1 Trigger start_ended = False Do
+Begin
+
+CenterOnUnits(Yakotich);
+
+enable;
+
+end;
+
+// Blokuje pójœcie w pizdu
+every 1 trigger FilterUnitsInArea(DontEnterArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) > 0 do
+var unit;
+begin
+    enable;
+
+    for unit in FilterUnitsInArea(DontEnterArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) do
+    begin
+        //InGameOn;
+
+    ComMoveXY(unit,163,235);
+
+end;
+
+end;
+
+// Czas do rozpoczêcia ataku ruskich na omikron
+Every 0$1 Trigger start_ended = True do
+begin
+enable;
+
+if PrepareTime then
+   begin
+   PrepareTime := PrepareTime - 0$1;
+   display_strings := ['#PrepareTime', PrepareTime];
+   end
+else
+   begin
+   display_strings := '';
+   disable;
+   end;
+End;
+
+//kod AI od Pragi
+
+export AI_Solds, AI_Engs, AI_Mechs, AI_Sci;
+
+export AI_B, AI_Lab, AI_Depo, AI_Fac, AI_Arm,
+       AI_Bunkers, AI_Cranes, AI_CargoBays,
+       AI_BList, AI_TechList, AI_VehList, AI_BFlag;
+
+export AI_CraneNum, AI_CargoBayNum;
+
+// AI initialization
+export function InitBierezovAI;
+var i, un;
+begin
+     AI_AttVehList := [];
+
+     AI_BList := [b_bunker, 81, 92, 1,
+                 b_bunker, 71, 83, 0,
+                 b_bunker, 59, 73, 0,
+                 b_bunker, 95, 121, 1,
+                 b_bunker, 100, 130, 1,
+                 b_bunker, 51, 65, 0,
+                 b_armoury, 99, 111, 1,
+                 b_bunker, 94, 116, 1,
+                 b_bunker, 86, 100, 1,
+                 b_bunker, 85, 97, 1];  // budynki
+
+     AI_TechList := [tech_tech1, tech_tech2, tech_basictools, tech_cargo, tech_track,
+                     tech_crane, tech_bulldozer, tech_weap1, tech_weap2, tech_tech3, tech_AI, tech_AdvAI]; // badania
+
+     AI_VehList := [];
+end;
+
+Every 0$01 do
+var i, p, un, filter, h_dmgunit, b_dmgunit, b_unit, b_weap, b_upgrade, enemy_detected;
+begin
+enable;
+
+       // Filters
+          AI_Solds := FilterAllUnits([[[f_side, 6], [f_class, 1], [f_lives, 600]]]);
+          AI_Engs  := FilterAllUnits([[[f_side, 6], [f_class, 2], [f_lives, 600]]]);
+          AI_Mechs := FilterAllUnits([[[f_side, 6], [f_class, 3], [f_lives, 600]]]);
+          AI_Sci   := FilterAllUnits([[[f_side, 6], [f_class, 4], [f_lives, 600]]]);
+
+          AI_Bunkers   := FilterAllUnits([[[f_side, 6], [f_or, [f_btype, b_breastwork], [f_btype, b_bunker]], [f_lives, 250]]]);
+
+          AI_B    := FilterAllUnits([[f_side, 6], [f_type, unit_building]]);
+
+          B_DmgUnit := FilterAllUnits([[[f_side, 6], [f_type, unit_building], [f_not, [f_lives, 1000]]]]);
+          H_DmgUnit := FilterAllUnits([[[f_side, 6], [f_type, unit_human], [f_not, [f_lives, 600]]]]);
+
+         {
+          if ru_fac = 0 then
+             ru_fac  := FilterAllUnits([[f_side, 6], [f_btype, b_factory]]);
+
+          if ru_lab = 0 then
+             ru_lab := FilterAllUnits([[f_side, 6], [f_or, [f_btype, b_lab], [f_btype, b_lab_full]]]);
+         }
+
+       // tablice
+          b_weap := AvailableWeaponList(AI_Fac) diff [ru_crane, ru_cargo_bay, ru_bulldozer];
+          b_upgrade := [b_depot, b_armoury, b_breastwork, b_workshop];
+
+
+      // wróg
+         if FilterUnitsInArea(AI_SafeArea, [[f_side, [2,5,7,8]],[f_see, 6]]) > 0 then
+            enemy_detected := true
+             else
+            enemy_detected := false;
+
+      // upgrade budynkow
+         if enemy_detected = false then
+            for i = 1 to AI_B do
+                if GetBType(AI_B[i]) in b_upgrade then
+                   ComUpgrade(AI_B[i]);
+
+      // wie¿yczki
+         if AI_Solds > 0 then
+            begin
+            filter := UnitFilter(AI_Solds, [f_not, [f_inside]]);
+
+            if UnitFilter(AI_Bunkers, [f_empty]) > 0 then // empty turrets
+               begin
+
+               if filter = 0 then
+                  ComExitBuilding(AI_Solds[Rand(1, AI_Solds)]);
+
+               ComEnterUnit(filter[1], UnitFilter(AI_Bunkers, [f_empty])[1]);
+               end;
+
+            if UnitFilter(AI_Bunkers, [f_empty]) = 0 then // nie ma pustych wie¿
+               begin
+               b_unit := FilterAllUnits([[f_side, 6], [f_or, [f_btype, b_armoury], [f_btype, b_barracks]]]);
+
+               if b_unit > 0 then
+               for p = 1 to b_unit do
+                   if UnitsInSide(b_unit[p]) < 6 then
+                      for i = 1 to filter do
+                          ComEnterUnit(filter[i], b_unit[p]);
+
+               end;
+
+
+            if UnitFilter(AI_Bunkers, [[f_btype, b_bunker], [f_bweapon, 0]]) > 0 then
+               begin
+               filter := UnitFilter(AI_Bunkers, [[f_btype, b_bunker], [f_bweapon, 0]]);
+
+               if BuildingStatus(AI_Fac) = bs_idle then
+               ComPlaceWeapon(filter[1], b_weap[Rand(1, b_weap)]);
+               end;
+
+            end; // koniec bloku wieze i umocnienia
+
+
+     // MECHANICY
+        // wejscie do fabryki gdy mechanik nie jest w pojezdzie
+           if AI_Mechs > 0 then
+              for i = 1 to AI_Mechs do
+                  if not IsInUnit(AI_Mechs[i]) then
+                     ComEnterUnit(AI_Mechs[i], AI_Fac);
+
+        // nowy mechanik
+           if AI_Fac then
+
+        // produkcja wozow
+           if AI_VehList > 0 then
+              if BuildingStatus(AI_Fac) = bs_idle then
+                 //if CanBeConstructed(ru_fac, ru_veh[1], ru_veh[2], ru_veh[3], ru_veh[4]) then
+                 begin
+                 ComConstruct(AI_Fac, AI_VehList[1], AI_VehList[2], AI_VehList[3], AI_VehList[4]);
+
+                 end;
+
+        // budowanie
+           if AI_BList > 0 and enemy_detected = false then
+             if AI_Engs > 0 then
+              for i = 1 to AI_Engs do
+                  if not HasTask(AI_Engs[i]) then
+                     begin
+                     ComBuild(AI_Engs[i], AI_BList[1], AI_BList[2], AI_BList[3], AI_BList[4]);
+
+                     //for i = 1 to 4 do
+                     //ru_bul := Delete(ru_bul, 1);
+                     end;
+
+
+        // naprawa budynkow
+           if b_dmgunit > 0 then
+              begin
+
+              if AI_Engs > 0 then
+                 for i = 1 to AI_Engs do
+                     begin
+                     if IsInUnit(AI_Engs[i]) then
+                        ComExitBuilding(AI_Engs[i]);
+
+                     ComRepairBuilding(AI_Engs[i], b_dmgunit[1]);
+                     end;
+
+                      if FilterAllUnits([[f_side, 6], [f_weapon, ru_crane]]) > 0 then
+                         for p in FilterAllUnits([[f_side, 6], [f_weapon, ru_crane]]) do
+                             ComRepairBuilding(p, b_dmgunit[1]);
+              end
+               else
+                if AI_BList = 0 then
+                for i = 1 to AI_Engs do
+                    if not HasTask(AI_Engs[i]) then
+                       ComEnterUnit(AI_Engs[i], NearestUnitToUnit(FilterAllUnits([[f_side, 6], [f_or, [f_btype, b_depot], [f_btype, b_warehouse]]]), AI_Engs[i]));
+
+
+       // leczenie
+          if h_dmgunit > 0 then
+             begin
+
+             for p = 1 to h_dmgunit do
+                 if GetDistUnits(h_dmgunit[p], AI_Lab) > 6 then
+                    ComMoveXY(h_dmgunit[p], 134, 88);
+
+             if AI_Sci > 0 then
+             for i = 1 to AI_Sci do
+                 if IsInUnit(AI_Sci[i]) then
+                    ComExitBuilding(AI_Sci[i])
+                     else
+                    if not HasTask(AI_Sci[i]) then
+                       if GetDistUnits(AI_Sci[i], h_dmgunit[1]) <= 15 then
+                          ComHeal(AI_Sci[i], h_dmgunit[1]);
+
+             end;
+
+          // badania etc.
+          if h_dmgunit = 0 then
+             begin
+
+             for i = 1 to AI_Sci do
+                 if not IsInUnit(AI_Sci[i]) then
+                    ComEnterUnit(AI_Sci[i], AI_Lab);
+
+             if AI_TechList > 0 then
+                if BuildingStatus(AI_Lab) = bs_idle then
+                   begin
+                   ComResearch(AI_lab, AI_TechList[1]);
+                   AI_TechList := Delete(AI_TechList, 1);
+                   end;
+
+             end;
+
+End;
+
+export AI_AttVehList, AI_AttVehNum;
+Every 10$00 trigger AI_Fac do
+var weap, i;
+begin
+enable;
+       AI_AttVehNum := 6;
+       weap := AvailableWeaponList(FilterAllUnits([[f_side, 6], [f_btype, b_factory]])[1]) diff [ru_heavy_gun, ru_crane, ru_cargo_bay, ru_bulldozer];
+       for i = 1 to AI_AttVehNum do
+        AI_VehList := AI_VehList ^ [ru_medium_wheeled, engine_combustion, control_computer, weap[Rand(1, weap)]];
+
+End;
+
+// Zbieranie skrzyñ
+Every 0$03 do
+var i, c, p, skr, filter, cargo, dep;
+begin
+Enable;
+
+     filter := FilterAllUnits([[f_ok], [f_side, 6], [f_or, [f_class, class_engineer], [f_class, class_apeman_engineer]] ]);
+     cargo  := FilterAllUnits([[f_side, 6], [f_weapon, ru_cargo_bay], [f_lives, 600]]);
+     dep    := FilterAllUnits([[f_side, 6], [f_or, [f_btype, b_depot], [f_btype, b_warehouse]]]);
+
+     skr = GetListOfCratesInArea(CratesArea);
+
+
+     c = 1;
+
+
+     if cargo > 0 then // zabezpieczenie
+     While c < skr do
+     begin
+
+     if cargo > 0 then
+        for i = 1 to cargo do
+        begin
+
+        if GetFuel(cargo[i]) > 40 and GetDistUnitXY(cargo[i], skr[c], skr[c+1]) < 81 then
+        ComCollect(cargo[i], skr[c], skr[c+1]);
+
+        if GetFuel(cargo[i]) <= 40 then
+           begin
+
+          Repeat
+           begin
+           ComMoveXY(cargo[i], GetX(dep[i]), GetY(dep[1]));
+           Wait(0$01);
+           end
+          Until GetDistUnits(cargo[i], dep[i]) < 7;
+
+          SetFuel(cargo[i], 100);
+          end;
+
+         c = c + 2;
+        end;
+
+
+     end;
+
+End;
+
+
+export MC_AIEnemies, MC_AIAttackLogic;
+
+export function MC_EnableAttackLogic;
+begin
+  MC_AIEnemies = McRegistry(7, [[mc_reg_refresh_time, 0$3],
+  [mc_reg_area_to_guard, MapArea],
+    mc_reg_ignore_fog,
+    mc_reg_buildings]);
+end;
+
+export function MC_AddToAttackLogic(list);
+begin
+  if not ExistMc(MC_AIAttackLogic) then
+    MC_AIAttackLogic = McAttack(45, MC_AIEnemies, list, [mc_no_stop])
+  else AddMcUnits(MC_AIAttackLogic, list);
+end;

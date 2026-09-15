@@ -1,3 +1,13 @@
+{
+
+Status: 75% done
+Authors: Mietek, Rahol & Serpent
+
+Global Variables:
+- OptoLabCaptured //1 means you captured AmLab, 0 means you didn't
+
+}
+
 Starting
 begin
      ResetFog;
@@ -31,9 +41,12 @@ Export Debug;
 Export MissionPrefix, PrevMissionPrefix;
 Export MissionStarted, BeenInMine, CameBackToBase, PlayerGotControl, CutsceneOn, CutsceneOnDepot,
 RocketLaunchersConstructed, SibEngineConstructed, SibPowerComplete, OvsyenkoRecovered, FirstRocket,
-OvsyenkoDestroyed, EndOfMission, MineBuilt;
+OvsyenkoDestroyed, EndOfMission, SiberiteGathered, HaveSeenRemoteVeh;
 
-Export Side6Buildings;
+Export Side6Buildings, Side1Buildings,Side4Buildings;
+
+Export SibNeededToWin;
+Export OptoLabCaptured;
 
 Export Function Init;
 Begin
@@ -59,7 +72,9 @@ OvsyenkoRecovered := False;
 FirstRocket := False;
 OvsyenkoDestroyed := False;
 EndOfMission := False;
-MineBuilt := False;
+SiberiteGathered := False;
+
+SibNeededToWin := 300;
 
 Side6Buildings := [[b_workshop, 165, 222, 0],
                   [b_lab, 179, 224, 5],
@@ -74,6 +89,32 @@ Side6Buildings := [[b_workshop, 165, 222, 0],
                   [b_bunker, 166, 203, 3],
                   [b_oil_power, 150, 213, 3]];
 
+Side1Buildings := [[b_bunker, 73, 92, 0],
+                  [b_bunker, 80, 93, 0],
+                  [b_bunker, 84, 94, 3],
+                  [b_armoury, 91, 96, 5],
+                  [b_bunker, 95, 91, 4],
+                  [b_bunker, 90, 81, 4],
+                  [b_workshop, 80, 85, 2],
+                  [b_oil_power, 73, 95, 2],
+                  [b_ext_noncombat, 80, 89, 3],
+                  [b_ext_track, 77, 85, 4],
+                  [b_ext_radar, 76, 81, 5],
+                  [b_ext_radio, 80, 81, 0],
+                  [b_ext_gun, 84, 85, 1]];
+
+Side4Buildings := [[b_bunker, 127, 131, 0],
+                  [b_bunker, 131, 134, 2],
+                  [b_bunker, 135, 132, 2],
+                  [b_bunker, 122, 126, 4],
+                  [b_armoury, 128, 115, 3],
+                  [b_workshop, 109, 85, 4],
+                  [b_ext_gun, 111, 83, 0],
+                  [b_oil_power, 125, 117, 2],
+                  [b_oil_power, 135, 126, 2],
+                  [b_oil_power, 102, 90, 2],
+                  [b_siberite_mine, 136, 123, 3]];
+
 end;
 
 Export Function DebugMode;
@@ -87,3 +128,5 @@ begin
      FogOff(3);
 
 end;
+
+

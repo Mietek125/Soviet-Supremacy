@@ -21,7 +21,7 @@ Export Maxim, Zlatogorsky, Rybakov, Karpov;
 Export Stefan;
 Export Kurin;
 
-Export AmS,AmSc,AmS2,AmSc2;
+Export AmS,AmSc,AmS2,AmSc2,AmM,AmVeh, AmVeh2;
 Export AmCommander;
 Export Americans,Americans2;
 

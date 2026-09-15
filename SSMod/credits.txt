@@ -1,0 +1,96 @@
+﻿:I>logos/logo.png:1000:90
+
+TID_Credits_Mod
+
+:I>logos/ow-logo.png:580:58
+
+:C>T TID_Credits_Project_Manager
+Daniel "Mietek" R.
+
+
+:C>T TID_Credits_Programming
+Daniel "Mietek" R.
+Michał "Serpent" F.
+Adam "Prażanin" O.
+Michał "Rahol" M.
+
+
+:C>T TID_Credits_Maps
+Michał "Serpent" F.
+Adam "Prażanin" O.
+Jacek "Maki Roll" Ł.
+Przemysław "SkorpioPlayer" B.
+"Morphid"
+
+
+:C>T TID_Credits_Scenarios
+Daniel "Mietek" R.
+Adam "Prażanin" O.
+
+
+:C>T TID_Credits_Dialogs
+Daniel "Mietek" R.
+Jakub "Kao" R.
+
+
+:C>T TID_Credits_Music
+Michał "Siwson" S.
+Mateusz "Gelwe" F.
+Adam "Prażanin" O.
+
+
+:C>T TID_Credits_SupportM
+Michał "Serpent" F.
+Jakub "Kao" R.
+Adam "Prażanin" O.
+Michał "Rahol" K.
+Maciej "Zębatka" D.
+
+
+:C>T TID_Credits_SupportT
+Stuart "Stucuk" C.
+Michał "Serpent" F.
+Adam "Prażanin" O.
+
+
+:C>T TID_Credits_SupportMed
+YouTube: "El Autismo"
+
+
+:C>T TID_Credits_ENG
+Jakub "Kao" R.
+
+:C>T TID_Credits_Models
+Szymon "Platonov" Z.
+Jacek "Jacok" H.
+Adam "Prażanin" O.
+Maciej "Zębatka" D.
+
+:C>T TID_Credits_Voice_Actors
+Stojan Jakoticz - Adam "Prażanin" O.
+Danił Ryniakow - Daniel "Mietek" R.
+Władimir Smirnowski - Kacper "PanSiwy" P.
+Bogdan Kostyliew - 
+Maksim Borowicz - 
+Tatiana Krukowicz - 
+Pozostali - ElevenLabs 
+Oryginalne postaci - ElevenLabs
+
+
+:C>T TID_Credits_Testers
+Daniel "Larp" J.
+Maciej "Zębatka" D.
+Jakub "Kao" R.
+Michał "Rahol" K.
+Adam "Prażanin" O.
+Daniel "Mietek" R.
+
+
+
+TID_Credits_Thanks_1
+TID_Credits_Thanks_2
+TID_Credits_Thanks_3
+TID_Credits_Thanks_4
+TID_Credits_Thanks_5
+
+:C>T TID_Credits_Thanks5

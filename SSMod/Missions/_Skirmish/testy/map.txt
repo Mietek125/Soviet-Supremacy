@@ -1,0 +1,5257 @@
+MAIN_DEFINITIONS
+  SIZE 100 100
+  TICK 0
+  PLAYER_NUMBER 1
+  FOG_TYPE 2
+  FOGSIDES 1 2 3 4 5 6 7 8
+  MUCHY_RECT 0 0 0 0
+  EAGLES 0 50
+  WAVES 20
+  WATER_COLORS E8E860 3 FFE0D0 3 FFE0D0
+END_OF_MAIN_DEFINITIONS
+
+HEXES
+  LINE 0 0 99
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4f2 t4 t4 t4 t4 t4 t4 t4 t4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4f4 t4 t4 t4 t4 t4
+  LINE 1 1 100
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2f2 t2 t2 t2 t2 t2 t2 t2 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2f4 t2 t2 t2 t2 t4
+  LINE 2 1 100
+    t4 t2 "" "" "" "" "" f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
+  LINE 3 2 101
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
+  LINE 4 2 101
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
+  LINE 5 3 102
+    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
+  LINE 6 3 102
+    t4 t2 "" "" "" f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4
+  LINE 7 4 103
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f6 f4 f4 f4 f4 f4 t2f4 t4
+  LINE 8 4 103
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 9 5 104
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 10 5 104
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 11 6 105
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 12 6 105
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 13 7 106
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 14 7 106
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 15 8 107
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 16 8 107
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 17 9 108
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 18 9 108
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 19 10 109
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 20 10 109
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 21 11 110
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 22 11 110
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 23 12 111
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 24 12 111
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4f4
+  LINE 25 13 112
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2f4 t4
+  LINE 26 13 112
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 t2 t4
+  LINE 27 14 113
+    t4 t2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" t2 t4
+  LINE 28 14 113
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" "" t2 t4
+  LINE 29 15 114
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 f4 f4 f4 f4 f4 f4 f4 "" "" "" "" t2 t4
+  LINE 30 15 114
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f4 f4 f4 "" "" "" "" "" "" "" t2 t4
+  LINE 31 16 115
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 32 16 115
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 33 17 116
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 34 17 116
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 35 18 117
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 36 18 117
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 37 19 118
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 38 19 118
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 39 20 119
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 40 20 119
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 41 21 120
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 42 21 120
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 43 22 121
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 44 22 121
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 45 23 122
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 46 23 122
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 47 24 123
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 48 24 123
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 49 25 124
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 50 25 124
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 51 26 125
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 52 26 125
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 53 27 126
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 54 27 126
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 55 28 127
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 56 28 127
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 57 29 128
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 58 29 128
+    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 59 30 129
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 fA fA fA fA fA fA fA f2 f2 "" "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 60 30 129
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 fA fA fA fA fA fA fA fA fA fA fA f8 "" "" "" f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 61 31 130
+    t4 t2 "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 fA fA fA fA fA fA fA fA fA fA fA fA fA fA fA f6 f6 f#84 f#84 f#84 f#84 f#84 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 62 31 130
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fE fE fE fE fU fQ fQ fQ fQ fQ fQ fA fA fA fE fE fE fE f#86 f#86 f#86 f#84 f#84 f#84 f#84 f#84 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 63 32 131
+    t4 t2 "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fE fE fU fU fU fU fU fU fQ fQ f#9A f#9A f#9A f#9E f#8E f#8E f#8E fE fE f#86 f#86 f#86 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 64 32 131
+    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fE fE fU fU fU fU fU fU fU f#9E f#9E f#9A f#9A f#9E f#9E f#9E f#9E f#8E f#8E f#8E f#8E f#9E f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 f#80 "" "" "" "" "" "" "" "" "" "" t2 t4
+  LINE 65 33 132
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fE fU fU f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#8E f#9E f#9E f#9E f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#80 f#80 f#80 f#84 f#84 f#84 f#84 f#84 f#94 f#94 fG fG fG f#90 f#90 f#80 f#80 f#80 f#80 f#80 "" t2 t4
+  LINE 66 33 132
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fE f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#96 f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#94 f#84 f#84 f#84 f#84 f#94 f#94 f#94 f#94 fK f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#80 t2f#80 t4f#80
+  LINE 67 34 133
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 f6 f#3E f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#96 f#96 f#96 f#96 f#96 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#84 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 t2f#80 t4f#80
+  LINE 68 34 133
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fc f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#9E f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
+  LINE 69 35 134
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 f6 fc f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#9E f#9E f#9E f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
+  LINE 70 35 134
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc f#3E f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#9E f#9E f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 71 36 135
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E f#3E f#3E f#3E f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#9E f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 72 36 135
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E f#3E f#3E f#3E f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+  LINE 73 37 136
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 f6 fc fc fs f#3E f#3E fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+  LINE 74 37 136
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+  LINE 75 38 137
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fa fq fy fy fy fy fy f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+  LINE 76 38 137
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 77 39 138
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+  LINE 78 39 138
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#BE f#FE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 79 40 139
+    t4 t2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fc fq fq fy fy fy f#BC f#BC f#BE f#BE f#BE f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BE f#FE f#FE f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 80 40 139
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 f6 fc fc fc fq fq fy fy fy fy f#BC f#BC f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FE f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 81 41 140
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fc fq fq fy fy fy f#BC f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FE f#FE f#FE f#FE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 82 41 140
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fa fq fq fy fy fz f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FE f#FE f#DE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 83 42 141
+    t4 t2 "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fa fq fq fq fy fz fz f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FE f#FE f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 84 42 141
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fc fa fq fq fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#FF f#DE f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 85 43 142
+    t4 t2 "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 f6 fc fc fa fa fq fr fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#DE f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+  LINE 86 43 142
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fc fa fa fa fr fr fr fz fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#DE f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 t2f#90 t4f#90
+  LINE 87 44 143
+    t4 t2 "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fc fa fa fa fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+  LINE 88 44 143
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f6 fa fa fa fb fb fr fr fr fr fz f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#DF f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 t2f#90 t4f#90
+  LINE 89 45 144
+    t4 t2 "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f4 fa fa fb fb fb fr fr fr fr fr f#BD f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#FF f#FF f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+  LINE 90 45 144
+    t4 t2 "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" fa fb fb fb fb fb fr fr fr fr f#B5 f#BD f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#BF f#FF f#FF f#FF f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 t2f#90 t4f#90
+  LINE 91 46 145
+    t4 t2 "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" fa fb fb fb fb fb fr fr fr fr fr f#B5 f#B5 f#BD f#BD f#BF f#BF f#BF f#BF f#BF f#F7 f#F7 f#F7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D6 f#D6 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 92 46 145
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B5 f#B5 f#B5 f#B3 f#B3 f#B3 f#B7 f#F7 f#F7 f#C7 f#D7 f#D7 f#D7 f#D7 f#D7 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 t2f#90 t4f#90
+  LINE 93 47 146
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 f2 f2 f2 f2 f2 f2 f2 "" "" "" "" "" "" "" f1 f1 fX fb fb fb fb fb fb fr fr fr fr f#B5 f#B5 f#B1 f#B1 f#B1 f#B1 f#B3 f#B7 f#C7 f#C7 f#C7 f#C7 f#D7 f#D5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
+  LINE 94 47 146
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f2 f2 f2 "" "" "" "" "" "" "" "" "" "" "" f1 f1 fX fX fX fb fb fb fb fb fb fr fn fn f#B1 f#B1 f#B1 f#B1 f#A1 f#A1 f#81 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D4 f#D4 f#D4 f#D4 f#C4 f#D4 f#D4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 t2f#80 t4f#80
+  LINE 95 48 147
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 fX fX fX fX fX fX fX fX fX fX fX fX fX f#A1 f#A1 f#81 f#81 f#81 f#C1 f#C5 f#C5 f#C5 f#C5 f#C5 f#D5 f#D4 f#D4 f#D4 f#D4 f#D4 f#D4 f#D0 f#D0 f#D0 f#D0 f#D4 f#C4 f#C4 f#C4 f#C4 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 t2f#80 t4f#80
+  LINE 96 48 147
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 f1 fX fX fX fX fX fX fX fX fX fX fX fX f1 f1 f1 f1 f#81 f#81 f#C1 f#C1 f#C5 f#C5 f#C5 f#C4 f#C4 f#D4 f#D4 f#D0 f#D0 f#D0 f#D0 f#D0 f#C0 f#C0 f#C0 f#C4 f#C4 f#84 f#84 f#84 f#94 f#94 f#94 fK fK f#94 f#94 f#90 f#90 f#90 f#90 f#90 f#80 f#80 f#80 t2f#80 t4f#80
+  LINE 97 49 148
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" f1 f1 f1 f1 f1 f1 f1 f1 fX fX fX fX fX fX fX f1 f1 f1 f1 f1 f1 f1 f#81 f#81 f#C1 f#C1 f#C1 f#C1 f#C1 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#C0 f#80 f#84 f#84 f#84 f#84 f#84 fK fK fG fG fG f#90 f#90 f#80 f#80 f#80 f#80 f#80 "" t2 t4
+  LINE 98 49 148
+    t4 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f1 t2f#81 t2f#81 t2f#81 t2f#C1 t2f#C1 t2f#C1 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#C0 t2f#80 t2f#80 t2f#80 t2f#80 t2f#80 t2f#80 t2f#80 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t2 t4
+  LINE 99 50 149
+    t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f1 t4f#81 t4f#81 t4f#81 t4f#81 t4f#C1 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#C0 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4f#80 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4 t4
+END_OF_HEXES
+
+EXTERNAL_NODES nodes.bin
+ENVIROMENT
+  SET 1 dummy
+  SET 2 list-akatojerab
+  SET 3 list-jerab-spal
+  SET 4 list-platan
+  SET 5 list-platan-spal
+  SET 6 list-mocal-koreny
+  SET 7 list-vrba
+  SET 8 list-vrba-zluta
+  SET 9 jehl-borovice
+  SET 10 jehl-borov-vysoka
+  SET 11 jehl-borovice-mala
+  SET 12 stone_set_01
+  SET 13 stone_set_02
+  SET 14 stone_set_03
+  SET 15 stone_set_04
+  SET 16 stone_set_05
+  SET 17 stone_set_06
+  SET 18 stone_set_07
+  SET 19 houby
+  SET 20 mrcha
+  SET 21 jehl-smrk-silny
+  SET 22 jehl-smrk-stredni
+  SET 23 jehl-smrk-uzky-spal
+  SET 24 jehl-smrk-stredni
+  SET 25 jehl-smrk-stredni-spal
+  SET 26 jehl-smrk-stredni-suchy
+  SET 27 list-dvoupatr
+  SET 28 list-briza
+  SET 29 list-paskvil
+  SET 30 ker
+  SET 31 jehl-borov-vysoka-spal
+  SET 32 list-akat-vysoky-spal
+  SET 33 plavun
+  SET 34 cykas
+  SET 35 list-kastan
+  SET 36 mech
+  SET 37 jehl-smrk-maly
+  SET 38 ker-husty
+  SET 39 ker-rosti
+  SET 40 list-akat-rosti
+  SET 41 list-briza-vyssi
+  SET 42 list-sahara
+  SET 43 list-akat-maly
+  SET 44 list-dvoupatr-maly
+  SET 45 parez
+  SET 46 polosuche
+  SET 47 list-dub
+  SET 48 list-kastan-vanek
+  SET 49 parezoid
+  SET 50 branka
+  SET 51 leknin
+  SET 52 monolit
+  SET 53 stone-road
+  SET 54 bonus
+  SET 55 alien1
+  SET 56 much
+  SET 57 fire-bone
+  SET 58 barrel
+  SET 59 skelet
+  SET 60 wreck
+  SET 61 comp
+  SET 62 paper
+END_OF_ENVIROMENT
+
+EXTERNAL_SECTORS sectors.bin
+ATTITUDES
+  PARAMS 9
+  1 0 0 0 0 0 0 0 0 0
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 1 1 1 1 1 1 1 1 2
+  0 2 2 2 2 2 2 2 2 1
+  FLAG 9
+  T T T T T T T T T T
+END_OF_ATTITUDES
+
+TECHS
+  PARAMS 200 9
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+  F T T T T T T T T T T T T T T T T T T T T T T T T T T T T T
+END_OF_TECHS
+
+RESTRICTS
+  PARAMS 0 90 9
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+  T T T T T T T T T T
+END_OF_RESTRICTS
+
+MISSION_OBJECTIVES 0
+
+SPECS
+  PARAMS 3 9
+    57 84 2
+    F F F F F F F F F F
+    68 86 2
+    F F F F F F F F F F
+    24 15 2
+    F F F F F F F F F F
+  FLAG 0 0
+END_OF_SPECS
+
+BASES
+  PARAMS T T
+
+  POOL 1
+    CANS 9999
+    OIL 9999
+    SIBERIUM 9999
+  POOL 2
+    CANS 1000
+    OIL 250
+    SIBERIUM 100
+
+  BASE 1
+    POOL_NUM 1
+    SIDE 1
+    UNIT 1
+  BASE 2
+    POOL_NUM 2
+    SIDE 2
+    UNIT 3309
+END_OF_BASES
+
+
+
+RANDOMS
+  MICROLOGIC 2 0 1
+  RANDOM_SEED 1 753208480
+  RANDOM_SEED 2 1562145514
+  RANDOM_SEED 3 925772155
+  RANDOM_SEED 4 1542757151
+  RANDOM_SEED 5 1971542774
+  RANDOM_SEED 6 -1418428441
+  RANDOM_SEED 7 238112703
+  RANDOM_SEED 8 -1884144979
+  RANDOM_SEED 9 -1752787220
+  RANDOM_SEED 10 -681811092
+  RANDOM_SEED 11 1724635388
+  RANDOM_SEED 12 1333583782
+  RANDOM_SEED 13 895708692
+  RANDOM_SEED 14 1793692172
+  RANDOM_SEED 15 106230473
+  RANDOM_SEED 16 907772
+  RANDOM_SEED 17 1489549514
+  RANDOM_SEED 18 136448
+  RANDOM_SEED 19 -1254614339
+  RANDOM_SEED 20 -974283553
+  RANDOM_SEED 21 1211167923
+  RANDOM_SEED 22 299074839
+  WIND_TIME 974842 974865 974890
+  WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
+  WIND_SCATTER 24.1066377870272
+END_OF_RANDOMS
+
+NEW_UNITS
+  UNIT 1 BUILDING
+    DEFINITION
+      POS 8 6 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 2 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 8 6 2 6 F
+      UNITMODE F 8 6
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 140 108 0
+      FROM_TO_POS 8 6 0 8 6 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 2 BUILDING
+    DEFINITION
+      POS 18 7 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 19 LEVEL 1 BASE 1 PARAMS 21 22
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 18 7 2 6 F
+      UNITMODE F 18 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 406 126 0
+      FROM_TO_POS 18 7 0 18 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 3 BUILDING
+    DEFINITION
+      POS 28 7 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 19 LEVEL 1 BASE 1 PARAMS 24 23
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 28 7 2 6 F
+      UNITMODE F 28 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 686 126 0
+      FROM_TO_POS 28 7 0 28 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 4 BUILDING
+    DEFINITION
+      POS 19 22 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 6 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 19 22 2 6 F
+      UNITMODE F 19 22
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 224 396 0
+      FROM_TO_POS 19 22 0 19 22 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 6 BUILDING
+    DEFINITION
+      POS 33 23 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 69 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 33 23 2 6 F
+      UNITMODE F 33 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 602 414 0
+      FROM_TO_POS 33 23 0 33 23 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 7 BUILDING
+    DEFINITION
+      POS 38 7 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 79 LEVEL 1 BASE 1 PARAMS 81 82
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 38 7 2 6 F
+      UNITMODE F 38 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 966 126 0
+      FROM_TO_POS 38 7 0 38 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 8 BUILDING
+    DEFINITION
+      POS 35 12 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 79 LEVEL 1 BASE 1 PARAMS 84 83
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 35 12 2 6 F
+      UNITMODE F 35 12
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 216 0
+      FROM_TO_POS 35 12 0 35 12 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 13 BUILDING
+    DEFINITION
+      POS 31 37 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 39 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 31 37 2 6 F
+      UNITMODE F 31 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 350 666 0
+      FROM_TO_POS 31 37 0 31 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        USER_INTERFACE 1 1 1 1
+    END_OF_GAME_STATE
+  UNIT 15 BUILDING
+    DEFINITION
+      POS 42 16 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 50 LEVEL 1 BASE 1 PARAMS 52 53
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 42 16 2 6 F
+      UNITMODE F 42 16
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 952 288 0
+      FROM_TO_POS 42 16 0 42 16 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 16 BUILDING
+    DEFINITION
+      POS 46 13 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 50 LEVEL 1 BASE 1 PARAMS 54 55
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 46 13 2 6 F
+      UNITMODE F 46 13
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1106 234 0
+      FROM_TO_POS 46 13 0 46 13 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 17 BUILDING
+    DEFINITION
+      POS 8 2 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 58 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 179 1
+      MOVE 8 2 2 6 F
+      UNITMODE F 8 2
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 196 36 0
+      FROM_TO_POS 8 2 0 8 2 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 18 BUILDING
+    DEFINITION
+      POS 11 5 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 58 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 179 1
+      MOVE 11 5 2 6 F
+      UNITMODE F 11 5
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 238 90 0
+      FROM_TO_POS 11 5 0 11 5 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 19 BUILDING
+    DEFINITION
+      POS 13 4 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 58 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 28 T 179 1
+      MOVE 13 4 2 6 F
+      UNITMODE F 13 4
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 308 72 0
+      FROM_TO_POS 13 4 0 13 4 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 20 BUILDING
+    DEFINITION
+      POS 31 34 3
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 45 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 31 34 3 6 F
+      UNITMODE F 31 34
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 392 612 0
+      FROM_TO_POS 31 34 0 31 34 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 21 BUILDING
+    DEFINITION
+      POS 28 37 1
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 40 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 28 37 1 6 F
+      UNITMODE F 28 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 266 666 0
+      FROM_TO_POS 28 37 0 28 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 23 BUILDING
+    DEFINITION
+      POS 30 23 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 70 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 30 23 1 6 F
+      UNITMODE F 30 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 518 414 0
+      FROM_TO_POS 30 23 0 30 23 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 24 BUILDING
+    DEFINITION
+      POS 33 20 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 75 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 33 20 3 6 F
+      UNITMODE F 33 20
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 644 360 0
+      FROM_TO_POS 33 20 0 33 20 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 25 BUILDING
+    DEFINITION
+      POS 29 19 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 76 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 29 19 2 6 F
+      UNITMODE F 29 19
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 546 342 0
+      FROM_TO_POS 29 19 0 29 19 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 27 BUILDING
+    DEFINITION
+      POS 19 19 3
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 7 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 19 19 3 6 F
+      UNITMODE F 19 19
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 266 342 0
+      FROM_TO_POS 19 19 0 19 19 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 28 BUILDING
+    DEFINITION
+      POS 15 18 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 15 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 15 18 2 6 F
+      UNITMODE F 15 18
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 168 324 0
+      FROM_TO_POS 15 18 0 15 18 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 29 BUILDING
+    DEFINITION
+      POS 16 22 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 12 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 16 22 1 6 F
+      UNITMODE F 16 22
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 140 396 0
+      FROM_TO_POS 16 22 0 16 22 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 31 BUILDING
+    DEFINITION
+      POS 27 33 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 122 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 27 33 2 6 F
+      UNITMODE F 27 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 294 594 0
+      FROM_TO_POS 27 33 0 27 33 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 32 HUMAN
+    DEFINITION
+      POS 46 27 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Kent Bunten"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 7308969 526344
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 1
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 46 27 1 6 F
+      UNITMODE T 46 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 910 486 0
+      FROM_TO_POS 46 27 1 46 27 1
+      FROM_TO_XY 910 486 910 486
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 33 HUMAN
+    DEFINITION
+      POS 47 28 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Gilbert Kellogg"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9413059 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 5
+        RANDOM_SEED 1657889261
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 47 28 5 6 F
+      UNITMODE T 47 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 924 504 0
+      FROM_TO_POS 47 28 5 47 28 5
+      FROM_TO_XY 924 504 924 504
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 34 HUMAN
+    DEFINITION
+      POS 48 29 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Larry Coffey"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 10399947 4878482
+        COLOR_CODE 2BM
+        FACE 0
+        SPEAKER A
+        VOICE 5
+        RANDOM_SEED 1095526474
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 48 29 1 6 F
+      UNITMODE T 48 29
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 938 522 0
+      FROM_TO_POS 48 29 1 48 29 1
+      FROM_TO_XY 938 522 938 522
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 35 HUMAN
+    DEFINITION
+      POS 47 27 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Edward Hendrickson"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9676736 4878482
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED 371145659
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 47 27 5 6 F
+      UNITMODE T 47 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 938 486 0
+      FROM_TO_POS 47 27 5 47 27 5
+      FROM_TO_XY 938 486 938 486
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 36 HUMAN
+    DEFINITION
+      POS 48 28 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Ed Carr"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 10399947 2110525
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED -227847408
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 48 28 4 6 F
+      UNITMODE T 48 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 952 504 0
+      FROM_TO_POS 48 28 4 48 28 4
+      FROM_TO_XY 952 504 952 504
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 37 HUMAN
+    DEFINITION
+      POS 49 29 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Ted Downes"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 11122900 2107193
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 1
+        RANDOM_SEED -516072871
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 49 29 5 6 F
+      UNITMODE T 49 29
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 966 522 0
+      FROM_TO_POS 49 29 5 49 29 5
+      FROM_TO_XY 966 522 966 522
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 40 HUMAN
+    DEFINITION
+      POS 43 30 3
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Filip Kosir"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9413059 5803443
+        COLOR_CODE 2BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED 743092198
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 43 30 3 6 F
+      UNITMODE T 43 30
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 784 540 0
+      FROM_TO_POS 43 30 3 43 30 3
+      FROM_TO_XY 784 540 784 540
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 41 HUMAN
+    DEFINITION
+      POS 44 31 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Sven Naslund"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9282759 3229791
+        COLOR_CODE 3BMYO
+        FACE 0
+        SPEAKER A
+        VOICE 1
+        RANDOM_SEED 255620423
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 44 31 2 6 F
+      UNITMODE T 44 31
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 798 558 0
+      FROM_TO_POS 44 31 2 44 31 2
+      FROM_TO_XY 798 558 798 558
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 42 HUMAN
+    DEFINITION
+      POS 45 32 3
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Marcel Lefrant"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 11122900 5197647
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 1
+        RANDOM_SEED 839976012
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 45 32 3 6 F
+      UNITMODE T 45 32
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 576 0
+      FROM_TO_POS 45 32 3 45 32 3
+      FROM_TO_XY 812 576 812 576
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 43 HUMAN
+    DEFINITION
+      POS 46 33 4
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Sebastian van Acker"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 8951995 5800357
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 1
+        RANDOM_SEED 2094651397
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 46 33 4 6 F
+      UNITMODE T 46 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 826 594 0
+      FROM_TO_POS 46 33 4 46 33 4
+      FROM_TO_XY 826 594 826 594
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 44 HUMAN
+    DEFINITION
+      POS 45 33 5
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Roy Kelly"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9413059 5800357
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED 427178434
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 45 33 5 6 F
+      UNITMODE T 45 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 798 594 0
+      FROM_TO_POS 45 33 5 45 33 5
+      FROM_TO_XY 798 594 798 594
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 45 HUMAN
+    DEFINITION
+      POS 46 34 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Daniel Wellens"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 10071244 4284026
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED -520732141
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 46 34 2 6 F
+      UNITMODE T 46 34
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 612 0
+      FROM_TO_POS 46 34 2 46 34 2
+      FROM_TO_XY 812 612 812 612
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 47 HUMAN
+    DEFINITION
+      POS 51 25 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Sergej Nadyrov"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9413059 4284026
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED -84804152
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 51 25 0 6 F
+      UNITMODE T 51 25
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1078 450 0
+      FROM_TO_POS 51 25 0 51 25 0
+      FROM_TO_XY 1078 450 1078 450
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 48 HUMAN
+    DEFINITION
+      POS 52 26 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Alexej Krachevski"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 7308969 5803443
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 910804721
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 52 26 2 6 F
+      UNITMODE T 52 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1092 468 0
+      FROM_TO_POS 52 26 2 52 26 2
+      FROM_TO_XY 1092 468 1092 468
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 49 HUMAN
+    DEFINITION
+      POS 53 27 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Ivan Stogov"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9282759 2836309
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 11
+        RANDOM_SEED -675601954
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 53 27 2 6 F
+      UNITMODE T 53 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1106 486 0
+      FROM_TO_POS 53 27 2 53 27 2
+      FROM_TO_XY 1106 486 1106 486
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 50 HUMAN
+    DEFINITION
+      POS 54 28 1
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Ilja Dasaiev"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 10399947 9013641
+        COLOR_CODE 1BMYO
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED -196301281
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 28 1 6 F
+      UNITMODE T 54 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1120 504 0
+      FROM_TO_POS 54 28 1 54 28 1
+      FROM_TO_XY 1120 504 1120 504
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 51 HUMAN
+    DEFINITION
+      POS 53 26 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Boris Kashkarov"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 9413059 4284026
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 443546500
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 53 26 3 6 F
+      UNITMODE T 53 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1120 468 0
+      FROM_TO_POS 53 26 3 53 26 3
+      FROM_TO_XY 1120 468 1120 468
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 52 HUMAN
+    DEFINITION
+      POS 54 27 4
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Zinatul Studenetskiy"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 10 10 10 10
+        EXPERIENCES 0 0 0 0
+        COLORS 8493241 2836309
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED -359836899
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 27 4 6 F
+      UNITMODE T 54 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1134 486 0
+      FROM_TO_POS 54 27 4 54 27 4
+      FROM_TO_XY 1134 486 1134 486
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 53 BUILDING
+    DEFINITION
+      POS 19 26 0
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 97 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 19 26 0 6 F
+      UNITMODE F 19 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 168 468 0
+      FROM_TO_POS 19 26 0 19 26 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 55 BUILDING
+    DEFINITION
+      POS 33 27 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 93 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 33 27 0 6 F
+      UNITMODE F 33 27
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 546 486 0
+      FROM_TO_POS 33 27 0 33 27 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 57 BUILDING
+    DEFINITION
+      POS 31 41 0
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 98 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 31 41 0 6 F
+      UNITMODE F 31 41
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 294 738 0
+      FROM_TO_POS 31 41 0 31 41 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 58 HUMAN
+    DEFINITION
+      POS 61 25 1
+      SIDE 1
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Steven Chace"
+        SEX 1
+        ATTR 10 10
+        CLASS 9
+        BSKILLS 0 0 0 0
+        EXPERIENCES 15864 4899 26193 831
+        COLORS 7308969 526344
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 5
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 61 25 1 6 F
+      UNITMODE T 61 25
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1358 450 0
+      FROM_TO_POS 61 25 1 61 25 1
+      FROM_TO_XY 1358 450 1358 450
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3309 BUILDING
+    DEFINITION
+      IDENT testdepot
+      POS 96 7 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 2 LEVEL 5 BASE 2
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 96 7 3 6 F
+      UNITMODE F 96 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2590 126 0
+      FROM_TO_POS 96 7 0 96 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3311 HUMAN
+    DEFINITION
+      POS 92 11 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Andrew Moses"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 10 0 0
+        EXPERIENCES 23095 0 21205 2670
+        COLORS 7308969 526344
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 92 11 3 6 F
+      UNITMODE T 92 11
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2422 198 0
+      FROM_TO_POS 92 11 3 92 11 3
+      FROM_TO_XY 2422 198 2422 198
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3312 HUMAN
+    DEFINITION
+      POS 93 12 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Leo Newman"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 10 0 0
+        EXPERIENCES 10475 0 26738 4299
+        COLORS 9413059 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 1
+        RANDOM_SEED 1657889261
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 93 12 3 6 F
+      UNITMODE T 93 12
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2436 216 0
+      FROM_TO_POS 93 12 3 93 12 3
+      FROM_TO_XY 2436 216 2436 216
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3313 HUMAN
+    DEFINITION
+      POS 94 13 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Pierce Barrymore"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 10 0 0
+        EXPERIENCES 21451 0 18216 19678
+        COLORS 10399947 4878482
+        COLOR_CODE 2BM
+        FACE 0
+        SPEAKER A
+        VOICE 5
+        RANDOM_SEED 1095526474
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 94 13 3 6 F
+      UNITMODE T 94 13
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2450 234 0
+      FROM_TO_POS 94 13 3 94 13 3
+      FROM_TO_XY 2450 234 2450 234
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3314 HUMAN
+    DEFINITION
+      POS 95 14 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Larry Zoch"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 10 0 0
+        EXPERIENCES 22539 0 5782 15305
+        COLORS 9676736 4878482
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED 371145659
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 95 14 3 6 F
+      UNITMODE T 95 14
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2464 252 0
+      FROM_TO_POS 95 14 3 95 14 3
+      FROM_TO_XY 2464 252 2464 252
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3315 HUMAN
+    DEFINITION
+      POS 96 15 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Ian Fairbank"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 10 0 0
+        EXPERIENCES 7484 0 15895 7201
+        COLORS 10399947 2110525
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 5
+        RANDOM_SEED -227847408
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 96 15 3 6 F
+      UNITMODE T 96 15
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2478 270 0
+      FROM_TO_POS 96 15 3 96 15 3
+      FROM_TO_XY 2478 270 2478 270
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3316 HUMAN
+    DEFINITION
+      POS 97 16 3
+      SIDE 2
+      NATION 1
+      HP 1000
+      HUMAN
+        NAME "Brad York"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 10 0 0
+        EXPERIENCES 19559 0 13865 24569
+        COLORS 11122900 2107193
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED -516072871
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 97 16 3 6 F
+      UNITMODE T 97 16
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2492 288 0
+      FROM_TO_POS 97 16 3 97 16 3
+      FROM_TO_XY 2492 288 2492 288
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3319 VEHICLE
+    DEFINITION
+      POS 57 13 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 3 105
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 57 13 2 6 F
+      UNITMODE T 57 13
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1414 234 12
+      FROM_TO_POS 57 13 2 57 13 2
+      FROM_TO_XY 1414 234 1414 234
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3321 VEHICLE
+    DEFINITION
+      POS 61 12 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 3 104
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 61 12 2 6 F
+      UNITMODE T 61 12
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1540 216 12
+      FROM_TO_POS 61 12 2 61 12 2
+      FROM_TO_XY 1540 216 1540 216
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3323 VEHICLE
+    DEFINITION
+      POS 56 17 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 3 103
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 56 17 2 6 F
+      UNITMODE T 56 17
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1330 306 12
+      FROM_TO_POS 56 17 2 56 17 2
+      FROM_TO_XY 1330 306 1330 306
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3325 VEHICLE
+    DEFINITION
+      POS 62 17 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 3 102
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 62 17 2 6 F
+      UNITMODE T 62 17
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1498 306 12
+      FROM_TO_POS 62 17 2 62 17 2
+      FROM_TO_XY 1498 306 1498 306
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3327 VEHICLE
+    DEFINITION
+      POS 60 20 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 5 COMBINATION 3 3 100
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 60 20 2 6 F
+      UNITMODE T 60 20
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1400 360 12
+      FROM_TO_POS 60 20 2 60 20 2
+      FROM_TO_XY 1400 360 1400 360
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3333 VEHICLE
+    DEFINITION
+      POS 54 21 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 32 COMBINATION 3 3 85
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 21 2 6 F
+      UNITMODE T 54 21
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1218 378 12
+      FROM_TO_POS 54 21 2 54 21 2
+      FROM_TO_XY 1218 378 1218 378
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3335 VEHICLE
+    DEFINITION
+      POS 50 21 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 32 COMBINATION 3 3 84
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 50 21 2 6 F
+      UNITMODE T 50 21
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1106 378 12
+      FROM_TO_POS 50 21 2 50 21 2
+      FROM_TO_XY 1106 378 1106 378
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3345 VEHICLE
+    DEFINITION
+      POS 47 23 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 24 COMBINATION 3 3 91
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 47 23 2 6 F
+      UNITMODE T 47 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 994 414 12
+      FROM_TO_POS 47 23 2 47 23 2
+      FROM_TO_XY 994 414 994 414
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3347 VEHICLE
+    DEFINITION
+      POS 43 23 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 24 COMBINATION 3 3 92
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 43 23 2 6 F
+      UNITMODE T 43 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 882 414 12
+      FROM_TO_POS 43 23 2 43 23 2
+      FROM_TO_XY 882 414 882 414
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3350 VEHICLE
+    DEFINITION
+      POS 41 26 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 33 COMBINATION 3 3 94
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 41 26 2 6 F
+      UNITMODE T 41 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 784 468 12
+      FROM_TO_POS 41 26 2 41 26 2
+      FROM_TO_XY 784 468 784 468
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3356 BUILDING
+    DEFINITION
+      POS 62 37 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 67 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 62 37 5 6 F
+      UNITMODE F 62 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1218 666 0
+      FROM_TO_POS 62 37 0 62 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3357 BUILDING
+    DEFINITION
+      POS 37 23 4
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 71 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 37 23 4 6 F
+      UNITMODE F 37 23
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 414 0
+      FROM_TO_POS 37 23 0 37 23 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3359 BUILDING
+    DEFINITION
+      POS 35 37 4
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 41 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 35 37 4 6 F
+      UNITMODE F 35 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 462 666 0
+      FROM_TO_POS 35 37 0 35 37 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3361 BUILDING
+    DEFINITION
+      POS 23 22 4
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 16 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 23 22 4 6 F
+      UNITMODE F 23 22
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 6 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 336 396 0
+      FROM_TO_POS 23 22 0 23 22 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3366 HUMAN
+    DEFINITION
+      POS 54 76 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Boris Rylski"
+        SEX 1
+        ATTR 10 10
+        CLASS 1
+        BSKILLS 0 0 0 0
+        EXPERIENCES 13229 1399 18855 19561
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 76 3 6 F
+      UNITMODE T 54 76
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 448 1368 0
+      FROM_TO_POS 54 76 3 54 76 3
+      FROM_TO_XY 448 1368 448 1368
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3367 HUMAN
+    DEFINITION
+      POS 55 77 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Nikolaj Kuc"
+        SEX 1
+        ATTR 10 10
+        CLASS 1
+        BSKILLS 0 0 0 0
+        EXPERIENCES 20004 7196 3561 13254
+        COLORS 9413059 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 1657889261
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 55 77 0 6 F
+      UNITMODE T 55 77
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 462 1386 0
+      FROM_TO_POS 55 77 0 55 77 0
+      FROM_TO_XY 462 1386 462 1386
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3368 HUMAN
+    DEFINITION
+      POS 55 78 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Michail Shigal"
+        SEX 1
+        ATTR 10 10
+        CLASS 1
+        BSKILLS 0 0 0 0
+        EXPERIENCES 8836 14374 2894 19739
+        COLORS 10399947 4878482
+        COLOR_CODE 3BM
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED 1095526474
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 55 78 5 6 F
+      UNITMODE T 55 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 448 1404 0
+      FROM_TO_POS 55 78 5 55 78 5
+      FROM_TO_XY 448 1404 448 1404
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3370 HUMAN
+    DEFINITION
+      POS 64 79 5
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Ivan Maslovski"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 0 0 0
+        EXPERIENCES 8198 4860 4905 8628
+        COLORS 10399947 2110525
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 11
+        RANDOM_SEED -227847408
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 64 79 5 6 F
+      UNITMODE T 64 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 686 1422 0
+      FROM_TO_POS 64 79 5 64 79 5
+      FROM_TO_XY 686 1422 686 1422
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3371 HUMAN
+    DEFINITION
+      POS 65 80 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Filip Vasilkov"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 0 0 0
+        EXPERIENCES 18880 8485 21252 957
+        COLORS 11122900 2107193
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 11
+        RANDOM_SEED -516072871
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 65 80 0 6 F
+      UNITMODE T 65 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 700 1440 0
+      FROM_TO_POS 65 80 0 65 80 0
+      FROM_TO_XY 700 1440 700 1440
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3372 HUMAN
+    DEFINITION
+      POS 65 79 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Boris Mukhin"
+        SEX 1
+        ATTR 10 10
+        CLASS 2
+        BSKILLS 0 0 0 0
+        EXPERIENCES 9757 26854 23222 3218
+        COLORS 9413059 5803443
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 13
+        RANDOM_SEED 743092198
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 65 79 2 6 F
+      UNITMODE T 65 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 1422 0
+      FROM_TO_POS 65 79 2 65 79 2
+      FROM_TO_XY 714 1422 714 1422
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3377 VEHICLE
+    DEFINITION
+      POS 44 44 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 1 COMBINATION 3 3 102
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 44 44 2 6 F
+      UNITMODE T 44 44
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 616 792 12
+      FROM_TO_POS 44 44 2 44 44 2
+      FROM_TO_XY 616 792 616 792
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3379 VEHICLE
+    DEFINITION
+      POS 47 43 2
+      SIDE 1
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 1 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 47 43 2 6 F
+      UNITMODE T 47 43
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 714 774 12
+      FROM_TO_POS 47 43 2 47 43 2
+      FROM_TO_XY 714 774 714 774
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3385 VEHICLE
+    DEFINITION
+      POS 50 42 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 12 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 50 42 2 6 F
+      UNITMODE T 50 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 812 756 12
+      FROM_TO_POS 50 42 2 50 42 2
+      FROM_TO_XY 812 756 812 756
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3390 VEHICLE
+    DEFINITION
+      POS 53 42 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 21 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 53 42 2 6 F
+      UNITMODE T 53 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 896 756 12
+      FROM_TO_POS 53 42 2 53 42 2
+      FROM_TO_XY 896 756 896 756
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3392 VEHICLE
+    DEFINITION
+      POS 57 42 2
+      SIDE 1
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 21 COMBINATION 3 3 47
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 57 42 2 6 F
+      UNITMODE T 57 42
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1008 756 12
+      FROM_TO_POS 57 42 2 57 42 2
+      FROM_TO_XY 1008 756 1008 756
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3399 VEHICLE
+    DEFINITION
+      POS 129 81 0
+      SIDE 4
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 3 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 129 81 0 6 F
+      UNITMODE T 129 81
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2478 1458 0
+      FROM_TO_POS 129 81 0 129 81 0
+      FROM_TO_XY 2478 1458 2478 1458
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3400 VEHICLE
+    DEFINITION
+      POS 124 81 2
+      SIDE 2
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 3 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 124 81 2 6 F
+      UNITMODE T 124 81
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2338 1458 12
+      FROM_TO_POS 124 81 2 124 81 2
+      FROM_TO_XY 2338 1458 2338 1458
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3406 VEHICLE
+    DEFINITION
+      POS 106 80 3
+      SIDE 2
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 106 80 3 6 F
+      UNITMODE T 106 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1848 1440 18
+      FROM_TO_POS 106 80 3 106 80 3
+      FROM_TO_XY 1848 1440 1848 1440
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 18
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3407 VEHICLE
+    DEFINITION
+      POS 111 80 2
+      SIDE 4
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 111 80 2 6 F
+      UNITMODE T 111 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1988 1440 12
+      FROM_TO_POS 111 80 2 111 80 2
+      FROM_TO_XY 1988 1440 1988 1440
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3416 VEHICLE
+    DEFINITION
+      POS 91 78 4
+      SIDE 4
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 22 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 91 78 4 6 F
+      UNITMODE T 91 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 24 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1456 1404 24
+      FROM_TO_POS 91 78 4 91 78 4
+      FROM_TO_XY 1456 1404 1456 1404
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 24
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3417 VEHICLE
+    DEFINITION
+      POS 85 78 3
+      SIDE 2
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 22 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 85 78 3 6 F
+      UNITMODE T 85 78
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1288 1404 18
+      FROM_TO_POS 85 78 3 85 78 3
+      FROM_TO_XY 1288 1404 1288 1404
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 18
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3419 VEHICLE
+    DEFINITION
+      POS 97 79 2
+      SIDE 7
+      NATION 3
+      HP 1000
+      VEHICLE
+        CHASSIS 22 COMBINATION 3 3 45
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 97 79 2 6 F
+      UNITMODE T 97 79
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1610 1422 12
+      FROM_TO_POS 97 79 2 97 79 2
+      FROM_TO_XY 1610 1422 1610 1422
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3426 VEHICLE
+    DEFINITION
+      POS 118 80 3
+      SIDE 7
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 28
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 118 80 3 6 F
+      UNITMODE T 118 80
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 18 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2184 1440 18
+      FROM_TO_POS 118 80 3 118 80 3
+      FROM_TO_XY 2184 1440 2184 1440
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 18
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3435 VEHICLE
+    DEFINITION
+      POS 134 81 2
+      SIDE 7
+      NATION 1
+      HP 1000
+      VEHICLE
+        CHASSIS 3 COMBINATION 3 3 7
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 134 81 2 6 F
+      UNITMODE T 134 81
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2618 1458 12
+      FROM_TO_POS 134 81 2 134 81 2
+      FROM_TO_XY 2618 1458 2618 1458
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 12
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3437 HUMAN
+    DEFINITION
+      POS 62 28 0
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Sergej Bashashkin"
+        SEX 1
+        ATTR 10 10
+        CLASS 9
+        BSKILLS 0 0 0 0
+        EXPERIENCES 14365 6667 6312 10387
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 15
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 62 28 0 6 F
+      UNITMODE T 62 28
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1344 504 0
+      FROM_TO_POS 62 28 0 62 28 0
+      FROM_TO_XY 1344 504 1344 504
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3439 HUMAN
+    DEFINITION
+      POS 60 26 4
+      SIDE 1
+      NATION 2
+      HP 1000
+      HUMAN
+        NAME "Rudolf van Acker"
+        SEX 1
+        ATTR 10 10
+        CLASS 9
+        BSKILLS 0 0 0 0
+        EXPERIENCES 15016 26814 19066 481
+        COLORS 9413059 5658198
+        COLOR_CODE 1BM
+        FACE 0
+        SPEAKER A
+        VOICE 3
+        RANDOM_SEED 1657889261
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 60 26 4 6 F
+      UNITMODE T 60 26
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1316 468 0
+      FROM_TO_POS 60 26 4 60 26 4
+      FROM_TO_XY 1316 468 1316 468
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3446 VEHICLE
+    DEFINITION
+      POS 68 37 2
+      SIDE 1
+      NATION 2
+      HP 1000
+      VEHICLE
+        CHASSIS 14 COMBINATION 3 3 86
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 68 37 2 6 F
+      UNITMODE T 68 37
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1386 666 12
+      FROM_TO_POS 68 37 2 68 37 2
+      FROM_TO_XY 1386 666 1386 666
+      LAST_ACTION 0
+      VEHICLE
+        WEAPON_DEST_DIR 0
+        ANIM 0 T
+        LEAN 0 0 0
+    END_OF_GAME_STATE
+  UNIT 3448 HUMAN
+    DEFINITION
+      POS 54 30 4
+      SIDE 1
+      NATION 3
+      HP 1000
+      HUMAN
+        NAME "Danilo Balakhonov"
+        SEX 1
+        ATTR 10 10
+        CLASS 30
+        BSKILLS 0 0 0 0
+        EXPERIENCES 19123 16793 12481 5682
+        COLORS 7308969 526344
+        COLOR_CODE 1M
+        FACE 0
+        SPEAKER A
+        VOICE 11
+        RANDOM_SEED 895708692
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 F 1 1
+      MOVE 54 30 4 6 F
+      UNITMODE T 54 30
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1092 540 0
+      FROM_TO_POS 54 30 4 54 30 4
+      FROM_TO_XY 1092 540 1092 540
+      LAST_ACTION 0
+      HUMAN
+        ANIM_LEGS T
+        ACTIVE_ATTACK 1
+    END_OF_GAME_STATE
+  UNIT 3449 BUILDING
+    DEFINITION
+      POS 88 7 2
+      SIDE 2
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 79 LEVEL 10 BASE 2 PARAMS 84 83
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 88 7 2 6 F
+      UNITMODE F 88 7
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 30 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 2366 126 0
+      FROM_TO_POS 88 7 0 88 7 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+        RESEARCH 0
+    END_OF_GAME_STATE
+  UNIT 3453 BUILDING
+    DEFINITION
+      POS 63 33 5
+      SIDE 1
+      NATION 1
+      HP 1000
+      BUILDING
+        TYPE 4 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 63 33 5 6 F
+      UNITMODE F 63 33
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1302 594 0
+      FROM_TO_POS 63 33 0 63 33 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3456 BUILDING
+    DEFINITION
+      POS 59 39 5
+      SIDE 1
+      NATION 2
+      HP 1000
+      BUILDING
+        TYPE 37 LEVEL 1 BASE 0
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 1 1
+      MOVE 59 39 5 6 F
+      UNITMODE F 59 39
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 12 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 1106 702 0
+      FROM_TO_POS 59 39 0 59 39 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+  UNIT 3458 BUILDING
+    DEFINITION
+      POS 24 15 3
+      SIDE 1
+      NATION 3
+      HP 1000
+      BUILDING
+        TYPE 88 LEVEL 1 BASE 1
+    END_OF_DEFINITION
+    GAME_STATE
+      ACTION 0 T 222 1
+      MOVE 24 15 3 6 F
+      UNITMODE F 24 15
+      STATE 4 24
+      WEAPON_LOADING 0 0
+      ATTACK 0 0 F 0
+      PLAN 0 T
+      ANIM_STATES 0 0 0 0
+      MASHA_FLAG 0 DYING 0
+      SELECTION 0 0 0 0
+      DRAW 462 270 0
+      FROM_TO_POS 24 15 0 24 15 0
+      FROM_TO_XY 0 0 0 0
+      LAST_ACTION 0
+      BUILDING
+    END_OF_GAME_STATE
+END_OF_NEW_UNITS
+
+COLDMEAT
+END_OF_COLDMEAT
+
+FOGOBJ
+END_OF_FOGOBJ
+
+MISSILES
+END_OF_MISSILES
+
+EXPLOSIONS
+END_OF_EXPLOSIONS
+
+CRATERS_NEW
+END_OF_CRATERS_NEW
+
+LAPSER_EFECTS
+END_OF_LAPSER_EFECTS
+
+LASER_EFECTS
+END_OF_LASER_EFECTS
+
+USER_INTERFACE
+  VIEW -56 -96 2180 1204 1
+  MASHA_FLAG 2 F F
+END_OF_USER_INTERFACE
+
+MC_COMMANDS
+END_OF_MC_COMMANDS
+
+DEBRIEFING
+SIDE 0 10
+  LINES
+SIDE 1 10
+  LINES
+SIDE 2 10
+  LINES
+SIDE 3 10
+  LINES
+SIDE 4 10
+  LINES
+SIDE 5 10
+  LINES
+SIDE 6 10
+  LINES
+SIDE 7 10
+  LINES
+SIDE 8 10
+  LINES
+SIDE 9 10
+  LINES
+END_OF_DEBRIEFING
+
+AREAS
+  ACTIVE 20
+  LAST 58
+END_OF_AREAS
+
+SEXTRA
+  1
+    1
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    2
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    4
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    6
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    7
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    8
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    13
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    15
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    16
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    17
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    18
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    19
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    20
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    21
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    23
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    24
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    25
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    27
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    28
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    29
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    31
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    32
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    33
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    34
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    35
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    36
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    37
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    40
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    41
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    42
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    43
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    44
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    45
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    47
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    48
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    49
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    50
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    51
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    52
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    53
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    55
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    57
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    58
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3309
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3311
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3312
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3313
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3314
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3315
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3316
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3319
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3321
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3323
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3325
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3327
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3333
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3335
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3345
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3347
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3350
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3356
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3357
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3359
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3361
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3366
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3367
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3368
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3370
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3371
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3372
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3377
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3379
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3385
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3390
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3392
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3399
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3400
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3406
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3407
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3416
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3417
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3419
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3426
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3435
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3437
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3439
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3446
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3448
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      0
+    7
+      F
+
+  255
+  1
+    3449
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3453
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3456
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  1
+    3458
+    2
+      20
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    3
+      F
+    4
+      F
+    5
+      0 0
+    6
+      1
+    7
+      F
+
+  255
+  30
+  0 254
+  50
+  253
+END_OF_SEXTRA
+

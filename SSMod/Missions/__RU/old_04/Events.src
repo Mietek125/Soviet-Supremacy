@@ -1,0 +1,35 @@
+On BuildingCaptured(building, side, human) Do
+begin
+
+     If GetSide(building) = 6 or GetSide(building) = 9 or GetSide(building) = 4 and GetSide(Human) = 3 then
+     YouLost('AllyCapturedBuildings');
+
+end;
+
+On VehicleCaptured(new_vehicle, old_vehicle, original_side, human) Do
+begin
+
+     If not BerezovEscaped and not BukovEscaped and not GaydarEscaped and old_vehicle = BerezovTank or old_vehicle = BukovTank or old_vehicle = GaydarTank and GetSide(human) = 3 then
+     YouLost('AllyCapturedVehicles');
+
+end;
+
+Every 0$1 Trigger FilterUnitsInArea(OCArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) > 0 do
+var unit;
+begin
+
+    enable;
+
+    CenterOnXY(79,139);
+    DialogueOn;
+    Say(Guard, 'DGuard-Stop');
+    DialogueOff;
+
+    for unit in FilterUnitsInArea(OCArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) do
+    begin
+    InGameOn;
+    ComMoveXY(unit,88,154);
+    Wait(0$3);
+    InGameOff;
+    end;
+end;

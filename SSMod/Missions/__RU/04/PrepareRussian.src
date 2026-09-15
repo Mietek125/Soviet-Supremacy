@@ -7,7 +7,7 @@ begin
       SetMark(GaydarTank, -6);
       SetMark(BerezovTank, -9);
 
-     {===== NASI (CZERWONI) =====}
+    {===== NASI (CZERWONI) =====}
 
      Uc_Side := 3;
      Uc_Nation := 3;
@@ -26,24 +26,30 @@ begin
      SetCLass(Kostyliev, 3);
      SetClass([Mietek, Yakotich, Maxim], 1);
 
-     Vc_Engine := Engine_Siberite;
-     Vc_Control := Control_Manual;
-     Vc_Chassis := Ru_Heavy_Tracked;
-     Vc_Weapon := Ru_Big_Cargo_Bay;
+
+     PrepareVehicle(Ru_Heavy_Tracked, engine_siberite, control_manual, Ru_Big_Cargo_Bay, 100);
+     PrepareVehicle(Ru_Heavy_Tracked, engine_siberite, control_manual, Ru_Big_Cargo_Bay, 100);
      Cargo1 := CreateVehicle;
      Cargo2 := CreateVehicle;
+     SetCargo([Cargo1, Cargo2], mat_siberit, 200);
 
-     Vc_Chassis := Ru_Medium_Tracked;
-     Vc_Weapon := Ru_Rocket_Launcher;
+
+     PrepareVehicle(Ru_Medium_Tracked, engine_siberite, control_manual, Ru_Rocket_Launcher, 100);
      Tank := CreateVehicle;
+
+     OurGuys := OurGuys ^ YakotichTeam ^ Yakotich ^ Mietek ^ Dragunov;
+
+     for i in OurGuys do
+     PlaceUnitArea(i, SpawnArea, False);
+     PlaceUnitXY(Cargo1, 18, 6, False);
+     PlaceUnitXY(Cargo2, 15, 5, False);
+     PlaceUnitXY(Tank, 11, 5, False);
 
      PlaceHumanInUnit(Smirnovsky, Cargo1);
      PlaceHumanInUnit(Tatiana, Cargo2);
      PlaceHumanInUnit(Kostyliev, Tank);
 
-     PlaceUnitArea([Yakotich, Mietek, Dragunov, Tatiana, YakotichTeam], SpawnArea, False);
-
-     Kovalyuk := NewCharacter('Kovalyuk');
+     Kuzmov := NewCharacter('Kuzmov');
      Gnyevko := NewCharacter('Gnyevko');
      Natasha := NewCharacter('Natasha');
 
@@ -52,13 +58,13 @@ begin
      for i in OtherTeam do
      PlaceUnitXYR(i,157,232,3,False);
 
-     OldCrewTeam := OldCrewTeam ^ Gnyevko ^ Kovalyuk;
+     OldCrewTeam := OldCrewTeam ^ Gnyevko ^ Kuzmov;
 
-     for i in OldCrewTeam do
-     PlaceHumanInUnit(i, w1);
+     PlaceHumanInUnit(Gnyevko, w1);
+     PlaceHumanInUnit(Kuzmov, a1);
 
      PlaceUnitXY(Natasha,171,243,False);
-     ComTurnUnit(Natasha, Yakotich);
+     ComTurnUnit(Natasha, Yakotich);      
 
      {===== EKIPA BUKOWA (jasnoniebiescy) =====}
 
@@ -143,7 +149,7 @@ begin
 
      BerezovTeam := BerezovTeam ^ Lesov ^ Korotajev ^ Bautin ^ Sharonova ^ Kulikov ^ Azarian ^ Yembachtov ^ Ozerov ^ Fomchenko ^ Pochinchuk ^ Subkov ^ Umanets ^ Zakharov ^ Aleinik;
 
-     PlaceUnitXY(IvanBerezov,83,52,False);
+     PlaceUnitXY(IvanBerezov,87,58,False);
      AddComTurnUnit(IvanBerezov, Yakotich);
 
      for i in BerezovTeam do
@@ -189,7 +195,7 @@ begin
 
      PrepareBase(6, 3, NorthCheckpointArea, 4, 0, 0, 4, 2);
      Gaydar := NewCharacter('Gaydar');
-     PlaceUnitXY(Gaydar,199,168,False);
+     PlaceUnitXY(Gaydar,190,161,False);
      ComTurnXY(Gaydar,209,163);
 
      PrepareBase(6, 3, SouthCheckpointArea, 4, 0, 0, 4, 2);
@@ -199,22 +205,24 @@ begin
      Oblukov := NewCharacter('Oblukov');
      Kapitsova := NewCharacter('Kapitsova');
 
+     Kovalyuk := NewCharacter('Kovalyuk');
      Scholtze := NewCharacter('Scholtze');
      Balei := NewCharacter('Balei');
      Jaunzeme := NewCharacter('Jaunzeme');
      Benko := NewCharacter('Benko');
      Kuklajs := NewCharacter('Kuklajs');
-     Kuzmov := NewCharacter('Kuzmov');
      Saseda := NewCharacter('Saseda');
      Jaworska := NewCharacter('Jaworska');
 
-     SouthLeninTeam := SouthLeninTeam ^ Scholtze ^ Furmanov ^ Kozlov ^ Oblukov ^ Kapitsova ^ Balei ^ Jaunzeme ^ Benko ^ Kuklajs ^ Kuzmov ^ Saseda ^ Jaworska;
+     SetClass(Kovalyuk, 2);
+
+     SouthLeninTeam := SouthLeninTeam ^ Scholtze ^ Furmanov ^ Kozlov ^ Oblukov ^ Kapitsova ^ Balei ^ Jaunzeme ^ Benko ^ Kuklajs ^ Kovalyuk ^ Saseda ^ Jaworska;
 
      for i in SouthLeninTeam do
      begin
           case GetClass(i) of
           class_soldier: tmp := FilterUnitsInArea(SouthLeninArea, [[f_side, 6], [f_not, [f_full]], [f_btype, b_bunker]]) ^ FilterUnitsInArea(SouthLeninArea, [[f_side, 6], [f_not, [f_full]], [f_btype, b_barracks]]);
-          class_scientistic: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_lab_full]]);
+          class_scientistic: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_lab_half]]);
           class_mechanic: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_factory]]);
           class_engineer: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_depot]]);
      end;
@@ -230,28 +238,45 @@ begin
           PlaceUnitXYR(i, 105, 165, 3, false)
      end;
 
-     PrepareBase(6, 3, NorthLeninArea, 5, 3, 3, 4, 3);
-
-     {for i = 1 to 4 do
-     begin
-          PrepareSoldier(1,10);
-          Guard := CreateHuman;
-          PlaceUnitArea(Guard, OCGuardArea, False);
-          ComTurnXY(Guard,77,140);
-     end;}
-
+     PrepareBase(6, 3, NorthLeninArea, 5, 3, 3, 3, 3);
 
      Morozov := NewCharacter('Morozov');
      Platonov := NewCharacter('Platonov');
      Popov := NewCharacter('Popov');
 
-     PlaceUnitXY(Morozov,70,101,False);
-     PlaceUnitXY(Platonov,69,100,False);
-     PlaceUnitXY(Popov,70,102,False);
+     PlaceUnitXY(Morozov,64,98,False);
+     PlaceUnitXY(Platonov,64,97,False);
+     PlaceUnitXY(Popov,65,100,False);
      ComTurnUnit([Morozov,Platonov,Popov],Yakotich);
 
+end;
+
+Export Function InitYashin;
+var veh1, veh2;
+Begin
+
+     Yashin := NewCharacter('Yashin');
+     Sevi := NewCharacter('Vsevolod');
 
 
+     PrepareVehicle(ru_medium_wheeled, engine_siberite, control_manual, ru_rocket_launcher, 100);
+     veh1 := CreateVehicle;
+     PrepareVehicle(ru_medium_wheeled, engine_siberite, control_manual, ru_gun, 100);
+     veh2 := CreateVehicle;
 
+     PlaceUnitArea([veh1,veh2], YashinSpawn, False);
+     PlaceHumanInUnit(Yashin, veh1);
+     PlaceHumanInUnit(Sevi, veh2);
 
+end;
+
+Export Function RussianAI;
+var BukovTechTree;
+Begin
+
+     {===== AI BUKOWA (jasnoniebiescy) =====}
+
+     BukovTechTree := [47, 49, 82, 83, 84, 51, 52];
+
+     AddComResearch(FilterAllUnits([[f_side, 6], [f_btype, b_lab_half]]), BukovTechTree);
 end;

@@ -80,5 +80,7 @@ Begin
 
      for i in YakotichTeam do
      PlaceUnitArea(i, SpawnCrewArea, false);
+     ComTurnXY(FilterAllUnits([f_side,3]),127,43);
+
 
 end;

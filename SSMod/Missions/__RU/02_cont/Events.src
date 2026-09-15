@@ -31,6 +31,11 @@ begin
      CargoBuilt := True;
      ChangeMissionObjectives('Ob2a');
      end;
+
+
+     if GetSide(vehicle) = 1 or GetSide(vehicle) = 4 then
+        usMobile := usMobile union vehicle;
+
 end;
 
 Every 0$1 Trigger FilterAllUnits([[f_side, 3], [f_type, unit_building], [f_btype, b_bunker]]) >= 3 do
@@ -66,8 +71,21 @@ begin
     end;
 end;
 
-Every 0$1 trigger not IsInUnit(will) and IsOk(AmDep1) and GetSide(AmDep1) = 1 do
-ComEnterUnit(will, AmDep1);
+
+On EvacuateVehicle(driver, veh, p1, p2) do
+begin
+
+     if GetSide(veh) = 1 and driver in usMobile then
+        ComEnterUnit(driver, AmFactory1);
+     if GetSide(veh) = 4 and driver in usMobile then
+        ComEnterUnit(driver, AmFactory2);
+end;
+
+On EnterBuilding(b, un) do
+begin
+     if b = AmFactory1 or AmFactory2 and GetLives(un) < 1000 then
+        SetLives(un, 1000);
+End;
 
 Every 0$1 Trigger IsDead(RuDepot) do
 YouLost('DepotDead');
@@ -90,18 +108,7 @@ end;
 Every 0$1 Trigger GetSide(Tatiana) = 3 do
 CanDismantleGun = True;
 
-Every 0$1 Trigger FilterUnitsInArea(EscapeArea,[[F_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) do
-var unit;
-begin
-     enable;
 
-     for unit in FilterUnitsInArea(EscapeArea, [[F_or, [f_side, 1], [f_side, 4]], [f_type, unit_human]]) do
-     begin
-     RemoveUnit(IsDrivenBy(unit));
-     RemoveUnit(unit);
-     AmericansGotAway := AmericansGotAway +1;
-     end;
-end;
 
-Every 0$1 Trigger AmericansGotAway >= [10,7,5][Difficulty] do
+Every 0$1 Trigger ConvoyEscapedMembers >= [10,7,5][Difficulty] do
 YouLost('AmericansGotAway');

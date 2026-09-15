@@ -80,7 +80,7 @@ Begin;
       Wait(0$3);
 
       SaveCharacters(YakotichTeam diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], MissionPrefix & 'YakotichTeam');
-      SaveCharacters(OtherTeam diff [YakotichTeam, Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky], MissionPrefix & 'OtherTeam');
+      SaveCharacters(OtherTeam diff YakotichTeam, MissionPrefix & 'OtherTeam');
 
       ChangeMap(1, '%_cont');
                         

@@ -12,13 +12,20 @@ begin
      Hc_Gallery := 'SecondCharsGal';
      Hc_Face_Number := 80;
      Hc_Skills := [6,5,2,2];
-     will := CreateHuman;
-     PlaceHumanInUnit(will, AmDep1);
+     Williams := CreateHuman;
+     PlaceHumanInUnit(Williams, AmDep1);
 
      Hc_Name := 'Mike Damme';
      Hc_Gallery := 'multi';
      Hc_Face_Number := 3;
      Mike := CreateHuman;
+
+     Hc_Name := 'Julia Phillips';
+     Hc_Gallery := 'SecondCharsGal';
+     Hc_Face_Number := 81;
+     Hc_Skills := [4,5,4,5];
+     Phillips := CreateHuman;
+     PlaceHumanInUnit(phillips, AmDep2);
 
 end;
 

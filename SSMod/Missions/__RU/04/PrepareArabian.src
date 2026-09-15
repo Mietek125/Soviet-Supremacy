@@ -1,0 +1,32 @@
+Export Function InitArabian;
+begin
+
+     Uc_Nation := 2;
+
+end;
+
+Export Function InitFirstAttack;
+var i, j, weapons, veh, sold;
+begin
+
+     weapons := [ar_flame_thrower, ar_gun, ar_mortar, ar_gatling_gun];
+
+     Uc_Side := 2;
+
+     for i = 1 to 5 do
+     begin
+          PrepareVehicle(rand(ar_medium_trike, ar_half_tracked), engine_combustion, control_remote, weapons[Rand(1, weapons)], 100);
+          veh := CreateVehicle;
+          SetDir(veh, 4);
+          PlaceUnitArea(veh, FirstAttackArea, False);
+          Connect(veh);
+     end;
+{
+     for j = 1 to 5 do
+     begin
+          PrepareSoldier(0, 5);
+          sold := CreateHuman;
+          PlaceUnitArea(sold, FirstAttackArea, False);
+     end;    }
+
+end;

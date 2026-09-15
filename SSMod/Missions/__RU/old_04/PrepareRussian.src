@@ -1,0 +1,259 @@
+Export Function InitRussian;
+var i, tmp, SouthB, NorthB, un;
+begin
+
+      //FLAGI DLA POJAZDOW
+      SetMark(BukovTank, -4);
+      SetMark(GaydarTank, -6);
+      SetMark(BerezovTank, -9);
+
+     {===== NASI (CZERWONI) =====}
+
+     Uc_Side := 3;
+     Uc_Nation := 3;
+
+     Yakotich := PrepareUnit('Yakotich', (not debug), prevMissionPrefix);
+     Mietek := PrepareUnit('Mietek', (not debug), prevMissionPrefix);
+     Maxim := PrepareUnit('Maxim', (not debug), prevMissionPrefix);
+     Smirnovsky := PrepareUnit('Smirnovsky', (not debug), prevMissionPrefix);
+     Kostyliev := PrepareUnit('Kostyliev', (not debug), prevMissionPrefix);
+     Tatiana := PrepareUnit('Tatiana', (not debug), PrevMissionPrefix);
+     Dragunov := PrepareUnit('Dragunov', (not debug), PrevMissionPrefix);
+
+     YakotichTeam := CreateCharacterSet(PrevMissionPrefix & 'YakotichTeam');
+
+     SetClass([Smirnovsky, Tatiana, Dragunov],  4);
+     SetCLass(Kostyliev, 3);
+     SetClass([Mietek, Yakotich, Maxim], 1);
+
+     Vc_Engine := Engine_Siberite;
+     Vc_Control := Control_Manual;
+     Vc_Chassis := Ru_Heavy_Tracked;
+     Vc_Weapon := Ru_Big_Cargo_Bay;
+     Cargo1 := CreateVehicle;
+     Cargo2 := CreateVehicle;
+
+     Vc_Chassis := Ru_Medium_Tracked;
+     Vc_Weapon := Ru_Rocket_Launcher;
+     Tank := CreateVehicle;
+
+     PlaceHumanInUnit(Smirnovsky, Cargo1);
+     PlaceHumanInUnit(Tatiana, Cargo2);
+     PlaceHumanInUnit(Kostyliev, Tank);
+
+     PlaceUnitArea([Yakotich, Mietek, Dragunov, Tatiana, YakotichTeam], SpawnArea, False);
+
+     Kovalyuk := NewCharacter('Kovalyuk');
+     Gnyevko := NewCharacter('Gnyevko');
+     Natasha := NewCharacter('Natasha');
+
+     OtherTeam := CreateCharacterSet('02_OtherTeam');                      
+
+     for i in OtherTeam do
+     PlaceUnitXYR(i,157,232,3,False);
+
+     OldCrewTeam := OldCrewTeam ^ Gnyevko ^ Kovalyuk;
+
+     for i in OldCrewTeam do
+     PlaceHumanInUnit(i, w1);
+
+     PlaceUnitXY(Natasha,171,243,False);
+     ComTurnUnit(Natasha, Yakotich);
+
+     {===== EKIPA BUKOWA (jasnoniebiescy) =====}
+
+     Uc_Side := 4;
+
+     Bukov := NewCharacter('Bukov');
+
+     PrepareBase(4, 3, BukovBaseArea, 4, 3, 2, 10, 2);
+
+     ComEnterUnit(FilterAllUnits([[f_side, 4], [f_class, 2]]), BukovBase);
+
+     PlaceUnitXY(Bukov,328,235,False);
+     AddComTurnXY(Bukov,324,231);
+
+     {===== EKIPA BIERIEZOWA (fioletowi) =====}
+
+     Uc_Side := 9;
+
+     //IvanBerezov := PrepareUnit('IvanBerezov', (not debug), '');
+     IvanBerezov := NewCharacter('IvanBerezov');
+     Korotajev := NewCharacter('Korotajev');
+     Lesov := NewCharacter('Lesov');
+     Bautin := NewCharacter('Bautin');
+     Sharonova := NewCharacter('Sharonova');
+
+     Hc_Name := 'Boris Aleinik';
+     Hc_Gallery := 'AbsoluteDominion';
+     Hc_Face_Number := 15;
+     Hc_Skills := [6,2,2,3];
+     Hc_Class := 1;
+     Hc_Sex := 1;
+     Aleinik := CreateHuman;
+
+     Hc_Name := 'Yuri Pochinchuk';
+     Hc_Face_Number := 13;
+     Hc_Skills := [5,2,5,2];
+     Pochinchuk := CreateHuman;
+
+     Hc_Name := 'Ilya Yembachtov';
+     Hc_Face_Number := 7;
+     Hc_Skills := [5,2,5,3];
+     Yembachtov := CreateHuman;
+
+     Hc_Name := 'Jim Azarian';
+     Hc_Face_Number := 9;
+     Hc_Skills := [5,3,3,3];
+     Azarian := CreateHuman;
+
+     Hc_Name := 'Igor Ozerov';
+     Hc_Face_Number := 6;
+     Hc_Skills := [5,5,3,4];
+     Ozerov := CreateHuman;
+
+     Hc_Name := 'Nina Fomchenko';
+     Hc_Face_Number := 11;
+     Hc_Skills := [5,3,2,3];
+     Hc_Sex := 2;
+     Fomchenko := CreateHuman;
+
+     Hc_Name := 'Petr Subkov';
+     Hc_Face_Number := 12;
+     Hc_Skills := [4,4,5,3];
+     Hc_Sex := 1;
+     Hc_Class := 3;
+     Subkov := CreateHuman;
+
+     Hc_Name := 'Petr Umanets';
+     Hc_Face_Number := 8;
+     Hc_Skills := [2,3,6,2];
+     Umanets := CreateHuman;
+
+     Hc_Name := 'Yuri Zakharov';
+     Hc_Face_Number := 14;
+     Hc_Skills := [3,3,2,3];
+     Hc_Class := 2;
+     Zakharov := CreateHuman;
+
+     Hc_Name := 'Filip Kulikov';
+     Hc_Face_Number := 10;
+     Hc_Skills := [3,5,3,2];
+     Kulikov := CreateHuman;
+
+     BerezovTeam := BerezovTeam ^ Lesov ^ Korotajev ^ Bautin ^ Sharonova ^ Kulikov ^ Azarian ^ Yembachtov ^ Ozerov ^ Fomchenko ^ Pochinchuk ^ Subkov ^ Umanets ^ Zakharov ^ Aleinik;
+
+     PlaceUnitXY(IvanBerezov,83,52,False);
+     AddComTurnUnit(IvanBerezov, Yakotich);
+
+     for i in BerezovTeam do
+     begin
+          case GetClass(i) of
+          class_soldier: tmp := FilterAllUnits([[f_side, 9], [f_not, [f_full]], [f_btype, b_breastwork]]) ^ FilterAllUnits([[f_side, 9], [f_not, [f_full]], [f_btype, b_bunker]]) ^ FilterUnitsInArea(BerezovBaseArea, [[f_side, 9], [f_not, [f_full]], [f_or, [f_btype, b_armoury], [f_btype, b_barracks]]]);
+          class_scientistic: tmp := FilterAllUnits([[f_side, 9], [f_not, [f_full]], [f_btype, b_lab_full]]);
+          class_mechanic: tmp := FilterAllUnits([[f_side, 9], [f_not, [f_full]], [f_btype, b_factory]]);
+          class_engineer: tmp := FilterAllUnits([[f_side, 9], [f_not, [f_full]], [f_btype, b_depot]]);
+     end;
+
+     if tmp then
+     begin
+          if GetBType(tmp[1]) in [b_breastwork] then
+             PlaceUnitInBunker(i, tmp[1])
+          else
+               PlaceHumanInUnit(i, tmp[1])
+     end
+          else
+          PlaceUnitXYR(i, 93, 53, 3, false)
+     end;
+
+
+
+     {===== EKIPA WSZYSTKICH INNYCH (ró¿owi) =====}
+
+     Uc_Side := 6;
+     Hc_Sex := rand(1,2);
+     Hc_Gallery := '';
+     Hc_Face_Number := 0;
+     Hc_Skills := [];
+     Hc_Name := '';
+     Hc_Class := 1;
+
+     PrepareSolBun(4,SouthB1);
+     PrepareSolBun(4,SouthB2);
+     PrepareSolBun(4,SouthB3);
+
+     PrepareSolBun(4,NorthB1);
+     PrepareSolBun(4,NorthB2);
+     PrepareSolBun(4,NorthB3);
+
+     PrepareBase(6, 3, NorthCheckpointArea, 4, 0, 0, 4, 2);
+     PrepareSolBun(4,NBG1);
+     PrepareSolBun(4,NBG2);
+     PrepareSolBun(4,NBG3);
+     Gaydar := NewCharacter('Gaydar');
+     PlaceUnitXY(Gaydar,199,168,False);
+     ComTurnXY(Gaydar,209,163);
+
+     PrepareBase(6, 3, SouthCheckpointArea, 4, 0, 0, 4, 2);
+
+     Furmanov := NewCharacter('Furmanov');
+     Kozlov := NewCharacter('Kozlov');
+     Oblukov := NewCharacter('Oblukov');
+     Kapitsova := NewCharacter('Kapitsova');
+
+     Scholtze := NewCharacter('Scholtze');
+     Balei := NewCharacter('Balei');
+     Jaunzeme := NewCharacter('Jaunzeme');
+     Benko := NewCharacter('Benko');
+     Kuklajs := NewCharacter('Kuklajs');
+     Kuzmov := NewCharacter('Kuzmov');
+     Saseda := NewCharacter('Saseda');
+     Jaworska := NewCharacter('Jaworska');
+
+     SouthLeninTeam := SouthLeninTeam ^ Scholtze ^ Furmanov ^ Kozlov ^ Oblukov ^ Kapitsova ^ Balei ^ Jaunzeme ^ Benko ^ Kuklajs ^ Kuzmov ^ Saseda ^ Jaworska;
+
+     for i in SouthLeninTeam do
+     begin
+          case GetClass(i) of
+          class_soldier: tmp := FilterUnitsInArea(SouthLeninArea, [[f_side, 6], [f_not, [f_full]], [f_btype, b_bunker]]) ^ FilterUnitsInArea(SouthLeninArea, [[f_side, 6], [f_not, [f_full]], [f_btype, b_barracks]]);
+          class_scientistic: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_lab_full]]);
+          class_mechanic: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_factory]]);
+          class_engineer: tmp := FilterUnitsInArea(SouthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_depot]]);
+     end;
+
+     if tmp then
+     begin
+          if GetBType(tmp[1]) in [b_breastwork] then
+             PlaceUnitInBunker(i, tmp[1])
+          else
+               PlaceHumanInUnit(i, tmp[1])
+     end
+          else
+          PlaceUnitXYR(i, 105, 165, 3, false)
+     end;
+
+     PrepareBase(6, 3, NorthLeninArea, 5, 3, 3, 4, 3);
+
+     for i = 1 to 4 do
+     begin
+          PrepareSoldier(1,10);
+          Guard := CreateHuman;
+          PlaceUnitArea(Guard, OCGuardArea, False);
+          ComTurnXY(Guard,77,140);
+     end;
+
+
+     Morozov := NewCharacter('Morozov');
+     Platonov := NewCharacter('Platonov');
+     Popov := NewCharacter('Popov');
+
+     PlaceUnitXY(Morozov,70,101,False);
+     PlaceUnitXY(Platonov,69,100,False);
+     PlaceUnitXY(Popov,70,102,False);
+     ComTurnUnit([Morozov,Platonov,Popov],Yakotich);
+
+
+
+
+
+end;

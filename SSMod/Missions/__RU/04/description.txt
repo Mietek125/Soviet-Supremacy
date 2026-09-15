@@ -3,7 +3,7 @@ MISSION
   TEXTS texts.txt
   SOURCES sources.txt
   LIBRARYSOURCES librarysources.txt
-  CAMPAIGN 5 6
-  AUTOR Serpent
+  CAMPAIGN 3 4
+  AUTOR "El Autismo & Rahol"
   DISABLED_INPUT_OUTPUT a1in a1out
   ANIMTREES SIZE 240 250 END_OF_MISSION

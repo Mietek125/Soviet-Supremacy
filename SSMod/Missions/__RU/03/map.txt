@@ -71,7 +71,7 @@ HEXES
   LINE 28 14 129
     t4vS t2vS vS vS vS vS vSs9 r6vTsn r6vZ r6vZs9 r6vasO r6vasT r6vasD r6va vZsC vZ vYsC vWsK vUsK vSsL vSsO vVsP vYsP vZsH va vasX ve ve ve ve ve ve ve ve vYsq r6vY r6vYsm r6vZsj vXsb vTsa vSsC vPsR vPsB vPsB vPsB vOsJ vNsJ vNsA vNsI vPsA vQsH vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vNsi r6vHsq r6vBsq vAsC vA vA vA vAsA vAsB vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
   LINE 29 15 130
-    t4vS t2vS vS vS vS vS r6vSs9 r6vTsn r6vZ r6vZs8 r6vZs8 r6va r6vZsD vZsD vZ vYsC vWsK vUsK vSsK vS vSsX vWsP vZ vZsI vasA vbsP vesA vesA vesA vesA vesB vesB vesB vdsK r6vYsi r6vXsD r6vXsG vXsL vUsT vSsK vS vQsJ vQsJ vQsJ vQsJ vPsJ vOsJ vOsI vPsI vQsI vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vNsi vHsq r6vBsq r6vAsC vA vAsA vAsA vAsA vB vAsC vA vA vA vA vA vA rEvA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+    t4vS t2vS vS vS vS vS r6vSs9 r6vTsn r6vZ r6vZs8 r6vZs8 r6va r6vZsD vZsD vZ vYsC vWsK vUsK vSsK vS vSsX vWsP vZ vZsI vasA vbsP vesA vesA vesA vesA vesB vesB vesB vdsK r6vYsi r6vXsD r6vXsG vXsL vUsT vSsK vS vQsJ vQsJ vQsJ vQsJ vPsJ vOsJ vOsI vPsI vQsI vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vNsi vHsq r6vBsq r6vAsC vA vAsA vAsA vAsA vB vAsC vA vA vA vA vA vA rEvA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
   LINE 30 15 130
     t4vS t2vS vS vS vS vS vS r6vSs9 r6vTsn r6vZ r6vZ r6vZs8 r6vZsD vZ vZ vZ vXsK vVsK vTsK vSsB vSsP vVsH vXsX vZsI vb vbsH vdsH r6vfsA r6vfsY vfsY vfsZ vfsR vf vf r6vdsK r6vXsq r6vUsT r6vUsT vUsT vU vSsK vS vS vS vS vRsB vQsJ vQsI vQsI vRsA vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS r6vS r6vMsq r6vGsq r6vBsi vAsB vAsA vB vB vB vAsC vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
   LINE 31 16 131
@@ -155,285 +155,285 @@ HEXES
   LINE 70 35 150
     t4vS t2vS r6vSsf r6vXsP r6vasf r6vf r6vbsb r6vbsD r6vYsS r6vSsq vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vSf2 vS vSsn r6vYsn ve vbsT r6vYsr r6vYsr r6vYsr r6vasT vasW ve ve ve r6vYsq r6vSsr r6vQsT r6vKsq r6vEsq vAsa vA v7sS v5sK v2sS v2 v2 v2sX v6s9 v7sP vA vAsP vD vDsG vF vF vF vF vFs8 vFsD vF vF r7vEsT r7vEsT r6vCsj r7vAsL r7vAsD r6v7sR r6v6sZ r6v3sp r7v1sZ r7v1sZ r7v1sZ r7v1sQ r7v2sQ r6v5sn r6vBsf r7vG r7vG vGs9 vHs9 vI r7vIsP vL vJsK vIsC vHsC vFsK vF vF vDsK vCsC vAsK vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
   LINE 71 36 151
-    t4vS t2r6vSs9 r6vTsn r6vZsn r6vf r6vbsb r6vasD r6vXsb r6vSsr vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsn r6vYsX vcsG vasb vYsT vWsL vWsL vWsW vWsW r6vYsm r6vYsr r6vYsr r6vYsr r6vSsr r6vMsr r6vKsr r6vEsq vAsa vA v9sC v7sK v5sK v2sS v2 v2sX v6s9 v7sP vA vA vAsO vAsO vCsO vCsO vCsO vCsO vCsO vEs8 vEs8 r7vEs8 r7vEsD r7vE r7vCsL r7vAsK r7vA r6vA r6vA r6v9sC v5sZ v5sZ v5sZ v4sZ v4sJ r6v5 r6v5sn r6vBsf r7vG vGs9 vHs9 vI r7vIsP vL vKsC vJsC vIsC vHsC vFsK vF vDsK vD vCsC vAsK vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
+    t4vS t2r6vSs9 r6vTsn r6vZsn r6vf r6vbsb r6vasD r6vXsb r6vSsr vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsn r6vYsX vcsG vasb vYsT vWsL vWsL vWsW vWsW r6vYsm r6vYsr r6vYsr r6vYsr r6vSsr r6vMsr r6vKsr r6vEsq vAsa vA v9sC v7sK v5sK v2sS v2 v2sX v6s9 v7sP vA vA vAsO vAsO vCsO vCsO vCsO vCsO vCsO vEs8 vEs8 r7vEs8 r7vEsD r7vE r7vCsL r7vAsK r7vA r6vA r6vA r6v9sC v5sZ v5sZ v5sZ v4sZ v4sJ r6v5 r6v5sn r6vBsfS r7vG vGs9 vHs9 vI r7vIsP vL vKsC vJsC vIsC vHsC vFsK vF vDsK vD vCsC vAsK vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA vA t2vA t4vA
   LINE 72 36 151
-    t4vS t2vSs9 r6vTsn r6vZsn r6vf r6vasj r6vasD r6vXsT r6vSsj vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH r6vUsn vasH vasL vYsK vWsK vW vW vW r6vWsG r6vVsT r6vSsr r6vSsr r6vSsr r6vMsr r6vGsr r6vEsr vAsa vA vAsA v9sJ v6sS v4sK v2sK v2s9 v3sP v6s8 v7sO v7sO vA vA vAsG vAsG vAsG vAsG vAsG vCsG vCsG r7vE r7vE r7vE r7vCsL r7vC r7vAsK r7v9sD r6v9sD r6v9sD v9 r7v9 v9 v8sZ r6v6sp r6v5sh r6v5so r6vBsf r7vG vGs9 vHs9 vI vIsP r7vL vL vJsK vIsC vHsC vFsK vF vDsK vD vD vCsC vAsK vA v8sL v8sL v8sG v8sG v9s8 v8sL v8sL v8sL v8sL v8sL v8sL v8sL v8sG v8sG t2vA t4vA
+    t4vS t2vSs9 r6vTsn r6vZsn r6vf r6vasj r6vasD r6vXsT r6vSsj vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH r6vUsn vasH vasL vYsK vWsK vW vW vW r6vWsG r6vVsT r6vSsr r6vSsr r6vSsr r6vMsr r6vGsr r6vEsr vAsa vA vAsA v9sJ v6sS v4sK v2sK v2s9 v3sP v6s8 v7sO v7sO vA vA vAsG vAsG vAsG vAsG vAsG vCsG vCsG r7vE r7vE r7vE r7vCsL r7vC r7vAsK r7v9sD r6v9sD r6v9sD v9 r7v9 v9 v8sZ r6v6sp r6v5sh r6v5so r6vBsfS r7vG vGs9 vHs9 vI vIsP r7vL vL vJsK vIsC vHsC vFsK vF vDsK vD vD vCsC vAsK vA v8sL v8sL v8sG v8sG v9s8 v8sL v8sL v8sL v8sL v8sL v8sL v8sL v8sG v8sG t2vA t4vA
   LINE 73 37 152
-    t4vS t2vSsP r6vVsn r6vbsW r6vasj r6vZsD r6vUsr r6vSsj vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH vUsn r6vasA vas9 r6va vWsa vW vWf2 vVsD r6vVsD r6vQsr r6vPsr r6vMsr r6vMsr r6vMsr r6vGsr r6vEsL vAsa vA vAsA vB v9sJ v6sR v2sq v2 v2s8 v3sO v5sG v5sG v7sO v8sG v7sT v7sO v8sG v8sG v8sG v9sO vC r7vCsG r7vAsb r7vAsb r7vAsb r7vAsL r6v7sj r6v7sT r6v9 r6v9 v9 r7v9sQ r7v9sQ r7v9sQ r7vCsY r6vAsp r6vAso r6vBsg r6vG vG vGsH vI vI r7vIsP vL vJsK vJ vIsC vHsC vFsK vF vDsK vD vCsC vAsK vA v8sL v6sL v6sG v6sG v7sG v7sL v6sL v6sL v6sL v6sL v6sL v6sL v6sG v6sG v8sG t2v8sG t4v8sL
+    t4vS t2vSsP r6vVsn r6vbsW r6vasj r6vZsD r6vUsr r6vSsj vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsH vUsn r6vasA vas9 r6va vWsa vW vWf2 vVsD r6vVsD r6vQsr r6vPsr r6vMsr r6vMsr r6vMsr r6vGsr r6vEsL vAsa vA vAsA vB v9sJ v6sR v2sq v2 v2s8 v3sO v5sG v5sG v7sO v8sG v7sT v7sO v8sG v8sG v8sG v9sO vC r7vCsG r7vAsb r7vAsb r7vAsb r7vAsL r6v7sj r6v7sT r6v9 r6v9 v9 r7v9sQ r7v9sQ r7v9sQ r7vCsY r6vAsp r6vAso r6vBsgS r6vG vG vGsH vI vI r7vIsP vL vJsK vJ vIsC vHsC vFsK vF vDsK vD vCsC vAsK vA v8sL v6sL v6sG v6sG v7sG v7sL v6sL v6sL v6sL v6sL v6sL v6sL v6sG v6sG v8sG t2v8sG t4v8sL
   LINE 74 37 152
-    t4vS t2vSs9 vTsP r6vWse r6vWsj r6vUsr r6vTsr r6vSsL vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsX r6vWsf vb r6vasC vWsb vVsD vVsD vVsD vSsT r6vPsr r6vKsr r6vJsr r6vJsT r6vGsr r6vGsr vEsL vCsK vAsJ vAsI vBsB vB v9sK v8sC v2sq v2 v2s8 v2sO v2sO v4sO v5sO v5sT v5sG v5sO v5sO v5sO v6sO v9sO r6v6sr r6v6sr r6v4sr r6v4sr r6v4sr r6v4sr r6v4sT r6v4se v9 v9sQ r7v9sQ vCsY vCsY vCsY vG r6vGsQ vGsR vG vG vGsH vI vI vIsP r7vL vJsK vJ vIsD vGsL vFsL vF vDsK vD vCsC vAsK v8sL v8sL v6sL v6 v6 v6s8 v6s8 v6sD v6 v6 v6 v6 v6 v6 v6 v6sG t2v6sG t4v6sG
+    t4vS t2vSs9 vTsP r6vWse r6vWsj r6vUsr r6vTsr r6vSsL vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsX r6vWsf vb r6vasC vWsb vVsD vVsD vVsD vSsT r6vPsr r6vKsr r6vJsr r6vJsT r6vGsr r6vGsr vEsL vCsK vAsJ vAsI vBsB vB v9sK v8sC v2sq v2 v2s8 v2sO v2sO v4sO v5sO v5sT v5sG v5sO v5sO v5sO v6sO v9sO r6v6sr r6v6sr r6v4sr r6v4sr r6v4sr r6v4sr r6v4sT r6v4se v9 v9sQ r7v9sQ vCsY vCsY vCsY vG r6vGsQ vGsRS vG vG vGsH vI vI vIsP r7vL vJsK vJ vIsD vGsL vFsL vF vDsK vD vCsC vAsK v8sL v8sL v6sL v6 v6 v6s8 v6s8 v6sD v6 v6 v6 v6 v6 v6 v6 v6sG t2v6sG t4v6sG
   LINE 75 38 153
-    t4vS t2vSsH r6vUsG r6vTsT r6vSsb r6vSsL r6vSsD vS vS vS vSf2 vS vS vS vS vS vS vS vS vSf2 vS vSsQ vSsQ vSsQ vSsQ vSsR vSsI vUsX vYsO vYsT r6vVsj vVsD vSsT vSsT vSsT r6vMsr r6vJsr r6vJsD vJ vGsS vG vEsK vCsK vC vC vC vBsC v9sK v8sC v6sK v2sa v2sK v1sD v1s8 v1sO v1sW v1sW v2sO v2sO v2sO v2sO v3sO v6sO v6sT r6v1sj r6v1sj v1sT v1sT v1sT v1sT v1sO r6v4se v9sP vCsY vCsY vG vG vG r7vGsP vJ vGsR vGsB vGsA vHs9 vIsI vIsO r7vL vJsL vJ r6vFsb r6vEsb vEsL vDsL vDsL vD vD vCsC v6sq v6sL v6sL v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vSsH r6vUsG r6vTsT r6vSsb r6vSsL r6vSsD vS vS vS vSf2 vS vS vS vS vS vS vS vS vSf2 vS vSsQ vSsQ vSsQ vSsQ vSsR vSsI vUsX vYsO vYsT r6vVsj vVsD vSsT vSsT vSsT r6vMsr r6vJsr r6vJsD vJ vGsS vG vEsK vCsK vC vC vC vBsC v9sK v8sC v6sK v2sa v2sK v1sD v1s8 v1sO v1sW v1sW v2sO v2sO v2sO v2sO v3sO v6sO v6sT r6v1sj r6v1sj v1sT v1sT v1sT v1sT v1sO r6v4se v9sP vCsY vCsY vG vG vG r7vGsP vJS vGsR vGsB vGsA vHs9 vIsI vIsO r7vL vJsL vJ r6vFsb r6vEsb vEsL vDsL vDsL vD vD vCsC v6sq v6sL v6sL v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 76 38 153
-    t4vS t2vS vSsG vSsL r6vSsD r6vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vV vV vV vV vUsB vUsA vVsO vY r6vSsr r6vQsj r6vQsj r6vMsr r6vMsr r6vMsr r6vIsb vIsD vIsD vIsD vGsK vG vEsJ vCsJ vCsB vCsB vBsK vB v9sK v8sC v4sa v4 v1sS v1 v1 v1 v1 v1s8 v1s8 v1s8 v1s8 v1sG v3sO v3sO r6v1sj v1 v1 v1 v1 v1 v1 v1sO r6v4sn r6vAsn vG vG vG vG vGs9 r7vHsH vJ vHsJ vHsA vHsQ vIsI vK r7vKs8 vHsb vGsT vFsb r6vEsD r6vE vDsD vD vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vSsG vSsL r6vSsD r6vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vV vV vV vV vUsB vUsA vVsO vY r6vSsr r6vQsj r6vQsj r6vMsr r6vMsr r6vMsr r6vJsS vIsD vIsD vIsD vGsK vG vEsJ vCsJ vCsB vCsB vBsK vB v9sK v8sC v4sa v4 v1sS v1 v1 v1 v1 v1s8 v1s8 v1s8 v1s8 v1sG v3sO v3sO r6v1sj v1 v1 v1 v1 v1 v1 v1sO r6v4sn r6vAsn vG vG vG vG vGs9 r7vHsHS vJ vHsJ vHsA vHsQ vIsI vK r7vKs8 vHsb vGsT vFsb r6vEsD r6vE vDsD vD vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 77 39 154
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vV vV vV vV vVf2 vV vV r6vVsO r6vSsr r6vQsL r6vMsb r6vKsr r6vGsr r6vGsr r6vGsr vI vI vI vI vGsJ vG vEsJ vDsJ vDsJ vD vBsK vAsC v8sK v6sK v4sK v2sK v1sB v1 v1 v1 v1 v1 v1 v1 v1 v1sG v1sG v1sG v1 v1 v1 v1 v1 v1 v1 v1sP r6v4sn r6vAsn vG vG vG vG vGs9 r7vGsP r7vJ vIsA vIsI vK vK r7vHsT vHsT vGsD vEsL vDsL vDs8 vDsB vD vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vV vV vV vV vVf2 vV vV r6vVsO r6vSsr r6vQsL r6vMsb r6vKsr r6vKsL r6vKsL r6vKsL vIsK vI vI vI vGsJ vG vEsJ vDsJ vDsJ vD vBsK vAsC v8sK v6sK v4sK v2sK v1sB v1 v1 v1 v1 v1 v1 v1 v1 v1sG v1sG v1sG v1 v1 v1 v1 v1 v1 v1 v1sP r6v4sn r6vAsn vG vG vG vG vGs9S r7vGsP r7vJ vIsA vIsI vK vK r7vHsT vHsT vGsD vEsL vDsL vDs8 vDsB vD vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 78 39 154
-    t4vS t2vS vS vS vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vRsb vRsW vTsG vV vV vV r6vV r6vQsj r6vQsL r6vMsb r6vIsb vGsb vG vG vGsH vIsI vIsJ vIsB vIsB vGsJ vGsJ vFsR vF vDsJ vD vBsK vAsC v6sa v6 v4sJ v2sR v1sJ v1sB v1sB v1sB v1sB v1sB v1sB v1sA v1sA v1s8 v1s8 v1sB v1sB v1sB v1sB v1sB v1sB v1 v1sP r6v4sn r6vAsn vG vG vGsA vGsI vGsI vGsH vGsP r7vGsP r7vHs8 vHsO vHsT r7vHsT vEsT vEsT vDsT vDsD vD vDsB vDsB vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vS vS vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vSsP vRsb vRsW vTsG vV vV vV r6vV r6vQsj r6vQsL r6vMsb r6vKsL vK vK vK vK vIsJ vIsJ vIsB vIsB vGsJ vGsJ vFsR vF vDsJ vD vBsK vAsC v6sa v6 v4sJ v2sR v1sJ v1sB v1sB v1sB v1sB v1sB v1sB v1sA v1sA v1s8 v1s8 v1sB v1sB v1sB v1sB v1sB v1sB v1 v1sP r6v4sn r6vAsn vG vG vGsA vGsI vGsIS vGsH vGsP r7vGsP r7vHs8 vHsO vHsT r7vHsT vEsT vEsT vDsT vDsD vD vDsB vDsB vD vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 79 40 155
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vRsI vR vRsG vRsW vV vV vRsb r6vQsj r6vLsj r6vKsr r6vGsr vGsL vG vG vGsQ vIsQ vKsB vJsC vJ vIsB vI vI vFsR vF vDsK vBsK vAsC v8sK v6sJ v6sJ v5sC v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v1sC v1 v1sP r6v4sn r6vAsn vG r6vGsg r6vHso r6vIso r6vIsp r6vGsf vG vGs9 vH vH vEsT vEsT vCsL vCsL vDsb r6vDsZ r6vDsI vEsB vDsB vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vRsI vR vRsG vRsW vV vV vRsb r6vQsj r6vLsj r6vKsr r6vKsL vK vK vK vK vKsA vKsB vJsC vJ vIsB vI vI vFsR vF vDsK vBsK vAsC v8sK v6sJ v6sJ v5sC v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v1sC v1 v1sP r6v4sn r6vAsn vG r6vGsg r6vHso r6vIsoS r6vIsp r6vGsf vG vGs9 vH vH vEsT vEsT vCsL vCsL vDsb r6vDsZ r6vDsI vEsB vDsB vD vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 80 40 155
-    t4vS t2vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs9 vT vRsK vR vPsL vPsm vV r6vRsb r6vLsr r6vKsr r6vFsr r6vFsj vFsD vFs8 vFs8 vGsP vJsH vL vJsK vJ vJ vIsB vI vI vFsS vDsK vCsC vAsK v8sK v8 v8 v5sS v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v1sC v1 v1 v1sP v4sn r6vAsn r6vGsf r6vLsH r6vNso r6vOsh r6vLsh r6vGsi vGsC vH vEsT vEsT vCsL vCsL vC r6vCsf r6vH r6vFsK r6vF vEsC vDsC vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vS vS vSf2 vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs9 vT vRsK vR vPsL vPsm vV r6vRsb r6vLsr r6vKsr r6vJsL r6vJsD vJsD vJs8 vJs8 vK vKs9 vL vJsK vJ vJ vIsB vI vI vFsS vDsK vD vAsS v8sK v8 v8 v5sS v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2 v1sC v1 v1 v1sP v4sn r6vAsn r6vGsf r6vLsH r6vNsoS r6vOsh r6vLsh r6vGsi vGsC vH vEsT vEsT vCsL vCsL vC r6vCsf r6vH r6vFsK r6vF vEsC vDsC vCsC v6sq v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 81 41 156
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs9 vRsK vR vPsL r7vP r6vPsm r6vPsr r6vLsr r6vFsr r6vEsr vEsD vEsD vEs8 vEs8 vFsP vIs9 vJsG vKsD vJsC vJ vJ vHsJ vHsD vFsT vEsC vCsK vC vAsK v8sJ v8sJ v8sJ v5sS v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2 v2sA v2sA v2sB v2 v2 v1sC v1 v1 v1 v1sX r6v5sn r6vBsn r6vHsn r6vNsn r6vT r6vQsS r6vKsq r6vGsa vEsS vEsT vCsL vCsL vC vC r6vCsf r6vH r6vFsK r6vF r6vEsC vDsC vCsC vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs9 vRsK vR vPsL r7vP r6vPsm r6vPsr r6vLsr r6vJsL r6vJsD vJ vJ vJ vJ vJs8 vJs8f2 vJsG vKsD vJsC vJ vJ vHsJ vHsD vFsT vEsC vDsC vD vAsS v8sJ v8sJ v8sJ v5sS v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2 v2sA v2sA v2sB v2 v2 v1sC v1 v1 v1 v1sX r6v5sn r6vBsn r6vHsn r6vNsnS r6vT r6vQsS r6vKsq r6vGsa vEsS vEsT vCsL vCsL vC vC r6vCsf r6vH r6vFsK r6vF r6vEsC vDsC vCsC vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 82 41 156
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vSsAf2 vT vPsb r7vNsb r7vMsT r7vKsj r6vKse r6vLsb r6vFsr vEsD vE vE vE vE vEsH vGsH vIs8 vIsG vJsD vHsK vHsJ vHsJ vH vFsK vEsC vCsK vC vC vAsJ vA vA v8sJ v5sR v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2sA v3 v3 v2sB v2sB v2sB v1sB v1sB v1sA v1sA v2sP r6v5sn r6vBsn r6vHsn r6vNsn r6vRsK r6vNsa r6vJsa r6vEsi vE vCsK vC vC vC r6vCsA r6vDso r6vHsJ r6vFsK r6vF vEsC vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6 v6sY v6sY v6sZ v6sB v6sB v6 v6 v6 v6 t2v6 t4v6
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vSsAf2 vT vPsb r7vNsb r7vMsT r7vKsj r6vKse r6vLsb r6vJsL vJ vJ vJ vJ vJ vJ vIsD vIs8 vIsG vJsD vHsKf2 vHsJ vHsJ vH vFsK vEsC vDsC vD vD vAsR vA vA v8sJ v5sR v3sK v2sC v2 v2 v2 v2 v2 v2 v2 v2 v2sA v3 v3 v2sB v2sB v2sB v1sB v1sB v1sA v1sA v2sP r6v5sn r6vBsn r6vHsnS r6vNsn r6vRsK r6vNsa r6vJsa r6vEsi vE vCsK vC vC vC r6vCsA r6vDso r6vHsJ r6vFsK r6vF vEsC vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6 v6sY v6sY v6sZ v6sB v6sB v6 v6 v6 v6 t2v6 t4v6
   LINE 83 42 157
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vT r7vT r6vNsr r7vLsb r7vJsb r7vJsT r7vFsj r6vFsm r6vFsr vDsL vDs8 vE vE vE vEsH vG vGsG vHs8 vHsG vHsG vHsG vHsJ vHsJ vHsJ vFsJ vEsR vCsK vC vC vAsJ vA vAsA v8sR v5sS v3sK v2sC v2 v2 v2 v2 v2 v2sA v2sA v2sA v3 v3 v3 v3 v3 v2sB v2sB v2sB v2sA v2sQ r6v5sn r6vBsn r6vHsn r6vNsg r6vRsn r6vRsp r6vNsp r6vJsa r6vEsi r7vE vCsJ vC vC r6vCsI r6vDso r6vJ r6vFsa r6vEsD vEsD vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6sY v6sY vA r6vAsI r6v7sp r6v7sp r6v6sp v6sp v6sp v6sZ v6sZ t2v6 t4v6
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vT r7vT r6vNsr r7vLsb r7vJsb r7vJsT r7vFsj r6vFsm r6vGsj vFsb vFsW vJ vJ vJ vJ vHsL vHsD vHs8 vHsG vHsG vHsG vHsJ vHsJ vHsJ vFsJ vEsR vDsC vD vD vAsR vA vAsA v8sR v5sS v3sK v2sC v2 v2 v2 v2 v2 v2sA v2sA v2sA v3 v3 v3 v3 v3 v2sB v2sB v2sB v2sA v2sQ r6v5sn r6vBsn r6vHsnS r6vNsg r6vRsn r6vRsp r6vNsp r6vJsa r6vEsi r7vE vCsJ vC vC r6vCsI r6vDso r6vJ r6vFsa r6vEsD vEsD vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6sY v6sY vA r6vAsI r6v7sp r6v7sp r6v6sp v6sp v6sp v6sZ v6sZ t2v6 t4v6
   LINE 84 42 157
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vT vT r6vNsr r6vIsj r7vHsb r7vFsb r7vFsb r7vBsb vBsW vDsL vD vDs8 vE vE vEsH vGsA vGsA vH vH vHsG vHsG vJ vJ vJ vHsJ vH vEsS vCsK vC vC vAsJ vAsA vB v8sS v5sS v3sK v2sC v2 v2 v2 v2 v2s9 v3 v3 v3 v3 v3 v3 v3 v3 v3 v3 v3 v3sH r6v5sn r6vBsn r6vHsn r6vNsf r6vSsf r6vX r6vTsa r6vNsq r6vHsq r7vEsS vE vCsJ vCsI r6vCsg r6vEso vJsB r6vFsa r6vEsC vE vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6sY vA r6vA r6vAsI r6vCsQ r6vDsJ r6vCsR r6vCsR r6vCsR vAsR vAsR t2v6sZ t4v6sZ
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSsA vT vT r6vNsr r6vIsj r7vHsb r7vFsb r7vFsb r7vDsL vDsO vFsD vF vFsW vJ vJ vJ vHsK vH vH vH vHsG vHsG vJ vJ vJ vHsJ vH vEsS vDsC vD vD vAsR vAsA vB v8sS v5sS v3sK v2sC v2 v2 v2 v2 v2s9 v3 v3 v3 v3 v3 v3 v3 v3 v3 v3 v3 v3sH r6v5sn r6vBsn r6vHsnS r6vNsf r6vSsf r6vX r6vTsa r6vNsq r6vHsq r7vEsS vE vCsJ vCsI r6vCsg r6vEso vJsB r6vFsa r6vEsC vE vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6 v6sY vA r6vA r6vAsI r6vCsQ r6vDsJ r6vCsR r6vCsR r6vCsR vAsR vAsR t2v6sZ t4v6sZ
   LINE 85 43 158
-    t4vS t2vS vS vS vS vS vS vS vSf2 vS vS vS vS vS vS vS vS vSs9f2 vT vT r6vNsr r6vHsr r6vHsD r7vDsb r7vBsb r7vBsb r7vB vBsH vD vD vDs8 vE vEsH vGs9 vH vH vHsI vHsI vJ vJ vJ vJ vJ vHsK vEsS vCsK vC vC vC vBsC vB v9sK v6sS v3sS v2sC v2 v2 v2 v1sD v1s8 v2s8 v3 v3 v2sD v2sD v2sD v2sD v2sD v2sD v2sD v2sD v2s8 v2sO r6v5sn r6vBsn r6vHsn r6vNse r6vRsm r6vUsT r6vOsq r6vIsq vHsC r7vEsS vEsQ vEsQ r6vEsQ r6vHso vKsR vGsa r6vFsB vEsJ vDsC vBsK vAsC v6sa v6 v6 v6 v6 v6 v6 v6 v6sY vA r6vAsQ r6vAsY r6vCsQ r6vF r6vF r6vF r6vF r6vDsJ vDsJ r6vAsR t2r6vAsJ t4r6v6sZ
+    t4vS t2vS vS vS vS vS vS vS vSf2 vS vS vS vS vS vS vS vS vSs9f2 vT vT r6vNsr r6vHsr r6vHsD r7vDsb r7vDsL r7vDsL r7vD vDsH vF vF vFsW vJ vJ vHsK vHf2 vH vHsI vHsIf2 vJ vJ vJ vJf2 vJ vHsK vEsS vDsC vD vD vD vBsK vB v9sK v6sS v3sS v2sC v2 v2 v2 v1sD v1s8 v2s8 v3 v3 v2sD v2sD v2sD v2sD v2sD v2sD v2sD v2sD v2s8 v2sO r6v5sn r6vBsnS r6vHsn r6vNse r6vRsm r6vUsT r6vOsq r6vIsq vHsC r7vEsS vEsQ vEsQ r6vEsQ r6vHso vKsR vGsa r6vFsB vEsJ vDsC vBsK vAsC v6sa v6 v6 v6 v6 v6 v6 v6 v6sY vA r6vAsQ r6vAsY r6vCsQ r6vF r6vF r6vF r6vF r6vDsJ vDsJ r6vAsR t2r6vAsJ t4r6v6sZ
   LINE 86 43 158
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs9 vT r6vQsT r6vNsr r6vHsr r6vBsr r6vBsr r7v9sb r7v9sL r7v9sG vAsP vD vD vD vDs9 vEsH vGs9 vHsI vHsI vHsI vJ vJ vJ vJ vJ vJ vHsK vH vEsS vCsK vC vC vBsCf2 vB vB v8sS v5sS v2sS v2 v2 v1sD v1sD v1 v1s9 v2s8 v2s8 v2s8 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2sO r6v5sn r6vBsn r6vHsm r6vMse r6vRsO r6vPsj r6vJsq vHsK r7vEsS vEsS vH vH r6vHso vN vKsR r6vGsp vGsh vEsK vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6sY r6vAsI r6vAsQ r6vDsA r6vE r6vEs8 r6vEs8 r6vEs8 r6vEs8 r6vF r6vF r6vDsJ t2r6vCsJ t4r6vAsJ
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs9 vT r6vQsT r6vNsr r6vHsr r6vBsr r6vBsr r7vAsT r7vAsT r7vAsO vDsH vF vF vF vFsX vJ vJ vHsJ vHsI vHsI vJ vJ vJ vJ vJ vJ vHsK vH vEsS vDsC vD vD vBsKf2 vB vB v8sS v5sS v2sS v2 v2 v1sD v1sD v1 v1s9 v2s8 v2s8 v2s8 v2 v2 v2 v2 v2 v2 v2 v2 v2 v2sO r6v5snS r6vBsn r6vHsm r6vMse r6vRsO r6vPsj r6vJsq vHsK r7vEsS vEsS vH vH r6vHso vN vKsR r6vGsp vGsh vEsK vCsK vAsK v6sa v6 v6 v6 v6 v6 v6 v6 v6sY r6vAsI r6vAsQ r6vDsA r6vE r6vEs8 r6vEs8 r6vEs8 r6vEs8 r6vF r6vF r6vDsJ t2r6vCsJ t4r6vAsJ
   LINE 87 44 159
-    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs8 r6vQsT r6vKsr r6vHsr r6vBsr r6v5sr r6v5sr r7v8s8 v9 v9s9 vAsP vBsG vD vDs9 vEsQ vGsQ vHsI vJ vJ vJ vJ vJ vJ vJ vJ vJ vHsK vH vEsS vCsK vC vC vBsB vB v9sK v6sS v3sS v2sC v2 v1sD sD s8 v1s9 v2 v2 v2 v2sI v2sI v2sI v2sI v2sI v2sI v2sJ v2sJ v2 v2 v2sP r6v5sn r6vBsn r6vHse r6vMse r6vMsj r6vJsr vHsK r7vDsb r7vDsa vH vH r6vHsn vN vMsC vM r6vLsB vGsi vEsK vCsK v6sq v6 v6 v6 v6 v6 v6 v6sI r6v6so r6vAsY r6vCsI r6vDsA r6vE r6vE r6vE r6vE r6vE r6vEs8 r6vEs8 r6vEsD r6vE t2r6vCsR t4r6vCsR
+    t4vS t2vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vS vSs8 r6vQsT r6vKsr r6vHsr r6vBsr r6v5sr r6v5sr r7v8sG vA vAsP vDsG vDsG vF vFsX vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vHsK vH vEsS vDsC vD vD vBsK vB v9sK v6sS v3sS v2sC v2 v1sD sD s8 v1s9 v2 v2 v2 v2sI v2sI v2sI v2sI v2sI v2sI v2sJ v2sJ v2 v2 v2sPS r6v5sn r6vBsn r6vHse r6vMse r6vMsj r6vJsr vHsK r7vDsb r7vDsa vH vH r6vHsn vN vMsC vM r6vLsB vGsi vEsK vCsK v6sq v6 v6 v6 v6 v6 v6 v6sI r6v6so r6vAsY r6vCsI r6vDsA r6vE r6vE r6vE r6vE r6vE r6vEs8 r6vEs8 r6vEsD r6vE t2r6vCsR t4r6vCsR
   LINE 88 44 159
-    t4vS t2vS vS vS vS vS vS vS vS vS vQsL vQsG vS vS vS vS vS vS r6vQsL r6vKsr r6vEsr r6vBsr r6v5sr v5 v5sP v8sP v9sH v9sH vB vBsG vDs9 vEsP vHsH vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vHsK vH vFsK vCsS vC vC vCsA vBsJ vB v8sS v5sS v3sK v2sC v1sC sD "" s9 v1s9 v2 v2 v2sH v4sI v4sI v4sI v4sI v4sI v4sJ v4sJ v2sJ v2 v2 v2sP r6v5sn r6vBsn r6vHse r6vHse r6vHsj vHsL r7vDsa r7vD r7vDsX vH r6vHsn vN vN vMsC r6vM vGsq vEsK vCsK vAsK v6sa v6 v6 v6 v6 v6 r6v6so r6v8so r6vCsI r6vE r6vE r6vE r6vE vE vE vE vE vE vE r6vE t2r6vEs9 t4r6vF
+    t4vS t2vS vS vS vS vS vS vS vS vS vQsL vQsG vS vS vS vS vS vS r6vQsL r6vKsr r6vEsr r6vBsr r6v5sr v5 v5sP v8sP vAs9 vAsO vD vDsG vFsX vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vHsK vH vFsK vDsK vD vD vD vBsK vB v9sK v5sa v3sK v2sC v1sC sD "" s9 v1s9 v2 v2 v2sH v4sI v4sI v4sI v4sI v4sI v4sJ v4sJ v2sJ v2 v2S v2sP r6v5sn r6vBsn r6vHse r6vHse r6vHsj vHsL r7vDsa r7vD r7vDsX vH r6vHsn vN vN vMsC r6vM vGsq vEsK vCsK vAsK v6sa v6 v6 v6 v6 v6 r6v6so r6v8so r6vCsI r6vE r6vE r6vE r6vE vE vE vE vE vE vE r6vE t2r6vEs9 t4r6vF
   LINE 89 45 160
-    t4vS t2vS vS vS vS vS vS vQsL vQsL vQsL vQ vQsG vQsG vS vS vS vPsT r6vPsT r6vKsr r6vEsr r6v8sr v5sr v5 v5sP v8sP vB v9sH v9sG vB vBsH vDsP vGsP vJ vJ vJ vJ vJ vJ vJ vJ vJ vJ vHsK vH vH vEsS vCsK vC vCs9 vD vBsK vB v8sS r7v5sS v3sK v1sK sC "" s9 v1s9 v2 v2 v2 v2sX v6sI v6sI v6sI v6sI v6sJ v6sJ v4sJ v2sJ v2 v2sP r6v5sn r6vBsn vH vH vH vH vH r7vDsZ vDsY vH vH r6vHsm r6vHsm r6vHsr r6vGsr r6vGsr vCsb vCsL vAsK v6sa v6 v6 v6 v6 v6sY r6v6so r6vCsI r6vE r6vEsA r6vEsB r6vE r6vE vE vE vE vE vE vE vE r6vE t2r6vEs8 t4r6vDsL
+    t4vS t2vS vS vS vS vS vS vQsL vQsL vQsL vQ vQsG vQsG vS vS vS vPsT r6vPsT r6vKsr r6vEsr r6v8sr v5sr v5 v5sP v8sP vB vAs8 vAsO vD vDsG vFsW vGsO vJ vJ vJ vJf2 vJ vJ vJ vJ vJ vJ vHsK vH vH vEsS vDsC vD vD vD vBsK vB v9sK r7v5sa v3sK v1sK sC "" s9 v1s9 v2 v2 v2 v2sX v6sI v6sI v6sI v6sI v6sJ v6sJ v4sJ v2sJ v2S v2sP r6v5sn r6vBsn vH vH vH vH vH r7vDsZ vDsY vH vH r6vHsm r6vHsm r6vHsr r6vGsr r6vGsr vCsb vCsL vAsK v6sa v6 v6 v6 v6 v6sY r6v6so r6vCsI r6vE r6vEsA r6vEsB r6vE r6vE vE vE vE vE vE vE vE r6vE t2r6vEs8 t4r6vDsL
   LINE 90 45 160
-    t4vS t2vS vS vS vS vS vS vQsL vMsb vMsb vMsb vMsW vMsW vQsG vQsG vQsL vPsT vLsb r6vKsj r6vEsr r6v8sr r6v3sj v3sG v5 v5sP v8sP v9sL v9 v9sG vB vBsH vDsP vGsO vHsG vHsG vJ vJ vJ vJ vJ vJ vJ vHsK vH vH vFsK vCsS vC vC vCs9 vBsK vB v8sS r7v5sS v3sK v1sK sC "" "" s9 v1s9 v2 v2sQ v2sQ v5sP v8sI v8sI v8sI v8sJ v8sJ v6sJ v4sR v2sR v2sR v2sP r6v5sn r6vBsn vH vH vH vH vH vH vH vH r7vEsT vEsO vEsO vGsD vDsT vCsb vAsL vAsL vA v6sa v6 v6 v6 v6sY vAsI r6vCsH r6vEsA r6vEsA r6vF r6vEsC vE vE vE vE vE vE vE vE vE t2vE t4r6vDsC
+    t4vS t2vS vS vS vS vS vS vQsL vMsb vMsb vMsb vMsW vMsW vQsG vQsG vQsL vPsT vLsb r6vKsj r6vEsr r6v8sr r6v3sj v3sG v5 v5sP v8sP vAsD vA vAsO vD vDsG vFs8 vGsO vHsG vHsG vJ vJ vJ vJ vJ vJ vJ vHsK vH vH vFsK vDsK vD vD vD vBsK vB v9sK r7v5sa v3sK v1sK sC "" "" s9 v1s9 v2 v2sQ v2sQ v5sP v8sI v8sI v8sI v8sJ v8sJ v6sJ v4sR v2sRS v2sR v2sP r6v5sn r6vBsn vH vH vH vH vH vH vH vH r7vEsT vEsO vEsO vGsD vDsT vCsb vAsL vAsL vA v6sa v6 v6 v6 v6sY vAsI r6vCsH r6vEsA r6vEsA r6vF r6vEsC vE vE vE vE vE vE vE vE vE t2vE t4r6vDsC
   LINE 91 46 161
-    t4vS t2r6vS r6vS r6vS r6vS r6vQsL r6vQsL r6vKsr r6vIsb vIsb vIsW vIsW vMsW vMsW vMsW vMsb vLsb r6vFsr r6vEsr r6v8sr r6v2sr v2s8 v3sG v5s9 v6sP v9 v9 v9 v9sG vB vBsH vDsP vFsG vFsG vHsG vHsG vHsG vJ vJ vJ vJ vJ vHsK vH vH vEsS vCsK vC vCs9 vD vBsK vB v8sS v5sS v2sS v1sC sC "" s9 v1s9 v2 v2sP v5 v5sQ v8sQ vAsI vAsI vAsJ vAsJ v8sJ v7sB v5sR v5sR v2sR v2sP r6v5sn r6vBsn vH vH vH vH vH vH vH r7vEsT vE vE vEsG vDsT vCsD vAsL v8sL v8sL v8sL v6sJ v6sY v6sY r6v6sY r6vAsQ r6vCsA r6vDsH r6vFsA r6vFsA r6vEsI vE vE vE vE r6vE r6vE r6vE r6vE vE vE t2vE t4r6vCsK
+    t4vS t2r6vS r6vS r6vS r6vS r6vQsL r6vQsL r6vKsr r6vIsb vIsb vIsW vIsW vMsW vMsW vMsW vMsb vLsb r6vFsr r6vEsr r6v8sr r6v2sr v2s8 v3sG v5s9 v6sX vA vA vA vAsO vD vDsG vFs8 vFsG vFsG vHsG vHsG vHsG vJ vJ vJ vJ vJ vHsK vH vH vEsS vDsC vD vD vD vBsK vB v9sK v5sa v2sS v1sC sC "" s9 v1s9 v2 v2sP v5 v5sQ v8sQ vAsI vAsI vAsJ vAsJ v8sJ v7sB v5sRS v5sR v2sR v2sP r6v5sn r6vBsn vH vH vH vH vH vH vH r7vEsT vE vE vEsG vDsT vCsD vAsL v8sL v8sL v8sL v6sJ v6sY v6sY r6v6sY r6vAsQ r6vCsA r6vDsH r6vFsA r6vFsA r6vEsI vE vE vE vE r6vE r6vE r6vE r6vE vE vE t2vE t4r6vCsK
   LINE 92 46 161
-    t4r6vQsG t2r6vQsG r6vQsG r6vQsG r6vQsG r6vQsL r6vKsr r6vKsr r6vEsr vEsb vEsW vEsW vIsW vIsW vIsW vIsW vIsb vFsr r6v9sr r6v8sr r6v2sr sL sO r6se r6v3sO v6sO v7sG v9 v9 v9sG vBs9 vCsP vF vF vFsG vH vH vHsG vHsG vHsG vJ vJ vHsK vH vH vFsK vCsS vC vC vCs8 vBsL vB v8sS r7v5sS v3sK v1sK sC "" "" s9 v1s9 v2sP v5 v5sQ v8sQ vBsQ vCsI vCsI vCsJ vAsJ v8sR v8sR v8sR v5sR v2sR v2sP r6v5sn r6vBsn vH vH vH vFsL vFsL r7vDsb r7vDsb vE vDsD vDsD vDsD vCsD vAsK v8sK v8 v8 v8 v8sH vA r6vA r6vAsQ r6vDsI r6vDsQ r6vFsA r6vG r6vG vEsI vE r6vE r6vE r6vE r6vEsI r6vEsJ r6vE r6vE vE t2vE t4vCsK
+    t4r6vQsG t2r6vQsG r6vQsG r6vQsG r6vQsG r6vQsL r6vKsr r6vKsr r6vEsr vEsb vEsW vEsW vIsW vIsW vIsW vIsW vIsb vFsr r6v9sr r6v8sr r6v2sr sL sO r6se r6v3sO v6sW v7sO vA vA vAsO vD vDsG vF vF vFsG vH vH vHsG vHsG vHsG vJ vJ vHsK vH vH vFsK vDsK vD vD vD vBsK vB v9sK r7v5sa v3sK v1sK sC "" "" s9 v1s9 v2sP v5 v5sQ v8sQ vBsQ vCsI vCsI vCsJ vAsJ v8sR v8sRS v8sR v5sR v2sR v2sP r6v5sn r6vBsn vH vH vH vFsL vFsL r7vDsb r7vDsb vE vDsD vDsD vDsD vCsD vAsK v8sK v8 v8 v8 v8sH vA r6vA r6vAsQ r6vDsI r6vDsQ r6vFsA r6vG r6vG vEsI vE r6vE r6vE r6vE r6vEsI r6vEsJ r6vE r6vE vE t2vE t4vCsK
   LINE 93 47 162
-    t4r6vKsm t2r6vKsm r6vKsm r6vKsm r6vKsm r6vKsr r6vEsr r6vEsr r6vAsb vAsW vAsW vEsW vEsW vEsW vEsW vEsb vCsr r6v9sr r6v3sr r6v2sr sL "" "" sO r6v1sm v7 v7sG v9 v9 v9sG vBs9 vCsP vF vF vFsG vH vH vH vH vHsG vHsL vHsL vH vH vFsK vCsS vC vC vC vBsC vB vB v8sS v5sS v2sS sK "" "" s9 v1s9 v2 v2sP v5sP v8sP vBsQ vE vE vE vCsJ vBsR vBsR vB v8sS v5sS v2sS v2sO r6v5sn r6vBsn vH vH vFsK vDsL r7vDsL vD vDsD vDsD vCsD r7vCsD r7vCsD vBsD vAsC v8sK v8 v8 v8sH vA r6vAsA r6vAsQ r6vDsQ r6vFsA r6vG vG r6vG vG vEsI r6vEsA r6vEsI r6vEsI r6vEsI r6vG r6vEsK r6vE vE vE t2vE t4vCsK
+    t4r6vKsm t2r6vKsm r6vKsm r6vKsm r6vKsm r6vKsr r6vEsr r6vEsr r6vAsb vAsW vAsW vEsW vEsW vEsW vEsW vEsb vCsr r6v9sr r6v3sr r6v2sr sL "" "" sO r6v2se v7 v7sO vA vA vAsO vD vDsG vF vF vFsG vH vH vH vH vHsG vHsL vHsL vH vH vFsK vDsK vD vD vD vBsK vB vB v9sK v5sa v2sS sK "" "" s9 v1s9 v2 v2sP v5sP v8sP vBsQ vE vE vE vCsJ vBsR vBsRS vB v8sS v5sS v2sS v2sO r6v5sn r6vBsn vH vH vFsK vDsL r7vDsL vD vDsD vDsD vCsD r7vCsD r7vCsD vBsD vAsC v8sK v8 v8 v8sH vA r6vAsA r6vAsQ r6vDsQ r6vFsA r6vG vG r6vG vG vEsI r6vEsA r6vEsI r6vEsI r6vEsI r6vG r6vEsK r6vE vE vE t2vE t4vCsK
   LINE 94 47 162
-    t4r6vEsm t2r6vEsm r6vEsm r6vEsm r6vEsm r6vEsm r6vEsr r6v8sr r6v8sr r6v7sT v7sO vAsW vAsW vAsW vAsW vAsb v9sj v6sr v3sr sT sL "" "" "" s8 r6v1sm v4sO v6sO v9 v9 v9sG vAsO vDsG vF vF vFsG vH vH vH vH vH vFsL vFsL vFsL vFsL vCsS vC vC vC vC vBsC vB v8sS r7v5sS v2sS v1sC sC "" "" s9 v1s9 v2sP v5sP v8sP vBsP vEsI vEsI vEsI vEsJ vEsJ vEsJ vBsR vAsS r6v7sS r6v2si v2 v2sP r6v5sn r6vBsn vH vH r7vDsa r7vD vDsb vDsb vBsL r7vBsL r7vBsD r7vBsD vAsL vAsD v8sK v8 v8 v8 r6v8sH r6vAs9 r6vBsI r6vDsQ r6vG r6vG vG vG vG vEsI r6vEsA r6vFs9 r6vG r6vG r6vFsD r6vFsD r6vEsC r6vE vE t2r6vE t4r6vCsK
+    t4r6vEsm t2r6vEsm r6vEsm r6vEsm r6vEsm r6vEsm r6vEsr r6v8sr r6v8sr r6v7sT v7sO vAsW vAsW vAsW vAsW vAsb v9sj v6sr v3sr sT sL "" "" sH v2 r6v2se v5sG v6sW vA vA vAsO vD vDsG vF vF vFsG vH vH vH vH vH vFsL vFsL vFsL vFsL vDsK vD vD vD vD vBsK vB v9sK r7v5sa v2sS v1sC sC "" "" s9 v1s9 v2sP v5sP v8sP vBsP vEsI vEsI vEsI vEsJ vEsJ vEsJS vBsR vAsS r6v7sS r6v2si v2 v2sP r6v5sn r6vBsn vH vH r7vDsa r7vD vDsb vDsb vBsL r7vBsL r7vBsD r7vBsD vAsL vAsD v8sK v8 v8 v8 r6v8sH r6vAs9 r6vBsI r6vDsQ r6vG r6vG vG vG vG vEsI r6vEsA r6vFs9 r6vG r6vG r6vFsD r6vFsD r6vEsC r6vE vE t2r6vE t4r6vCsK
   LINE 95 48 163
-    t4r6v8sm t2r6v8sm r6v8sm r6v8sm r6v8sm r6v8sm r6v8sr r6v2sr r6v2sr v3sW v6sW v6sW v6sW v6sW v6sW v6sb v3sr sr sT "" "" "" "" "" r7sX v4 v4sG v6sO v6sO v6sO v7sO vAsO vDsG vF vF vFsG vFsG vH vH vH vFsL vF vF vF vF vCsS vC vC vC vAsL vAsD v8sT r7v5sS v2sS v1sC sC "" "" s9 v1s9 v2sH v4sP r6v7sP r6vAsP vDsP vG vGsA vGsB vG vG vEsJ r6vDsR r6v8si r6v7sC r6v2sh v2sH v2sP r6v5sn r6vBsn vH vH r7vDsZ r7vDsY vH r6vBsq vB vB r7vB r7vAsC r7v8sL v8sL v8 v8 v8 v8sI r6vA r6vAso r6vDsQ r6vG r6vG vG vG vG vG vEsG r6vEs8 r6vEsG r6vEsL r6vEsL r6vEsD r6vEsD r6vE vE r6vE t2r6vE t4r6vCsK
+    t4r6v8sm t2r6v8sm r6v8sm r6v8sm r6v8sm r6v8sm r6v8sr r6v2sr r6v2sr v3sW v6sW v6sW v6sW v6sW v6sW v6sb v3sr sr sT "" "" "" sH v2 r7v2sP v5 v5s8 v6sW v6sW v6sW v9sW vAsO vDsG vF vF vFsG vFsG vH vH vH vFsL vF vF vF vF vDsK vD vD vD vAsT vAsD v9sL r7v5sa v2sS v1sC sC "" "" s9 v1s9 v2sH v4sP r6v7sP r6vAsP vDsP vG vGsA vGsB vG vGS vEsJ r6vDsR r6v8si r6v7sC r6v2sh v2sH v2sP r6v5sn r6vBsn vH vH r7vDsZ r7vDsY vH r6vBsq vB vB r7vB r7vAsC r7v8sL v8sL v8 v8 v8 v8sI r6vA r6vAso r6vDsQ r6vG r6vG vG vG vG vG vEsG r6vEs8 r6vEsG r6vEsL r6vEsL r6vEsD r6vEsD r6vE vE r6vE t2r6vE t4r6vCsK
   LINE 96 48 163
-    t4r6v2sm t2r6v2sm r6v2sm r6v2sm r6v2sm r6v2sm r6v2sm r6v2sr r6sL sO v2sW v2sW v2sW v2sW v2sW v2sW v2sb sT "" "" "" "" "" "" "" r7sW r7sW r7v4sG v4sG v6 v6s8 v7sO vAsO vCsO vCsO vCsO vCsO vEsO vEsO vEsO vEsT vCsT vCsT vCsT vCsT vCsT vC vC vC vAsK vA v8sL r7v5sT v3sK v1sK v1 sC "" "" s9 v1sP v4sP r6v7s9 r6v8sf vDsP vG vGs9 vHsI vGsR vGsR vG vG r6vBsi r6v7sa v7 v4sS v2sK v2sO r6v5sm r6vBsm r6vBsm vH vH vH r6vBsr vAsD vAs8 vB vB r7v8sS v8 v8 v8 v8sA v8sQ vAsQ r6vAso r6vG vG vG vG vG vG vG vEsK vE r6vEs8 r6vEs8 r6vEsD r6vE r6vE vE vE vE t2r6vE t4r6vCsK
+    t4r6v2sm t2r6v2sm r6v2sm r6v2sm r6v2sm r6v2sm r6v2sm r6v2sr r6sL sO v2sW v2sW v2sW v2sW v2sW v2sW v2sb sT "" "" "" "" "" sH v2 r7v2sO r7v2sO r7v5s8 v5s8 v6 v6sO v9s8 vAsO vDsG vDsG vDsG vDsG vEsO vEsO vEsO vEsT vDsL vDsL vDsL vDsL vDsL vD vD vD vAsS vA v9sD r7v5sb v3sK v1sK v1 sC "" "" s9 v1sP v4sP r6v7s9 r6v8sf vDsP vG vGs9 vHsI vGsR vGsRS vG vG r6vBsi r6v7sa v7 v4sS v2sK v2sO r6v5sm r6vBsm r6vBsm vH vH vH r6vBsr vAsD vAs8 vB vB r7v8sS v8 v8 v8 v8sA v8sQ vAsQ r6vAso r6vG vG vG vG vG vG vG vEsK vE r6vEs8 r6vEs8 r6vEsD r6vE r6vE vE vE vE t2r6vE t4r6vCsK
   LINE 97 49 164
-    t4sG t2sG sG sG sG sG sG sL "" sG sG sG sG sG sG sG sL "" "" "" "" "" "" "" "" "" r7sW r7v4 r7v4sG r7v4sG v6s8 v7sO v9sO v9sO vAsG vC vCsG vCsG vE vE vCsL vC vC vC vC vC vC vC vC v8sb v8sL r7v5sT v3sL sT sD sD "" "" s9 v1s9 v2sH r6v4sP r6v7sf vCsH vEsH vG vGsX vJsQ vJsR vGsR vG r6vDsS r6v8si v7sC v4sS v2sK v2 v2sO r6v5sm r6v5sm r6vBsm r6vBsm r6vBsm r6vBsr r6v7sb v7sO v9sG v9sG r7v8sT v8 v8 v8 v8s9 v9sH vBsH vDsP vG vG vG vG vG vG vG vG vEsK r6vEsC r6vF r6vFsA r6vEsJ r6vE r6vE vE vE r6vE t2r6vE t4r6vCsK
+    t4sG t2sG sG sG sG sG sG sL "" sG sG sG sG sG sG sG sL "" "" "" "" "" "" sG v2 v2 r7v2sO r7v5 r7v5s8 r7v5s8 v6sO v9s8 v9sW v9sW vAsO vD vDs8 vDs8 vE vE vDsD vD vD vD vD vD vD vD vD v9sb v9sD r7v5sb v3sL sT sD sD "" "" s9 v1s9 v2sH r6v4sP r6v7sf vCsH vEsH vG vGsX vJsQ vJsRS vGsR vG r6vDsS r6v8si v7sC v4sS v2sK v2 v2sO r6v5sm r6v5sm r6vBsm r6vBsm r6vBsm r6vBsr r6v7sb v7sO v9sG v9sG r7v8sT v8 v8 v8 v8s9 v9sH vBsH vDsP vG vG vG vG vG vG vG vG vEsK r6vEsC r6vF r6vFsA r6vEsJ r6vE r6vE vE vE r6vE t2r6vE t4r6vCsK
   LINE 98 49 164
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sW r7v4 r7v4 r7v4sG r7v6s8 r7v6sO v6sO v8sG v8sW vAsG vAsG vCsG vCsG vCsL vC vC vC vC vC v8sb v8sb v8sb v8sb v8 r7v5sT r7v2sT sT "" "" "" "" "" s9 v1sP r6v4sP r6v7sH r6v9sf vEsH vG vGsX vKsH vM vJsR vGsS vG r6vDsS r6v8si r6v7sC r6v4sS r6v2sK v1sD se r6se r6v5sm r6v5sm r6v5sm r6v5sm r6v5sr v5sG v6sO r7v6sO r7v6sO v8 v8 v8 v8s9 v9sH vBs9 vCsH vEsH vG vG vG vG vG vG vG vEsK vE r6vEs9 r6vFs9 r6vG r6vEsK r6vE vE vE r6vE t2r6vE t4r6vCsK
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG v2 r7v2sO r7v5 r7v5 r7v5s8 r7v6sO r7v6sO v6sO v9s8 v9sW vAsO vAsO vDs8 vDs8 vDsD vD vD vD vD vD v9sb v9sb v9sb v9sb v9 r7v5sb r7v2sT sT "" "" "" "" "" s9 v1sP r6v4sP r6v7sH r6v9sf vEsH vG vGsX vKsH vM vJsRS vGsS vG r6vDsS r6v8si r6v7sC r6v4sS r6v2sK v1sD se r6se r6v5sm r6v5sm r6v5sm r6v5sm r6v5sr v5sG v6sO r7v6sO r7v6sO v8 v8 v8 v8s9 v9sH vBs9 vCsH vEsH vG vG vG vG vG vG vG vEsK vE r6vEs9 r6vFs9 r6vG r6vEsK r6vE vE vE r6vE t2r6vE t4r6vCsK
   LINE 99 50 165
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sW r7sW r7v4 r7v4sG r7v4sG r7v4sG r7v4sW r7v4sW v8sG v8sG vAsG vAsG vAsG vC vC v8sb v8sb v8sb v8sb v8 v8 v8 r7v8 r7v5sT r7v2sT sL "" "" "" "" "" s9 v1sP r6v4 r6v4sf r6v9sf vEs9 vFsI vGsA vHsP vKsH vM r6vHsi vGsC vG r6vCsa r6v8sZ r6v7sh r6v4sp r6v1sh sC "" r6se r6se r6se r6se r6se v2sO v4sG r7v6 r7v6 v6sH v8 v8 v8 v8sH vAsH vCsH vEsH vG vG vG vG vG vG vG vG vEsK vE r6vEs9 r6vFs8 r6vFsD r6vEsC r6vE vE r6vE r6vE t2r6vCsK t4r6vAsK
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG v2 r7v2sO r7v2sO r7v5 r7v5s8 r7v5s8 r7v5s8 r7v5sW r7v5sW v9s8 v9s8 vAsO vAsO vAsO vD vD v9sb v9sb v9sb v9sb v9 v9 v9 r7v9 r7v5sb r7v2sT sL "" "" "" "" "" s9 v1sP r6v4 r6v4sf r6v9sf vEs9 vFsI vGsA vHsP vKsH vM r6vHsiS vGsC vG r6vCsa r6v8sZ r6v7sh r6v4sp r6v1sh sC "" r6se r6se r6se r6se r6se v2sO v4sG r7v6 r7v6 v6sH v8 v8 v8 v8sH vAsH vCsH vEsH vG vG vG vG vG vG vG vG vEsK vE r6vEs9 r6vFs8 r6vFsD r6vEsC r6vE vE r6vE r6vE t2r6vCsK t4r6vAsK
   LINE 100 50 165
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sW r7sW r7sW r7sW r7sW r7sW r7v4sW r7v4sW r7v7sO r7v7sO v7sO r6v7se r6v7se r6v7sj v6sL v6sL v6sL r7v6sL r7v6sL r7v6sL r7v5sT r7v5sT r7v2sT sL "" "" "" "" "" "" s9 v1sP r6v4sf r6v9sf r6vEsI vFsI vHsQ vHsQ vKsI vMsY r6vLsi r6vGsi vG vEsK vCsJ vCsJ vAsJ r6v6sp r6v1sh sB "" "" "" "" "" sG r7v2sG r7v4sG v6 v6sH v8 v8 v8 v8 r6v8sG r6v8sn vEsH vG vG vG vG vG vG vG vG vEsK vE r6vEs9 r6vF r6vEsD r6vEsD r6vE vE vE r6vE t2r6vCsK t4r6vAsK
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG v2 v2 r7v2sO r7v2sO r7v2sO r7v2sO r7v2sO r7v2sO r7v5sW r7v5sW r7v7sO r7v7sO v7sO r6v7sm r6v7sm r6v7sr v7sL v7sL v7sL r7v7sL r7v7sL r7v7sL r7v5sb r7v5sb r7v2sT sL "" "" "" "" "" "" s9 v1sP r6v4sf r6v9sf r6vEsI vFsI vHsQ vHsQ vKsI vMsY r6vLsiS r6vGsi vG vEsK vCsJ vCsJ vAsJ r6v6sp r6v1sh sB "" "" "" "" "" sG r7v2sG r7v4sG v6 v6sH v8 v8 v8 v8 r6v8sG r6v8sn vEsH vG vG vG vG vG vG vG vG vEsK vE r6vEs9 r6vF r6vEsD r6vEsD r6vE vE vE r6vE t2r6vCsK t4r6vAsK
   LINE 101 51 166
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sW r7sW r7v4sO r7v4sO r7v4sO r7v5sG r7v6s8 r7v6s8 r7v6sD r7v6 r7v6 r7v6 r7v6 r7v6 r7v2sb r7v2sT r7v2sT sL "" "" "" "" "" "" sI r7v1sP r6v4sX r6v8sn r6vEsH vGsI vHsQ vK vKsQ vMsY vQ r6vLsi r6vGsi vG vEsJ vEsJ vCsJ vCsJ r6v6sp r6v1sp r6sR "" "" "" "" "" sH v2sH v4sH v6sH v8 v8 v8 v8 v8 r6v8 r6v8sn vEsH vG vG vG vG vG vG vG vG vEsK vE r6vEs8 r6vEsD r6vE r6vE r6vE vE r6vE r6vE t2r6vCsK t4r6v6sq
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG v2 v2 v2 v2 v2 v2 r7v2sO r7v2sO r7v5sG r7v5sG r7v5sG r7v5sG r7v7 r7v7 r7v7 r7v7 r7v7 r7v7 r7v7 r7v7 r7v2sj r7v2sT r7v2sT sL "" "" "" "" "" "" sI r7v1sP r6v4sX r6v8sn r6vEsH vGsI vHsQ vK vKsQ vMsY vQ r6vLsiS r6vGsi vG vEsJ vEsJ vCsJ vCsJ r6v6sp r6v1sp r6sR "" "" "" "" "" sH v2sH v4sH v6sH v8 v8 v8 v8 v8 r6v8 r6v8sn vEsH vG vG vG vG vG vG vG vG vEsK vE r6vEs8 r6vEsD r6vE r6vE r6vE vE r6vE r6vE t2r6vCsK t4r6v6sq
   LINE 102 51 166
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sW r7sW r7sW r6se r7v5s8 r7v5s8 r7v5s8 r7v5s8 r7v5s8 r7v5s8 r6sr r6sr r6sr r7sL r7sL sL "" "" "" "" "" "" sH r7v2s9 v3sP r6v6sX r6vAsn vGsH vIsH vK vKsP vNsP vQ vQ r6vLsh r6vGsh vGsZ vGsJ vEsJ vEsJ vCsJ r6v7sp r6v3sp r6sh "" "" "" "" r7s9 v1sP v4sH v6sH v8 v8 v8 v8 v8 v8 r6v8sH r6vAsn vG vG vG vG vG vG vG vG vEsK vE vE vE vE r6vE r6vE vE r6vE r6vE t2r6vCsK t4r6v6sq
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG sG sG sG sG v2 v2 r7v2sO r7v2sO r7v2sO r6v2sO r7v5sG r7v5sG r7v5sG r7v5sG r7v5sG r7v5sL r6v1sr r6v1sr r6v1sr r7sL r7sL sL "" "" "" "" "" "" sH r7v2s9 v3sP r6v6sX r6vAsn vGsH vIsH vK vKsP vNsP vQ vQ r6vLshS r6vGsh vGsZ vGsJ vEsJ vEsJ vCsJ r6v7sp r6v3sp r6sh "" "" "" "" r7s9 v1sP v4sH v6sH v8 v8 v8 v8 v8 v8 r6v8sH r6vAsn vG vG vG vG vG vG vG vG vEsK vE vE vE vE r6vE r6vE vE r6vE r6vE t2r6vCsK t4r6v6sq
   LINE 103 52 167
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6se r6se r6se r7v5 r7v5 r7v5 r6sj "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v3sQ r6v6sH r6v8sn r6vEsH vGsH vIsH vK vKsP vNsP vQsI vQsJ r6vLsh r6vKsB vIsJ vGsJ vGsJ vEsJ vDsJ r6v9sp r6v5sp r6sh "" "" "" s9 r7v1sH v3sP v6sH v8sA v8sA v8sB v8 v8 v8 v8 r6v8sH r6vAsn vG vG vG vG vG vG vG vG vEsK vE vE vE vE vE vE vE r6vE r6vCsK t2r6v6sq t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG v2 v2 v2 v2 r6v2sO r6v2sO r6v2sO r7v5 r7v5 r7v5 r6sj sD sD sD "" "" "" "" "" "" "" "" "" r7sX r7v3sQ r6v6sH r6v8sn r6vEsH vGsH vIsH vK vKsP vNsP vQsI vQsJ r6vLshS r6vKsB vIsJ vGsJS vGsJ vEsJ vDsJ r6v9sp r6v5sp r6sh "" "" "" s9 r7v1sH v3sP v6sH v8sA v8sA v8sB v8 v8 v8 v8 r6v8sH r6vAsn vG vG vG vG vG vG vG vG vEsK vE vE vE vE vE vE vE r6vE r6vCsK t2r6v6sq t4v6
   LINE 104 52 167
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6se r6se r6se r6sj "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH v6 r6v6sP r6v9sn vFsH vHsP vK vKsP vNsP vQsH vS vQsJ r6vLsh vKsB vIsJ vIsJ vGsJ vFsJ r6vFsJ r6vBsp r6v5sp r6sh sB "" "" r7sH v2sH v4sP v7sH v9 v9 v8sB v8 v8 v8 v8sH r6vAsH r6vCsX vG vG vG vG vG vG vG vEsK vE vE vE vE vE vE vE r6vE r6vE t2r6v8sq t4v6sK
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG sG sG v2 v2 v2 r6v2sO r6sj r6sj r6sj "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH v6 r6v6sP r6v9sn vFsH vHsP vK vKsP vNsP vQsH vS vQsJS r6vLsh vKsB vIsJ vIsJ vGsJ vFsJ r6vFsJ r6vBsp r6v5sp r6sh sB "" "" r7sH v2sH v4sP v7sH v9 v9 v8sB v8 v8 v8 v8sH r6vAsH r6vCsX vG vG vG vG vG vG vG vEsK vE vE vE vE vE vE vE r6vE r6vE t2r6v8sq t4v6sK
   LINE 105 53 168
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH r7v6 r6v6sH r6v8sf vDsX vHs9 vIsX vKsI vMs9 vNsP vQsH vS vQsJ r6vLsh vKsB vK vIsJ vHsJ vHsJ r6vHsJ r6vBsq r6v5sq v1sa sB "" r7sI v2sH v4sP v7sH v9 v9 v9 v8sB v8 v8 v8 v8sH r6vAsH r6vCsX vG vG vG vG vG vG vG vEsK vE vE vE vE vE vE r6vE r6vE r6v8sq t2v6sK t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sG sG v2 sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH r7v6 r6v6sH r6v8sf vDsX vHs9 vIsX vKsI vMs9 vNsP vQsH vSS vQsJ r6vLsh vKsB vK vIsJ vHsJ vHsJ r6vHsJ r6vBsq r6v5sq v1sa sB "" r7sI v2sH v4sP v7sH v9 v9 v9 v8sB v8 v8 v8 v8sH r6vAsH r6vCsX vG vG vG vG vG vG vG vEsK vE vE vE vE vE vE r6vE r6vE r6v8sq t2v6sK t4v6
   LINE 106 53 168
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH v6 v6sH r6v8sf vDsX vHs9 vIsX vM vMsI vNsQ vQsI vSsA vSsB vQsJ r6vLsh vKsB vKsB vJsJ vJsJ r6vJsJ r6vDsq r6v7sq r6v4sS v1sR sR sQ v2sI v4sP v7sH v9sA v9sA v9sA v9sB v8sJ v8 v8 v8 v8sH r6vAsH r6vCsW vG vG vG r6vG r6vG r6vG vEsK vE vE vE vE vE r6vE r6vE r6vE r6vCsK t2r6v6sq t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sX r7v4sH v6 v6sH r6v8sf vDsX vHs9 vIsX vM vMsI vNsQ vQsI vSsAS vSsB vQsJ r6vLsh vKsB vKsB vJsJ vJsJ r6vJsJ r6vDsq r6v7sq r6v4sS v1sR sR sQ v2sI v4sP v7sH v9sA v9sA v9sA v9sB v8sJ v8 v8 v8 v8sH r6vAsH r6vCsW vG vG vG r6vG r6vG r6vG vEsK vE vE vE vE vE r6vE r6vE r6vE r6vCsK t2r6v6sq t4v6
   LINE 107 54 169
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7sY v4sI v6 v6sI r6v8sH r6vAsX vEsn vIsQ vLs9 vMsQ vOsQ vQsI vSsI vTsA vSsJ vQsR r6vLsh vLsJ vLsJ vLsJ vLsJ r6vJsK r6vDsq r6v7sq v4sR v3sR v3 v3sQ v4sQ v7sH v9s9 vA vA vA vA v8sK v8 v8 v8 v8sG r6vAsG r6vAsm r6vAsm vFs8 r6vFs8 r6vFs8 r6vFs8 r6vEsL vE vE vE vE r6vE r6vE r6vE r6vE r6vCsK r6v6sq t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY r7sY v4sI v6 v6sI r6v8sH r6vAsX vEsn vIsQ vLs9 vMsQ vOsQ vQsI vSsIS vTsA vSsJ vQsR r6vLsh vLsJ vLsJ vLsJ vLsJ r6vJsK r6vDsq r6v7sq v4sR v3sR v3 v3sQ v4sQ v7sH v9s9 vA vA vA vA v8sK v8 v8 v8 v8sG r6vAsG r6vAsm r6vAsm vFs8 r6vFs8 r6vFs8 r6vFs8 r6vEsL vE vE vE vE r6vE r6vE r6vE r6vE r6vCsK r6v6sq t2v6 t4v6
   LINE 108 54 169
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY sY sY sY sY v4sI v4sI v6sQ r6v6sQ r6v8so r6vAsg r6vEso vKso vLsg vMsQ vPsI vRsI vSsI vU vU vTsB r6vQsR r6vNsp vNsh vNsJ vNsJ r6vLsK r6vFsq r6v9sq v7sJ v6sR v3sZ v3sY v6sI v7sI v9s9 vA vA vAsA vAsB v8sK v8 v8 v8 v8 v8sG r6v8sG r6vA r6vAse r6vDsG r6vDsG r6vDsG r6vEsD r6vE r6vE r6vE r6vE r6vE r6vE r6vE r6vE r6vCsK r6v6sq t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sY sY sY sY sY v4sI v4sI v6sQ r6v6sQ r6v8so r6vAsg r6vEso vKso vLsg vMsQ vPsI vRsI vSsIS vU vU vTsB r6vQsR r6vNsp vNsh vNsJ vNsJ r6vLsK r6vFsq r6v9sq v7sJ v6sR v3sZ v3sY v6sI v7sI v9s9 vA vA vAsA vAsB v8sK v8 v8 v8 v8 v8sG r6v8sG r6vA r6vAse r6vDsG r6vDsG r6vDsG r6vEsD r6vE r6vE r6vE r6vE r6vE r6vE r6vE r6vE r6vCsK r6v6sq t2v6 t4v6
   LINE 109 55 170
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7sY v4 v4 v4 r6v4sI r6v4sQ r6v6sQ v6sQ r6v9sI r6v9sg r6vEso r6vFso vKso vQ vPsB vPsI vRsQ vTsI vUsQ vUsQ vUsQ vTsg r6vTsh r6vSsp vPsR vPsJ r6vNsK r6vHsq r6vCsi v9sR v9sR v7sZ r6v7sZ v7sQ v8sI v9sA vA vAsA vAsA vB vAsC v8sK v8 v8 v8 v8 r6v8 r6v8sG r6v8sG r6vAsO r6vCs8 r6vBsL r6vBsO r6vCsG r6vE r6vE r6vE r6vE r6vE r6vE r6vE r6vCsK r6vAsK r6v6sa t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7sY v4 v4 v4 r6v4sI r6v4sQ r6v6sQ v6sQ r6v9sI r6v9sg r6vEso r6vFso vKso vQ vPsB vPsI vRsQ vTsIS vUsQ vUsQ vUsQ vTsg r6vTsh r6vSsp vPsR vPsJ r6vNsK r6vHsq r6vCsi v9sR v9sR v7sZ r6v7sZ v7sQ v8sI v9sA vA vAsA vAsA vB vAsC v8sK v8 v8 v8 v8 r6v8 r6v8sG r6v8sG r6vAsO r6vCs8 r6vBsL r6vBsO r6vCsG r6vE r6vE r6vE r6vE r6vE r6vE r6vE r6vCsK r6vAsK r6v6sa t2v6 t4v6
   LINE 110 55 170
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7v2sI r7v2sI r7v4 v4 v4sQ r6v4sQ r6v6sQ r6v7sI r6v9 r6v9sI r6vBsY r6vEso r6vKsI r6vLso vQsA vQsQ vQsQ vRsY vUsY vVsQ vXsA vXsA vXsA vY vY r6vSsp vRsB r6vPsK r6vJsq r6vGsS vCsZ vCsR vBsJ r6vBsJ r6vAsR vAsJ vAsJ vAsA vAsA vB vB vAsC v8sK v8 v8 v8 v8 v8 r6v8 r6v8 r6v8sG r6vAsG r6vAsL r6v8sT r6v8sW r6vCsG r6vDs8 r6vE r6vE r6vE r6vE r6vE r6vE r6vCsK r6v6sq t2r6v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7v2sI r7v2sI r7v4 v4 v4sQ r6v4sQ r6v6sQ r6v7sI r6v9 r6v9sI r6vBsY r6vEso r6vKsI r6vLso vQsA vQsQ vQsQ vRsY vUsYS vVsQ vXsA vXsA vXsA vY vY r6vSsp vRsB r6vPsK r6vJsq r6vGsS vCsZ vCsR vBsJ r6vBsJ r6vAsR vAsJ vAsJ vAsA vAsA vB vB vAsC v8sK v8 v8 v8 v8 v8 r6v8 r6v8 r6v8sG r6vAsG r6vAsL r6v8sT r6v8sW r6vCsG r6vDs8 r6vE r6vE r6vE r6vE r6vE r6vE r6vCsK r6v6sq t2r6v6 t4v6
   LINE 111 56 171
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7sI r7v2 r7v2sQ r7v4sQ v4sQ r7v4sQ v4sQ r6v7sA r6v7sI r6v9 r6v9sY r6v9sY r6vBso r6vFsg r6vKsY vMsg vRsI vRsI vT vTsI vVsQ vY vY vY vY vY vY vY r6vSsq r6vPsS r6vOsC r6vJsh vGsh vFsR vDsJ vDsg r6vDsh r6vCsB vCsB vBsJ vBsA vBsB vB vB vAsC v8sK v8 v8 v8 v8 v8 r6v8 r6v8 r6v8sG r6v8sG r6v8sL r6v8 r6v8sW r6vAsO r6vCsG r6vCsG r6vE r6vE r6vE r6vE r6vCsK r6v6sq r6v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sI r7sI r7sI r7v2 r7v2sQ r7v4sQ v4sQ r7v4sQ v4sQ r6v7sA r6v7sI r6v9 r6v9sY r6v9sY r6vBso r6vFsg r6vKsY vMsg vRsI vRsI vT vTsI vVsQS vY vY vY vY vY vY vY r6vSsq r6vPsS r6vOsC r6vJsh vGsh vFsR vDsJ vDsg r6vDsh r6vCsB vCsB vBsJ vBsA vBsB vB vB vAsC v8sK v8 v8 v8 v8 v8 r6v8 r6v8 r6v8sG r6v8sG r6v8sL r6v8 r6v8sW r6vAsO r6vCsG r6vCsG r6vE r6vE r6vE r6vE r6vCsK r6v6sq r6v6 t2v6 t4v6
   LINE 112 56 171
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2 r7v2 r7v2sQ r7v5sQ v7sB v7 v7 r6v7sA r6v8sg r6v9sY r6v9sg r6vDsQ vDso r6vHso r6vKso r6vOsQ vRsQ vTsI vTsQ vTsQ vVsQ vY vY vY vY vY vY vY vXsC r6vSsh r6vPsh r6vOsR vLsR vIsR vFsR vFsR r6vI r6vDsi vD vD vCsB vC vBsB vB vAsC v8sK v8 v8 v8 v8 v8 v8 v8 r6v8 r6v8 v8 v8 v8 r6v8sG r6vAsG r6vAsG r6vCsG r6vCsG r6vE r6vE r6vE r6vCsK r6v6sq t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2 r7v2 r7v2sQ r7v5sQ v7sB v7 v7 r6v7sA r6v8sg r6v9sY r6v9sg r6vDsQ vDso r6vHso r6vKso r6vOsQ vRsQ vTsI vTsQ vTsQ vVsQS vY vY vY vY vY vY vY vXsC r6vSsh r6vPsh r6vOsR vLsR vIsR vFsR vFsR r6vI r6vDsi vD vD vCsB vC vBsB vB vAsC v8sK v8 v8 v8 v8 v8 v8 v8 r6v8 r6v8 v8 v8 v8 r6v8sG r6vAsG r6vAsG r6vCsG r6vCsG r6vE r6vE r6vE r6vCsK r6v6sq t2v6 t4v6
   LINE 113 57 172
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sI r7v2sQ r7v5sQ v8sQ v7sZ r7v7sY r6v7sY r6v8sg r6vDsQ r6vDsQ r6vEso r6vGso r6vJso r6vNsQ r6vQsg vRso vUsQ vVsI vWsA vWsA vXs9 vY vY vY vY vYfe vY vY vXsC vUsS vRsS vOsS vLsS vIsS vHsB vHsB r6vGsK vDsS vD vD vCsC vC vBsB vB vAsC v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sH vA r6v8sW r6v8sW r6v8sm r6vCsG r6vE r6vCsK r6v7si v6sC t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2 r7v2sI r7v2sQ r7v5sQ v8sQ v7sZ r7v7sY r6v7sY r6v8sg r6vDsQ r6vDsQ r6vEso r6vGso r6vJso r6vNsQ r6vQsg vRso vUsQ vVsI vWsA vWsAS vXs9 vY vY vY vY vY vY vY vXsC vUsS vRsS vOsS vLsS vIsS vHsB vHsB r6vGsK vDsS vD vD vCsC vC vBsB vB vAsC v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sH vA r6v8sW r6v8sW r6v8sm r6vCsG r6vE r6vCsK r6v7si v6sC t2v6 t4v6
   LINE 114 57 172
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI sJ sJ "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sI r7v2sI r7v4sI r7v5sQ v8sQ vBsQ vBsQ r6vBsQ r6vBsg r6vDsQ r6vG r6vGsg r6vKso r6vMsY vPso vQso vVsI vX vX vX vXfe vX vXs9 vY vY vY vY vYfO vY vY vWsK vTsS vQsS vNsS vKsS vHsS vHsB vI vFsS vDsK vCsD vCsD vC vC vBsC vAsC v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sH vA v8sL v6sL r6v6sG r6v6sm r6vCsG r6vCsL r6v7sj v6sC t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI sJ sJ "" "" "" "" "" "" "" "" "" "" "" r7sH r7v2sI r7v2sI r7v4sI r7v5sQ v8sQ vBsQ vBsQ r6vBsQ r6vBsg r6vDsQ r6vG r6vGsg r6vKso r6vMsY vPso vQso vVsI vX vX vX vXS vX vXs9 vY vY vY vY vY vY vY vWsK vTsS vQsS vNsS vKsS vHsS vHsB vI vFsS vDsK vCsD vCsD vC vC vBsC vAsC v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sH vA v8sL v6sL r6v6sG r6v6sm r6vCsG r6vCsL r6v7sj v6sC t2v6 t4v6
   LINE 115 58 173
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sQ sQ v2sI v2sJ v2sJ sJ sJ sJ sJ "" "" "" "" "" "" "" r7sH r7v2sH r7v4sI r7v4sI r7v6sQ v8sQ vBsY vEsB vE r6vEsI r6vG r6vG r6vGsg r6vLso vQsg vQsg vVsI vWsA vXsA vXsA vXsB vX vX vXs9 vY vY vY vY vY vY vY vWsK vTsS vQsS vNsS vKsS vHsS vH vHs8 vFsT vF vCsS vC vC vC vC vBsC vAsC v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sG v8sL v6sL v6 v6 r6v6sm r6v6sm v6sr v6sD v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sQ sQ v2sI v2sJ v2sJ sJ sJ sJ sJ "" "" "" "" "" "" "" r7sH r7v2sH r7v4sI r7v4sI r7v6sQ v8sQ vBsY vEsB vE r6vEsI r6vG r6vG r6vGsg r6vLso vQsg vQsg vVsI vWsA vXsA vXsA vXsB vXS vX vXs9 vY vY vY vY vY vY vY vWsK vTsS vQsS vNsS vKsS vHsS vH vHs8 vFsT vF vCsS vC vC vC vC vBsC vAsC v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sG v8sL v6sL v6 v6 r6v6sm r6v6sm v6sr v6sD v6 t2v6 t4v6
   LINE 116 58 173
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI r6sY r6v2so r6v3sh r6v3sQ r6v4sJ r6v4sJ r6v2sJ v2sJ v2sJ v2sJ sJ "" "" "" "" "" "" r7sH r7v2sH r7v4sH r7v6sI r7v6sQ v9sQ vBsY vF vEsQ r6vEsg vGsQ r6vGsQ r6vGsg r6vLsn r6vRsX vVsI vVsI vX vXsA vY vY vXsB vXsA vXsA vY vY vY vY vY vY vY vWsK vTsS vQsS vNsS vKsS vHsS vGsD vFsL vFsL vF vF vCsS vBsD vBsD vAsL vAsL vAsD v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v7sD v6sL v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI r6sY r6v2so r6v3sh r6v3sQ r6v4sJ r6v4sJ r6v2sJ v2sJ v2sJ v2sJ sJ "" "" "" "" "" "" r7sH r7v2sH r7v4sH r7v6sI r7v6sQ v9sQ vBsY vF vEsQ r6vEsg vGsQ r6vGsQ r6vGsg r6vLsn r6vRsX vVsI vVsI vX vXsA vY vY vXsBS vXsA vXsA vY vY vY vY vY vY vY vWsK vTsS vQsS vNsS vKsS vHsS vGsD vFsL vFsL vF vF vCsS vBsD vBsD vAsL vAsL vAsD v8sK v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v7sD v6sL v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 117 59 174
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sI r6v2so r6v4so r6v8sI r6v6so r6v6so r6v6sp r6v4sJ r6v4sJ v4sJ v4sJ v2sK sK "" "" "" "" "" r7sH r7v2sH r7v4sH r7v6sH r7v8sI v9sQ vCsI vEs9 vFsH vHsI r6vJsI r6vJsQ vJsQ vLsX r6vPsn r6vVsH vX vX vXsA vY vY vY vY vY vY vY vY vY vY vY vY vY r6vTsi vQsS vNsS vKsS vHsS vGsD vEsL vEsD vCsT vCsT vCsT vAsL vAsD vAsD vA vA v8sL v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v7sC v6sC v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sI r6v2so r6v4so r6v8sI r6v6so r6v6so r6v6sp r6v4sJ r6v4sJ v4sJ v4sJ v2sK sK "" "" "" "" "" r7sH r7v2sH r7v4sH r7v6sH r7v8sI v9sQ vCsI vEs9 vFsH vHsI r6vJsI r6vJsQ vJsQ vLsX r6vPsn r6vVsH vX vX vXsA vY vY vYS vY vY vY vY vY vY vY vY vY vY r6vTsi vQsS vNsS vKsS vHsS vGsD vEsL vEsD vCsT vCsT vCsT vAsL vAsD vAsD vA vA v8sL v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v7sC v6sC v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 118 59 174
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sI r6v2so v8sI vAsI r6vAsI r6vCsI r6vCsJ r6v6sp r6v6sJ r6v6sY r6v6sZ r6v3sS r6sS "" "" "" "" "" sH r7v2sH r7v4sH r7v6sH r7v8sH vAsH vCsH vEs9 vFsH vHsH vJsI vLsI vMsI vMsI vOsH r6vQsf vVsH vX vXsA vY vY vYfu vY vY vY vY vY vY vY vY vY vY vY r6vSsq r6vNsi vKsS vHsS vEsT vDsT vCsL vCsL v9sT v9sO vAsL vA vA v9sD v9sD v8sL v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sA v7sJ v6sC v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sI r6v2so v8sI vAsI r6vAsI r6vCsI r6vCsJ r6v6sp r6v6sJ r6v6sY r6v6sZ r6v3sS r6sS "" "" "" "" "" sH r7v2sH r7v4sH r7v6sH r7v8sH vAsH vCsH vEs9 vFsH vHsH vJsI vLsI vMsI vMsI vOsH r6vQsf vVsH vX vXsA vY vY vYS vY vY vY vY vY vY vY vY vY vY vY r6vSsq r6vNsi vKsS vHsS vEsT vDsT vCsL vCsL v9sT v9sO vAsL vA vA v9sD v9sD v8sL v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8 v8sA v7sJ v6sC v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 119 60 175
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sQ r6v2so v8sI vAsI vCsI r6vCsI r6vE r6vCsJ r6v8sh r6v8sh r6vAsJ r6v6sZ r6v3sh r6sR "" "" "" "" s9 r7v1sH r7v3sH r7v5sH r7v7sH v9sH vBsH vDsH vFsH vHsH vJsH vLsH vNsA vOsI vOsQ vQsX vUs9 vVsH vXs9 vY vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK vSsa r6vMsq r6vHsi vEsS vBsT vBsL vAsL v8sb v8s8 v9s8 vA v9sD v8sL v8sD v8sD v8 v8 v8 v8 v8 v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sA v9 v6sS v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sQ r6v2so v8sI vAsI vCsI r6vCsI r6vE r6vCsJ r6v8sh r6v8sh r6vAsJ r6v6sZ r6v3sh r6sR "" "" "" "" s9 r7v1sH r7v3sH r7v5sH r7v7sH v9sH vBsH vDsH vFsH vHsH vJsH vLsH vNsA vOsI vOsQ vQsX vUs9 vVsH vXs9 vY vY vYS vY vY vY vY vY vY vY vY vY vY vY vWsK vSsa r6vMsq r6vHsi vEsS vBsT vBsL vAsL v8sb v8s8 v9s8 vA v9sD v8sL v8sD v8sD v8 v8 v8 v8 v8 v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sA v9 v6sS v6 v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 120 60 175
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA r6sQ r6v3sf v8sH vAsI vCsI vEsI vEsJ vE r6vDsB vDsB vCsJ vAsJ v8sJ r6v3sh r6sR "" "" "" s9 v1sH r7v3sH r7v5sH r7v7sH r7v9sH vBsH vDsH vFsH vHsH vJsH vLsH vNs9 vOsH vQs9 vRsH vTsH vVs9 vWsH vY vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK vUsK vRsS r6vLsq r6vFsq vBsa vB vAsC v8sK v6sL v6sO v9s8 v8sL v7sL v7sD v7s8 v8 v8 v8 v8 v8 v8sI v9sA v9sA v9sB v9 v9 v9 v9 v9sI v9sJ v9sB v6sZ v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA r6sQ r6v3sf v8sH vAsI vCsI vEsI vEsJ vE r6vDsB vDsB vCsJ vAsJ v8sJ r6v3sh r6sR "" "" "" s9 v1sH r7v3sH r7v5sH r7v7sH r7v9sH vBsH vDsH vFsH vHsH vJsH vLsH vNs9 vOsH vQs9 vRsH vTsH vVs9 vWsH vY vY vYS vY vY vY vY vY vY vY vY vY vY vY vWsK vUsK vRsS r6vLsq r6vFsq vBsa vB vAsC v8sK v6sL v6sO v9s8 v8sL v7sL v7sD v7s8 v8 v8 v8 v8 v8 v8sI v9sA v9sA v9sB v9 v9 v9 v9 v9sI v9sJ v9sB v6sZ v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 121 61 176
-    t4 t2 "" "" "" "" "" "" "" "" "" sA sA sA sA sA sA sA sI v1sI v1sI v1sI r6v1sI r6v3sQ r6v6sX vAsH vCsH vEsH vG vEsJ vEsJ r6vEsJ r6vEsJ r6vCsJ r6vAsJ v8sJ r6v3sh r6sp "" "" "" sH r7v2sH r7v4sH r7v6sH r7v8sH vAsH vCsH vEsH vGsH vIsH vKsH vMsH vOs9 vPsH vRsH vTsH vVs9 vWsH vYfO vY vY vY vY vY vY vY vY vY vY vY vY vY vXsC vWsC vTsS vPsa r6vJsq vFsa r6vBsp r6vBsp r6v8sS v6sK v5sD v5sW r7v6sT r7v6sL r7v5sL v5sG v7s8 v8 v8 v8 v8sA v8sI vA vA vA v9sC v9 v9 v9sg v9sg vBsJ vAsC vA v6sZ v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" sA sA sA sA sA sA sA sI v1sI v1sI v1sI r6v1sI r6v3sQ r6v6sX vAsH vCsH vEsH vG vEsJ vEsJ r6vEsJ r6vEsJ r6vCsJ r6vAsJ v8sJ r6v3sh r6sp "" "" "" sH r7v2sH r7v4sH r7v6sH r7v8sH vAsH vCsH vEsH vGsH vIsH vKsH vMsH vOs9 vPsH vRsH vTsH vVs9 vWsH vY vY vYS vY vY vY vY vY vY vY vY vY vY vY vXsC vWsC vTsS vPsa r6vJsq vFsa r6vBsp r6vBsp r6v8sS v6sK v5sD v5sW r7v6sT r7v6sL r7v5sL v5sG v7s8 v8 v8 v8 v8sA v8sI vA vA vA v9sC v9 v9 v9sg v9sg vBsJ vAsC vA v6sZ v6 v6 v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 122 61 176
-    t4 t2 "" "" "" "" "" "" "" "" "" sI v1sI v1sI v1sI v1sI v1sI v1sI v1sI v2sI v3sI v3sI v3sI r6v3sQ r6v6sg vAsI vCsH vEsH vG vGsI vGsJ vGsJ vGsJ vEsJ vCsJ r6vAsJ r6v8sJ r6v6sK r6sq "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOs9 vPsH vRsH vTsH vVs9 vWsHfe vY vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK vW vRsi r6vMsi r6vIsa r6vHsB r6vHsB r6vBsp r6v7sq v5sK v5 v5s9 r7v6 r7v5sC v5 v5sG v7s8 v8 v8 v8sA v9 v9s9 vA v9sD v9sC v9 r6v8sD r6v8sm vE vDsC vAsS vA vA v6sZ v6sZ v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" "" "" "" "" sI v1sI v1sI v1sI v1sI v1sI v1sI v1sI v2sI v3sI v3sI v3sI r6v3sQ r6v6sg vAsI vCsH vEsH vG vGsI vGsJ vGsJ vGsJ vEsJ vCsJ r6vAsJ r6v8sJ r6v6sK r6sq "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOs9 vPsH vRsH vTsH vVs9 vWsH vY vYS vY vY vY vY vY vY vY vY vY vY vY vY vWsK vW vRsi r6vMsi r6vIsa r6vHsB r6vHsB r6vBsp r6v7sq v5sK v5 v5s9 r7v6 r7v5sC v5 v5sG v7s8 v8 v8 v8sA v9 v9s9 vA v9sD v9sC v9 r6v8sD r6v8sm vE vDsC vAsS vA vA v6sZ v6sZ v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 123 62 177
-    t4 t2 "" "" "" "" "" sY sY sY sY v2sI v3sI v3sI v3sI v3sI v3sI v3sI v3sI v4sI v5sI v5sI r6v5sI r6v6sg r6vBsI vCsA vDs9 vEsH vGsI vI vI vI vGsK vEsK vCsK vAsK v6sa v4sK sa "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vY vY vYf8 vY vY vY vY vY vY vWsKfu vUsK r6vPsi r6vJsq r6vIsC r6vI r6vDsi r6vD r6v7sq r6v5sK v5sA v6 v6 v5sC v5 v5sG v7s8 v8sA v8sA v9sI v9sI vAsB v9sC v9 v9s9 r6v8sL r6v8 r6v8sm r6vDsC r6vCsC vAsK vA vA r6vA r6v6sZ v6 v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" sY sY sY sY v2sI v3sI v3sI v3sI v3sI v3sI v3sI v3sI v4sI v5sI v5sI r6v5sI r6v6sg r6vBsI vCsA vDs9 vEsH vGsI vI vI vI vGsK vEsK vCsK vAsK v6sa v4sK sa "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vYS vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK vUsK r6vPsi r6vJsq r6vIsC r6vI r6vDsi r6vD r6v7sq r6v5sK v5sA v6 v6 v5sC v5 v5sG v7s8 v8sA v8sA v9sI v9sI vAsB v9sC v9 v9s9 r6v8sL r6v8 r6v8sm r6vDsC r6vCsC vAsK vA vA r6vA r6v6sZ v6 v6 v6 v6 v6 t2v6 t4v6
   LINE 124 62 177
-    t4 t2 "" "" "" "" "" sX v4sI v4sI v4sI v4sI v4sI v5sI v5sI v5sI v5sI v5sI v5sI v5sI v6sI v7sI v7sI r6v7sI r6v9sX r6vDsI vDsQ vEsI vGsI vIsI vIsJ vI vGsK vEsK vE vAsa v8sK r6v4sa sa "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vY vY vY vYfe vY vY vY vY vY vWsK vUsK r6vPsi r6vJsq r6vEsj r6vEsb r6vEsb r6vDsC r6v7sq r6v5sK r6v5sC v6 v6 v5sC v4sD v4s8 v5sH v7sH v9 v9sH vB vB v9sK v9 v9s9 vA r6v8sJ r6v8 r6v8sf r6vDs9 r6vBsS r6vAsB r6vAsB r6vA r6vA r6v6sZ r6v6 v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" "" sX v4sI v4sI v4sI v4sI v4sI v5sI v5sI v5sI v5sI v5sI v5sI v5sI v6sI v7sI v7sI r6v7sI r6v9sX r6vDsI vDsQ vEsI vGsI vIsI vIsJ vI vGsK vEsK vE vAsa v8sK r6v4sa sa "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vYS vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK vUsK r6vPsi r6vJsq r6vEsj r6vEsb r6vEsb r6vDsC r6v7sq r6v5sK r6v5sC v6 v6 v5sC v4sD v4s8 v5sH v7sH v9 v9sH vB vB v9sK v9 v9s9 vA r6v8sJ r6v8 r6v8sf r6vDs9 r6vBsS r6vAsB r6vAsB r6vA r6vA r6v6sZ r6v6 v6 v6 v6 t2v6 t4v6
   LINE 125 63 178
-    t4 t2 "" "" "" "" sH v2sn v6sI v6sI v6sI v6sI v6sI v7sA v7sA v7sA v7sA v7sB v7 v7sI v8sI v9sI v9sJ r6v9sA r6vAsf vFsA vGsI vGsI vIsI vK vIsK vI vGsK vEsK vE vAsa r6v4sq r6sa "" "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vY vY vY vY vY vY vYf8 vYfW vWsK vW r6vQsq r6vKsq r6vEsq r6vE r6vE r6vCsL r6v7sr r6v5sL r6v5sC v6 v6 v5sC v4sC v4 v4sH v6s9 v7sH v9 v9sG vB v9sK v9 v9 v9s9 vA r6v8sJ r6v8s9 r6v9sf r6vE r6vBsS r6vB r6vAsB r6vA r6vAsA r6v6sh r6v6sh v6 v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" sH v2sn v6sI v6sI v6sI v6sI v6sI v7sA v7sA v7sA v7sA v7sB v7 v7sI v8sI v9sI v9sJ r6v9sA r6vAsf vFsA vGsI vGsI vIsI vK vIsK vI vGsK vEsK vE vAsa r6v4sq r6sa "" "" "" sH v2sH r7v4sH r7v6sH r7v8sH r7vAsH vCsH vEsH vGsH vIsH vKsH vMs9 vNs9 vOsH vQsH vSsH vUsH vWsH vYS vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK vW r6vQsq r6vKsq r6vEsq r6vE r6vE r6vCsL r6v7sr r6v5sL r6v5sC v6 v6 v5sC v4sC v4 v4sH v6s9 v7sH v9 v9sG vB v9sK v9 v9 v9s9 vA r6v8sJ r6v8s9 r6v9sf r6vE r6vBsS r6vB r6vAsB r6vA r6vAsA r6v6sh r6v6sh v6 v6 v6 t2v6 t4v6
   LINE 126 63 178
-    t4 t2 "" "" "" "" sH r6v2sn r6v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sB v8 v8 v7sB v7sI v9sA vAsI vBsI vAsR r6vAsI r6vCso vGsI vIsI vIsI vK vIsK vI vHsC vFsK vEsC vAsa v8sK r6v2sq r6sK "" "" "" sH v2sH r7v4sH r7v6sH r7v8sG v8sW v8sm vBse vFsO vGsW vKsH vMsH vO vOsH vQsH vSsH vUsH vWsH vY vY vY vY vY vY vYfe vY vY vY vY vY vY vY vWsK r6vQsq r6vKsq r6vEsq r6vE r6vCsL vCsL r6v7si r6v5sK r6v5 v5s8 v5sD v5sD v4sC v4 v4sH v6s9 v7sH v9 v9 v9sG v9sL v9 v9 v9 v9s9 r6vA r6v8sH r6v8sf r6vDs8 r6vDs8 r6vBsf r6vBsh r6vAsZ r6vAsA r6vBso r6vBsp r6v6sh r6v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" sH r6v2sn r6v8sA v8sA v8sA v8sA v8sA v8sA v8sA v8sB v8 v8 v7sB v7sI v9sA vAsI vBsI vAsR r6vAsI r6vCso vGsI vIsI vIsI vK vIsK vI vHsC vFsK vEsC vAsa v8sK r6v2sq r6sK "" "" "" sH v2sH r7v4sH r7v6sH r7v8sG v8sW v8sm vBse vFsO vGsW vKsH vMsH vO vOsH vQsH vSsH vUsH vWsHS vY vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK r6vQsq r6vKsq r6vEsq r6vE r6vCsL vCsL r6v7si r6v5sK r6v5 v5s8 v5sD v5sD v4sC v4 v4sH v6s9 v7sH v9 v9 v9sG v9sL v9 v9 v9 v9s9 r6vA r6v8sH r6v8sf r6vDs8 r6vDs8 r6vBsf r6vBsh r6vAsZ r6vAsA r6vBso r6vBsp r6v6sh r6v6 v6 t2v6 t4v6
   LINE 127 64 179
-    t4 t2 "" "" "" "" r6sP r6v3sn r6v9sA v9sA v9sA v9sA v9sA v9sA v9sB v8sB v8sB v8 v8 v8sH vAsH vCsI vDsI r6vCsR r6vCso vIsI vIsI vK vK vK vIsK vI vHsC vFsK vBsa v9sK r6v3sq r6v2sC sK "" "" "" sH r7v2sH r7v4sH r7v6sG r7v6sG v6sG v8sO vBsW r6vFs9 vGsX vKsH vMsG vMsG vOsH vQsH vSsX vW vWsH vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK r6vW r6vQsq r6vKsq r6vEsq r6vCsS vBsD r6vBsD r6v5sq r6v5 v5 v4sD v4sD v4sD v4s9 v4sH v6s9 v7sH v9 v9 v9 v9 v9 v9 v9 v9s9 vA r6v8sH r6v8 r6v8se r6vD r6vDsP r6vG r6vEsR r6vBsp r6vBso r6vH r6vBsp r6v6sh r6v6 v6 t2v6 t4v6
+    t4 t2 "" "" "" "" r6sP r6v3sn r6v9sA v9sA v9sA v9sA v9sA v9sA v9sB v8sB v8sB v8 v8 v8sH vAsH vCsI vDsI r6vCsR r6vCso vIsI vIsI vK vK vK vIsK vI vHsC vFsK vBsa v9sK r6v3sq r6v2sC sK "" "" "" sH r7v2sH r7v4sH r7v6sG r7v6sG v6sG v8sO vBsW r6vFs9 vGsX vKsH vMsG vMsG vOsH vQsH vSsX vWS vWsH vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK r6vW r6vQsq r6vKsq r6vEsq r6vCsS vBsD r6vBsD r6v5sq r6v5 v5 v4sD v4sD v4sD v4s9 v4sH v6s9 v7sH v9 v9 v9 v9 v9 v9 v9 v9s9 vA r6v8sH r6v8 r6v8se r6vD r6vDsP r6vG r6vEsR r6vBsp r6vBso r6vH r6vBsp r6v6sh r6v6 v6 t2v6 t4v6
   LINE 128 64 179
-    t4 t2 "" "" "" "" r6sY r6v3sA r6v4sn vAsA vAsA vAsA vAsA vAsA vAsB v9sB v9sB v8sB v8sA v8sI vAsH vCsH vEs9 vFsA r6vFsQ vIsI vK vK vK vK vK vIsK vI vGsK vEsK vAsa v8sK r6v2sq sK "" "" "" "" sH r7v2sH r7v4sG r7v4sG v4sG v5sO v8sO r6vBsf r6vGsH vIsG vKsG r6vKsG r6vMsG r6vOsH r6vQsf vVsH vWsH vY vY vY vY vY vY vY vY vY vY vY vYf8 vYfW vWsK r6vVsD r6vSsb r6vMsq r6vHsi vFsK vBsa vAsD r6v5sr r6v4sD v4sD v4sD v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sI v9sJ v9 v9 v8sD v8s8 v9s8 r6v8sG r6v8 r6v8 r6v8se r6vCs8 r6vCsW r6vFsG r6vH r6vBso r6vBso r6vH r6vBsp r6v6sh r6v6 t2v6 t4v6
+    t4 t2 "" "" "" "" r6sY r6v3sA r6v4sn vAsA vAsA vAsA vAsA vAsA vAsB v9sB v9sB v8sB v8sA v8sI vAsH vCsH vEs9 vFsA r6vFsQ vIsI vK vK vK vK vK vIsK vI vGsK vEsK vAsa v8sK r6v2sq sK "" "" "" "" sH r7v2sH r7v4sG r7v4sG v4sG v5sO v8sO r6vBsf r6vGsH vIsG vKsG r6vKsG r6vMsG r6vOsH r6vQsf vVsHS vWsH vY vY vY vY vY vY vY vY vY vY vY vY vY vWsK r6vVsD r6vSsb r6vMsq r6vHsi vFsK vBsa vAsD r6v5sr r6v4sD v4sD v4sD v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sI v9sJ v9 v9 v8sD v8s8 v9s8 r6v8sG r6v8 r6v8 r6v8se r6vCs8 r6vCsW r6vFsG r6vH r6vBso r6vBso r6vH r6vBsp r6v6sh r6v6 t2v6 t4v6
   LINE 129 65 180
-    t4r6so t2r6so r6so so r6so r6so r6v4so r6v4so r6vAsQ vBsJ vBsA vBsA vBsA vBsB vAsB vA v9sB v9sA v9sA vAsA vBsH vDs9 vEsH vGsH vIsH vKsI vKsJ vK vK vK vK vIsK vI vGsK vCsa vAsK r6v4sq r6v2sK sK "" "" "" "" sG r7v2sG r7v2sG r7v2sG v2sO v5sO r6v8sO r6vBsf vEsW vIsG r6vHsT r6vHse r6vIsm r6vMsn r6vSsf vX vXs8 vY vY vY vY vY vY vY vY vY vY vY vY vY r6vVsS r6vPsr r6vMsr r6vHsi vH vDsa vAsS r6v4sr r6v4sD v4 v4 v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sH vB v9sK v9 v8sC v8 v8s9 v9 r6v8sQ r6v8sR r6v8sI r6vAsG r6vBs8 r6vBsW r6vBsm r6vDsb r6vBsI r6vBso r6vH r6vBsp r6v6sh v6 t2v6 t4v6
+    t4r6so t2r6so r6so so r6so r6so r6v4so r6v4so r6vAsQ vBsJ vBsA vBsA vBsA vBsB vAsB vA v9sB v9sA v9sA vAsA vBsH vDs9 vEsH vGsH vIsH vKsI vKsJ vK vK vK vK vIsK vI vGsK vCsa vAsK r6v4sq r6v2sK sK "" "" "" "" sG r7v2sG r7v2sG r7v2sG v2sO v5sO r6v8sO r6vBsf vEsW vIsG r6vHsT r6vHse r6vIsm r6vMsn r6vSsfS vX vXs8 vY vY vY vY vY vY vY vY vY vY vY vY vY r6vVsS r6vPsr r6vMsr r6vHsi vH vDsa vAsS r6v4sr r6v4sD v4 v4 v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sH vB v9sK v9 v8sC v8 v8s9 v9 r6v8sQ r6v8sR r6v8sI r6vAsG r6vBs8 r6vBsW r6vBsm r6vDsb r6vBsI r6vBso r6vH r6vBsp r6v6sh v6 t2v6 t4v6
   LINE 130 65 180
-    t4r6v6so t2r6v6so r6v6so r6v6so r6v6so r6v6so r6v6so r6vAso r6vAso vDsB vCsJ vCsI vCsI vCsJ vBsB vAsJ vAsJ vAsJ vAsI vAsI vBsA vCsH vEsH vGsH vIsH vKsH vM vKsJ vKsJ vK vK vIsK vI vGsK vCsa vAsK r6v8sK r6v2sq sK "" "" "" "" "" sG r7v1s8 r7v2 r7v2 v2sO v5sO r6v8sX r6vCsG vEsW vEsW r6vGs8 r6vGsG r6vGsm r6vMsm r6vSse vWs8 vXs8 vY vY vY vY vY vY vY vY vY vY vY vY r6vTsj r6vPsr r6vJsr r6vHsj vH vDsa vAsS v4sq r6v4 v4 v4 v4 v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sG v9sL v9 v9sA v8sJ v8sI v9sA v9sI r6vB r6vAsB r6vAsA r6vAs8 r6vB r6vB r6vBsG r6vBsH r6vBsn r6vH r6vH r6vBsp r6v6sh t2v6 t4v6
+    t4r6v6so t2r6v6so r6v6so r6v6so r6v6so r6v6so r6v6so r6vAso r6vAso vDsB vCsJ vCsI vCsI vCsJ vBsB vAsJ vAsJ vAsJ vAsI vAsI vBsA vCsH vEsH vGsH vIsH vKsH vM vKsJ vKsJ vK vK vIsK vI vGsK vCsa vAsK r6v8sK r6v2sq sK "" "" "" "" "" sG r7v1s8 r7v2 r7v2 v2sO v5sO r6v8sX r6vCsG vEsW vEsW r6vGs8 r6vGsG r6vGsm r6vMsmS r6vSse vWs8 vXs8 vY vY vY vY vY vY vY vY vY vY vY vY r6vTsj r6vPsr r6vJsr r6vHsj vH vDsa vAsS v4sq r6v4 v4 v4 v4 v4 v4 v4s9 v5 v5sH v7sH v9 v9 v9sG v9sL v9 v9sA v8sJ v8sI v9sA v9sI r6vB r6vAsB r6vAsA r6vAs8 r6vB r6vB r6vBsG r6vBsH r6vBsn r6vH r6vH r6vBsp r6v6sh t2v6 t4v6
   LINE 131 66 181
-    t4r6vCso t2r6vCso r6vCso r6vCso r6vCso r6vCso r6vCso r6vGsJ r6vEsJ vEsJ vEsJ vEsJ vEsJ vCsJ vCsJ vCsJ vCsJ vCsJ vCsI vCsI vCsI vE vEsH vGsH vIsH vKsH vM vM vKsK vK vK vIsK vI vEsa vCsK r6vAsK r6v4sq r6v2sK sK "" "" "" "" "" s8 r7v1s8 r7v2 r7v2 v2sO v5sO v8sW vBsO vBsO vEsG r6vG r6vG r6vGsm r6vMsm r6vQsm vVsG vXs8 vY vY vY vY vY vY vYsA vYsA vYsB vY vY r6vTsi r6vPsa r6vJsq r6vFsb r6vDsb r6vDsb vAsT v4sr sb sW v2sG v4 v4 v4 v4s9 v5 v5sH v7 v7sG v7sG v7sG v8s8 v9 v9s9 vA vA vA vAsA vB vB r6vB r6vAsA vAsA r6vBsA r6vBsA r6vB r6vBsn r6vH r6vH r6vH r6vBsq v6si t2v6 t4v6
+    t4r6vCso t2r6vCso r6vCso r6vCso r6vCso r6vCso r6vCso r6vGsJ r6vEsJ vEsJ vEsJ vEsJ vEsJ vCsJ vCsJ vCsJ vCsJ vCsJ vCsI vCsI vCsI vE vEsH vGsH vIsH vKsH vM vM vKsK vK vK vIsK vI vEsa vCsK r6vAsK r6v4sq r6v2sK sK "" "" "" "" "" s8 r7v1s8 r7v2 r7v2 v2sO v5sO v8sW vBsO vBsO vEsG r6vG r6vG r6vGsmS r6vMsm r6vQsm vVsG vXs8 vY vY vY vY vY vY vYsA vYsA vYsB vY vY r6vTsi r6vPsa r6vJsq r6vFsb r6vDsb r6vDsb vAsT v4sr sb sW v2sG v4 v4 v4 v4s9 v5 v5sH v7 v7sG v7sG v7sG v8s8 v9 v9s9 vA vA vA vAsA vB vB r6vB r6vAsA vAsA r6vBsA r6vBsA r6vB r6vBsn r6vH r6vH r6vH r6vBsq v6si t2v6 t4v6
   LINE 132 66 181
-    t4r6vCso t2r6vIso r6vIso r6vIso r6vIso r6vIso r6vIso r6vIsp r6vGsJ vGsJ vGsJ vGsJ vGsJ vEsJ vEsJ vEsJ vEsJ vEsJ vEsJ vEsI vEsI vEsJ vEsA vFsH vHsH vJsH vLs9 vM vKsK vK vK vIsK vI vGsK vCsa r6vAsK r6v4sq r6v2sK sK "" "" "" "" "" "" s9 r7v1s8 r7v2 r7v2 v2sO v5sO v8sO v8sO vBsO vDsO vDsO r6vDsO r6vGsm r6vKsm r6vQse vVsH vXs8 vY vY vY vY vY vYsA vZ vZfe vYsB vY r6vVsS r6vRsa r6vLsq r6vFsq r6vDsK r6vBsL r6v9sb v4sr sb "" sH v2sG v2sL v2sG v2sG v4s9 v5 v5sG v5sG v5sG v7 v7s8 v8s9 v9s9 vA vA vA vAs9 vB vB vB vB vAsA vAsI vC r6vBsA r6vB r6vBsn r6vH r6vH r6vBsq r6v8sS t2v6sK t4v6
+    t4r6vCso t2r6vIso r6vIso r6vIso r6vIso r6vIso r6vIso r6vIsp r6vGsJ vGsJ vGsJ vGsJ vGsJ vEsJ vEsJ vEsJ vEsJ vEsJ vEsJ vEsI vEsI vEsJ vEsA vFsH vHsH vJsH vLs9 vM vKsK vK vK vIsK vI vGsK vCsa r6vAsK r6v4sq r6v2sK sK "" "" "" "" "" "" s9 r7v1s8 r7v2 r7v2 v2sO v5sO v8sO v8sO vBsO vDsO vDsO r6vDsOS r6vGsm r6vKsm r6vQse vVsH vXs8 vY vY vY vY vY vYsA vZ vZ vYsB vY r6vVsS r6vRsa r6vLsq r6vFsq r6vDsK r6vBsL r6v9sb v4sr sb "" sH v2sG v2sL v2sG v2sG v4s9 v5 v5sG v5sG v5sG v7 v7s8 v8s9 v9s9 vA vA vA vAs9 vB vB vB vB vAsA vAsI vC r6vBsA r6vB r6vBsn r6vH r6vH r6vBsq r6v8sS t2v6sK t4v6
   LINE 133 67 182
-    t4r6vIso t2r6vO r6vO r6vO r6vO r6vO r6vO r6vIsp r6vIsJ vIsJ vIsJ vIsJ vGsJ vGsJ vGsJ vGsB vGsI vGsI vGsI vGsI vGsJ vFsJ vFsI vHsH vJsH vLs9 vM vM vKsK vK vK vIsK vGsK vEsK r6vCsK r6vAsK r6v4sq sa "" "" "" "" "" "" s9 v1 r7v1s8 r7v2 v2 v2sO v5sO v7s8 v7sW r6v8se v9sW v9sW r6vDsO r6vFse r6vKsm r6vQsn vWs8 vWsG vXs8 vY vY vY vYsA vZ vZfO vZ vYsB vY r6vVsS r6vPsq r6vJsq r6vFsZ r6vBsp r6v9sK r6v4si sa "" sH v2sI v2sI v2 v2 v2sH r6v4s9 v5 v5 v5 v5sG v7 v7sH v9 v9s9 vA vA vA vAs9 vB vB vB vB v9sG v9sO r6vC r6vBsA r6vBso r6vH r6vH r6vBsq r6vAsC v8sK t2v6sK t4v6
+    t4r6vIso t2r6vO r6vO r6vO r6vO r6vO r6vO r6vIsp r6vIsJ vIsJ vIsJ vIsJ vGsJ vGsJ vGsJ vGsB vGsI vGsI vGsI vGsI vGsJ vFsJ vFsI vHsH vJsH vLs9 vM vM vKsK vK vK vIsK vGsK vEsK r6vCsK r6vAsK r6v4sq sa "" "" "" "" "" "" s9 v1 r7v1s8 r7v2 v2 v2sO v5sO v7s8 v7sW r6v8se v9sW v9sWS r6vDsO r6vFse r6vKsm r6vQsn vWs8 vWsG vXs8 vY vY vY vYsA vZ vZ vZ vYsB vY r6vVsS r6vPsq r6vJsq r6vFsZ r6vBsp r6v9sK r6v4si sa "" sH v2sI v2sI v2 v2 v2sH r6v4s9 v5 v5 v5 v5sG v7 v7sH v9 v9s9 vA vA vA vAs9 vB vB vB vB v9sG v9sO r6vC r6vBsA r6vBso r6vH r6vH r6vBsq r6vAsC v8sK t2v6sK t4v6
   LINE 134 67 182
-    t4r6vO t2r6vO r6vO r6vO r6vO r6vO r6vO r6vO r6vKsZ vKsJ vKsJ vKsJ vIsJ vIsJ vIsJ vHsB vHsI vIsI vIsI vIsI vIsJ vHsJ vHsI vHsI vJsH vLs9 vMsI r6vMsJ r6vKsK vK vIsL vIsL vGsK vEsK r6vCsK r6v6sr r6v4sr r6sa "" "" "" "" "" "" "" s8 s8 r7v1s8 r7v2 v2 r6v2sO r6v2se r6v7 r6v7s8 r6v7sG r6v9 r6v9sW r6vCsO r6vFsf r6vKsn r6vQsn r6vSsW vVsG vXs8 vY vXsD vXsG vZ vZ vZ vZ r6vTsr r6vSsr r6vPsr vLsa r6vJsK r6vHsJ r6vBsp r6v9sp r6v3sq sR sH v2sH v4 v2sJ v2sI v2sI r6v4 r6v4s8 v4s8 v5 v5 v5sG v7 v7sG v8sH vA vA vA vAs9 vB vB vB vB v9sK v9 v9sO r6vBsD r6vBso r6vH r6vH r6vH r6vBsq r6v9sK t2v8sC t4v6sK
+    t4r6vO t2r6vO r6vO r6vO r6vO r6vO r6vO r6vO r6vKsZ vKsJ vKsJ vKsJ vIsJ vIsJ vIsJ vHsB vHsI vIsI vIsI vIsI vIsJ vHsJ vHsI vHsI vJsH vLs9 vMsI r6vMsJ r6vKsK vK vIsL vIsL vGsK vEsK r6vCsK r6v6sr r6v4sr r6sa "" "" "" "" "" "" "" s8 s8 r7v1s8 r7v2 v2 r6v2sO r6v2se r6v7 r6v7s8 r6v7sG r6v9S r6v9sW r6vCsO r6vFsf r6vKsn r6vQsn r6vSsW vVsG vXs8 vY vXsD vXsG vZ vZ vZ vZ r6vTsr r6vSsr r6vPsr vLsa r6vJsK r6vHsJ r6vBsp r6v9sp r6v3sq sR sH v2sH v4 v2sJ v2sI v2sI r6v4 r6v4s8 v4s8 v5 v5 v5sG v7 v7sG v8sH vA vA vA vAs9 vB vB vB vB v9sK v9 v9sO r6vBsD r6vBso r6vH r6vH r6vH r6vBsq r6v9sK t2v8sC t4v6sK
   LINE 135 68 183
-    t4r6vO t2r6vO r6vO r6vO r6vO r6vO r6vO r6vO vMsJ vMsJ vMsJ vKsJ vKsJ vKsJ vIsJ vIsI vJsI vKsI vKsI vKsJ vJsJ vJ vJsI vJsI vLsA vMsI vO r6vKsa vK vIsK vI vGsK vEsK r6vAsb r6v6sq r6v4sK r6sa "" "" "" "" "" "" "" "" "" s8 r7v1s8 r7v2 v2 r6v2 r6v2se r6v4sO r6v4sO r6v4se r6v9 r6v9sO r6vCsf r6vHsf r6vMsn r6vS r6vSsO vUsO vWsG vWsL vWs8 r6vXsG vZ vZ r6vXsL r6vTsr r6vRsL r6vOsb vNsL vLsK vJsK vHsK vFsK r6v9sq r6v3sq r6sP sH v2sH v4 v4 v4sQ r6v4so r6v4so r6v4 r6v4s8 v5 v5 v5sG v7 v7s9 v8sH vA vA vA vAs9 vB vB vB vB v9sK v7sL v7sW r6vB r6vBsm r6vH r6vH r6vBsq r6v9sK v7sL t2v6sL t4v6
+    t4r6vO t2r6vO r6vO r6vO r6vO r6vO r6vO r6vO vMsJ vMsJ vMsJ vKsJ vKsJ vKsJ vIsJ vIsI vJsI vKsI vKsI vKsJ vJsJ vJ vJsI vJsI vLsA vMsI vO r6vKsa vK vIsK vI vGsK vEsK r6vAsb r6v6sq r6v4sK r6sa "" "" "" "" "" "" "" "" "" s8 r7v1s8 r7v2 v2 r6v2 r6v2se r6v4sO r6v4sO r6v4seS r6v9 r6v9sO r6vCsf r6vHsf r6vMsn r6vS r6vSsO vUsO vWsG vWsL vWs8 r6vXsG vZ vZ r6vXsL r6vTsr r6vRsL r6vOsb vNsL vLsK vJsK vHsK vFsK r6v9sq r6v3sq r6sP sH v2sH v4 v4 v4sQ r6v4so r6v4so r6v4 r6v4s8 v5 v5 v5sG v7 v7s9 v8sH vA vA vA vAs9 vB vB vB vB v9sK v7sL v7sW r6vB r6vBsm r6vH r6vH r6vBsq r6v9sK v7sL t2v6sL t4v6
   LINE 136 68 183
-    t4r6vO t2r6vO r6vO r6vO r6vO r6vO vO vO vO vO vO vMsJ vMsJ vMsJ vKsJ vKsB vKsA vLsI vMsI vMsJ vLsJ vJsJ vJsI vLsI vLsI vMsI vO r6vLsS r6vKsC r6vK vIsK vI vGsK r6vAsq r6v8sK r6v6sK r6v3sS sS "" "" "" "" "" "" "" "" "" s8 r7v1s8 v1s8 r6v1s8 r6v2 r6v2sH r6v4 r6v4 r6v4se r6v6sO r6v9sP r6vCsf r6vHsf r6vMsn r6vRs8 r6vRsO vTsO vTsO vVs8 vVsG r6vXsG r6vXsG r6vXsL r6vTsb r6vRsL r6vMsj vMsL vLsL vJsL vHsL r6vBsr r6v9sr r6v3sr r6sT sH v2sH v4 v4sQ v4sQ v7sQ r6vA r6v4sq r6v4 r6v4s8 v5 v5 v5sG v6s8 v7sH v9s9 vA vA vA vAs9 vB vB vB v9sK v7sK v7 r6v5sm r6v5sm r6vBsm r6vBsm r6vBsr r6v9sL v7sL t2v6sD t4v6
+    t4r6vO t2r6vO r6vO r6vO r6vO r6vO vO vO vO vO vO vMsJ vMsJ vMsJ vKsJ vKsB vKsA vLsI vMsI vMsJ vLsJ vJsJ vJsI vLsI vLsI vMsI vO r6vLsS r6vKsC r6vK vIsK vI vGsK r6vAsq r6v8sK r6v6sK r6v3sS sS "" "" "" "" "" "" "" "" "" s8 r7v1s8 v1s8 r6v1s8 r6v2 r6v2sH r6v4 r6v4S r6v4se r6v6sO r6v9sP r6vCsf r6vHsf r6vMsn r6vRs8 r6vRsO vTsO vTsO vVs8 vVsG r6vXsG r6vXsG r6vXsL r6vTsb r6vRsL r6vMsj vMsL vLsL vJsL vHsL r6vBsr r6v9sr r6v3sr r6sT sH v2sH v4 v4sQ v4sQ v7sQ r6vA r6v4sq r6v4 r6v4s8 v5 v5 v5sG v6s8 v7sH v9s9 vA vA vA vAs9 vB vB vB v9sK v7sK v7 r6v5sm r6v5sm r6vBsm r6vBsm r6vBsr r6v9sL v7sL t2v6sD t4v6
   LINE 137 69 184
-    t4r6vO t2r6vO r6vO r6vO vO vO vO vO vO vO vO vO vO vMsJ vLsJ vLsI vLsI vNsA vOsA vNsJ vLsJ vLsI vLsI vNsI vNsI vOsA r6vOsB r6vKsa vK vIsK vI vGsK r6vCsa r6vAsJ r6v6sh r6v4sK r6sa "" "" "" "" "" "" "" "" "" "" s8 s8 s8 v1s8 v2sH v4 v4 r6v4 r6v4sG r6v6sO r6v9sf r6vEsf r6vJsf r6vOsO r6vR r6vQsO vQsO vTsG vV vTsW r6vTsW r6vTsb r6vTsb r6vRsL r6vMsj vLsD vKsL vJsL r6vDsr r6vBsr r6v5sr r6v3sr r6sT sH v2sH v4 v4sP v7 v7sP r6vA r6vA r6v4sq r6sb r6se v5 v5 v5s8 v6sH v8sH vA vA vA vAs9 vB vB vB vB v9sK v7sK v5sK v5 v5sm v5sm v9sG v9sL v6sT v6sD t2v6 t4v6
+    t4r6vO t2r6vO r6vO r6vO vO vO vO vO vO vO vO vO vO vMsJ vLsJ vLsI vLsI vNsA vOsA vNsJ vLsJ vLsI vLsI vNsI vNsI vOsA r6vOsB r6vKsa vK vIsK vI vGsK r6vCsa r6vAsJ r6v6sh r6v4sK r6sa "" "" "" "" "" "" "" "" "" "" s8 s8 s8 v1s8 v2sH v4 v4 r6v4S r6v4sG r6v6sO r6v9sf r6vEsf r6vJsf r6vOsO r6vR r6vQsO vQsO vTsG vV vTsW r6vTsW r6vTsb r6vTsb r6vRsL r6vMsj vLsD vKsL vJsL r6vDsr r6vBsr r6v5sr r6v3sr r6sT sH v2sH v4 v4sP v7 v7sP r6vA r6vA r6v4sq r6sb r6se v5 v5 v5s8 v6sH v8sH vA vA vA vAs9 vB vB vB vB v9sK v7sK v5sK v5 v5sm v5sm v9sG v9sL v6sT v6sD t2v6 t4v6
   LINE 138 69 184
-    t4r6vO t2r6vO r6vO vO vO vO vO vO vO vO vO vO vO vNsC vN vN vNsA vNsA vOs9 vP vNsK vN vN vNsI vPsA vPsB vP vOsB r6vKsZ vK vIsJ vIsQ vGsh r6vCsp r6vBsp r6v6sh r6v4sp r6sZ "" "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v2sG v4 v4 v4 v4sG r6v6sO r6v9sf r6vEsf r6vJsf r6vOsO r6vOsO vOsG vQsO vSsO vSsT vSs8 r6vSs8 r6vQsT r6vQsT r6vMsj vLsD vKsC r6vFsj r6vDsr r6v7sr r6v5sr r6sj r6sT "" sH v2sH v4 v4sP v7 v7sP r6vAsI r6v6sq r6sq r6 r6sf v5 v5 v5s8 v6sH v8sG v8sG v8sG vA vAs8 vB vB vB v9sK v7sK v5sK v5 v4sD v4s8 v4se v6sO v6sT v6 t2v6 t4v6
+    t4r6vO t2r6vO r6vO vO vO vO vO vO vO vO vO vO vO vNsC vN vN vNsA vNsA vOs9 vP vNsK vN vN vNsI vPsA vPsB vP vOsB r6vKsZ vK vIsJ vIsQ vGsh r6vCsp r6vBsp r6v6sh r6v4sp r6sZ "" "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v2sG v4 v4S v4 v4sG r6v6sO r6v9sf r6vEsf r6vJsf r6vOsO r6vOsO vOsG vQsO vSsO vSsT vSs8 r6vSs8 r6vQsT r6vQsT r6vMsj vLsD vKsC r6vFsj r6vDsr r6v7sr r6v5sr r6sj r6sT "" sH v2sH v4 v4sP v7 v7sP r6vAsI r6v6sq r6sq r6 r6sf v5 v5 v5s8 v6sH v8sG v8sG v8sG vA vAs8 vB vB vB v9sK v7sK v5sK v5 v4sD v4s8 v4se v6sO v6sT v6 t2v6 t4v6
   LINE 139 70 185
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vNsB vNsA vNsA vO vO vOs8 vOsD vNsB vN vNsH vPs9 vQ vPsA vPsA vOsJ r6vKsZ vKsR vKsR vLsB r6vIsS vHsB r6vBsp r6vAsp r6v4sp r6sZ r6sZ "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v1sO v4 v4 v4 v4sG r6v6sP r6v9sf r6vEsf r6vJsf r6vOsW r6vOsW vOsG vQsG vS vS vS vQsK r6vQ r6vOsL r6vLsS r6vL r6vFsq r6vAsj r6v7sr r6v4sT r6sj "" "" sH v2sH v4 v4sP v7 v7sP vAsH r6vC r6v6sq r6sq r6sf r6v5 v5 v5 v5s9 v6sH v8 v8 v8sG v8sG v9sG v9sG v9sG v9sL v7sL v6sC v5sC v4sD v4 v4 v4sG v6 v6 v6 t2v6 t4v6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vNsB vNsA vNsA vO vO vOs8 vOsD vNsB vN vNsH vPs9 vQ vPsA vPsA vOsJ r6vKsZ vKsR vKsR vLsB r6vIsS vHsB r6vBsp r6vAsp r6v4sp r6sZ r6sZ "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v1sO v4 v4S v4 v4sG r6v6sP r6v9sf r6vEsf r6vJsf r6vOsW r6vOsW vOsG vQsG vS vS vS vQsK r6vQ r6vOsL r6vLsS r6vL r6vFsq r6vAsj r6v7sr r6v4sT r6sj "" "" sH v2sH v4 v4sP v7 v7sP vAsH r6vC r6v6sq r6sq r6sf r6v5 v5 v5 v5s9 v6sH v8 v8 v8sG v8sG v9sG v9sG v9sG v9sL v7sL v6sC v5sC v4sD v4 v4 v4sG v6 v6 v6 t2v6 t4v6
   LINE 140 70 185
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vNsA vOs8 vOsG vOsG vPs8 vQ vOsJ vNsJ vN vMsB vKsK r6vIsJ r6vHsR r6vGsB r6vAsp r6v4sp r6v4sp r6sZ r6sR sR sR sR "" "" "" "" "" "" "" s8 s8 v1sO v1sO v1sO v1sO v4sP r6v7sf r6vCsf r6vHsf r6vMsn r6vS r6vOsW vOsG vQsG vS vS vS vQsK vNsT r6vLsT r6vKsD r6vFsq r6vAsi r6v7sS r6v4sS r6v1sS sC "" sH v2sH v4 v4sP v7 v7sP vAsH vC r6v6sq r6sq r6 r6sf v5 v5 v5 v5sH v7s8 v7sD v6sL v6sG v7sG v7sG v7sG v8sD v7sL v5sL v4sL v4sD v4 v4 v4 v4sG v6 v6 t2v6 t4v6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vNsA vOs8 vOsG vOsG vPs8 vQ vOsJ vNsJ vN vMsB vKsK r6vIsJ r6vHsR r6vGsB r6vAsp r6v4sp r6v4sp r6sZ r6sR sR sR sR "" "" "" "" "" "" "" s8 s8 v1sO v1sOS v1sO v1sO v4sP r6v7sf r6vCsf r6vHsf r6vMsn r6vS r6vOsW vOsG vQsG vS vS vS vQsK vNsT r6vLsT r6vKsD r6vFsq r6vAsi r6v7sS r6v4sS r6v1sS sC "" sH v2sH v4 v4sP v7 v7sP vAsH vC r6v6sq r6sq r6 r6sf v5 v5 v5 v5sH v7s8 v7sD v6sL v6sG v7sG v7sG v7sG v8sD v7sL v5sL v4sL v4sD v4 v4 v4 v4sG v6 v6 t2v6 t4v6
   LINE 141 71 186
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vOs8 vPs8 vPsD vP vNsK vN vMsB vKsJ vKsB vHsR r6vGsB r6vAsp r6vAsp r6v4sp r6v3sR v3sR v3sR v3sR sR "" "" "" "" "" "" "" "" s8 s8 s8 s8 v1sO r6v2se r6v7sf r6vCsf r6vHsf r6vMsm r6vMsr vMsG vNsO vPsO vPsO vPsO vPsT vNsS vLsK vJsL vGsb r6vBsi r6v7sa r6v7 r6v2si v1sC sC "" sH v2sH v4sP v7 v7sP vAsH vC vC r6v6sq r6sp r6sf r6v5 v5 v5 v5 v5sG v6sD v6sD v6 v6s8 v7s8 v7s8 v7sD v7sD v5sL v4sD v4 v4 v4 v4 v4 v4sG v6 v6 t2v6 t4v6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vOs8 vPs8 vPsD vP vNsK vN vMsB vKsJ vKsB vHsR r6vGsB r6vAsp r6vAsp r6v4sp r6v3sR v3sR v3sR v3sR sR "" "" "" "" "" "" "" "" s8 s8 s8S s8 v1sO r6v2se r6v7sf r6vCsf r6vHsf r6vMsm r6vMsr vMsG vNsO vPsO vPsO vPsO vPsT vNsS vLsK vJsL vGsb r6vBsi r6v7sa r6v7 r6v2si v1sC sC "" sH v2sH v4sP v7 v7sP vAsH vC vC r6v6sq r6sp r6sf r6v5 v5 v5 v5 v5sG v6sD v6sD v6 v6s8 v7s8 v7s8 v7sD v7sD v5sL v4sD v4 v4 v4 v4 v4 v4sG v6 v6 t2v6 t4v6
   LINE 142 71 186
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vOs8 vOs8 vOsD vOsD vNsB vNsB vLsK vL vKsB vHsS r6vGsB r6vGsB r6vAsq r6v6sZ r6v6sJ v6sJ v6sJ v3sR sR "" "" "" "" "" "" "" "" "" "" "" sH v2 r6v2sf r6v7sf r6vCsf r6vHse r6vHse vIsW vKsO vMsO vOs8 vOs8 vOs8 vOsD vMsK vJsS vGsS r6vG r6vBsi r6v7sa r6v5sK r6v1sa sC "" sH v2sH v4 v4sP v7 v7sP vAsH vC r6vAsK r6v6sa r6sq r6se v4s8 v5sA v5sA v5sA v6 v6 v6 v6 v6sH v8 v7sC v6sD v5sL v4sD v4 v4 v4 v4 v3sD v3s8 v4sG v6 t2v6 t4v6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vOs8 vOs8 vOsD vOsD vNsB vNsB vLsK vL vKsB vHsS r6vGsB r6vGsB r6vAsq r6v6sZ r6v6sJ v6sJ v6sJ v3sR sR "" "" "" "" "" "" "" "" "" S "" sH v2 r6v2sf r6v7sf r6vCsf r6vHse r6vHse vIsW vKsO vMsO vOs8 vOs8 vOs8 vOsD vMsK vJsS vGsS r6vG r6vBsi r6v7sa r6v5sK r6v1sa sC "" sH v2sH v4 v4sP v7 v7sP vAsH vC r6vAsK r6v6sa r6sq r6se v4s8 v5sA v5sA v5sA v6 v6 v6 v6 v6sH v8 v7sC v6sD v5sL v4sD v4 v4 v4 v4 v3sD v3s8 v4sG v6 t2v6 t4v6
   LINE 143 72 187
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vLsJ vL vJsK vHsJ vH r6vBsq r6vAsB r6v8sJ v8sJ v8sJ v6sJ v3sR sR "" "" "" "" "" "" "" "" "" "" "" sG r6v1sO r6v4sP r6v7sf r6vCse r6vDsW r6vGsG vHsO vJsO vMsG vO vO vO vMsK vJsS vGsS r6vG r6vBsi r6v7sa r6v5sK r6v2sS v1sC sC sH v2sH v4 v4sP v7 v7sP vAsH vC vC r6vAsK r6v4sq r6sa r6sW v4sH v6 v6 v6 v6 v6 v6 v6 v6sH v8 v6sK v6 v4sK v3sD v3s8 v4 v3sD v3sD v3 v3s8 v4sG v4sG t2v6 t4v6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vLsJ vL vJsK vHsJ vH r6vBsq r6vAsB r6v8sJ v8sJ v8sJ v6sJ v3sR sR "" "" "" "" "" "" "" "" "" S "" sG r6v1sO r6v4sP r6v7sf r6vCse r6vDsW r6vGsG vHsO vJsO vMsG vO vO vO vMsK vJsS vGsS r6vG r6vBsi r6v7sa r6v5sK r6v2sS v1sC sC sH v2sH v4 v4sP v7 v7sP vAsH vC vC r6vAsK r6v4sq r6sa r6sW v4sH v6 v6 v6 v6 v6 v6 v6 v6sH v8 v6sK v6 v4sK v3sD v3s8 v4 v3sD v3sD v3 v3s8 v4sG v4sG t2v6 t4v6
   LINE 144 72 187
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vLsJ vL vJsJ vHsR vH r6vBsp vAsJ vAsJ vAsJ v8sJ v6sJ v3sR sR "" "" "" "" "" "" "" "" "" "" "" s8 r6v1sO r6v4sO r6v7se r6v8se r6vDsO r6vGs8 vGsO vJsO vMsG vO vO vO vMsK vJsS r6vGsS r6vEsK vBsS v7sa r6v5sK v1sa sC "" sH v2sH v4 v4sP v7sP vA vAsH vC r6vAsK r6v6sa r6sq r6 r6sW v2sW v2sW v2sW v3sO v6 v6 v6 v6 v6sG v8 v6sK v4sK v3sC v3 v3s8 v3sD v3 v3 v3 v3s8 v3s8 t2v4sG t4v4sG
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vLsJ vL vJsJ vHsR vH r6vBsp vAsJ vAsJ vAsJ v8sJ v6sJ v3sR sR "" "" "" "" "" "" "" "" S "" "" s8 r6v1sO r6v4sO r6v7se r6v8se r6vDsO r6vGs8 vGsO vJsO vMsG vO vO vO vMsK vJsS r6vGsS r6vEsK vBsS v7sa r6v5sK v1sa sC "" sH v2sH v4 v4sP v7sP vA vAsH vC r6vAsK r6v6sa r6sq r6 r6sW v2sW v2sW v2sW v3sO v6 v6 v6 v6 v6sG v8 v6sK v4sK v3sC v3 v3s8 v3sD v3 v3 v3 v3s8 v3s8 t2v4sG t4v4sG
   LINE 145 73 188
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vLsJ vLsJ vKsJ vHsR r6vEsh r6vCsJ vCsJ vCsJ vAsJ v8sJ v6sJ v3sR sR sJ sJ "" "" "" "" "" "" "" "" "" s8 r6v1sO r6v4sO r6v7s8 r6v8se r6vDsO vG vGsO vJsO vMsG vO vO vO vMsK vJsS r6vEsi vE vBsS r6v6si r6v5sC v1sa sC sH v2sH v4 v4sP v7 v7sP vAsH vC vAsK r6v6sa r6sq r6 r6 sG v2 v2 v2s8 v2sW v2sW v2sW v3sO v3sO v5sO r6v5sT r6v5sD v1sb v1sG v3 v3 v3 v3 v3 v3 v3 r6v3s8 t2r6v3s8 t4r6v3sD
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vLsJ vLsJ vKsJ vHsR r6vEsh r6vCsJ vCsJ vCsJ vAsJ v8sJ v6sJ v3sR sR sJ sJ "" "" "" "" "" "" S "" "" s8 r6v1sO r6v4sO r6v7s8 r6v8se r6vDsO vG vGsO vJsO vMsG vO vO vO vMsK vJsS r6vEsi vE vBsS r6v6si r6v5sC v1sa sC sH v2sH v4 v4sP v7 v7sP vAsH vC vAsK r6v6sa r6sq r6 r6 sG v2 v2 v2s8 v2sW v2sW v2sW v3sO v3sO v5sO r6v5sT r6v5sD v1sb v1sG v3 v3 v3 v3 v3 v3 v3 r6v3s8 t2r6v3s8 t4r6v3sD
   LINE 146 73 188
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vN vMsB vKsJ r6vJsB r6vEsp vEsJ vE vCsK vAsK v8sK v6sK v3sS v2sB v2sB sK "" "" "" "" "" "" "" "" "" s9 r6v1sP r6v4sP r6v7s9 r6v8sf vDsO vFs8 vGsO vJsO vLsO vLsO vLsO vLsT vJsS vGsS vEsK vBsS v7sa r6v5sK v1sa sC "" sH v2sH v4 v4sP v7sP vA vAsH vC r6vAsK r6v6sa r6sq r6 r6 sG sG sG sG sG sG sO v2s8 v2sO r6v2sO r6v3sL v1sb sD sO v3 v3 v3 v3 v3 v3 v3 t2r6v3 t4r6v3
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vN vMsB vKsJ r6vJsB r6vEsp vEsJ vE vCsK vAsK v8sK v6sK v3sS v2sB v2sB sK "" "" "" "" "" S "" "" "" s9 r6v1sP r6v4sP r6v7s9 r6v8sf vDsO vFs8 vGsO vJsO vLsO vLsO vLsO vLsT vJsS vGsS vEsK vBsS v7sa r6v5sK v1sa sC "" sH v2sH v4 v4sP v7sP vA vAsH vC r6vAsK r6v6sa r6sq r6 r6 sG sG sG sG sG sG sO v2s8 v2sO r6v2sO r6v3sL v1sb sD sO v3 v3 v3 v3 v3 v3 v3 t2r6v3 t4r6v3
   LINE 147 74 189
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vN vMsB vKsR r6vK r6vGsZ vEsZ vCsK vAsK v8sK v6sK v4sK v3sB v3sB sS "" "" "" "" "" "" "" "" "" s9 v1s9 r6v2sf r6v7 r6v7sX vBsX vF vFs8 vGsO vIsO vIsO vIsO vIsO vKsD vHsS vEsS vE vBsS r6v6si v5sC v1sa sB sH v2sH v4 v4sP v7sP vA vAsH vC vAsK r6v6sa r6sq r6 r6 "" "" "" "" "" "" "" sG sG v2 r6v2s8 r6v1sL sD "" sO v1sG v3 v3 v3 v3 v3 r6v3 t2r6v3 t4r6v3
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vN vMsB vKsR r6vK r6vGsZ vEsZ vCsK vAsK v8sK v6sK v4sK v3sB v3sB sS "" "" "" "" "" "" S "" "" s9 v1s9 r6v2sf r6v7 r6v7sX vBsX vF vFs8 vGsO vIsO vIsO vIsO vIsO vKsD vHsS vEsS vE vBsS r6v6si v5sC v1sa sB sH v2sH v4 v4sP v7sP vA vAsH vC vAsK r6v6sa r6sq r6 r6 "" "" "" "" "" "" "" sG sG v2 r6v2s8 r6v1sL sD "" sO v1sG v3 v3 v3 v3 v3 r6v3 t2r6v3 t4r6v3
   LINE 148 74 189
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vNsB vNsB vKsS r6vK vIsJ vEsZ vCsZ vAsK v8sK v6sK v4sJ v4sB v3sC sS "" "" "" "" "" "" "" "" "" s8 sG r6v2se v5sP r6v8sf vDsH vF vFs8 vGsG vGsG vFsT vFsO vHsO vHsT vEsS vE vBsS v8sS v5sS v2sS v1sB v1 v1s9 v2sH v4 v4sP v7sP vA vAsH vAsK r6v8sK r6v3si r6sS "" "" "" "" "" "" "" "" "" "" sG sG r6sL sD "" "" s9 v1sG sT sO v3 v3 v3 t2v3 t4r6v3
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB vNsB vNsB vKsS r6vK vIsJ vEsZ vCsZ vAsK v8sK v6sK v4sJ v4sB v3sC sS "" "" "" "" "" S "" "" "" s8 sG r6v2se v5sP r6v8sf vDsH vF vFs8 vGsG vGsG vFsT vFsO vHsO vHsT vEsS vE vBsS v8sS v5sS v2sS v1sB v1 v1s9 v2sH v4 v4sP v7sP vA vAsH vAsK r6v8sK r6v3si r6sS "" "" "" "" "" "" "" "" "" "" sG sG r6sL sD "" "" s9 v1sG sT sO v3 v3 v3 t2v3 t4r6v3
   LINE 149 75 190
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsK vK vIsK vGsJ vCsZ vAsK v8sK v6sJ v5sJ v4sB v2sK sK "" "" "" "" "" "" "" "" "" "" sG v2sO v5sP r6v8sf r6vDsG vDsG vFs8 vFs8 vFsD vF vFsG vFsG vEsT vE vE vBsS v8sS v5sS v2sS v1sB v1sA v2sH v4 v4sP v7sP vA vAsH vC vAsK r6v6sa r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD "" sO v1sG v1sG v1sG t2r6v3 t4r6v3
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsK vK vIsK vGsJ vCsZ vAsK v8sK v6sJ v5sJ v4sB v2sK sK "" "" "" "" "" S "" "" "" "" sG v2sO v5sP r6v8sf r6vDsG vDsG vFs8 vFs8 vFsD vF vFsG vFsG vEsT vE vE vBsS v8sS v5sS v2sS v1sB v1sA v2sH v4 v4sP v7sP vA vAsH vC vAsK r6v6sa r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD "" sO v1sG v1sG v1sG t2r6v3 t4r6v3
   LINE 150 75 190
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsJ vIsa vI vGsJ vCsa vAsK v8sK v7sB v5sJ v3sS v2sC sK "" "" "" "" "" "" "" "" "" "" sG v2sO v5sO r6v8se r6v8se r6vDsG r6vDsG vDsG vDsG vDsG vF vF vDsL vDsD vCsL v9sS v6sS v5sC v2sS v2 v2sH v4 v4 v4sP v7sP vA vAsH vAsK v8sK r6v3si r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" s9 v1 v1 v1 t2v1sG t4r6v1sG
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsJ vIsa vI vGsJ vCsa vAsK v8sK v7sB v5sJ v3sS v2sC sK "" "" "" "" S "" "" "" "" "" sG v2sO v5sO r6v8se r6v8se r6vDsG r6vDsG vDsG vDsG vDsG vF vF vDsL vDsD vCsL v9sS v6sS v5sC v2sS v2 v2sH v4 v4 v4sP v7sP vA vAsH vAsK v8sK r6v3si r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 sD "" s9 v1 v1 v1 t2v1sG t4r6v1sG
   LINE 151 76 191
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vMsC vM vIsa vI vGsK vCsa vAsK v8sK v7sC v6sC v2sa sK "" "" "" "" "" "" "" "" "" "" "" sG v2sO v5sO v5sO r6v8se r6v8se r6v8se r6v8se v9sW vDsG vDsG vDsL v9sb v9sb v9sT v6sS v5sC v2sS v2 v2 v2sH v4 v4sP v7sP vA vAsH vC vAsK r6v6sa r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 r6s8 t2r6v1 t4r6v1
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vMsC vM vIsa vI vGsK vCsa vAsK v8sK v7sC v6sC v2sa sK "" "" "" "" "" S "" "" "" "" "" sG v2sO v5sO v5sO r6v8se r6v8se r6v8se r6v8se v9sW vDsG vDsG vDsL v9sb v9sb v9sT v6sS v5sC v2sS v2 v2 v2sH v4 v4sP v7sP vA vAsH vC vAsK r6v6sa r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 r6s8 t2r6v1 t4r6v1
   LINE 152 76 191
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vM vKsK vIsK vGsK vEsK vAsa v8sK v7sC v4sT v3sT v2sC sK "" "" "" "" "" "" "" "" "" "" "" sG v2sO v2sO v5sO v5sO v5sO v5sO v6sO v9sW v9sW v9sW v9sb v6sT v6sT v6sT v5sC v2sS v2 v2 v2sH v4 v4sP v7 v7sP vA vAsH vAsK r6v8sK r6v3si r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2r6s8 t4r6s8
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vM vKsK vIsK vGsK vEsK vAsa v8sK v7sC v4sT v3sT v2sC sK "" "" "" "" S "" "" "" "" "" "" sG v2sO v2sO v5sO v5sO v5sO v5sO v6sO v9sW v9sW v9sW v9sb v6sT v6sT v6sT v5sC v2sS v2 v2 v2sH v4 v4sP v7 v7sP vA vAsH vAsK r6v8sK r6v3si r6sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2r6s8 t4r6s8
   LINE 153 77 192
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsK vIsK vGsK vEsK vAsa v8sK v7sC v4sS v3sC v2sC sK "" "" "" "" "" "" "" "" "" "" "" "" sG sG v2sO v2sO v2sO v2sO v5s8 v6sO v6sO v6sO v6sO v6sT v5sD v5sD v5sD v2sS v2 v2 v2 v2sH v4sP v7 v7 v7sP vAsH vC r6vAsK r6v6sa r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2r6 t4r6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsK vIsK vGsK vEsK vAsa v8sK v7sC v4sS v3sC v2sC sK "" "" "" "" "" S "" "" "" "" "" "" sG sG v2sO v2sO v2sO v2sO v5s8 v6sO v6sO v6sO v6sO v6sT v5sD v5sD v5sD v2sS v2 v2 v2 v2sH v4sP v7 v7 v7sP vAsH vC r6vAsK r6v6sa r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2r6 t4r6
   LINE 154 77 192
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vLsC vKsC vIsK vGsK vEsK vAsa v6sa v5sL v4sC v2sK sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG v2 sL sG v2sO v2sW v2sW v2sW v2sW v2sW v2sW v5 v5 v2sT v1sD v1s8 v1s8 v2sH v4 v4sP v7 v7sP vA vAsH r6vC r6v6sq r6sq r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4r6
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vLsC vKsC vIsK vGsK vEsK vAsa v6sa v5sL v4sC v2sK sK "" "" "" "" "" S "" "" "" "" "" "" "" "" sG v2 sL sG v2sO v2sW v2sW v2sW v2sW v2sW v2sW v5 v5 v2sT v1sD v1s8 v1s8 v2sH v4 v4sP v7 v7sP vA vAsH r6vC r6v6sq r6sq r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4r6
   LINE 155 78 193
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsK vIsK vGsK vEsK vAsa v6sa v5sC v4sC v3sC v2sC sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sL "" sG v1s8 v2 v2 v2 v2 v2 v2sO v2sT v2sT v1sD v1 v1 v1s9 v2sH v4sP v7 v7 v7sP vAsH vC r6vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vKsK vIsK vGsK vEsK vAsa v6sa v5sC v4sC v3sC v2sC sK "" "" "" "" "" S "" "" "" "" "" "" "" "" sG sL "" sG v1s8 v2 v2 v2 v2 v2 v2sO v2sT v2sT v1sD v1 v1 v1s9 v2sH v4sP v7 v7 v7sP vAsH vC r6vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 156 78 193
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vLsC vKsC vIsK r6vEsa vAsa v8sK v6sK v5sC v4sC v2sK sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v1s8 v1s8 v1s8 v1s8 v2 v1sD sL sL s8 v1 v1s9 v2sH v4 v4sP v7 v7sP vA vAsH r6vC r6v6sq r6sq r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vLsC vKsC vIsK r6vEsa vAsa v8sK v6sK v5sC v4sC v2sK sK "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" s8 v1s8 v1s8 v1s8 v1s8 v1s8 v2 v1sD sL sL s8 v1 v1s9 v2sH v4 v4sP v7 v7sP vA vAsH r6vC r6v6sq r6sq r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 157 79 194
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vKsa vJsL r6vGsb r6vEsb r6vCsK v8sa v6sK v4sL v4sD v3sC sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 s8 s8 v1s8 v1sD sD "" "" s8 v1 v1s9 v2sH v4 v4sP v7 r6v7sP vAsH vC vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 r6 "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vKsa vJsL r6vGsb r6vEsb r6vCsK v8sa v6sK v4sL v4sD v3sC sS "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 s8 s8 v1s8 v1sD sD "" "" s8 v1 v1s9 v2sH v4 v4sP v7 r6v7sP vAsH vC vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 r6 "" "" "" t2 t4
   LINE 158 79 194
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vKsa vJsC r6vGsS r6vEsK r6vCsK r6v8sa v6sK v4sK v3sD v3sD sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 sD "" "" "" s9 v1 v1s9 v2sH v4 v4sP r6v7 r6v7sP vAsH vC vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6sA r6sB r6 r6 r6 r6 "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vKsa vJsC r6vGsS r6vEsK r6vCsK r6v8sa v6sK v4sK v3sD v3sD sS "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 sD "" "" "" s9 v1 v1s9 v2sH v4 v4sP r6v7 r6v7sP vAsH vC vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6sA r6sB r6 r6 r6 r6 "" t2 t4
   LINE 159 80 195
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vLsS vJsK r6vHsK r6vFsK r6vEsC r6vCsK r6v8sa v6sK v3sS v2sD sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD sG v2sG r6v4 r6v4sP r6v7 r6v7sf r6vC vC r6vAsK r6v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6sI r6v1sA r6sJ r6 r6 r6 r6 "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vLsS vJsK r6vHsK r6vFsK r6vEsC r6vCsK r6v8sa v6sK v3sS v2sD sS "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sD sG v2sG r6v4 r6v4sP r6v7 r6v7sf r6vC vC r6vAsK r6v4sq sa "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6sI r6v1sA r6sJ r6 r6 r6 r6 "" t2 t4
   LINE 160 80 195
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vMsL vLsT vKsC vHsS r6vH r6vEsS r6vCsK r6v8sa v6sK v3sS v2sD v1sD sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 sD "" sG v2sG r6v2se r6v7 r6v7sP r6vAsH vC r6vAsK r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" sA r6sA r6sA r6sI r6v2 r6v2 r6sK r6 r6 r6 r6 t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vMsL vLsT vKsC vHsS r6vH r6vEsS r6vCsK r6v8sa v6sK v3sS v2sD v1sD sC "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 sD "" sG v2sG r6v2se r6v7 r6v7sP r6vAsH vC r6vAsK r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" "" sA r6sA r6sA r6sI r6v2 r6v2 r6sK r6 r6 r6 r6 t2 t4
   LINE 161 81 196
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vMsC vLsC vJsL vIsL r6vHsC r6vGsC r6vCsa r6v8sa r6v6sK v3sS v1sL v1sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB "" sG r6sG r6v2se r6v7 r6v7sP vAsH vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" sI r6v1sB r6v1 r6v1sA r6v2 r6v2 r6v1sC r6sC r6 r6 "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vMsC vLsC vJsL vIsL r6vHsC r6vGsC r6vCsa r6v8sa r6v6sK v3sS v1sL v1sD sD "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 sB "" sG r6sG r6v2se r6v7 r6v7sP vAsH vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" sI r6v1sB r6v1 r6v1sA r6v2 r6v2 r6v1sC r6sC r6 r6 "" "" t2 t4
   LINE 162 81 196
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vLsC vJsK vIsD r6vHsD r6vGsC r6vCsa r6v8sa r6v6sK v3sS sT sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB "" "" r6sG r6v2se r6v7s9 r6v8sH vAsH r6vAsL r6v4sq sa "" "" "" "" "" "" "" "" "" "" "" r6sH r6v2 r6v1sI r6v1sI r6v2 r6v2 r6v2 r6sK r6 "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vMsK vLsC vJsK vIsD r6vHsD r6vGsC r6vCsa r6v8sa r6v6sK v3sS sT sD sD "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB "" "" r6sG r6v2se r6v7s9 r6v8sH vAsH r6vAsL r6v4sq sa "" "" "" "" "" "" "" "" "" "" "" r6sH r6v2 r6v1sI r6v1sI r6v2 r6v2 r6v2 r6sK r6 "" "" "" t2 t4
   LINE 163 82 197
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vMsC vKsK r6vHsT r6vHsD r6vGsD r6vBsj r6v6sr r6v6sL r6v3sS sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB "" "" r6sG r6v2sf r6v7sP vAsI r6vAsK r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" r6s9 r6v1sH r6v2sA r6v3 r6v2sC r6sL r6sG r6v1sD r6sC "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vMsC vKsK r6vHsT r6vHsD r6vGsD r6vBsj r6v6sr r6v6sL r6v3sS sS "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB "" "" r6sG r6v2sf r6v7sP vAsI r6vAsK r6v4sq r6sa "" "" "" "" "" "" "" "" "" "" "" r6s9 r6v1sH r6v2sA r6v3 r6v2sC r6sL r6sG r6v1sD r6sC "" "" "" "" t2 t4
   LINE 164 82 197
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vNsD vLsT vJsb vIsb r6vHsT r6vGsD r6vGsD r6vBsj r6v6sj r6v3sT r6v3sT sS "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB sB "" r6sX r6v4sn r6vAsH r6vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" s9 r6v1sH r6v3 r6v3 r6v2sC r6sK r6 r6s8 r6sD "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vNsD vLsT vJsb vIsb r6vHsT r6vGsD r6vGsD r6vBsj r6v6sj r6v3sT r6v3sT sS "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 sB sB "" r6sX r6v4sn r6vAsH r6vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" s9 r6v1sH r6v3 r6v3 r6v2sC r6sK r6 r6s8 r6sD "" "" "" "" t2 t4
   LINE 165 83 198
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vLsT vKsT vKsT vIsT r6vHsL r6vHsD r6vGsD r6vEsL r6vBsj r6v5sr r6v3sT r6sT sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sB "" r6sn r6v6sn r6vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" r6s8 r6v1sG r6v2s8 r6v1sL r6v1sD r6sC r6 r6 "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vLsT vKsT vKsT vIsT r6vHsL r6vHsD r6vGsD r6vEsL r6vBsj r6v5sr r6v3sT r6sT sT "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sB "" r6sn r6v6sn r6vC r6v6sq r6sq "" "" "" "" "" "" "" "" "" "" "" "" r6s8 r6v1sG r6v2s8 r6v1sL r6v1sD r6sC r6 r6 "" "" "" "" "" t2 t4
   LINE 166 83 198
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vNs8 vO vO vO vO vO vNsD vMsL vKsb vKsD vK r6vIsL r6vHsD r6vGsD r6vFsL r6vEsL r6v9sj r6v5sr r6sj sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sB sX r6v4sn r6vAsG r6v6sr r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" r6s8 r6sG r6sL r6sD r6sD r6 "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vNs8 vO vO vO vO vO vNsD vMsL vKsb vKsD vK r6vIsL r6vHsD r6vGsD r6vFsL r6vEsL r6v9sj r6v5sr r6sj sT "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 sB sX r6v4sn r6vAsG r6v6sr r6sq "" "" "" "" "" "" "" "" "" "" "" "" "" r6s8 r6sG r6sL r6sD r6sD r6 "" "" "" "" "" "" t2 t4
   LINE 167 84 199
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vN vNs8 vNs8 vNs8 vNsD vMsL vLsT vJsb vJsT vIsL r6vHsT r6vGsb r6vFsT r6vCsj r6vBsj r6vAsj r6v9sj r6v3sr r6sj "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 v1sO r6v4sm r6v4sr r6sr "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 r6 "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsC vN vNs8 vNs8 vNs8 vNsD vMsL vLsT vJsb vJsT vIsL r6vHsT r6vGsb r6vFsT r6vCsj r6vBsj r6vAsj r6v9sj r6v3sr r6sj "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1 v1 v1 v1 v1 v1 v1sO r6v4sm r6v4sr r6sr "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 r6 "" "" "" "" "" "" "" t2 t4
   LINE 168 84 199
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB r6vN r6vMsD r6vMs8 r6vMs8 r6vMsD r6vKsL r6vIsT r6vIsD r6vGsT r6vEsb r6vDsb r6vCsb r6vBsb r6v6sr r6v5sr r6v4sr r6v3sr r6sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1 v1 v1 v1 sD r6sW r6sW sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsB r6vN r6vMsD r6vMs8 r6vMs8 r6vMsD r6vKsL r6vIsT r6vIsD r6vGsT r6vEsb r6vDsb r6vCsb r6vBsb r6v6sr r6v5sr r6v4sr r6v3sr r6sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1 v1 v1 v1 sD r6sW r6sW sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 "" "" "" "" "" "" "" t2 t4
   LINE 169 85 200
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vOsA r6vOsB r6vNsJ r6vMsD r6vM r6vM r6vM r6vKsL r6vIsL r6vI r6vGsL r6vEsL r6vCsL r6vAsT r6v8sb r6v6sj r6v3sT r6sj r6sb r6sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vOsA r6vOsB r6vNsJ r6vMsD r6vM r6vM r6vM r6vKsL r6vIsL r6vI r6vGsL r6vEsL r6vCsL r6vAsT r6v8sb r6v6sj r6v3sT r6sj r6sb r6sT "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 s8 sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 170 85 200
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vNs8 vOs9 vP r6vP r6vJsr r6vHsj r6vHsj r6vGsr r6vGsr r6vEsr r6vCsr r6vCsr r6vAsr r6v8sr r6v6sr r6v4sr r6v2sr r6sr r6sT r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vNs8 vOs9 vP r6vP r6vJsr r6vHsj r6vHsj r6vGsr r6vGsr r6vEsr r6vCsr r6vCsr r6vAsr r6v8sr r6v6sr r6v4sr r6v2sr r6sr r6sT r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 171 86 201
-    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vKsb vKsT vJsj vJsm r6vJsm r6vJsr r6vDsr r6vBsr r6vBsr r6vAsr r6vAsr r6v8sr r6v6sr r6v6sr r6v4sr r6v2sr r6sr r6sb r6sL r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vO vO vO vO vO vNsD vKsb vKsT vJsj vJsm r6vJsm r6vJsr r6vDsr r6vBsr r6vBsr r6vAsr r6vAsr r6v8sr r6v6sr r6v6sr r6v4sr r6v2sr r6sr r6sb r6sL r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 172 86 201
-    t4vO t2vO vO vO vO vO vO vO vO vO vNsD vNsD vNsD vNsD vNsD vNsD vKsT vGsb vGsb vDsr r6vDsm r6vDsm r6vDsr r6v7sr r6v5sr r6v5sr r6v4sr r6v4sr r6v2sr r6sr r6sr r6sb r6sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vO vO vNsD vNsD vNsD vNsD vNsD vNsD vKsT vGsb vGsb vDsr r6vDsm r6vDsm r6vDsr r6v7sr r6v5sr r6v5sr r6v4sr r6v4sr r6v2sr r6sr r6sr r6sb r6sL "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 173 87 202
-    t4vO t2vO vO vO vO vO vO vO vLsT vKsb vKsT vKsT vKsT vKsT vKsT vKsT vGsb vCsb vBsj r6v7sr r6v7sm r6v7sm r6v7sr r6v1sr r6sj r6sj r6sb r6sb r6sL r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO vO vO vLsT vKsb vKsT vKsT vKsT vKsT vKsT vKsT vGsb vCsb vBsj r6v7sr r6v7sm r6v7sm r6v7sr r6v1sr r6sj r6sj r6sb r6sb r6sL r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 174 87 202
-    t4vO t2vO vO vO vO vO r6vO r6vMsL r6vIsr r6vHsb vGsb vGsb vGsb vGsb vGsb vGsb vGsb vCsb v8sb r6v5sr r6v1sr r6v1sm r6v1sm r6v1sr r6sD r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO vO r6vO r6vMsL r6vIsr r6vHsb vGsb vGsb vGsb vGsb vGsb vGsb vGsb vCsb v8sb r6v5sr r6v1sr r6v1sm r6v1sm r6v1sr r6sD r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 175 88 203
-    t4vO t2vO vO vO vO r6vO r6vMsL r6vGsr r6vDsj r6vDsb vCsb vCsb vCsb vCsb vCsb vCsb vCsb v8sb v4sb r6sj r6sD r6s8 r6s8 r6sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4vO t2vO vO vO vO r6vO r6vMsL r6vGsr r6vDsj r6vDsb vCsb vCsb vCsb vCsb vCsb vCsb vCsb v8sb v4sb r6sj r6sD r6s8 r6s8 r6sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 176 88 203
-    t4r6vIsm t2r6vIsm vIsm vIsm r6vIsm r6vIsm r6vIsr r6vGsr r6vAsr r6v9sb v9sb v8sb v8sb v8sb v8sb v8sb v8sb v8sb v4sb r6sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4r6vIsm t2r6vIsm vIsm vIsm r6vIsm r6vIsm r6vIsr r6vGsr r6vAsr r6v9sb v9sb v8sb v8sb v8sb v8sb v8sb v8sb v8sb v4sb r6sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 177 89 204
-    t4r6vCsm t2r6vCsm r6vCsm r6vCsm r6vCsm r6vCsm r6vCsr r6vAsr r6v5sj v5sb v5sb v4sb v4sb v4sb v4sb v4sb v4sb v4sb sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI sJ "" "" "" "" "" "" "" rE "" "" "" sA t2sB t4
+    t4r6vCsm t2r6vCsm r6vCsm r6vCsm r6vCsm r6vCsm r6vCsr r6vAsr r6v5sj v5sb v5sb v4sb v4sb v4sb v4sb v4sb v4sb v4sb sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sI sI sJ "" "" "" "" "" "" "" rE "" "" "" sA t2sB t4
   LINE 178 89 204
-    t4r6v6sm t2r6v6sm r6v6sm r6v6sm r6v6sm r6v6sm r6v6sm r6v6sr r6v4sr v1sb v1sb v1sb sb sb sb sb sb sb sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2sA sR sJ sJ "" "" "" "" "" sA sA sA sA t2v1 t4sB
+    t4r6v6sm t2r6v6sm r6v6sm r6v6sm r6v6sm r6v6sm r6v6sm r6v6sr r6v4sr v1sb v1sb v1sb sb sb sb sb sb sb sb "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2sA sR sJ sJ "" "" "" "" "" sA sA sA sA t2v1 t4sB
   LINE 179 90 205
-    t4r6sm t2r6sm r6sm r6sm r6sm r6sm r6sm r6sr r6sb sD sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2sA v3 v2sB v2 sJ sB "" "" sA sA v1 v1 v1 v1 t2v1 t4sC
+    t4r6sm t2r6sm r6sm r6sm r6sm r6sm r6sm r6sr r6sb sD sD sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2 v2sA v3 v2sB v2 sJ sB "" "" sA sA v1 v1 v1 v1 t2v1 t4sC
   LINE 180 90 205
-    t4r6 t2r6 r6 r6 r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2s9 v3 v3 v2sC v1sC v1 sB sB s8 v1 s8 s8 s8 s8 t2v1 t4sC
+    t4r6 t2r6 r6 r6 r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2s9 v3 v3 v2sC v1sC v1 sB sB s8 v1 s8 s8 s8 s8 t2v1 t4sC
   LINE 181 91 206
-    t4 t2r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sP v3 v2sD v2sD v2 v1sC v1 v1 s8 s8 s8 "" s8 s8 sC t2sD t4
+    t4 t2r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sP v3 v2sD v2sD v2 v1sC v1 v1 s8 s8 s8 "" s8 s8 sC t2sD t4
   LINE 182 91 206
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sP v3 v2sC v2 v2 v1sC sD sD sD "" "" sA sA v1 sC t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sP v3 v2sC v2 v2 v1sC sD sD sD "" "" sA sA v1 sC t2 t4
   LINE 183 92 207
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sP v3 v2sC v2 v2 sK "" "" sD sA sA v1 v1 v1 sC t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sP v3 v2sC v2 v2 sK "" "" sD sA sA v1 v1 v1 sC t2 t4
   LINE 184 92 207
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2s9 v3 v2sC v2 sK "" "" sD v1 v1 sD sD sD sD t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2s9 v3 v2sC v2 sK "" "" sD v1 v1 sD sD sD sD t2 t4
   LINE 185 93 208
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2s8 v3 v2sB v2sB sK "" sB v1 sD sD "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sH v2s8 v3 v2sB v2sB sK "" sB v1 sD sD "" "" "" "" t2 t4
   LINE 186 93 208
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sO v2s8 v3 v1sK sB sB v1 sD "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sO v2s8 v3 v1sK sB sB v1 sD "" "" "" "" "" t2 t4
   LINE 187 94 209
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sO v1sL v1 v1 sD sD "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sG sO v1sL v1 v1 sD sD "" "" "" "" "" "" t2 t4
   LINE 188 94 209
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sD "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 s8 sD "" "" "" "" "" "" "" t2 t4
   LINE 189 95 210
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 190 95 210
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 191 96 211
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 192 96 211
-    t4 t2 "" "" "" "" "" "" sg r6sg sg sh sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" sg r6sg sg sh sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 193 97 212
-    t4 t2 "" "" "" "" "" r6sg r6v5so r6v5so r6v5so r6v5sp r6sh "" "" "" "" "" "" sA r6sA r6sQ r6sR sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" r6sg r6v5so r6v5so r6v5so r6v5sp r6sh "" "" "" "" "" "" sA r6sA r6sQ r6sR sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 194 97 212
-    t4 t2 "" "" "" "" "" r6sf r6v5sn r6vB r6vB r6vB r6v5sp r6sh "" "" "" "" "" sA r6v1so r6v1so r6v3sZ r6v1sp sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" r6sf r6v5sn r6vB r6vB r6vB r6v5sp r6sh "" "" "" "" "" sA r6v1so r6v1so r6v3sZ r6v1sp sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 195 98 213
-    t4 t2 "" "" "" "" sf r6v5sn r6vB r6vBsQ r6vBsR r6vBsB r6v5sp r6sh "" "" "" "" sA v1so r6v7so r6v7so r6v7sp r6v1sp r6sh r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" sf r6v5sn r6vB r6vBsQ r6vBsR r6vBsB r6v5sp r6sh "" "" "" "" sA v1so r6v7so r6v7so r6v7sp r6v1sp r6sh r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 196 98 213
-    t4 t2 "" "" "" "" "" r6sf r6v5sn r6vBsP r6vE r6vCsJ r6vBsB r6v5sp r6sh sA sI sI sg r6v1so r6v7so r6vDso r6vDsp r6v7sp r6v5sp r6sh r6sh r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" r6sf r6v5sn r6vBsP r6vE r6vCsJ r6vBsB r6v5sp r6sh sA sI sI sg r6v1so r6v7so r6vDso r6vDsp r6v7sp r6v5sp r6sh r6sh r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 197 99 214
-    t4 t2 "" "" "" "" sf r6v5sn r6vBsH r6vDs9 r6vE r6vCsK r6vBsC r6v5sp r6v1sh v1sQ v2sY v2sY r6v5sI r6v7sn r6vDsn r6vJ r6vDsq r6vBsK r6v5sp r6v5sp r6sh r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA sA sA sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" sf r6v5sn r6vBsH r6vDs9 r6vE r6vCsK r6vBsC r6v5sp r6v1sh v1sQ v2sY v2sY r6v5sI r6v7sn r6vDsn r6vJ r6vDsq r6vBsK r6v5sp r6v5sp r6sh r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" sA sA sA sA sA sA sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 198 99 214
-    t4 t2 "" "" "" "" "" r6sn r6v6sn r6vCs9 r6vDs8 r6vDsD r6vBsK r6vB r6v6sh v4sR v4sQ v6 r6v6 r6v6sn r6vCsf r6vHsG r6vDsr r6vBsK r6vB r6vB r6v5sp r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI v1sI v1sI v1sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" r6sn r6v6sn r6vCs9 r6vDs8 r6vDsD r6vBsK r6vB r6v6sh v4sR v4sQ v6 r6v6 r6v6sn r6vCsf r6vHsG r6vDsr r6vBsK r6vB r6vB r6v5sp r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S "" "" "" "" sA v1sI v1sI v1sI v1sI v1sI v1sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 199 100 215
-    t4 t2 "" "" "" "" sn r6v6sn r6vCs9 r6vD r6vCsD r6vCsD r6vBsC r6vB r6v7sa v7 v6sB r6v6sA r6v6sY r6vAsn r6vGs8 r6vDsW r6vBsK r6vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA sA sA sA r6sA v1sI v3sI v3sI v3sI v3sI v3sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" sn r6v6sn r6vCs9 r6vD r6vCsD r6vCsD r6vBsC r6vB r6v7sa v7 v6sB r6v6sA r6v6sY r6vAsn r6vGs8 r6vDsW r6vBsK r6vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" S sA sA sA sA r6sA v1sI v3sI v3sI v3sI v3sI v3sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 200 100 215
-    t4 t2 "" "" "" "" s9 r6v1sn r6v7sn r6vD r6vCsD r6vC r6vC r6vBsC r6v8sS v7sC v7 r6v7sY r6v7sg r6vAsn r6vG r6vG r6vBsi r6vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v1sI v1sI r6v1sI r6v1sI v3sI v5sI v5sI v5sI v5sI v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" s9 r6v1sn r6v7sn r6vD r6vCsD r6vC r6vC r6vBsC r6v8sS v7sC v7 r6v7sY r6v7sg r6vAsn r6vG r6vG r6vBsi r6vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sAS v1sI v1sI v1sI r6v1sI r6v1sI v3sI v5sI v5sI v5sI v5sI v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 201 101 216
-    t4 t2 "" "" "" "" r6sf r6v5sn r6vBsG r6vCsD r6vC r6vBsD r6vBsD r6vB r6v8sR v7sB r6v7sY r6vBs9 r6vCsH r6vEsH r6vG r6vBsi r6vB vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v3sI v3sI v3sI r6v3sI v5sI v7 v7 v7 v7 v5sJ v3sJ v1sJ sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" r6sf r6v5sn r6vBsG r6vCsD r6vC r6vBsD r6vBsD r6vB r6v8sR v7sB r6v7sY r6vBs9 r6vCsH r6vEsH r6vG r6vBsi r6vB vB vB vB vB vB r6v5sp r6sh "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sAS v1sI v3sI v3sI v3sI v3sI r6v3sI v5sI v7 v7 v7 v7 v5sJ v3sJ v1sJ sB sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 202 101 216
-    t4 t2 "" "" "" "" "" r6sf r6v5sn vBs8 r6vBsD r6vBsD r6vB r6vB r6vB v8sR v8sQ r6vB r6vBs9 r6vCsG r6vEsG r6vBsj r6vB vB vB vB vB vB vB r6v5sq r6si "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v5sI v5sI v5sI v5sI v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" r6sf r6v5sn vBs8 r6vBsD r6vBsD r6vB r6vB r6vB v8sR v8sQ r6vB r6vBs9 r6vCsG r6vEsG r6vBsj r6vB vB vB vB vB vB vB r6v5sq r6si "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sIS v3sI v5sI v5sI v5sI v5sI v5sI v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ v1 sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 203 102 217
-    t4 t2 "" "" "" "" r6 r6sf r6v5sn vB r6vB r6vB vB vB vB vB r6vB r6vB r6vBs8 r6vBsO r6vBsT r6vB vB vB vB vB vB vB r6v5sq r6si r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v5sJ v3sJ v1sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" r6 r6sf r6v5sn vB r6vB r6vB vB vB vB vB r6vB r6vB r6vBs8 r6vBsO r6vBsT r6vB vB vB vB vB vB vB r6v5sq r6si r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sIS v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v5sJ v3sJ v1sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 204 102 217
-    t4 t2 "" "" "" r6sg r6sg r6sg r6v5sn vB vB vB vB vB vB vB vB r6vB r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB r6v5sq r6si "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v7 r6v5sJ v3sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" r6sg r6sg r6sg r6v5sn vB vB vB vB vB vB vB vB r6vB r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB r6v5sq r6si "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sIS v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v7 r6v5sJ v3sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 205 103 218
-    t4 t2 "" "" r6sg r6v5so r6v5so r6v5so r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa r6v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v5sJ v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" r6sg r6v5so r6v5so r6v5so r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa r6v2si sK "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sIS v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v5sJ v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 206 103 218
-    t4 t2 "" "" r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7f#40 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sIS v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 207 104 219
-    t4 t2 "" r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sIS v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 208 104 219
-    t4 t2 "" r6 r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" r6 r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7S v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 209 105 220
-    t4 t2 "" r6 r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" r6 r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7S v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sJ v3sJ v1sJ sB "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 210 105 220
-    t4 t2 "" "" r6sf r6v5sn r6vB r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" r6sf r6v5sn r6vB r6vB r6vB r6vB r6vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB vB v7sa v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" sA v1sI v3sI v5sI v7 v7S v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 211 106 221
     t4 t2 "" r6 r6sf r6v5sn r6vB r6vB r6vB r6vB vB vB r6vB vB vB vB vBsA r6vBsA r6vBsA r6vBsB vB vB vB vB vB vB v7sa r6v4sS sa "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 212 106 221
@@ -451,9 +451,9 @@ HEXES
   LINE 218 109 224
     t4 t2 "" "" "" "" "" s9 v1sX v5sP v8sP r6vBs9 r6vCsH r6vEsG r6vEsL r6vDsD r6vD r6vCsD r6vBsD r6vB r6v5sq r6si "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 219 110 225
-    t4 t2 "" "" "" "" "" sX v4sX v8sP r6vBs9 r6vCs9 r6vDs8 r6vCsL r6vCsL r6vBsL r6vBsL r6vBsD r6vB r6v5sq r6si r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" f8 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" sX v4sX v8sP r6vBs9 r6vCs9 r6vDs8 r6vCsL r6vCsL r6vBsL r6vBsL r6vBsD r6vB r6v5sq r6si r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 220 110 225
-    t4 t2 "" "" "" "" "" "" sf v5sn r6vBs9 r6vC r6vCs8 r6vBsL r6v6sr r6v6sr r6v5sr r6v5sr r6v5sr r6v5sr r6si r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7f#40 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" sf v5sn r6vBs9 r6vC r6vCs8 r6vBsL r6v6sr r6v6sr r6v5sr r6v5sr r6v5sr r6v5sr r6si r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 221 111 226
     t4 t2 "" "" "" "" "" "" r6sf r6v5sn r6vBs8 r6v6sr r6v6sr r6v5sr r6sr r6sr r6sj r6sj r6sj r6sj r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6 r6 r6 "" "" "" "" r6 r6 "" "" "" "" "" "" "" "" "" "" t2 t4
   LINE 222 111 226
@@ -461,13 +461,13 @@ HEXES
   LINE 223 112 227
     t4 t2 "" "" "" "" "" "" r6 r6se r6se r6sj r6 r6 r6 r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sH v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6so r6so r6v6so r6v6so r6v6so r6v6so r6v6so r6v6so r6v6sp r6sp r6 r6 r6 "" "" "" "" "" "" "" "" t2 t4
   LINE 224 112 227
-    t4 t2 "" "" "" "" "" "" "" r6 r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sG v5sG v7 v7 v7 v7 v7 v7f#40 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sn r6v6so r6v6so r6vC r6vC r6vC r6vC r6vC r6vC r6v6sp r6sp r6sR r6sR r6 "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" r6 r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sH v5sG v5sG v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sn r6v6so r6v6so r6vC r6vC r6vC r6vC r6vC r6vC r6v6sp r6sp r6sR r6sR r6 "" "" "" "" "" "" "" t2 t4
   LINE 225 113 228
-    t4 t2 "" "" "" "" "" "" "" r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sG v3sG v5sG v7 v7 v7 v7 v7 v7 v7f#48 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sn r6v6sn r6vC r6vC r6vC r6vC r6vC r6vC r6vC r6vC r6v6sp r6v3sh r6v3sh r6sZ r6 "" "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" r6 r6 r6 r6 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s9 v1sH v3sG v3sG v5sG v7 v7 v7 v7 v7 v7 v7f#40 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v3sK v1sK sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sn r6v6sn r6vC r6vC r6vC r6vC r6vC r6vC r6vC r6vC r6v6sp r6v3sh r6v3sh r6sZ r6 "" "" "" "" "" "" "" t2 t4
   LINE 226 113 228
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1sG v1sG v3sG v5sG v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v5sK v2sT v1sL sC "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sH r6v2sX r6v6sn r6v9sO r6vC r6vCsA r6vCsA r6vCsB r6vC r6vCsI r6vCsJ r6v8sh r6v8sZ r6v4sZ r6sa "" "" "" "" "" "" "" t2 t4
   LINE 227 114 229
-    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1sG v3sG v5sG v5sG v7 v7 v7 v7 v7 v7 v7f#40 v7 v7 v7 v7 v7 v7 r6v7 r6v1sr sL sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sH r6v2so r6v6sI r6v8s8 r6v9sO r6vCs9 r6vD r6vDsI r6vCsR r6vCsI r6vE r6vDsC r6vCsC r6v8sa r6v3si r6sR sJ "" "" "" "" "" "" t2 t4
+    t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 s8 v1sG v3sG v5sG v5sG v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v7 r6v1sr sL sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6 r6sH r6v2so r6v6sI r6v8s8 r6v9sO r6vCs9 r6vD r6vDsI r6vCsR r6vCsI r6vE r6vDsC r6vCsC r6v8sa r6v3si r6sR sJ "" "" "" "" "" "" t2 t4
   LINE 228 114 229
     t4 t2 "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" s8 v1sG v3sG v3sG v5sG v5sG v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 v7 r6v7 r6v1sr sD "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" "" r6sH r6v2sn r6v8 r6v8 r6v8s8 r6v8sW r6v9sW r6vDsH r6vF r6vEsC r6vDsD r6vDsD r6vAsT r6v7sj r6v6sK r6v3sZ v2sh sR "" "" "" "" "" t2 t4
   LINE 229 115 230
@@ -1502,8 +1502,6 @@ ENVIROMENT
     sLi2
   ON_HEX 112 82
     sbi4
-  ON_HEX 104 83
-    sii7
   ON_HEX 113 83
     sMi9
   ON_HEX 156 83
@@ -1518,8 +1516,6 @@ ENVIROMENT
     sii6
   ON_HEX 136 84
     sii8
-  ON_HEX 109 85
-    sbi9
   ON_HEX 126 85
     sii9
   ON_HEX 47 86
@@ -1552,10 +1548,6 @@ ENVIROMENT
     sii7
   ON_HEX 46 89
     siiA
-  ON_HEX 106 89
-    sii1
-  ON_HEX 109 89
-    sMi2
   ON_HEX 122 89
     siiA
   ON_HEX 124 89
@@ -1570,16 +1562,10 @@ ENVIROMENT
     sii4
   ON_HEX 47 90
     siiA
-  ON_HEX 111 90
-    sMi1
   ON_HEX 134 90
     sii8
   ON_HEX 144 90
     sii5
-  ON_HEX 111 91
-    sMi3
-  ON_HEX 114 91
-    sLi1
   ON_HEX 120 91
     sbi1
   ON_HEX 121 91
@@ -4032,7 +4018,7 @@ ATTITUDES
 END_OF_ATTITUDES
 
 TECHS
-  PARAMS 100 9
+  PARAMS 200 9
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
@@ -4117,7 +4103,7 @@ TECHS
   F T F T T F T T F F T T T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
-  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
@@ -4132,6 +4118,106 @@ TECHS
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
+  F T F T T F T T F T T F T T F T T F T T F T T F T T F T T F
   F T F T T F T T F F F F T T F T T F T T F T T F T T F T T F
 END_OF_TECHS
 
@@ -4259,13 +4345,13 @@ BASES
     OIL 100
     SIBERIUM 10
   POOL 4
-    CANS 500
-    OIL 250
   POOL 5
-  POOL 6
     CANS 300
     OIL 250
     SIBERIUM 25
+  POOL 6
+    CANS 600
+    OIL 250
 
   BASE 1
     POOL_NUM 1
@@ -4281,43 +4367,43 @@ BASES
     UNIT 120
   BASE 4
     POOL_NUM 4
-    SIDE 6
-    UNIT 150
-  BASE 5
-    POOL_NUM 5
     SIDE 1
     UNIT 88
-  BASE 6
-    POOL_NUM 6
+  BASE 5
+    POOL_NUM 5
     SIDE 9
     UNIT 74
+  BASE 6
+    POOL_NUM 6
+    SIDE 6
+    UNIT 150
 END_OF_BASES
 
 
 
 RANDOMS
   MICROLOGIC 2 0 1
-  RANDOM_SEED 1 1446317045
-  RANDOM_SEED 2 1834393758
-  RANDOM_SEED 3 302893
+  RANDOM_SEED 1 1918979369
+  RANDOM_SEED 2 -640851490
+  RANDOM_SEED 3 -343549733
   RANDOM_SEED 4 857944668
   RANDOM_SEED 5 -361675186
   RANDOM_SEED 6 1283126848
-  RANDOM_SEED 7 -635767995
+  RANDOM_SEED 7 1139574553
   RANDOM_SEED 8 1751026996
   RANDOM_SEED 9 -722287904
-  RANDOM_SEED 10 -920307368
+  RANDOM_SEED 10 -1330282290
   RANDOM_SEED 11 1243301773
   RANDOM_SEED 12 911650
-  RANDOM_SEED 13 2004086437
+  RANDOM_SEED 13 975979706
   RANDOM_SEED 14 378023
-  RANDOM_SEED 15 -1984507453
+  RANDOM_SEED 15 2043650423
   RANDOM_SEED 16 907772
   RANDOM_SEED 17 1931189875
   RANDOM_SEED 18 353399119
   RANDOM_SEED 19 -423323973
   RANDOM_SEED 20 758098213
-  RANDOM_SEED 21 -1623372091
+  RANDOM_SEED 21 -827221351
   RANDOM_SEED 22 2016646415
   WIND_TIME 811490 811553 811576
   WIND_STRENGTH 36.7606167791381 52.0 53.3803083895691
@@ -4344,7 +4430,7 @@ NEW_UNITS
         COLOR_CODE 1BMYO
         FACE 0
         SPEAKER E
-        VOICE 11
+        VOICE 13
         RANDOM_SEED -1802328903
     END_OF_DEFINITION
     GAME_STATE
@@ -4375,7 +4461,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 64 LEVEL 10 BASE 6
+        TYPE 64 LEVEL 10 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4402,7 +4488,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 88 LEVEL 1 BASE 6
+        TYPE 88 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 400 1
@@ -4429,7 +4515,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 2 LEVEL 1 BASE 5
+        TYPE 2 LEVEL 1 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -4455,7 +4541,7 @@ NEW_UNITS
       NATION 1
       HP 1000
       BUILDING
-        TYPE 29 LEVEL 1 BASE 5
+        TYPE 29 LEVEL 1 BASE 4
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 400 1
@@ -4468,7 +4554,7 @@ NEW_UNITS
       ANIM_STATES 0 0 0 0
       MASHA_FLAG 0 DYING 0
       SELECTION 0 0 0 0
-      DRAW 1372 1525 0
+      DRAW 1372 1524 0
       FROM_TO_POS 92 86 0 92 86 0
       FROM_TO_XY 0 0 0 0
       LAST_ACTION 0
@@ -5329,7 +5415,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 1 BASE 6
+        TYPE 89 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5356,7 +5442,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 1 BASE 6
+        TYPE 89 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5383,7 +5469,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 89 LEVEL 1 BASE 6
+        TYPE 89 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5410,7 +5496,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 87 LEVEL 1 BASE 6
+        TYPE 87 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 111 1
@@ -5448,7 +5534,7 @@ NEW_UNITS
         COLOR_CODE 1BM
         FACE 10
         SPEAKER A
-        VOICE 5
+        VOICE 1
         RANDOM_SEED 0
     END_OF_DEFINITION
     GAME_STATE
@@ -5479,7 +5565,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 64 LEVEL 5 BASE 4
+        TYPE 64 LEVEL 5 BASE 6
     END_OF_DEFINITION
     GAME_STATE
       ACTION 0 T 1 1
@@ -5568,7 +5654,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 85 LEVEL 1 BASE 6
+        TYPE 85 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -5595,7 +5681,7 @@ NEW_UNITS
       NATION 3
       HP 1000
       BUILDING
-        TYPE 85 LEVEL 1 BASE 6
+        TYPE 85 LEVEL 1 BASE 5
     END_OF_DEFINITION
     GAME_STATE
       ACTION 31 T 125 1
@@ -5706,7 +5792,7 @@ LASER_EFECTS
 END_OF_LASER_EFECTS
 
 USER_INTERFACE
-  VIEW 616 3192 2180 1204 1
+  VIEW 428 3192 2180 1204 1
   MASHA_FLAG 2 F F
 END_OF_USER_INTERFACE
 

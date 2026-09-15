@@ -1,0 +1,8 @@
+Every 3$0 Trigger if not lenin_control = True do
+begin
+
+CreateCratesArea(rand(3, 5), RuCrates, true);
+
+enable;
+
+End;

@@ -1,0 +1,206 @@
+Export Function Action;
+Begin
+
+     InGameOn;
+
+     ComTurnXY(Janusz,133,27);
+     ComTurnXY(Livid,293,225);
+
+     if LoadVariable('03_FlameSaved', 1) then
+     PlaceHumanInUnit(Michail,Tank)
+     else
+     PlaceUnitArea(Michail,EnterArea,False);
+
+     RevealFogArea(3,RevealArea);
+     RevealFogArea(3,ArRevealArea);
+     RevealFogArea(3,BukovBaseArea);
+
+     Say(Yakotich,'D1-Yak-01');
+
+     ComMoveXY(YakotichCrew,68,51);
+     ComMoveXY(Yakotich,76,49);
+     ComMoveXY(Mietek,78,50);
+
+     AddComTurnUnit([Yakotich,Mietek],Bierezov);
+
+end;
+
+Every 0$1 Trigger IsInArea(Yakotich,YakTalk0) do
+begin
+
+     CenterOnUnits(Yakotich);
+
+     Say(Yakotich,'D1-Yak-02');
+     Say(Bierezov,'D1-Bier-01');
+     Say(Bierezov,'D1-Bier-02');
+     Say(Yakotich,'D1-Yak-03');
+     Say(Bierezov,'D1-Bier-03');
+
+     ComMoveXY(YakotichCrew,132,106);
+     ComMoveXY(Yakotich,132,106);
+     ComMoveXY(Mietek,132,106);
+     AddComMoveXY(YakotichCrew,83,110);
+     AddComMoveXY(Yakotich,72,99);
+     AddComMoveXY(Mietek,73,100);
+     AddComMoveToArea([Vasilij,Stanislav],HGCheckArea);
+
+     AddComTurnXY([Vasilij,Stanislav],75,86);
+     AddComTurnUnit([Mietek,Yakotich],Platonov);
+
+end;
+
+     Every 0$1 Trigger IsInArea(Yakotich,YakTalk1) do
+     begin
+
+     Say(Yakotich,'D2-Yak-01');
+     Say(Morozov,'D2-Moro-01');
+     Say(Morozov,'D2-Moro-02');
+
+     SetSide([Vasilij,Stanislav],6);
+     ComEnterUnit([Vasilij,Stanislav],L1L1);
+
+     Say(Morozov,'D2-Moro-03');
+
+     ComEnterUnit(Morozov,MorozovBase);
+
+     Say(Platonov,'D3-Plat-01');
+     Say(Popov,'D3-Pop-01');
+     Say(Popov,'D3-Pop-02');
+     Say(Popov,'D3-Pop-03');
+
+     ComMoveXY(Grigori,74,102);
+     AddComTurnUnit(Grigori,Popov);
+
+     Wait(0$3);
+
+     Say(Grigori,'D3-Grig-01');
+     Say(Popov,'D3-Pop-04');
+     Say(Grigori,'D3-Grig-02');
+
+     SetSide(Grigori,6);
+     ComEnterUnit(Grigori,L1L1);
+
+     Say(Yakotich,'D4-Yak-01');
+     Say(Platonov,'D4-Plat-01');
+     Say(Yakotich,'D4-Yak-02');
+     Say(Platonov,'D4-Plat-02');
+     Say(Platonov,'D4-Plat-03');
+     Say(Platonov,'D4-Plat-04');
+
+     ComExitBuilding([Vasilij,Stanislav]);
+     SetSide([Vasilij,Stanislav],3);
+     ComMoveXY([Vasilij,Stanislav],73,89);
+
+     ComExitBuilding(Grigori);
+     SetSide(Grigori,3);
+     ComTurnUnit(Grigori,Yakotich);
+
+     Say(Grigori,'D3-Grig-03');
+
+     AddComMoveXY(YakotichCrew,117,162);
+     ComMoveXY([RuCargo1,RuCargo2],157,232);
+     AddComMoveXY(Yakotich,117,162);
+     AddComMoveXY(Mietek,117,162);
+     ComEnterUnit([Morozov,Platonov,Popov],MorozovBase);
+
+     AddComMoveXY(YakotichCrew,138,168);
+     AddComMoveXY(Yakotich,138,168);
+     AddComMoveXY(Mietek,138,168);
+     AddComMoveXY(YakotichCrew,142,199);
+     AddComMoveXY(Yakotich,142,199);
+     AddComMoveXY(Mietek,142,199);
+     AddComMoveXY(YakotichCrew,157,232);
+     AddComMoveToArea(Yakotich,YakTalk2);
+     AddComMoveXY(Mietek,167,240);
+     AddComTurnUnit([Yakotich,Mietek],Natasza);
+
+end;
+
+     Every 0$1 Trigger IsInArea(Yakotich,YakTalk2) do
+     begin
+
+     Say(Natasza,'D5-Nati-01');
+     Say(Yakotich,'D5-Yak-01');
+     Say(Natasza,'D5-Nati-02');
+     Say(Natasza,'D5-Nati-03');
+     Say(Natasza,'D5-Nati-04');
+
+     ComMoveXY(Vasilij,166,237);
+     AddComTurnUnit(Vasilij,Yakotich);
+     AddComTurnUnit(Yakotich,Vasilij);
+
+     Say(Vasilij,'D5-Vas-01');
+
+     AddComTurnUnit(Yakotich,Natasza);
+
+     Say(Yakotich,'D5-Yak-02');
+
+     AddComTurnUnit(Yakotich,Vasilij);
+
+     Say(Yakotich,'D5-Yak-03');
+     Say(Vasilij,'D5-Vas-02');
+     Say(Yakotich,'D5-Yak-04');
+
+     ChangeMissionObjectives('o1');
+          
+     start_ended = True;
+
+     InGameOff;
+
+     DialogueOn;
+
+     SayRadio(Yakotich,'D5a-Yak-Sib-01');
+     SayRadio(Morozov,'D5a-Moro-Sib-01');
+
+     DialogueOff;
+
+if LoadVariable('03_FlameSaved', 1) then
+   begin
+
+     Wait(0$30);
+
+     DialogueOn;
+
+     Say(Vasilij,'4Vas-Flame-01');
+     Say(Vasilij,'4Vas-Flame-02');
+     ChangeMissionObjectives('o2');
+
+     DialogueOff;
+  end;
+End;  
+
+Every 0$1 Trigger not PrepareTime do
+begin
+
+     Wait(0$60);
+
+     InGameOn;
+     DialogueOn;
+
+     SayRadio(Pompa,'4Pompa-01');
+     SayRadio(Platonov,'4Plat-05');
+     SayRadio(Pompa,'4Pompa-02');
+     SayRadio(Platonov,'4Plat-06');
+     SayRadio(Platonov,'4Plat-07');
+     SayRadio(Bukov,'4Bukov-01');
+     SayRadio(Platonov,'4Plat-08');
+
+     ChangeMissionObjectives('o4');
+
+     InGameOff;
+     DialogueOff;
+
+     Wait(0$36);
+
+     InitPompa;
+     ComMoveXY(PompaCrew,76,100);
+     NorthLeninCrew := NorthLeninCrew union PompaCrew;
+
+     ComEnterUnit(Bukov,BukovTank);
+     ComMoveXY(Bukov,177,204);
+
+end;
+
+
+
+   
