@@ -1,20 +1,26 @@
 GAMEINIT
   CUSTOM_PROJECTILES
     ID 1
-    NAME "missiles\projektil_us"
+    NAME "missiles\american_rocket"
     ID 2
-    NAME "missiles\projektil_ar"
+    NAME "missiles\arabian_rocket"
     ID 3
-    NAME "missiles\projektil_ru"
+    NAME "missiles\russian_rocket"
 	ID 4
-	NAME "missiles\projektil_bazooka_us"
+	NAME "missiles\american_bazooka"
 	ID 5
-	NAME "missiles\projektil_w-r-rocket"
+	NAME "missiles\arabian_bazooka"
 	ID 6
-	NAME "missiles\projektil_w-u-rocket"	
+	NAME "missiles\russian_bazooka"
 	ID 7
-	NAME "missiles\w-8head"	
-    ID 8
+	NAME "missiles\american_rocket_long"
+	ID 8
+	NAME "missiles\russian_rocket_long"	
+	ID 9
+	NAME "missiles\projektil_mortar"	
+	ID 10
+	NAME "missiles\liquid_siberite"		
+    ID 11
     NAME "missiles\w-8head"
   END_OF_CUSTOM_PROJECTILES
 END_OF_GAMEINIT

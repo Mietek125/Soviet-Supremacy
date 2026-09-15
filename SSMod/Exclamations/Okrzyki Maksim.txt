@@ -1,167 +1,175 @@
 atakuje przeciwnika jako cywil:
-EX_BA-Maks-1 "Chodźcie, wy szowinistyczne świnie!"
-EX_BA-Maks-2 "Robi się gorąco!"
+EX_BA-Vas-1 "Chodźcie, wy szowinistyczne świnie!"
+EX_BA-Vas-2 "Robi się gorąco!"
 
 atakuje przeciwnika jako żołnierz:
-EX_BB-Maks-1 "Poświęcę się, dla Matki-Rosji!"
-EX_BB-Maks-2 "No dalej, chodźcie, cwaniaczki!"
+EX_BB-Vas-1 "Poświęcę się, dla Matki-Rosji!"
+EX_BB-Vas-2 "No dalej, chodźcie, cwaniaczki!"
 
 atakuje przeciwnika bronią snajperską:
-EX_BC-Maks-1 "Stabilnie i celnie."
-EX_BC-Maks-2 "Strzelec wyborowy w akcji!"
+EX_BC-Vas-1 "Stabilnie i celnie."
+EX_BC-Vas-2 "Strzelec wyborowy w akcji!"
 
 atakuje przeciwnika bazooką:
-EX_BD-Maks-1 "Witaj w strefie zniszczenia!"
-EX_BD-Maks-2 "Moja bazooka załatwi sprawę."
+EX_BD-Vas-1 "Zniszczę wszystko, co stoi mi na drodze."
+EX_BD-Vas-2 "Bazooka - potęga w"
 
 atakuje przeciwnika przy użyciu moździerza:
-EX_BE-Maks-1 "Spadające gwiazdy? Nie, to moje pociski."
-EX_BE-Maks-2 "Moździerz śpiewa pieśń zniszczenia."
+EX_BE-Vas-1 "Nieuchronna zagłada z powietrza."
+EX_BE-Vas-2 "Wybuchowa poezja w ruchu."
 
 wykonuje rozkaz:
-EX_CA-Maks-1 "Jak rozkażesz."
-EX_CA-Maks-2 "Rozkaz, to rozkaz."
-EX_CA-Maks-3 "Tak jest, komandorze." 
-EX_CA-Maks-4 "Spełniam polecenie."
-EX_CA-Maks-5 "Rozkaz przyjęty, komandorze."
+EX_CA-Vas-1 "Jak rozkażesz."
+EX_CA-Vas-2 "Rozkaz, to rozkaz."
+EX_CA-Vas-3 "Tak jest, komandorze." 
+EX_CA-Vas-4 "Spełniam polecenie."
+EX_CA-Vas-5 "Rozkaz przyjęty, komandorze."
 
 znajduje surowce:
-EX_EA-Maks-1 "Skrzynki!"
-EX_EA-Maks-2 "Widzę nową dostawę w okolicy!"
+EX_EA-Vas-1 "Skrzynki!"
+EX_EA-Vas-2 "Teren zbadany, cenne zasoby odkryte!"
 
 znajduje złoże alaskitu:
-EX_EB-Maks-1 "Wykrywam w pobliżu Alaskit!"
+EX_EB-Vas-1 "To odkrycie zmieni nasze losy - alaskit!"
+EX_EB-Vas-2 "Wykrywam w pobliżu Alaskit!"
 
 znajduje złoże ropy:
-EX_EC-Maks-1 "Ropa!"
+EX_EC-Vas-1 "Odnalazłem czarne złoto!"
+EX_EC-Vas-2 "Ropa!"
 
 znajduje sojusznika, który przeniósł się w czasie:
-EX_ED-Maks-1 "A kogo my tu mamy?"
+EX_ED-Vas-1 "Wylegitymuj się, żołnierzu!"
+EX_ED-Vas-2 "A kogo my tu mamy?"
 
 wykrywa wroga:
-EX_EE-Maks-1 "Widzę potencjalne cele. Przygotować się do działania!"
-EX_EE-Maks-2 "Wszyscy gotowi? Wrogowie są na widoku!"
+EX_EE-Vas-1 "Na horyzoncie dostrzegłem wroga!"
+EX_EE-Vas-2 "To my jesteśmy łowcami, a oni zwierzyną!"
 
 wykonał rozkaz:
-EX_FA-Maks-1 "Zadanie wykonane, komandorze."
-EX_FA-Maks-2 "Rozkaz wykonany, towarzyszu."
-EX_FA-Maks-3 "Bez wahania wykonałem polecenie."
+EX_FA-Vas-1 "Mam nadzieję, że spełniłem oczekiwania."
+EX_FA-Vas-2 "Rozkaz wykonany, towarzyszu."
 
 dotarł na miejsce przeznaczenia:
-EX_FB-Maks-1 "Zgodnie z planem, dotarłem na pozycję."
-EX_FB-Maks-2 "Mam zaszczyt informować, że jestem na miejscu."
-EX_FB-Maks-3 "Tu właśnie powinienem być. Czekam na dalsze instrukcje."
+EX_FB-Vas-1 "Zgodnie z planem, dotarłem na pozycję."
+EX_FB-Vas-2 "Docieramy do celu, przygotujcie się do działania."
+EX_FB-Vas-3 "Dotarłem na pozycję."
 
 wszedł do pojazdu:
-EX_FC-Maks-1 "Gotów na bitwę zmechanizowaną."
-EX_FC-Maks-2 "Maszyna gotowa do akcji, a my jak zawsze gotowi do walki!"
+EX_FC-Vas-1 "Gotów na rozkaz ataku."
+EX_FC-Vas-2 "Silnik włączony, czas na przejażdżkę."
 
 zlikwidował przeciwnika:
-EX_FD-Maks-1 "Cel dosłownie wykreślony z listy. Krok po kroku, zmniejszamy siłę wroga!"
-EX_FD-Maks-2 "Zimny i sztywny."
+EX_FD-Vas-1 "Cel unieszkodliwiony."
+EX_FD-Vas-2 "Misja zakończona sukcesem, przeciwnik nie stanowi już zagrożenia."
 
 ukończył konstrukcję budynku:
-EX_FE-Maks-1 "Budowa zakończona pomyślnie. Czas korzystać z owoców naszej pracy."
-EX_FE-Maks-2 "Zbudowane."
+EX_FE-Vas-1 "Trud się opłacił - budynek gotowy do użytku."
+EX_FE-Vas-2 "Zbudowane."
 
 ukończył budowę pojazdu:
-EX_FF-Maks-1 "Pojazd gotowy na bitwę."
-EX_FF-Maks-2 "Artyleria gotowa."
+EX_FF-Vas-1 "Pojazd gotowy do akcji."
+EX_FF-Vas-2 "Pojazd gotowy do jazdy."
 
 skończył leczyć rannego sojusznika:
-EX_FG-Maks-1 "Leczenie to nie tylko sztuka, to nasza troska o każdego żołnierza."
-EX_FG-Maks-2 "Jak nowy!"
+EX_FG-Vas-1 "Medycyna działa cuda."
+EX_FG-Vas-2 "Solidarność to nasza siła."
 
 ukończył badania:
-EX_FH-Maks-1 "Raportuję - Badania zakończone."
+EX_FH-Vas-1 "Raportuję - Badania zakończone."
+EX_FH-Vas-2 "Nasi naukowcy ukończyli pracę w laboratorium."
 
 oswoił małpoluda:
-EX_FI-Maks-1 "No dalej, Damian, czas na nas."
-EX_FI-Maks-2 "Kolejny poborowy w naszych szeregach!"
+EX_FI-Vas-1 "No dalej, Artur, czas na nas."
+EX_FI-Vas-2 "Kolejna małpa w naszych szeregach!"
 
 przechwycił pojazd:
-EX_FL-Maks-1 "Przechwyciłem pojazd, towarzyszu!"
+EX_FL-Vas-1 "Zdołałem zdobyć pojazd!"
 
 przejął budynek:
-EX_FM-Maks-1 "Budynek przejęty."
+EX_FM-Vas-1 "Budynek przejęty."
 
 został ranny:
-EX_HA-Maks-1 "Potrzebuję wsparcia!"
-EX_HA-Maks-2 "Sanitariusz!"
+EX_HA-Vas-1 "Cholera, gdzie jest eskorta?!"
+EX_HA-Vas-2 "Sanitariusz!"
 
 nudzi się:
-EX_IA-Maks-1 "Potrzebuję kieliszka Standardu..."
-EX_IA-Maks-3 "Kaj Pałel Pak?"
+EX_IA-Vas-1 "Potrzebuję jakiegoś zajęcia."
+EX_IA-Vas-2 "Nie ma jakiejś ciekawej zagadki?"
+EX_IA-Vas-3 "Kaj Pałel Pak?”
 
 jest atakowana:
-EX_KA-Maks-1 "Argh!"
-EX_KA-Maks-2 "Urgh!"
-EX_KA-Maks-3 "Cholera!"
+EX_KA-Vas-1 "Nie poddam się!"
+EX_KA-Vas-2 "Urgh!"
+EX_KA-Vas-3 "Argh, cholera!"
 
 polepszyły się jej umiejętności:
-EX_LA-Maks-1 "Polepszyły się moje umiejętności walki."
-EX_LA-Maks-2 "Zwiększyły się moje umiejętności walki."
-EX_LB-Maks-1 "Polepszyły się moje umiejętności mechaniki."
-EX_LB-Maks-2 "Zwiększyły się moje umiejętności mechaniki."
-EX_LC-Maks-1 "Polepszyły się moje umiejętności inżynierii."
-EX_LC-Maks-2 "Zwiększyły się moje umiejętności inżynierii."
-EX_LD-Maks-1 "Polepszyły się moje umiejętności naukowe."
-EX_LD-Maks-2 "Zwiększyły się moje umiejętności naukowe."
+EX_LA-Vas-1 "Polepszyły się moje umiejętności walki."
+EX_LA-Vas-2 "Zwiększyły się moje umiejętności walki."
+EX_LB-Vas-1 "Polepszyły się moje umiejętności mechaniki."
+EX_LB-Vas-2 "Zwiększyły się moje umiejętności mechaniki."
+EX_LC-Vas-1 "Polepszyły się moje umiejętności inżynierii."
+EX_LC-Vas-2 "Zwiększyły się moje umiejętności inżynierii."
+EX_LD-Vas-1 "Polepszyły się moje umiejętności naukowe."
+EX_LD-Vas-2 "Zwiększyły się moje umiejętności naukowe."
 
 otrzymuje rozkaz marszu:
-EX_MA-Maks-1 "Wyruszam."
-EX_MA-Maks-2 "Wyruszam na zwiad!"
-EX_MA-Maks-3 "Maszeruję do wyznaczonych koordynatów!"
+EX_MA-Vas-1 "Wyruszam."
+EX_MA-Vas-2 "Nie ma czasu do stracenia!"
+EX_MA-Vas-3 "Ruszajmy się!"
 
 nie może wykonać rozkazu:
-EX_NA-Maks-1 "Nie mogę tego wykonać."
+EX_NA-Vas-1 "To jest awykonalne."
 
 otrzymuje rozkaz ataku na przeciwnika:
-EX_OA-Maks-1 "Ruchoma strzelnica!"
+EX_OA-Vas-1 "Postrzelamy do kaczek!"
 
 otrzymuje rozkaz budowy:
-EX_OF-Maks-1 "Zaraz zbudujemy."
+EX_OF-Vas-1 "Przystępujemy do prac budowlanych."
 
 otrzymuje rozkaz leczenia:
-EX_OG-Maks-1 "No dalej, nie jęcz."
-EX_OG-Maks-2 "Podajcie mi wodę utlenioną!"
+EX_OG-Vas-1 "Mogło być gorzej."
+EX_OG-Vas-2 "Podajcie mi kompres jałowy!"
 
 otrzymuje rozkaz przeprowadzenia badań:
-EX_OH-Maks-1 "Przygotować sprzęt badawczy."
-EX_OH-Maks-2 "Badania w toku."
-
+EX_OH-Vas-1 "Przygotować sprzęt badawczy, rozpoczynamy eksperymenty."
+EX_OH-Vas-2 "Badania w toku, raporty będą gotowe."
 
 otrzymuje rozkaz oswojenia małpoluda:
-EX_OI-Maks-1 "Widzę nowych rajderów F1."
+EX_OI-Vas-1 "Widzę nowych poborowych."
 
 postać zostaje wybrana:
-EX_RA-Maks-1 "Kapral Magomedow zgłasza się."
-EX_RA-Maks-2 "w czym mogę pomóc?"
-EX_RA-Maks-3 "Jakieś rozkazy, komandorze?"
-EX_RA-Maks-4 "Nowy rozkazy?"
+EX_RA-Vas-1 "Doktor Smirnowski zgłasza się."
+EX_RA-Vas-2 "Witam, w czym mogę pomóc?"
+EX_RA-Vas-3 "Czegoś trzeba, komandorze?"
+EX_RA-Vas-4 "Nowy rozkazy?"
+
+EX_RB-Maks-1 "Naprzód!"
+EX_RB-Maks-2 "Nie zatrzymujcie się!"
 
 postać zostaje wybrana w pojeździe:
-EX_RC-Maks-1 "Tak?"
-EX_RC-Maks-2 "Pojazd gotów do wyruszenia."
+EX_RC-Vas-1 "Jestem potrzebny?"
+EX_RC-Vas-2 "Pojazd gotów do wyruszenia."
 
 postać zostaje ciężko ranna:
-EX_UA-Maks-1 "Argh..."
-EX_UA-Maks-2 "Kurde, gdzie to cholerne wsparcie?!"
+EX_UA-Vas-1 "Argh..."
+EX_UA-Vas-2 "Jeszcze z Tobą nie skończyłem!"
 
 postać umiera:
-EX_WA-Maks-1 "Kurwa..."
+EX_WA-Vas-1 "Jak umierać to za ojczyznę!"
 
 postać nie może wyjść z budynku:
-EX_XA-Maks-1 "Drzwi zablokowane."
+EX_XA-Vas-1 "Drzwi zablokowane."
+EX_XA-Vas-2 "Brak widocznego wyjścia."
 
 zniszczono złoże
-EX_XB-Maks-1 "Złoże alaskitu zostało zniszczone."
+EX_XB-Vas-1 "Złoże alaskitu zostało zniszczone."
 
 postać znajduje się na skażonym przez radiację syberytową terenie:
-EX_XC-Maks-1 "Niebezpieczne skażenie!"
+EX_XC-Vas-1 "Niebezpieczne skażenie!"
+EX_XC-Vas-2 "Chronić się przed promieniowaniem!"
 
 kończy się paliwo w pojeździe:
-EX_XD-Maks-1 "Nie mam paliwa!"
+EX_XD-Vas-1 "Nie mam paliwa!"
 
 skończyło się paliwo w pojeździe:
-EX_XE-Maks-1 "Brak paliwa!"
+EX_XE-Vas-1 "Logistyka nas zawiodła!"

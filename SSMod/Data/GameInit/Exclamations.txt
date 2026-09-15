@@ -170,7 +170,7 @@ GAMEINIT
        ITEM  114  1
        ITEM  115  1
        ITEM  120  1
-       ITEM  121  1
+       ITEM  121  0
        ITEM  122  1
        ITEM  123  1
        ITEM  124  1
@@ -222,7 +222,7 @@ GAMEINIT
        ITEM  114  1
        ITEM  115  0
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -447,7 +447,7 @@ GAMEINIT
        ITEM  114  1
        ITEM  115  1
        ITEM  120  1
-       ITEM  121  1
+       ITEM  121  0
        ITEM  122  1
        ITEM  123  1
        ITEM  124  1
@@ -499,7 +499,7 @@ GAMEINIT
        ITEM  114  -1
        ITEM  115  -1
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -558,7 +558,7 @@ GAMEINIT
        ITEM  114  1
        ITEM  115  1
        ITEM  120  1
-       ITEM  121  1
+       ITEM  121  0
        ITEM  122  1
        ITEM  123  1
        ITEM  124  1
@@ -609,7 +609,7 @@ GAMEINIT
        ITEM  113  -1
        ITEM  115  -1
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -813,6 +813,13 @@ GAMEINIT
      PROB  4
        ITEM  113  0
        ITEM  116  0
+	   ITEM  121  0
+	 PROB  5
+	   ITEM  121  0
+	 PROB  6
+	   ITEM  121  0
+	 PROB  7
+	   ITEM  121  0
    EXCL  7 
      NAME MA
      LOG 0 
@@ -946,7 +953,7 @@ GAMEINIT
        ITEM  136  0
      PROB  4
        ITEM  120  0
-       ITEM  121  0
+       ITEM  121  -1
        ITEM  122  0
        ITEM  123  0
        ITEM  124  0
@@ -982,7 +989,7 @@ GAMEINIT
        ITEM  113  7
        ITEM  115  7
        ITEM  120  7
-       ITEM  121  7
+       ITEM  121  0
        ITEM  122  7
        ITEM  123  7
        ITEM  124  7
@@ -1033,7 +1040,7 @@ GAMEINIT
        ITEM  113  -1
        ITEM  115  -1
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -1692,7 +1699,7 @@ GAMEINIT
        ITEM  113  6
        ITEM  115  6
        ITEM  120  6
-       ITEM  121  6
+       ITEM  121  0
        ITEM  122  6
        ITEM  123  6
        ITEM  124  6
@@ -1743,7 +1750,7 @@ GAMEINIT
        ITEM  113  -1
        ITEM  115  -1
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -1895,7 +1902,7 @@ GAMEINIT
      PROB 3
        ITEM  116  0
        ITEM  120  0
-       ITEM  121  0
+       ITEM  121  -1
        ITEM  122  0
        ITEM  123  0
        ITEM  124  0
@@ -2797,7 +2804,7 @@ GAMEINIT
        ITEM  115  -1
        ITEM  116  0
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -2963,7 +2970,7 @@ GAMEINIT
        ITEM  109  16
        ITEM  113  16
        ITEM  120  16
-       ITEM  121  16
+       ITEM  121  0
        ITEM  122  16
        ITEM  123  16
        ITEM  124  16
@@ -3015,7 +3022,7 @@ GAMEINIT
        ITEM  113  -1
        ITEM  115  -1
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -3072,7 +3079,7 @@ GAMEINIT
        ITEM  109  16
        ITEM  113  16
        ITEM  120  16
-       ITEM  121  16
+       ITEM  121  0
        ITEM  122  16
        ITEM  123  16
        ITEM  124  16
@@ -3124,7 +3131,7 @@ GAMEINIT
        ITEM  113  -1
        ITEM  115  -1
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -3235,7 +3242,7 @@ GAMEINIT
        ITEM  115  -1
        ITEM  116  0
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -3507,7 +3514,7 @@ GAMEINIT
        ITEM  113  -1
        ITEM  115  -1
        ITEM  120  0
-       ITEM  121  0
+       ITEM  121  -1
        ITEM  122  0
        ITEM  123  0
        ITEM  124  0
@@ -3566,7 +3573,7 @@ GAMEINIT
        ITEM  115  29
        ITEM  116  0
        ITEM  120  29
-       ITEM  121  29
+       ITEM  121  0
        ITEM  122  29
        ITEM  123  29
        ITEM  124  29
@@ -3618,7 +3625,7 @@ GAMEINIT
        ITEM  115  -1
        ITEM  116  0
        ITEM  120  -1
-       ITEM  121  -1
+       ITEM  121  0
        ITEM  122  -1
        ITEM  123  -1
        ITEM  124  -1
@@ -3656,6 +3663,8 @@ GAMEINIT
        ITEM  15  0
        ITEM  16  -1
        ITEM  255  -1
+	 PROB  3
+	   ITEM  121  0
    EXCL  31 
      NAME BC
      LOG 0 
@@ -4249,7 +4258,7 @@ GAMEINIT
      NAME WA
      LOG 0 
      DISPLAY 0 
-     ENEMY 0 
+     ENEMY 1 
      FADE 1 
      HINT 0 
      PROB  1 
@@ -4378,7 +4387,7 @@ GAMEINIT
      NAME UA
      LOG 0 
      DISPLAY 0 
-     ENEMY 0 
+     ENEMY 1 
      FADE 1 
      HINT 0 
      PROB  1 
@@ -4766,6 +4775,7 @@ GAMEINIT
      PROB  3
        ITEM  113  0
        ITEM  116  0
+	   ITEM  121  0
    EXCL  40 
      NAME EB
      LOG 1 

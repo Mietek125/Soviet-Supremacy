@@ -3,6 +3,9 @@ EX_BA-Louis-1 "Nie bierz tego do siebie."
 EX_BA-Louis-2 "To tylko biznes."
 EX_BA-Louis-3 "Ktoś za Ciebie zapłacił."
 
+atakuje jako żołnierz:
+EX_BB-Louis-1 "test"
+
 atakuje przeciwnika bronią snajperską:
 EX_BC-Louis-1 "Ja mam czas, Twój się kończy."
 EX_BC-Louis-2 "600m to rutyna nie problem."
@@ -84,6 +87,12 @@ oswoił małpoluda:
 EX_FI-Louis-1 "Za mną żołnierzu."
 EX_FI-Louis-2 "Zobaczymy co potrafisz."
 
+oswoił mastodonta:
+EX_FJ-Louis-1 "test"
+
+oswoił tygrysa:
+EX_FK-Louis-1 "test"
+
 przechwycił pojazd:
 EX_FL-Louis-1 "Pojazd jest nasz."
 EX_FL-Louis-2 "Amatorzy, zostawili kluczyki."
@@ -124,6 +133,9 @@ EX_MA-Louis-2 "Biegiem, naprzód marsz!"
 EX_MA-Louis-3 "Za mną ludzie."
 EX_MA-Louis-4 "Słyszeliście rozkaz!"
 
+ruch w grupie:
+EX_MB-Louis-1 "test"
+
 nie może wykonać rozkazu:
 EX_NA-Louis-1 "Niewykonalne."
 EX_NA-Louis-2 "Nie."
@@ -146,10 +158,12 @@ otrzymuje rozkaz przeprowadzenia badań:
 EX_OH-Louis-1 "Dobra technika to podstawa."
 EX_OH-Louis-2 "Zaraz dodamy to do arsenału."
 
-
 otrzymuje rozkaz oswojenia małpoluda:
 EX_OI-Louis-1 "Zaraz będzie nowy poborowy."
 EX_OI-Louis-2 "Chodź, pod moją komendą nie zginiesz."
+
+rozkaz samozniszczenia:
+EX_OJ-Louis-1 "test"
 
 postać zostaje wybrana:
 EX_RA-Louis-1 "Zgłasza się Louis."
@@ -157,10 +171,20 @@ EX_RA-Louis-2 "Chować skarpetki, panienki."
 EX_RA-Louis-3 "Gotów na rozkazy.”
 EX_RA-Louis-4 "Grupa uderzeniowa Schulz, na rozkaz.”
 
+w trakcie walki, ale nie dostaje obrażeń:
+EX_RB-Louis-1 "test"
+
 postać zostaje wybrana w pojeździe:
 EX_RC-Louis-1 "Gotów do walki manewrowej."
 EX_RC-Louis-2 "Pojazd gotów do walki."
 EX_RC-Louis-3 "Walec pancerny gotów do wymarszu."
+
+steruje zdalnie sterowanym pojazdem:
+EX_RD-Louis-1 "test"
+
+kiedy jest w budynku:
+EX_RE-Mietek-1 "Dobrze, że nie mam klaustrofobii"
+EX_RE-Mietek-2 "Dobra, kończmy tę robotę i poszukajmy wroga."
 
 postać zostaje ciężko ranna:
 EX_UA-Louis-1 "Medyk!"
@@ -191,3 +215,6 @@ EX_XD-Louis-2 "Pali się rezerwa!"
 skończyło się paliwo w pojeździe:
 EX_XE-Louis-1 "No i dalej nie jadę."
 EX_XE-Louis-2 "Logistyka nam kuleje."
+
+chuj wie:
+EX_XF-Louis-1 "test"

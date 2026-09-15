@@ -49,7 +49,7 @@ GAMEINIT
       TIME 60
       POWER 0
       ATTACK 0
-      DEFENSE 75
+      DEFENSE 90
       HUMANS 6
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -68,7 +68,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 85
+      DEFENSE 120
       HUMANS 6
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -667,7 +667,7 @@ GAMEINIT
       TIME 55
       POWER 0
       ATTACK 0
-      DEFENSE 70
+      DEFENSE 85
       HUMANS 5
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -686,7 +686,7 @@ GAMEINIT
       TIME 30
       POWER 0
       ATTACK 0
-      DEFENSE 80
+      DEFENSE 110
       HUMANS 5
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -1186,7 +1186,7 @@ GAMEINIT
       TIME 80
       POWER 0
       ATTACK 0
-      DEFENSE 80
+      DEFENSE 100
       HUMANS 7
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -1204,7 +1204,7 @@ GAMEINIT
       TIME 60
       POWER 0
       ATTACK 0
-      DEFENSE 90
+      DEFENSE 130
       HUMANS 7
       OBSTACLE 0
       SHAPE 19   -2 -2  -1 -2  0 -2  -2 -1  -1 -1  0 -1  1 -1  -2 0  -1 0  0 0  1 0  2 0  -1 1  0 1  1 1  2 1  0 2  1 2  2 2
@@ -1560,6 +1560,7 @@ GAMEINIT
       ENTRANCES 3   -1 -2  0 -2  1 -1
       IDENT r-siberiummine
       TECHNOLOGY 20
+	  UPGRADED_TO 47
     BUILDING  89 
       NAME "E(Ru. breastworks)C(Ru. breastworks)"
       NATION 3
@@ -1686,6 +1687,7 @@ GAMEINIT
       ISEXTENSION
       ICON 2FE_Solar
       IDENT a-solarext
+      TECHNOLOGY 87	  
 	BUILDING  99 
       NAME "E(Ar. remote turret)C(Ar. remote turret)"
       NATION 2
@@ -1705,6 +1707,24 @@ GAMEINIT
       IDENT a-bunker
       TECHNOLOGY 32
 	  COMMBUTTONPAGE 85
+    BUILDING  100 
+      NAME "E(Ru. Alaskite Mining Facility)C(Ru. Alaskite mining facility)"
+      NATION 3
+      KIND 47
+      OIL 0
+      SIBERIUM 0
+      CANS 15
+      TIME 100
+      POWER 5
+      ATTACK 0
+      DEFENSE 50
+      HUMANS 5
+      OBSTACLE 0
+      SHAPE 7   -1 -1  0 -1  -1 0  0 0  1 0  0 1  1 1
+      FLEK_TYPE 1
+      ENTRANCES 3   -1 -2  0 -2  1 -1
+      IDENT r-siberiummine
+      TECHNOLOGY 105
     BUILDING  74 
       NAME "E(Ru. Behemoth)C(Ru. Behemoth)"
       NATION 3

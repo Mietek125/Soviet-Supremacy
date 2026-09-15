@@ -317,35 +317,49 @@ GAMEINIT
        LEVEL  1  110
        LEVEL  3  145
        TECH 51 52 53
+       UVP UBP        
      UPGRADE 66
        LEVEL  0  0
        LEVEL  3  165
        TECH 51 52 53   
+       UVP UBP        
      UPGRADE 67
        LEVEL  0  0 
        LEVEL  3  2
        TECH 51 52 53
+       UVP UBP        
      UPGRADE 68
        LEVEL  0  0 
        LEVEL  3  2
        TECH 51 52 53
+       UVP UBP        
+     UPGRADE 71
+       LEVEL  0  1 
+       LEVEL  2  2 
+       LEVEL  3  3 
+       TECH 54 55 56
+     UPGRADE 72
+       LEVEL  0  30 
+       LEVEL  1  90 
+       LEVEL  3  150 
+       TECH 54 55 56	   
      UPGRADE 89
        LEVEL  0  100 
        LEVEL  1  150 
-       TECH 90 0 0
+       TECH 103 0 0
        UBP
      UPGRADE 90
        LEVEL  0  0 
        LEVEL  1  50
-       TECH 91 0 0
+       TECH 104 0 0
      UPGRADE 91
        LEVEL  0  0 
        LEVEL  1  50
-       TECH 92 0 0
+       TECH 105 0 0
      UPGRADE 92
        LEVEL  0  100 
        LEVEL  1  135 
-       TECH 90 0 0
+       TECH 103 0 0
        UBP
      UPGRADE 93
        LEVEL  0  0
@@ -356,11 +370,13 @@ GAMEINIT
        LEVEL  2  2
        LEVEL  3  3
        TECH 51 52 53    
-	 UPGRADE 100
-	   LEVEL  0  -20 
-       LEVEL  3  -22	
-	   LEVEL  4  -24
-	   LEVEL  5  -25
-       TECH 59 96 97	   	   
+       UVP UBP
+	   UPGRADE 100
+	     LEVEL  0  -20 
+       LEVEL  1  -22	
+	     LEVEL  2  -24
+	     LEVEL  3  -25
+       TECH 59 96 97	  
+       UVP UBP 	   
   END_OF_UPGRADES
 END_OF_GAMEINIT

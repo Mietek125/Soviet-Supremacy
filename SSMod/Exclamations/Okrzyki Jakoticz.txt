@@ -1,0 +1,201 @@
+atakuje przeciwnika:
+EX_BA-Yak-1 "Do boju, za ojczyznę!"
+EX_BA-Yak-2 "Do boju! Wykażmy się odwagą!"
+EX_BA-Yak-3 "Zmieniam światy, kreśląc historię."
+EX_BA-Yak-4 "Polegamy na sobie, zwyciężymy!"
+
+
+atakuje przeciwnika bronią snajperską:
+EX_BC-Yak-1 "Cel ujęty w ostrości oka."
+EX_BC-Yak-2 "Snajperzy rządzą polem bitwy."
+
+atakuje przeciwnika bazooką:
+EX_BD-Yak-1 "Wybuchowa siła, nieugięty cel."
+EX_BD-Yak-2 "Bazooka, mój niezawodny sojusznik."
+
+atakuje przeciwnika przy użyciu moździerza:
+EX_BE-Yak-1 "Pocisk w locie, trafienie precyzyjne!"
+EX_BE-Yak-2 "Moździerz - broń triumfu i zwycięstwa!"
+
+wykonuje rozkaz:
+EX_CA-Yak-1 "Natychmiast, towarzyszu! Wykonuję rozkaz!"
+EX_CA-Yak-2 "Dyscyplina w działaniu, wykonuję."
+EX_CA-Yak-3 "Jestem oddany misji, działam szybko."
+EX_CA-Yak-4 "Zrobimy to dla ojczyzny!"
+EX_CA-Yak-5 "Jestem gotowy, spełnię polecenie."
+EX_CA-Yak-6 "Zgodnie z planem, ruszamy teraz!"
+EX_CA-Yak-7 "Nie zwlekajmy, działamy od razu!" 
+EX_CA-Yak-8 "Lojalność przewodzi, wykonuję rozkaz."
+EX_CA-Yak-9 "Rozkaz przyjęty, wykonuję natychmiast!"
+
+znajduje surowce:
+EX_EA-Yak-1 "Odnalazłem cenne surowce."
+EX_EA-Yak-2 "Towarzysze, odnaleźliśmy nową dostawę."
+
+znajduje złoże alaskitu:
+EX_EB-Yak-1 "Złoże alaskitu, bogactwo bezcenne."
+EX_EB-Yak-2 "Pod ziemią kryje się alaskit!"
+
+znajduje złoże ropy:
+EX_EC-Yak-1 "Zasoby ropy, klucz do potęgi."
+EX_EC-Yak-2 "Znalazłem złoże ropy naftowej!"
+
+znajduje sojusznika, który przeniósł się w czasie:
+EX_ED-Yak-1 "Znajdzie się sojusznik w czasie? Niewiarygodne!"
+EX_ED-Yak-2 "Czyżby z zagubionej przyszłości?"
+
+wykrywa wroga:
+EX_EE-Yak-1 "Wyśledziłem wroga, przygotujcie się!"
+EX_EE-Yak-2 "Strzelnica mobilna."
+EX_EE-Yak-3 "Kolejni szmaciarze do pokonania!"
+
+wykonał rozkaz:
+EX_FA-Yak-1 "Zadanie wykonane, czekam na kolejne rozkazy."
+EX_FA-Yak-2 "Rozkaz wykonany, towarzyszu."
+
+dotarł na miejsce przeznaczenia:
+EX_FB-Yak-1 "Dotarliśmy."
+EX_FB-Yak-2 "Jesteśmy u celu."
+EX_FB-Yak-3 "Dotarłem na pozycję."
+
+wszedł do pojazdu:
+EX_FC-Yak-1 "No to jedziemy."
+EX_FC-Yak-2 "Pojazd gotowy, czas na jazdę."
+
+zlikwidował przeciwnika:
+EX_FD-Yak-1 "Cel skutecznie wyeliminowany, zagrożenie usunięte."
+EX_FD-Yak-2 "Przeciwnik zlikwidowany, misja zakończona."
+
+ukończył konstrukcję budynku:
+EX_FE-Yak-1 "Stoję dumnie przed ukończoną konstrukcją."
+EX_FE-Yak-2 "Po wielu trudach, budynek gotowy."
+
+ukończył budowę pojazdu:
+EX_FF-Yak-1 "Koniec prac, pojazd ukończony."
+EX_FF-Yak-2 "Ostatnie poprawki, pojazd gotowy do jazdy."
+
+skończył leczyć rannego sojusznika:
+EX_FG-Yak-1 "Ostatni opatrunek, sojusznik wraca do sił."
+EX_FG-Yak-2 "Leczenie zakończone, sukces medycyny!"
+
+ukończył badania:
+EX_FH-Yak-1 "Ostatni eksperyment zakończony, analizujemy dane."
+EX_FH-Yak-2 "Skompletowane badania, czekam na ocenę."
+
+oswoił małpoluda:
+EX_FI-Yak-1 "Za mną, żołnierzu."
+EX_FI-Yak-2 "Dotarli kolejni poborowi."
+EX_FI-Yak-3 "Za niedługo utworzymy batalion karny."
+
+przechwycił pojazd:
+EX_FL-Yak-1 "Przechwycenie pojazdu, sukces w operacji."
+EX_FL-Yak-2 "Amatorzy, zostawili kluczyki w stacyjce."
+
+przejął budynek:
+EX_FM-Yak-1 "Po ciężkich walkach, budynek jest nasz."
+EX_FM-Yak-2 "Misja ukończona, budynek przejęty."
+
+został ranny:
+EX_HA-Yak-1 "Ranny, ale nie przestaję walczyć!"
+EX_HA-Yak-2 "Załapałem ranę, potrzebuję pomocy!"
+EX_HA-Yak-3 "Boli, ale nie opuszczam pola walki!"
+
+nudzi się:
+EX_IA-Yak-1 "Bezczynność prowadzi do nudy."
+EX_IA-Yak-2 "Nuda mnie ogarnia, co tu robić?"
+EX_IA-Yak-3 "Czas na trochę żuru."
+EX_IA-Yak-4 "Kaj Pałel Pak?"
+
+jest atakowana:
+EX_KA-Yak-1 "Ciekawe, ile kul potrzeba, aby mnie zabić."
+EX_KA-Yak-2 "Wszyscy do mnie, wasz dowódca jest atakowany!"
+EX_KA-Yak-3 "Wrogi atak!"
+
+polepszyły się jej umiejętności:
+EX_LA-Yak-1 "Polepszyły się moje umiejętności walki."
+EX_LA-Yak-2 "Zwiększyły się moje umiejętności walki."
+EX_LB-Yak-1 "Polepszyły się moje umiejętności mechaniki."
+EX_LB-Yak-2 "Zwiększyły się moje umiejętności mechaniki."
+EX_LC-Yak-1 "Polepszyły się moje umiejętności inżynierii."
+EX_LC-Yak-2 "Zwiększyły się moje umiejętności inżynierii."
+EX_LD-Yak-1 "Polepszyły się moje umiejętności naukowe."
+EX_LD-Yak-2 "Zwiększyły się moje umiejętności naukowe."
+
+otrzymuje rozkaz marszu:
+EX_MA-Yak-1 "Wyruszamy!"
+EX_MA-Yak-2 "Szybko, szybko!"
+EX_MA-Yak-3 "Za mną, towarzysze."
+EX_MA-Yak-4 "Ruszamy na rekonesans"
+
+nie może wykonać rozkazu:
+EX_NA-Yak-1 "Niewykonalne."
+EX_NA-Yak-2 "To jest awykonalne."
+EX_NA-Yak-3 "Chyba pan zwariował."
+
+otrzymuje rozkaz ataku na przeciwnika:
+EX_OA-Yak-1 "Żołnierze, do boju!"
+EX_OA-Yak-2 "Chce ich wszystkich martwych!"
+EX_OA-Yak-3 "Strzelać bez rozkazu!"
+
+otrzymuje rozkaz budowy:
+EX_OF-Yak-1 "Już stawiam szkielet budowli."
+EX_OF-Yak-2 "Przystępujemy do prac budowlanych."
+
+otrzymuje rozkaz leczenia:
+EX_OG-Yak-1 "Opatrzyć go!."
+EX_OG-Yak-2 "Butelka Radzieckiego Standardu ci wystarczy."
+
+otrzymuje rozkaz przeprowadzenia badań:
+EX_OH-Yak-1 "Przygotować sprzęt badawczy, rozpoczynamy eksperymenty."
+EX_OH-Yak-2 "Badania w toku, raporty będą gotowe."
+
+
+otrzymuje rozkaz oswojenia małpoluda:
+EX_OI-Yak-1 "Czas na nowych poborowych."
+EX_OI-Yak-2 "Czas na sformowanie nowego plutonu."
+
+postać zostaje wybrana:
+EX_RA-Yak-1 "Zgłasza się Jakoticz."
+EX_RA-Yak-2 "Gotów na rozkazy!"
+EX_RA-Yak-3 "Czegoś trzeba, komandorze?"
+EX_RA-Yak-4 "Nowy rozkaz, towarzyszu?"
+
+w trakcie walki, ale nie otrzymuje obrażeń:
+EX_RB-Yak-1 "Dawajcie ich!"
+EX_RB-Yak-2 "Nie zatrzymujmy się!"
+
+postać zostaje wybrana w pojeździe:
+EX_RC-Yak-1 "Gotów do walki zmechanizowanej."
+EX_RC-Yak-2 "Pojazd gotów do wyruszenia."
+EX_RC-Yak-3 "Artyleria gotowa."
+
+postać zostaje ciężko ranna:
+EX_UA-Yak-1 "Argh..."
+EX_UA-Yak-2 "Nie poddam się!”
+EX_UA-Yak-3 "Jeszcze z Tobą nie skończyłem!"
+EX_UA-Yak-4 "Chodź, imperialistyczny sukinsynu!"
+
+postać umiera:
+EX_WA-Yak-1 "Żegnajcie, towarzysze..."
+EX_WA-Yak-2 "Jeszcze z wami nie skończyłem!"
+EX_WA-Yak-3 "Jak umierać to wśród swoich."
+
+postać nie może wyjść z budynku:
+EX_XA-Yak-1 "Drzwi zablokowane."
+EX_XA-Yak-2 "Brak widocznego wyjścia."
+
+zniszczono złoże
+EX_XB-Yak-2 "Złoże alaskitu zostało zniszczone."
+
+postać znajduje się na skażonym przez radiację syberytową terenie:
+EX_XC-Yak-1 "Niebezpieczne skażenie!"
+EX_XC-Yak-2 "Chronić się przed promieniowaniem!"
+EX_XC-Yak-3 "Chryste, chyba rzygnę..."
+
+kończy się paliwo w pojeździe:
+EX_XD-Yak-1 "Nie mam paliwa!"
+EX_XD-Yak-2 "Jadę na oparach!"
+
+skończyło się paliwo w pojeździe:
+EX_XE-Yak-1 "No to wracam do bycia żołnierzem."
+EX_XE-Yak-2 "Logistycznie polegliśmy."

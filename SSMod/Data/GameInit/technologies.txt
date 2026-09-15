@@ -556,7 +556,7 @@ GAMEINIT
 
       TECHNOLOGY  87
       NAME "Hovercraft"
-      NATIONS 0 1 0
+      NATIONS 0 1 1
       REQUIRES 1 82
       LAB  9
       TIME 50
@@ -644,6 +644,55 @@ GAMEINIT
       REQUIRES 2 84 86
       LAB  9
       TIME 90
+	  
+	  TECHNOLOGY  101 
+      NAME "Mine detector"
+      NATIONS 1 0 0
+      REQUIRES 1 6 
+      LAB  15 
+      TIME 80
+	  
+	  TECHNOLOGY  102 
+      NAME "Miner"
+      NATIONS 0 1 0
+      REQUIRES 2 42 18 
+      LAB  11
+      TIME 100
+	  
+	  TECHNOLOGY  103
+      NAME "Power optimizer"
+      NATIONS 1 0 0
+      REQUIRES 1 35 
+      LAB  9 
+      TIME 90 
+	  
+	  TECHNOLOGY  104
+      NAME "Reinforced pumps"
+      NATIONS 0 1 0
+      REQUIRES 0 
+      LAB  9 
+      TIME 105
 
+      TECHNOLOGY  105 
+      NAME "Siberite ore processing"
+      NATIONS 0 0 1
+      REQUIRES 1 20 
+      LAB  9 
+      TIME 140
+	  
+      TECHNOLOGY  106 
+      NAME "'Devastator' Gun"
+      NATIONS 0 0 1
+      REQUIRES 1 34 
+      LAB  11 
+      TIME 175	  
+	  
+	  TECHNOLOGY  200 
+      NAME "Noble equipment"
+      NATIONS 0 1 0
+      REQUIRES 0
+      LAB  11 
+      TIME 1
+	  
   END_OF_TECHNOLOGIES
 END_OF_GAMEINIT

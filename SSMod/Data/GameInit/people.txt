@@ -79,7 +79,8 @@ GAMEINIT
 		CANUSEMINES 1
       CLASS 2 
         NAME "E(Engineer)C(Dìlník)"
-        CLASS_TYPE 2 
+        CLASS_TYPE 2
+        SPEED_BONUS 10 1		
         SYMBOLS
           u-m-eng
           u-f-eng
@@ -115,6 +116,7 @@ GAMEINIT
       CLASS 3 
         NAME "E(Mechanic)C(Mechanik)"
         CLASS_TYPE 3 
+        SPEED_BONUS 10 1			
         SYMBOLS
           u-m-mech
           u-f-mech
@@ -259,22 +261,22 @@ GAMEINIT
         SOUND_CYCLE 0
         ATTACKS 3 
         ATTACK 1 
-          MINMAX_RANGE  5  13 
-          FREQUENCY  1  175 
-          DAMAGE 200 250 250
-          EFF 20 25 25
+          MINMAX_RANGE  4  13 
+          FREQUENCY  1  140 
+          DAMAGE 100 250 200
+          EFF 10 25 20
           ANIM  1  4  3 
         END_OF_ATTACK
         ATTACK 2 
-          MINMAX_RANGE  5  13 
-          FREQUENCY  1  210 
+          MINMAX_RANGE  4  13 
+          FREQUENCY  1  140 
           DAMAGE 0 0 0
           EFF 0 0 0
           ANIM  1  15  3 
         END_OF_ATTACK
         ATTACK 3 
-          MINMAX_RANGE  5  13 
-          FREQUENCY  1  210 
+          MINMAX_RANGE  4  13 
+          FREQUENCY  1  140 
           DAMAGE 0 0 0
           EFF 0 0 0
           ANIM  1  16  3 
