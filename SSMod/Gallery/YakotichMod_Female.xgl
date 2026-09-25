@@ -2,6 +2,7 @@ GALLERY
   PORTRET
     PAK female
     PORT_COMPONENTS
+      NAZEV Kebab
       TYP POZADI
         COMP us-pozadibr
         BARVY 374A7B 85 808080 85 808080 85 808080 85
@@ -90,8 +91,9 @@ GALLERY
   END_OF_PORTRET
   PORTRET
     PAK female
+    VOICE 127
     PORT_COMPONENTS
-      NAZEV Tatyana
+      NAZEV Tat
       TYP POZADI
         COMP us-pozadibr
         BARVY 421D2A 85 808080 85 808080 85 808080 85

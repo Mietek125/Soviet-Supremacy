@@ -43,7 +43,7 @@ Export VehicleCount, Tank1, Tank2, Tank3;
 Export usMobile;
 
 Export Kurin, Platonov, Grishko, Burlak;
-Export KurinTime, ConvoyEscapedMembers];
+Export KurinTime, ConvoyEscapedMembers;
 
 Export UsSoldMinLevel, UsSoldMaxLevel;
 Export AIEnable;
@@ -57,7 +57,7 @@ Export AmericansHeld, BaseCaptured, TatianaMad, BunkerBuilt, CargoBuilt, GunBuil
 
 Export Function Init;
 begin
-Debug := true; //tests only!
+//Debug := true; //tests only!
 
 PrevMissionPrefix := '01_';
 MissionPrefix := '02_';

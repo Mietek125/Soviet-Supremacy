@@ -3,6 +3,8 @@ begin
 
      If GetSide(building) = 6 or GetSide(building) = 9 or GetSide(building) = 4 and GetSide(Human) = 3 then
      YouLost('AllyCapturedBuildings');
+     If GetSide(building) = 7 and not BerezovEscaped then
+     YouLost('AllyCapturedBuildings');
 
 end;
 
@@ -13,6 +15,59 @@ begin
      YouLost('AllyCapturedVehicles');
 
 end;
+
+
+On VehicleConstructed(veh, fac) do
+Begin
+
+     if GetSide(veh) = 4 and GetWeapon(veh) = Ru_Big_Cargo_Bay then
+        BukovTransports;
+     if GetSide(veh) = 7 and GetWeapon(veh) = Ru_Big_Cargo_Bay then
+        BerezovTransports;
+End;
+
+On BuildingComplete(b) do
+var RuWeapons, ArWeapons;
+begin
+
+     RuWeapons := [ru_gun, ru_heavy_gun, ru_rocket_launcher];
+     ArWeapons := [ar_gun, ar_mortar, ar_rocket_launcher, ar_flame_thrower];
+
+     if GetSide(b) = 7 or GetSide(b) = 6 and GetBType(b) = b_turret or GetBType(b) = b_bunker then
+        AddComPlaceWeapon(b, RuWeapons[Rand(1, RuWeapons)]);
+
+     if GetSide(b) = 2 or GetSide(b) = 5 or GetSide(b) = 8 and GetBType(b) = b_bunker then
+        AddComPlaceWeapon(b, ArWeapons[Rand(1, ArWeapons)]);
+
+     if BerezovEscaped and GetSide(b) = 7 and GetBType(b) = b_bunker then
+        AddComPlaceWeapon(b, ArWeapons[Rand(1, ArWeapons)]);
+
+     if GetSide(b) = 7 then
+        Side7Buildings := Delete(Side7Buildings, 1);
+
+end;
+
+On UnitGoesToRed(un) do
+begin
+if GetSide(un) = 8 and GetControl(un) = control_computer and not SeenComputer then
+   begin
+   SeenComputer := true;
+   DialogSeenComputer(un);
+   end;
+End;
+
+// see computer
+Export Function DialogSeenComputer(un);
+begin
+     CenterOnUnits(un);
+     DialogueOn;
+     Say(Mietek, 'DMietek-05-01');
+     Say(Smirnovsky, 'DVlad-05-02');
+     Say(Yakotich, 'DYak-05-03');
+     Say(Platonov, 'DPlat-05-04');
+     DialogueOff;
+End;
+
 
 
 

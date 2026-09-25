@@ -5,7 +5,7 @@ begin
       //FLAGI DLA POJAZDOW
       SetMark(BukovTank, -4);
       SetMark(GaydarTank, -6);
-      SetMark(BerezovTank, -9);
+      SetMark(BerezovTank, -7);
 
     {===== NASI (CZERWONI) =====}
 
@@ -37,7 +37,7 @@ begin
      PrepareVehicle(Ru_Medium_Tracked, engine_siberite, control_manual, Ru_Rocket_Launcher, 100);
      Tank := CreateVehicle;
 
-     OurGuys := OurGuys ^ YakotichTeam ^ Yakotich ^ Mietek ^ Dragunov;
+     OurGuys := OurGuys ^ YakotichTeam ^ Yakotich ^ Mietek ^ Dragunov ^ Maxim;
 
      for i in OurGuys do
      PlaceUnitArea(i, SpawnArea, False);
@@ -49,19 +49,12 @@ begin
      PlaceHumanInUnit(Tatiana, Cargo2);
      PlaceHumanInUnit(Kostyliev, Tank);
 
-     Kuzmov := NewCharacter('Kuzmov');
-     Gnyevko := NewCharacter('Gnyevko');
      Natasha := NewCharacter('Natasha');
 
      OtherTeam := CreateCharacterSet('02_OtherTeam');
 
      for i in OtherTeam do
      PlaceUnitXYR(i,157,232,3,False);
-
-     OldCrewTeam := OldCrewTeam ^ Gnyevko ^ Kuzmov;
-
-     PlaceHumanInUnit(Gnyevko, w1);
-     PlaceHumanInUnit(Kuzmov, a1);
 
      PlaceUnitXY(Natasha,171,243,False);
      ComTurnUnit(Natasha, Yakotich);      
@@ -79,9 +72,9 @@ begin
      PlaceUnitXY(Bukov,328,235,False);
      AddComTurnXY(Bukov,324,231);
 
-     {===== EKIPA BIERIEZOWA (fioletowi) =====}
+     {===== EKIPA BIERIEZOWA (zieloni) =====}
 
-     Uc_Side := 9;
+     Uc_Side := 7;
 
      //IvanBerezov := PrepareUnit('IvanBerezov', (not debug), '');
      IvanBerezov := NewCharacter('IvanBerezov');
@@ -172,6 +165,16 @@ begin
           PlaceUnitXYR(i, 93, 53, 3, false)
      end;
 
+     {===== EKIPA WSZYSTKICH INNYCH (ró¿owi) =====}
+
+     Uc_Side := 9;
+
+     Pompa := NewCharacter('Pompa');
+     Mielnik := NewCharacter('Mielnik');
+     Petrov := NewCharacter('Petrov');
+     Konajev := NewCharacter('Konajev');
+     Radenko := NewCharacter('Radenko');
+
 
 
      {===== EKIPA WSZYSTKICH INNYCH (ró¿owi) =====}
@@ -213,10 +216,12 @@ begin
      Kuklajs := NewCharacter('Kuklajs');
      Saseda := NewCharacter('Saseda');
      Jaworska := NewCharacter('Jaworska');
+     Kuzmov := NewCharacter('Kuzmov');
+     Gnyevko := NewCharacter('Gnyevko');
 
      SetClass(Kovalyuk, 2);
 
-     SouthLeninTeam := SouthLeninTeam ^ Scholtze ^ Furmanov ^ Kozlov ^ Oblukov ^ Kapitsova ^ Balei ^ Jaunzeme ^ Benko ^ Kuklajs ^ Kovalyuk ^ Saseda ^ Jaworska;
+     SouthLeninTeam := SouthLeninTeam ^ Scholtze ^ Furmanov ^ Kozlov ^ Oblukov ^ Kapitsova ^ Balei ^ Jaunzeme ^ Benko ^ Kuklajs ^ Kovalyuk ^ Saseda ^ Jaworska ^ Gnyevko ^ Kuzmov;
 
      for i in SouthLeninTeam do
      begin
@@ -249,6 +254,11 @@ begin
      PlaceUnitXY(Popov,65,100,False);
      ComTurnUnit([Morozov,Platonov,Popov],Yakotich);
 
+     SetSide(FilterAllUnits([f_side, 9]) diff PompaArmor, 7);
+     SetBLevel(FilterAllUnits([[f_side, 7], [f_type, unit_building]]), 10);
+     SetBLevel(FilterAllUnits([[f_side, 6], [f_type, unit_building]]), 10);
+     SetBLevel(FilterAllUnits([[f_side, 3], [f_type, unit_building]]), 10);
+
 end;
 
 Export Function InitYashin;
@@ -270,13 +280,54 @@ Begin
 
 end;
 
-Export Function RussianAI;
-var BukovTechTree;
+every 0$1 Trigger StartEnded do
+var tmp, i;
 Begin
 
      {===== AI BUKOWA (jasnoniebiescy) =====}
 
-     BukovTechTree := [47, 49, 82, 83, 84, 51, 52];
+     AddComResearch(BukovLab, Tech_Cargo);
+     AddComResearch(BukovLab, Tech_Track);
+     ResAllTechs(4, BukovLab, 3);
+     ResAllTechs(6, BukovLab, 3);
 
-     AddComResearch(FilterAllUnits([[f_side, 6], [f_btype, b_lab_half]]), BukovTechTree);
+     repeat
+     Wait(0$1)
+     until
+     Researched(4,83) and Researched(4,84);
+
+     ComConstruct(BukovFactory, ru_heavy_wheeled, engine_combustion, control_manual, ru_big_cargo_bay);
+     AddComConstruct(BerezovFac, ru_heavy_tracked, engine_combustion, control_computer, ru_big_cargo_bay);
+
 end;
+
+every 0$1 Trigger StartEnded do
+var temp, i, engs;
+begin
+
+    {===== AI BIEREZOWA (zieloni) =====}
+
+    enable;
+    engs := FilterAllUnits([[f_side, 7], [f_class, class_engineer]]);
+    ResAllTechs(7, BerezovLab, 3);
+    ComUpgrade(BerezovBase);
+    ComUpgrade(BerezovArm);
+
+
+
+    for i in engs do
+     begin
+      if Side7Buildings and not IsIdle(i) then
+         ComBuild(i, Side7Buildings[1][1], Side7Buildings[1][2], Side7Buildings[1][3], Side7Buildings[1][4]);
+
+    end;
+      if not Side7Buildings and IsIdle(i) then
+         ComEnterUnit(engs, BerezovBase);
+end;
+
+Export Function LeninAI;
+var tmp, i;
+begin
+
+end;
+

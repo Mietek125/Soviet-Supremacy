@@ -1,10 +1,3 @@
-Export Function InitArabian;
-begin
-
-     Uc_Nation := 2;
-
-end;
-
 Export Function InitFirstAttack;
 var i, j, weapons, veh, sold;
 begin
@@ -21,12 +14,94 @@ begin
           PlaceUnitArea(veh, FirstAttackArea, False);
           Connect(veh);
      end;
-{
-     for j = 1 to 5 do
+end;
+
+Export Function InitBergkampAttack;
+var i, j, weapons, veh, sold, mech, sci, eng, mortar;
+begin
+
+     Uc_Side := 8;
+
+     Bergkamp := NewCharacter('Bergkamp');
+
+     for i = 1 to 5 do
      begin
-          PrepareSoldier(0, 5);
+          PrepareVehicle(rand(ar_medium_trike, ar_half_tracked), engine_combustion, control_manual, ar_gun, 100);
+          veh := CreateVehicle;
+          SetDir(veh, 4);
+          PlaceUnitArea(veh, BergkampAttack, False);
+          PrepareMechanic(false, 6);
+          mech := CreateHuman;
+          PlaceHumanInUnit(mech, veh);
+     end;
+     for i = 1 to 7 do
+     begin
+          PrepareSoldier(false, 5);
           sold := CreateHuman;
-          PlaceUnitArea(sold, FirstAttackArea, False);
-     end;    }
+          PlaceUnitArea(sold, BergkampAttack, False);
+     end;
+     for i = 1 to 6 do
+     begin
+          PrepareHuman(false, class_mortar,5);
+          mortar := CreateHuman;
+          PlaceUnitArea(mortar, BergkampAttack, False);
+     end;
+     for i = 1 to 3 do
+     begin
+          PrepareScientist(false, 5);
+          sci := CreateHuman;
+          PlaceUnitArea(sci, BergkampAttack, False);
+     end;
+     for i = 1 to 6 do
+     begin
+          PrepareEngineer(false, 5);
+          eng := CreateHuman;
+          PlaceUnitArea(eng, BergkampAttack, False);
+     end;
+
+     BergkampTeam := FilterAllUnits([f_side, 8]);
+
+     ComAttackUnit(BergkampTeam, gatlingbunk);
+     AddComMoveXY(BergkampTeam, 90, 47);
+
+end;
+
+//AI Heike
+
+Every 0$1 Trigger StartEnded do
+begin
+
+     Uc_Nation := 2;
+     Uc_Side := 2;
+
+end;
+
+//AI Bergkampa
+
+Every 0$1 Trigger BerezovEscaped do
+begin
+
+     Uc_Nation := 2;
+     Uc_Side := 8;
+
+end;
+
+//AI Omara
+
+Every 0$1 Trigger BukovEscaped do
+begin
+
+     Uc_Nation := 2;
+     Uc_Side := 5;
+
+end;
+
+//AI Schulza
+
+Every 0$1 Trigger YakotichEscaped do
+begin
+
+     Uc_Nation := 2;
+     Uc_Side := 1;
 
 end;

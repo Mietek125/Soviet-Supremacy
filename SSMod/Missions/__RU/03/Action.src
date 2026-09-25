@@ -200,6 +200,9 @@ begin
 
      GiveMedals('Medals');
 
+     if GetSide(uslab) = 3 then
+        SaveVariable('OptoLabCaptured', 1);
+
      RewardPeople(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]));
 
      SaveCharacters(Yakotich, MissionPrefix & 'Yakotich');
@@ -212,7 +215,7 @@ begin
      SaveCharacters(Dimitri, MissionPrefix & 'Dimitri');
      
      SaveCharacters([Cholgovsky, Plotkov, Kula], MissionPrefix & 'DimitriTeam');
-     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky, Tatiana, Dragunov, Dimitri, DimitriTeam], MissionPrefix & 'YakotichTeam');
+     SaveCharacters(FilterAllUnits([[f_side, 3], [f_nation, 3], [f_type, unit_human]]) diff [Yakotich, Mietek, Maxim, Kostyliev, Smirnovsky, Tatiana, Dragunov, Dimitri, Cholgovsky, Kula, Plotkov], MissionPrefix & 'YakotichTeam');
 
      YouWin;
 

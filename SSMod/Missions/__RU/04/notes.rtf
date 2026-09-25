@@ -7,7 +7,7 @@ $ DJanusz-Secret-01
 Kaczy?ski ?mie?.
 
 ?
-? RaholQuery
+? JanuszQuery
 Doskonale, Znalaz?e? sekret! Mo?esz 
 teraz przyzna? dodatkowe do?wiadczenie 
 dla jednej z umiej?tno?ci Jakoticza 
@@ -19,12 +19,12 @@ dla jednej z umiej?tno?ci Jakoticza
 ?
 ?
 
-$ DRahol-Secret-01
-- Czy to ptak? Czy to orze?? Nie, to 
-Kaczy?ski ?mie?.
+$ DJakes-Secret-01
+- Ja pierdole, jakie kurwa ma?py 
+zjebane, Mareczki.
 
 ?
-? RaholQuery
+? JakesQuery
 Doskonale, Znalaz?e? sekret! Mo?esz 
 teraz przyzna? dodatkowe do?wiadczenie 
 dla jednej z umiej?tno?ci Jakoticza 
@@ -33,6 +33,17 @@ dla jednej z umiej?tno?ci Jakoticza
 - Umiej?tno?? in?ynierii.
 - Umiej?tno?? mechaniki.
 - Umiej?tno?? nauki.
+?
+?
+
+?
+? AdditionalQuestsQuery
+Za przeniesienie dostatecznej ilo?ci 
+skrzy? z celu dodatkowego, twoje 
+postacie otrzymaj? dodatkowe 
+do?wiadczenie dla profesji in?ynierii 
+(1500 PD).
+- OK
 ?
 ?
 
@@ -52,6 +63,11 @@ okolicy. Zinowjew jest jedn? z nich.
 $ DMax-01-04
 - Powinni?my rusza?. Zapoznajmy si? z 
 sytuacj?.
+$ DYak-01-05
+- Bogdan, odeskortuj ci??arówki z 
+alaskitem do Lenina. Reszta, za mn?. 
+Rozejrzyjmy si? co nieco po tym 
+Zinowjewie.
 
 $ DBer-01-05
 - Witam towarzysza porucznika.
@@ -63,10 +79,10 @@ Tymczasowo przej??em kontrol? nad baz?
 Zinowjewa i mam zajmowa? si? 
 rozwijaniem technologii komputerowych 
 oraz wysy?a? surowce do pó?nocnej 
-kontygnacji bazy Lenina.
+kondygnacji bazy Lenina.
 $ DBer-01-08
 - Bo jakby pan nie wiedzia?, baza jest 
-podzielona na dwie osobne kontygnacje 
+podzielona na dwie osobne kondygnacje 
 - pó?nocn? i po?udniow?. Wzgórze jest 
 tak du?e, ?e trzeba by?o podzieli? 
 baz? na kilka osobnych magazynów i 
@@ -111,7 +127,7 @@ $ DMor-01-18
 - Oh, towarzyszu poruczniku! Jak 
 dobrze w ko?cu spotka? kompetentnego 
 oficera i dowódc?. Jestem genera? 
-Piotr Aleksiejewicz Morozow.
+Morozow.
 $ DMor-01-19
 - Jestem pod wra?eniem, je?eli chodzi 
 o wasze dokonania na pó?nocnych 
@@ -170,7 +186,7 @@ $ DPop-01-29
 - Waszym zadaniem jest przej?cie na 
 po?udnie, do bazy imienia Kamieniewa i 
 przej?cie tam dowodzenia. Czeka na was 
-tam sier?ant Natasza Stejpanowna. 
+tam sier?ant Natasza Stepanowna. 
 Oczekuje waszego przybycia.
 $ DGay-01-30
 - Towarzyszu pu?kowniku, Arabowie nas 
@@ -180,7 +196,7 @@ $ DPlat-01-31
 - Jak to mo?liwe?! Cholera!
 $ DPlat-01-32
 - Towarzyszu Jakoticz, odstawcie jedn? 
-ci??arówk? z syberytem do po?udniowej 
+ci??arówk? z alaskitem do po?udniowej 
 cz??ci bazy Lenina, rozpoczn? oni 
 kluczowe badania. Reszta ma wyruszy? 
 do Kamieniewa, teraz!
@@ -210,14 +226,29 @@ $ DYak-01-38
 - Porucznik Stojan Jakoticz. Przejmuj? 
 dowodzenie.
 $ DNat-01-39
-- Sier?ant Natasza Stejpanowna, 
-rozumiem, towarzyszu. Mam ze sob? 
-kilku swoich ludzi plus dowództwo 
-przys?a?o do nas reszt? pa?skiego 
-oddzia?u z pó?nocy.
+- Sier?ant Natasza Stepanowna, 
+rozumiem, towarzyszu. Towarzysz major 
+przydzieli? nam reszt? pa?skiego 
+oddzia?u z pó?nocy. Ka?da para r?k 
+jest na wag? z?ota w tym momencie.
 $ DMietek-01-40
-- Doskonale. Nie tra?my wi?cej czasu, 
-bierzmy si? do roboty!
+- Powinni?my jak najszybciej rozpocz?? 
+produkcj? czo?gów i wys?a? je do 
+pó?nocnego posterunku.
+$ DMietek-01-41
+- S?dz?, ?e arabusy nam dadz? po??dny 
+wycisk dzisiejszego dnia.
+$ DNat-01-42
+- Te? tak s?dz?. Sugeruj? równie? 
+rozwa?y? proaktywne zbieranie surowców 
+z okolicy. Przebicie si? najemników 
+przez nasz? obron? to jest zwyk?a 
+kwestia czasu. Nie powinni?my im 
+zostawia? surowców do zabawy.
+$ DYak-01-43
+- Rozumiem. Zobaczymy co da si? 
+zrobi?. Ale póki co, wszyscy do 
+roboty, nie tra?my wi?cej czasu!
 
 # Ob1
 Add Main DefendCheckpoints
@@ -226,6 +257,9 @@ zniszczeniem.
 Add Main DontGoFar
 - Nie oddalaj si? za bardzo od bazy 
 Lenina.
+Add Main DefendDepots
+- Nie dopu?? do utraty ?adnego 
+radzieckiego magazynu.
 #
 
 $ DVlad-02-01
@@ -260,7 +294,7 @@ $ DBukov-03-01
 - Towarzyszu pu?kowniku, moi ludzie 
 zaczynaj? wywózk? surowców z bazy 
 imienia Kujbyszewa do po?udniowej 
-kontygnacji Lenina.
+kondygnacji Lenina.
 $ DPlat-03-02
 - Doskonale, towarzyszu Bukow. 
 Towarzyszu Jakoticz, wy te? macie 
@@ -299,47 +333,85 @@ $ DMietek-03-10
 - Pewnie tylko na tym si? nie sko?czy. 
 Miejmy si? na baczno?ci.
 
-# Ob3a
+# Ob3
 Add Main Resources
-- Przenie? do po?udniowej kontygnacji 
-bazy Lenina 500 skrzy? i 300 ropy.
+- Przenie? do po?udniowej kondygnacji 
+bazy Lenina 2000 skrzy? i 3000 ropy.
+#
+
+# Ob3a
+Add Alternative Resources1
+- Przenie? do po?udniowej kondygnacji 
+bazy Lenina 2500 skrzy? i 3500 ropy.
 #
 
 # Ob3b
-Add Main Resources
-- Przenie? do po?udniowej kontygnacji 
-bazy Lenina 800 skrzy? i 400 ropy.
+Add Alternative Resources2
+- Przenie? do po?udniowej kondygnacji 
+bazy Lenina 3000 skrzy? i 4000 ropy.
 #
 
 # Ob3c
-Add Main Resources
-- Przenie? do po?udniowej kontygnacji 
-bazy Lenina 1000 skrzy? i 500 ropy.
+Add Alternative Resources3
+- Przenie? do po?udniowej kondygnacji 
+bazy Lenina 3500 skrzy? i 5000 ropy.
+#
+
+$ DMietek-Crates-01
+- Towarzyszu poruczniku, melduj?, ?e 
+uda?o nam si? z pomoc? kapitana Bukowa 
+dostarczy? dostateczn? ilo?? skrzy? do 
+bazy imienia Lenina.
+
+$ DMietek-Barrels-01
+- Towarzyszu poruczniku, melduj?, ?e 
+uda?o nam si? z pomoc? kapitana Bukowa 
+dostarczy? dostateczn? ilo?? ropy do 
+bazy imienia Lenina.
+
+# Ob3Out
+Out Resources
+#
+
+# Ob3aOut
+Out Resources1
+#
+
+# Ob3bOut
+Out Resources2
+#
+
+# Ob3cOut
+Out Resources3
 #
 
 $ DBer-04-01
 - Arabowie nas atakuj?! Powtarzam, 
 Arabowie nas atakuj?!
-$ DPop-04-02
+$ DPlat-04-02
 - Cholera! Wycofajcie si? do Lenina! 
 Teraz!
 $ DBer-04-03
 - S?yszeli?cie rozkaz, wycofa? si?!
-$ DPop-04-04
+$ DPlat-04-04
 - Towarzyszu Jakoticz, baza Zinowjewa 
 zosta?a przej?ta przez wroga.
-$ DPop-04-05
+$ DPlat-04-05
 - Naukowcy Bieriezowa prowadzili 
 badania nad przewidywaniem 
 materializacji zasobów i sterowaniem 
 komputerowym. Nie mo?emy na to 
 pozwoli?, aby jajog?owi najemników 
 po?o?yli ?apska na tych technologiach.
-$ DPop-04-06
-- Nie miejcie lito?ci i zrównajcie 
-baz? z ziemi?.
+$ DPlat-04-06
+- Nie miejcie lito?ci i wybijcie tych 
+zawsza?ców co do nogi. Uwa?ajcie 
+natomiast na sk?ad - Towarzysz 
+Bieriezow raportowa? o niezliczonej 
+ilo?ci zasobów w magazynie. Macie go 
+odzyska?. Czy to jasne?
 $ DYak-04-07
-- Tak jest, towarzyszu majorze.
+- Tak jest, towarzyszu pu?kowniku.
 $ DYak-04-08
 - No, skomplikowa?a si? nieco 
 sytuacja...
@@ -352,12 +424,347 @@ jedziemy z tematem. Nie oddajmy im
 pola!
 
 # Ob4
-Add Main Resources
-- Zniszcz baz? Zinowjewa. G?ównym 
-celem jest laboratorium.
+Add Main BergkampBase
+- Wypchnij najemników z bazy 
+Zinowjewa.
+Add Main ZinovievLab
+- Przejmij sk?ad w bazie Zinowjewa i 
+zniszcz laboratorium komputerowe.
 #
 
+# DMietek-05-01
+- Jasny chuj, najemnicy buduj? nasze 
+czo?gi na podstawie schematów z 
+laboratoriów!
+$ DVlad-05-02
+- Patrzcie, s? sterowane komputerowo!
+$ DYak-05-03
+- Jasna cholera. Towarzyszu 
+pu?kowniku. Melduj?, ?e najemnicy co 
+przej?li baz? Zinowjewa produkuj? 
+radzieckie czo?gi i korzystaj? z 
+komputerowych technologii 
+pozostawionych w laboratorium.
+$ DPlat-05-04
+- To bardzo z?a wiadomo??, towarzyszu 
+poruczniku. Cel pozostaje aktualny - 
+zniszczcie to cholerne laboratorium i 
+odzyskajcie nasz? baz?!
 
+# Ob4Out
+Out Main BergkampBase
+Out ZinovievLab
+#
+
+$ DMietek-05-05
+- Patrzcie, uciekaj?!
+$ DMax-05-06
+- Dobra robota, ch?opcy!
+$ DBog-05-07
+- Oby tak dalej, utrzymamy si?!
+$ DYak-05-08
+- To s? jedni z niewielu, towarzysze. 
+B?d? jeszcze kolejni. Damy rad?.
+$ DYak-05-09
+- Towarzyszu poruczniku, melduj? o 
+odzyskaniu bazy Zinowjewa.
+$ DPlat-05-10
+- I to s? wiadomo?ci, które chcia?em 
+us?ysze?! Wspania?a robota, towarzyszu 
+poruczniku.
+
+$ DPompa-06-01
+- Tu porucznik Zbigniew Pompa, wzywam 
+Lenina!
+$ DPlat-06-02
+- Tu pu?kownik P?atonow, co si? 
+dzieje, towarzyszu?
+$ DPompa-06-03
+- Ja i mój oddzia? uciekamy w wasz? 
+stron? od wschodu, b?dziemy mija? baz? 
+Kujbyszewa. Goni nas du?y arabski 
+oddzia?!
+$ DPompa-06-04
+- B?dziemy u was lada chwila, 
+przygotujcie si? do obrony! Z nami 
+jest towarzysz kapitan Nadia Radenko!
+$ DPlat-06-05
+- Zrozumiano, towarzyszu poruczniku. 
+Kapitanie Bukow, wycofajcie si? ze 
+swojej bazy, natychmiast!
+$ DBukov-06-06
+- ?o?nierze zostaj? na stanowiskach, 
+cywile maj? si? wycofa?!
+
+$ DBukov-07-01
+- Towarzyszu pu?kowniku, szejkowie 
+przypu?cili atak na nasze pozycje. 
+Baza Kujbyszewa zosta?a przej?ta przez 
+wroga.
+$ DPlat-07-02
+- Cholera jasna! Towarzyszu Jakoticz, 
+macie si? utrzyma? i nie straci? 
+swojej bazy, zrozumiano?!
+$ DPlat-07-03
+- Zostali?cie tylko wy. Nie zawied?cie 
+nas, towarzysze!
+$ DYak-07-04
+- Postaramy si?, towarzyszu 
+pu?kowniku. Lecz to jest tylko kwestia 
+czasu nim równie? my upadniemy.
+$ DPlat-07-05
+- Utrzymajcie si? jak najd?u?ej. 
+Dajcie nam czas do namys?u jakie mamy 
+opcje aby wypchn?? tych najemników!
+
+$ DRadenko-08-01
+- Towarzyszu poruczniku, mówi kapitan 
+Nadia Radenko. Najemnicy przypuszczaj? 
+zmasowane ataki na wschodniej flance 
+bazy Lenina. Spory oddzia? najemników 
+b?dzie was atakowa? od po?udnia.
+$ DRadenko-08-02
+- Towarzyszu pu?kowniku, oddzia? 
+towarzysza Jakoticza powinien 
+bezw?ocznie wycofa? si? na wzgórze, 
+nie mo?emy ponosi? wi?kszych strat w 
+ludziach.
+$ DPlat-08-03
+- A niech was diabli, Radenko. 
+Towarzyszu Jakoticz, wycofajcie si? w 
+trybie natychmiastowym na wzgórze 
+Lenina. Macie 2 minuty.
+$ DYak-08-04
+- S?yszeli?cie rozkaz pu?kownika, 
+idziemy!
+
+# Ob5
+Add Main EscapeToLenin
+- Uciekaj do bazy imienia Lenina.
+#
+
+$ DMax-08-05
+- Kurwa. Je?eli zaraz czego? nie 
+wymy?limy to zaraz b?dzie tutaj zwyk?a 
+rze?.
+$ DTat-08-06
+- Towarzyszu Jakoticz, mam nadziej?, 
+?e ma pan jaki? plan.
+$ DYak-08-07
+- Chwila, chwila, dajcie kurwa 
+pomy?le?!
+$ DPlat-08-08
+- Porucznik Bieriezow i porucznik 
+Jakoticz wezwani w trybie 
+natychmiastowym do centrum 
+operacyjnego.
+$ DMietek-08-09
+- Niech pan idzie, towarzyszu. 
+Postaram si? uspokoi? towarzystwo.
+$ DYak-08-10
+- Dzi?ki, Dani?.
+
+# Ob5Out
+Out EscapeToLenin
+#
+
+$ DPlat-09-01
+- Towarzysze. Sytuacja jest krytyczna.
+$ DPlat-09-02
+- Kapitan Radenko oraz major Caricyn 
+broni? naszej zachodniej flanki - 
+dostaj? mocny wycisk.
+$ DPlat-09-03
+- Porucznik Bur?ak dosta? cel 
+zniszczenia bazy Nowy Kabul. Do 
+momentu zniszczenia tej bazy, musimy 
+utrzyma? Lenina.
+$ DPlat-09-04
+- Dlatego towarzysz Jakoticz obejmie 
+dowództwo nad po?udniow? kondygnacj? 
+Lenina, a towarzysz Bieriezow nad 
+pó?nocn?.
+$ DPlat-09-05
+- Macie utrzyma? t? cholern? baz?. 
+Zrozumiano?!
+$ DYak-09-06
+- Tak jest, towarzyszu pu?kowniku. 
+Damy z siebie wszystko.
+$ DBer-09-07
+- Mój oddzia? zacznie przygotowania.
+$ DPlat-09-08
+- Towarzysz Caricyn potrzebuje 
+dodatkowych jednostek na zachodzie - 
+wasz oddzia? ma tam wyruszy?.
+$ DPlat-09-09
+- Oddzia? towarzysza Jakoticza 
+pozostaje bez zmian.
+$ DPlat-09-10
+- Odmaszerowa?!
+$ DYak-09-11
+- Dobra, pos?uchajcie wszyscy!
+$ DYak-09-12
+- Sytuacja wygl?da tak: obejmuj? 
+odpowiedzialno?? za obron? po?udniowej 
+cz??ci bazy Lenina. Dotychczasowi 
+obro?cy odpowiadaj? pod moj? komend?.
+$ DYak-09-13
+- Musimy zewrze? szyki i przygotowa? 
+si? na najgorsze. W tym momencie b?d? 
+nas atakowa? z kilku baz jednocze?nie, 
+wi?c prawdopodobnie nie b?dzie nawet 
+chwili aby z?apa? oddech, b?dziemy pod 
+ci?g?? presj?.
+$ DYak-09-14
+- Jeste?my Armi? Czerwon?. Uda nam si? 
+to wszystko przetrwa?, a na samym 
+ko?cu wypchniemy tych jebanych 
+faszystów z naszego terytorium!
+$ DYelling-09-15
+- Uraaa!
+
+$ DSch-10-01
+- Towarzyszu poruczniku, opracowali?my 
+specjalne aparaty czasoprzestrzenne na 
+podstawie alaskitu. Nasi ?o?nierze 
+b?d? wolniej si? wykrwawia? na polu 
+walki dzi?ki spowolnieniu czasu.
+$ DYak-10-02
+- Nie mam poj?cia, jak dokonali?cie 
+tego odkrycia, ale ono b?dzie teraz 
+bardziej potrzebne ni? kiedykolwiek. 
+Chwa?a wam, towarzysze!
+$ DVlad-10-03
+- Razem z pann? Tatian? my?la?em nad 
+d?wigami stacjonarnymi. By?yby one w 
+stanie równie? naprawia? pojazdy, nie 
+tylko budynki.
+$ DTat-10-04
+- Wystarczy zamontowa? ?urawia na 
+wie?yczce, najlepiej automatycznej. 
+Potrzebujemy planów technologii 
+komputerowej. Oczywi?cie d?wigi na 
+wie?yczkach nie b?d? tak efektywne, 
+jak te na pojazdach.
+$ DDrag-10-05
+- Naukowcy z oddzia?u porucznika 
+Bieriezowa przekazali nam wst?pne 
+plany technologii komputerowej. Mo?emy 
+zaczyna? produkcj? i opracowywanie 
+potrzebnych schematów.
+
+# Ob6
+Add Main DefendLenin
+- Obro? baz? i wspieraj sojuszników na 
+pó?nocy.
+Add Main DefendOC
+- Centrum operacyjne nie mo?e zosta? 
+zniszczone.
+Add Secondary StaticCrane
+- Zbuduj d?wig stacjonarny.
+Add Secondary CompTech
+- Przetestuj technologie komputerowe 
+na wie?yczkach i pojazdach.
+#
+
+# Ob6aOut
+Out CompTech
+#
+
+# Ob6bOut
+Out StaticCrane
+#
+
+$ DYas-11-01
+- Tu Orze?, tu Orze?. Wzywam baz? 
+Lenina.
+$ DMor-11-02
+- Tu Orze?-2. Nikita? To ty?
+$ DYas-11-03
+- Tak, Piotrze. Zmierzamy do bazy 
+imienia Lenina. Jedzie ze mn? 
+Wsjewo?od Iwanowicz Gorki.
+$ DYas-11-04
+- B?dziemy jecha? od pó?nocy. 
+Przygotujcie si? na przechwycenie nas.
+$ DMor-11-05
+- Nie do zrobienia. Jeste?my oblegani 
+przez Arabów z ka?dej strony. Musicie 
+do nas jako? trafi? sami. Liczymy na 
+was.
+$ DYas-11-06
+- Ach, cholera. Dobra, b?dziemy 
+próbowa? na tyle, ile si? da. 
+Trzymajcie si? tam.
+$ DYas-11-07
+- Dobra, Sewi, jeste?my. Teraz szybko. 
+Musimy jako? dotrze? do pozycji 
+naszych braci.
+$ DSevi-11-08
+- Spróbuj? towarzysza marsza?ka jako? 
+odeskortowa? na miejsce.
+
+# ObYas
+Add Main YashinSave
+- Przeprowad? Wsjewo?oda Gorkiego i 
+marsza?ka Jaszina do bazy imienia 
+Lenina.
+#
+
+# ObYasOut
+Out YashinSave
+#
+
+$ DYas-11-09
+- Dobra, jeste?my. Teraz do cholery 
+jasnej wyt?umaczcie mi co si? tutaj 
+dzieje!
+
+$ DPop-12-01
+- Baza Lenina, s?uchajcie uwa?nie - 
+jeden z arabskich oddzia?ów si? 
+wycofuje na pó?noc, do Nowego Kabulu. 
+Ataki ju? nie b?d? tak brutalne jak do 
+tej pory.
+$ DPop-13-02
+- Towarzyszu Jakoticz, towarzyszu 
+Bieriezow - Przyst?pujcie do 
+kontrataku. Wypchnijcie tych talibów z 
+naszego terytorium!
+
+# Ob7
+Add Main CounterStrike
+- Odzyskaj kontrol? nad sk?adem 
+Kamieniewa i Kujbyszewa.
+#
+
+$ DYak-13-01
+- Towarzyszu pu?kowniku, melduj? 
+odzyskanie kontroli nad sektorem 
+wschodnim - Baza Kamieniewa, Zinowjewa 
+i Kujbyszewa zosta?y przej?te. 
+Niestety, szejk, który atakowa? z bazy 
+Kujbyszewa ulotni? si? przed naszym 
+atakiem. Nie dali?my rady go 
+wyeliminowa?.
+$ DPlat-13-02
+- To nic, towarzyszu. Wracajcie do 
+Lenina. Musimy z wami porozmawia? na 
+temat kilku spraw.
+$ DMietek-13-03
+- Ja pierdole. Uda?o nam si?!
+$ DMax-13-04
+- Nie spodziewa?em si?, ?e damy rad? 
+wypchn?? tych najemników.
+$ DBog-13-05
+- O to w?a?nie chodzi?o, ha ha! Teraz, 
+czas na dobr? butelk? wódki.
+$ DDrag-13-06
+- Nale?y to obla?, jak nale?y!
+$ DYak-13-07
+- Tym razem, zgodz? si?. Dajcie si? 
+tylko spotka? z dowództwem i zaczynamy 
+fiest?!
 
 //przegrane i medale
 
@@ -368,11 +775,12 @@ Jakoticz nie ?yje.
 Mietek nie ?yje.
 
 | TeamDead
-Jeden z cz?onków twojego oddzia?u nie 
+Wa?na posta? z twojego oddzia?u nie 
 ?yje.
 
 | DepotDead
-Sk?ad Lenina zosta? zniszczony.
+Jeden z g?ównych sk?adów zosta? 
+zniszczony.
 
 | AllyAttack
 Zaatakowa?e? sojusznika.
@@ -392,26 +800,29 @@ $ DMietek-AllyAttack
 
 ^MAIN
 
-* OvsyenkoMedal
-+ Nie utraci?e? ponownie kontroli nad 
-kopalni? Owsiejenki.
-- Straci?e? kontrol? nad baz? imienia 
-Owsiejenki.
-- Sk?ad bazy imienia Owsiejenki zosta? 
-zniszczony.
+* LossesMedal
++ Brak strat w?asnych!
++ Niewielkie straty w?asne!
+- Straci?e? wielu dobrych ludzi 
+podczas tej obrony...
 *
 
-* SiberiteMedal
-+ Przetestowa?e? technologie 
-syberytowe.
-- Nie przetestowa?e? technologii 
-syberytowych.
+* TransportMedal
++ Jeste? przodownikiem pracy, je?eli 
+chodzi o logistyk?!
++ Przetransportowa?e? minimaln? ilo?? 
+surowców do sk?adu Lenina.
+- Nie uda?o ci si? wyrobi? norm 
+logistycznych w transporcie surowców.
 *
 
-* RocketnMedal
-+ Zbudowa?e? wyrzutnie rakiet.
-- Nie wybudowa?e? dostatecznej ilo?ci 
-wyrzutni rakiet.
+* NewTechsMedal
++ Wykorzysta?e? wszystkie nowe 
+technologie zaproponowane przez 
+naukowców!
+- Nie wykorzysta?e? wszystkich 
+pomys?ów zasugerowanych przez twoich 
+podkomendnych.
 *
 
 

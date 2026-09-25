@@ -1,16 +1,20 @@
 Export Function InitAction;
 Begin
 
-     //RevealFogArea(3, RevealStartArea);
      InGameOn;
      Wait(0$3);
 
      Say(Yakotich, 'DYak-01-01');
      Say(Yakotich, 'DYak-01-02');
      Say(Mietek, 'DMietek-01-03');
-     Say(Yakotich, 'DYak-01-04');
+     Say(Maxim, 'DMax-01-04');
+     Say(Yakotich, 'DYak-01-05');
 
-     ComMoveXY([Dragunov, Tatiana, Smirnovsky, Kostyliev], 72, 48);
+
+     ComMoveXY([Dragunov, Tatiana, Smirnovsky, Kostyliev, Maxim], 72, 48);
+     AddComMoveXY(Tatiana, 87, 114);
+     AddComMoveXY(Smirnovsky, 82, 110);
+     AddComMoveXY(Kostyliev, 79, 106);
      ComMoveXY(YakotichTeam, 72, 48);
      ComMoveXY(Yakotich, 86, 59);
      AddComTurnUnit(Yakotich, IvanBerezov);
@@ -22,6 +26,7 @@ Begin
      ChangeSideFog(9,3);
      ChangeSideFog(6,3);
      ChangeSideFog(4,3);
+     ChangeSideFog(7,3);
 end;
 
 Every 0$1 Trigger GetX(Yakotich) = 86 and GetY(Yakotich) = 59 do
@@ -47,9 +52,7 @@ begin
      Say(Yakotich, 'DYak-01-15');
      Say(IvanBerezov, 'DBer-01-16');
 
-     AddComMoveXY([Dragunov, Kostyliev], 80, 106);
-     AddComMoveXY(Tatiana, 87, 114);
-     AddComMoveXY(Smirnovsky, 82, 110);
+     AddComMoveXY(Dragunov, 80, 106);
      ComMoveXY(YakotichTeam, 79, 96);
      ComMoveXY(Yakotich, 68, 99);
      AddComTurnUnit(Yakotich, Platonov);
@@ -114,7 +117,7 @@ begin
      ComMoveXY(Kovalyuk, 99, 166);
      AddComMoveXY(YakotichTeam, 106, 108);
      AddComMoveXY(YakotichTeam, 159, 233);
-     AddComMoveXY([Kostyliev, Maxim, Cargo2, Smirnovsky], 159,233);
+     AddComMoveXY([Kostyliev, Maxim, Cargo2, Smirnovsky, Tatiana], 159,233);
      AddComMoveXY(Mietek, 170, 238);
      AddComTurnUnit(Mietek, Natasha);
 
@@ -152,12 +155,15 @@ begin
 
 end;
 
-Every 0$1 Trigger GetX(Yakotich) = 168 and GetY(Yakotich) = 237 do
+Every 0$1 Trigger GetX(Yakotich) = 168 and GetY(Yakotich) = 237 and not StartEnded do
 begin
 
      Say(Yakotich, 'DYak-01-38');
      Say(Natasha, 'DNat-01-39');
      Say(Mietek, 'DMietek-01-40');
+     Say(Mietek, 'DMietek-01-41');
+     Say(Natasha, 'DNat-01-42');
+     Say(Yakotich, 'DYak-01-43');
 
      ChangeMissionObjectives('Ob1');
      InGameOff;
@@ -165,9 +171,212 @@ begin
 
      StartEnded := True;
 
-     RussianAI;
+     Say(Smirnovsky,'DVlad-02-01');
+     Say(Tatiana,'DTat-02-02');
+     Say(Yakotich,'DYak-02-03');
+
+     ChangeMissionObjectives('Ob2');
 
 end;
+
+Every 0$1 Trigger FilterAllUnits([[f_side, 4], [f_type, unit_vehicle], [f_weapon, ru_big_cargo_bay]]) do
+begin
+
+     Wait(0$3);
+     DialogueOn;
+     InGameOn;
+     CenterOnUnits(Bukov);
+
+     SayRadioNoName(Bukov, 'DBukov-03-01');
+     SayRadio(Platonov, 'DPlat-03-02');
+     Say(Yakotich, 'DYak-03-03');
+     SayRadio(Platonov, 'DPlat-03-04');
+     Say(Mietek,'DMietek-03-05');
+     Say(Mietek,'DMietek-03-06');
+     Say(Yakotich,'DYak-03-07');
+     Say(Yakotich,'DYak-03-08');
+     Say(Maxim,'DMax-03-09');
+     Say(Mietek,'DMietek-03-10');
+
+     if Difficulty = 1 then
+        ChangeMissionObjectives('Ob3a') else
+     if Difficulty = 2 then
+        ChangeMissionObjectives('Ob3b') else
+     if Difficulty = 3 then
+        ChangeMissionObjectives('Ob3c');
+
+     if LoadVariable('HintyON', 1) then
+        AdditionalQuestsQuery(1);
+
+     ChangeMissionObjectives('Ob3');
+     BukovConvoysActive := True;
+
+     ComMoveXY([Kovalyuk, Balei], 99, 165);
+     SetAreaMapShow(LeninCratesSend, 1);
+
+     DialogueOff;
+     InGameOff;
+
+end;
+
+Every 0$1 Trigger StartEnded and GameTime > 25$0 and FilterUnitsInArea(BerezovBaseArea,[f_side, 3]) do
+var ru;
+begin
+     InGameOn;
+     ru := FilterUnitsInArea(BerezovBaseArea,[f_side, 3]);
+     ComMoveXY(ru, 123, 107);
+     repeat;
+     Wait(0$1);
+     until
+     IsInArea(BerezovBaseArea, ru);
+end;
+
+Every 0$1 Trigger GameTime > 25$0 and not FilterUnitsInArea(BerezovBaseArea,[f_side, 3]) do
+var gatlingsold;
+begin
+
+     InGameOn;
+     CenterOnUnits(IvanBerezov);
+
+     InitBergkampAttack;
+
+     SayRadio(IvanBerezov, 'DBer-04-01');
+
+     gatlingsold := UnitsInside(gatlingbunk);
+
+     ComExitBuilding(gatlingsold);
+     ComMoveXY(gatlingsold, 72, 102);
+
+
+     SayRadio(Platonov, 'DPlat-04-02');
+     SayRadio(IvanBerezov, 'DBer-04-03');
+
+     ComExitBuilding(BerezovTeam);
+     AddComMoveXY(BerezovTeam, 72, 102);
+     ComEnterUnit(IvanBerezov,BerezovTank);
+     AddComMoveXY(IvanBerezov, 79, 109);
+     AddComMoveXY(IvanBerezov, 79, 114);
+     AddComExitVehicle(IvanBerezov);
+     AddComMoveXY(IvanBerezov, 68, 95);
+     AddComTurnXY(IvanBerezov, 68,98);
+
+     SayRadio(Platonov, 'DPlat-04-04');
+
+     Wait(0$25);
+
+     SetSide(FilterAllUnits([[f_side, 7], [f_type, unit_building]]) diff [BerezovA1, BerezovA2, BerezovA3], 8);
+
+     CenterOnUnits(Yakotich);
+
+     Say(Platonov, 'DPlat-04-05');   
+     Say(Platonov, 'DPlat-04-06');
+     Say(Yakotich, 'DYak-04-07');
+     Say(Yakotich, 'DYak-04-08');
+     Say(Mietek, 'DMietek-04-09');
+     Say(Kostyliev, 'DBog-04-10');
+
+     ChangeMissionObjectives('Ob4');
+
+     InGameOff;
+
+     BerezovEscaped := True;
+
+     ComEnterUnit(BerezovTeam, BerezovA1);
+     Wait(0$30);
+     ComEnterUnit(BerezovTeam, BerezovA2);
+     Wait(0$10);
+     ComEnterUnit(BerezovTeam, BerezovA3);
+
+end;
+
+Every 0$1 Trigger GetSide(BerezovBase) = 3 and IsDead(BerezovLab) do
+var BergkampSurvivors;
+begin
+
+     InGameOn;
+
+     BergkampSurvivors := FilterAllUnits([[f_side, 8], [f_type, unit_human]]);
+     ComExitBuilding(BergkampSurvivors);
+     ComMoveToArea(BergkampSurvivors, BergkampEscapeArea);
+     CenterOnUnits(BerezovBase);
+
+     Say(Mietek, 'DMietek-05-05');
+     Say(Maxim, 'DMax-05-06');
+     Say(Kostyliev, 'DBog-05-07');
+     Say(Yakotich, 'DYak-05-08');
+     Say(Yakotich, 'DYak-05-09');
+     Say(Platonov, 'DPlat-05-10');
+
+     ChangeMissionObjectives('Ob4Out');
+
+     InGameOff;
+
+end;
+
+Every 0$1 Trigger GameTime > 28$0 do
+var BukovCivilians, tmp, i;
+begin
+
+     DialogueOn;
+     InGameOn;
+
+     SayRadioNoFace(Pompa, 'DPompa-06-01');
+     SayRadio(Platonov, 'Dplat-06-02');
+     SayRadioNoFace(Pompa, 'DPompa-06-03');
+     SayRadioNoFace(Pompa, 'DPompa-06-04');
+     SayRadio(Platonov, 'DPlat-06-05');
+     SayRadio(Bukov, 'DBukov-06-06');
+
+     DialogueOff;
+     InGameOff;
+
+     BukovCivilians := FilterAllUnits([[f_side, 4], [f_type, unit_human], [f_not, [f_class, class_soldier]]]);
+     ComExitBuilding(BukovCivilians);
+     AddComMoveXY(BukovCivilians,70,101);
+     ComEnterUnit(Bukov, BukovTank);
+     AddComMoveXY(Bukov, 82, 108);
+     AddComMoveXY(Bukov, 82, 114);
+     AddComExitVehicle(Bukov);
+
+     SetSide([Bukov, BukovCivilians], 6);
+     ComEnterUnit(Bukov, MorozovBase);
+
+     for i in BukovCivilians do
+     begin
+          case GetClass(i) of
+          class_scientistic: tmp := FilterUnitsInArea(NorthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_lab_full]]);
+          class_mechanic: tmp := FilterUnitsInArea(NorthLeninArea,[[f_side, 6], [f_not, [f_full]], [f_btype, b_factory]]);
+     end;
+
+     if tmp[1] then
+          ComEnterUnit(i, tmp[1]);
+     end;
+end;
+
+Every 0$1 Trigger GameTime > 29$0 do
+begin
+
+     PlaceUnitArea([Pompa, Radenko, Petrov, Konajev, Mielnik], PompaSpawn, False);
+     ComEnterUnit([Pompa, Petrov, Konajev, Mielnik], PompaArmor);
+     ComMoveToArea(Radenko, RadenkoEscape);
+
+end;
+
+Every 0$1 Trigger IsInArea(Radenko, RadenkoEscape) do
+RemoveUnit(Radenko);
+
+Every 0$1 Trigger GameTime > 31$0 do
+begin
+
+
+end;
+
+
+
+
+
+
+
 
 
 

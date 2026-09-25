@@ -1797,7 +1797,7 @@ GAMEINIT
         SYMBOL w-r-devastator
         OIL 0
         SIBERIUM 0
-        CANS 75
+        CANS 90
         TIME 125
         SOUND_NAME devastator
         SOUND_TYPE 0
@@ -1805,12 +1805,13 @@ GAMEINIT
         ROTATE_TYPE Limited
         SIGHT 10
         WEIGHT  3  3 
+        BARRELUSEED 1
         ATTACK
           MINMAX_RANGE  7  17 
-          FREQUENCY  4  200 
+          FREQUENCY  4  245
           DAMAGE 350 750 500
           EFF 35 75 50
-          ANIM  2  2  3 
+          ANIM  4  2  3 
         END_OF_ATTACK
         PRODUCED_IN 17 
         TECHNOLOGY 106 		

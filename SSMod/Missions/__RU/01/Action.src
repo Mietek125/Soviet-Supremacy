@@ -185,7 +185,7 @@ Begin
 
      DialogueOn;
      CenterOnXY(110,90);
-     Say(Yakotich,'DMietek-Hill-01');
+     Say(Mietek,'DMietek-Hill-01');
      RevealFogArea(3, ShowHill);
      HillCheck = True;
      DialogueOff;

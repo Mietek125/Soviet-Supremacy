@@ -41,7 +41,7 @@ Export Debug;
 Export MissionPrefix, PrevMissionPrefix;
 Export MissionStarted, BeenInMine, CameBackToBase, PlayerGotControl, CutsceneOn, CutsceneOnDepot,
 RocketLaunchersConstructed, SibEngineConstructed, SibPowerComplete, OvsyenkoRecovered, FirstRocket,
-OvsyenkoDestroyed, EndOfMission, SiberiteGathered, HaveSeenRemoteVeh;
+OvsyenkoDestroyed, EndOfMission, SiberiteGathered, SeenRemote;
 
 Export Side6Buildings, Side1Buildings,Side4Buildings;
 
@@ -73,6 +73,7 @@ FirstRocket := False;
 OvsyenkoDestroyed := False;
 EndOfMission := False;
 SiberiteGathered := False;
+SeenRemote := False;
 
 SibNeededToWin := 300;
 

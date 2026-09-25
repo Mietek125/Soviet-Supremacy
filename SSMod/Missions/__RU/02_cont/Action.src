@@ -12,6 +12,10 @@ Begin
      RevealFogArea(3, RevealRiverArea);
      InGameOff;
 
+     If LoadVariable('HintyON', 1) then
+        AdditionalQuestsQuery(1);
+
+
      SaveForQuickRestart;
 
      repeat

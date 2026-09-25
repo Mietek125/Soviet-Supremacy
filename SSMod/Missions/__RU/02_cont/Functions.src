@@ -16,14 +16,6 @@ case Difficulty of
 end;
 End;
 
-Export function ResAllTechs(side, lab, nation);
-var i;
-begin
-for i = 1 to 100 do
-    if GetTech(i, side) = state_enabled and TechNationAvailable(i, nation) then
-       AddComResearch(lab, i);
-End;
-
 Export function RepairBuilding(side, building, area);
 var buildingsList, i, eng, engineerOkInside, engineerOkOutside;
 begin
@@ -258,6 +250,17 @@ begin
   end;
 end;
 
+Export Function AdditionalQuestsQuery(q);
+var dec, q1;
+begin
+     dec = SelectiveQuery('AdditionalQuestsQuery', q);
+     case dec of
+          1:begin
+          exit;
+          end;
+     end;
+end;
+
 every 1 trigger AmericansHeld = false AND FilterUnitsInArea(DontGoArea, [[f_side, 3], [f_or, [f_type, unit_human], [f_type, unit_vehicle]]]) > 0 do
 var unit;
 begin
@@ -401,7 +404,6 @@ repeat
         begin
             RemoveUnit(i);
             soldiers := soldiers diff i;
-            AmericansGotAway := AmericansGotAway + 1;
             continue;
         end;
 
@@ -434,7 +436,6 @@ repeat
         begin
             RemoveUnit(i);
             mechs := mechs diff i;
-            AmericansGotAway := AmericansGotAway + 1;
             continue;
         end;
 
@@ -467,7 +468,6 @@ repeat
         begin
             RemoveUnit(i);
             medics := medics diff i;
-            AmericansGotAway := AmericansGotAway + 1;
             continue;
         end;
     end;
@@ -478,23 +478,29 @@ repeat
 until not medics;
 end;
 
-Every 0$1 trigger FilterUnitsInArea(EscapeArea, [[f_or, [f_side, 1], [f_side, 4]]]) do
-var i, tmp, tmp2;
+every 0$1 do
+var filter, un;
 begin
-ConvoyEscapedMembers := 0;
+ enable;
+ filter := FilterUnitsInArea(EscapeArea, [ [f_or, [f_side, 1], [f_side, 4]], [f_or, [f_type, unit_human], [f_type, unit_vehicle] ]]);
 
-repeat
- wait(0$1);
- tmp := FilterAllUnits([f_or, [f_side, 1], [f_side, 4]]);
- tmp2 := UnitFilter(tmp, [f_inarea, EscapeArea]);
-
- for i in tmp2 do
+     for un in filter do
      begin
-     RemoveUnit(i);
-     ConvoyEscapedMembers := ConvoyEscapedMembers + 1;
+      if IsInArea(un, EscapeArea) then
+      begin
+       ConvoyEscapedMembers := ConvoyEscapedMembers + 1;
+       if GetType(un)=unit_vehicle then
+       begin
+        RemoveUnit(IsDrivenBy(un));
+        RemoveUnit(un);
+       end
+       else
+       begin
+        RemoveUnit(un);
+       end;
+      end;
      end;
-until not tmp;
-End;
+end;
 
 
 

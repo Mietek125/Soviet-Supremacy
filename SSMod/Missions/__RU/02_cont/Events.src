@@ -46,7 +46,7 @@ end;
 
 On VehicleRecycled(BuildingID, VehicleID, Side, Nation, X,Y, Direction, Chassis, Controller, Engine, Weapon) do
 begin
-if Side = 3 and Nation = 1 and Weapon in [3,5,6] and GunDismantled = false then
+if Side = 3 and Nation = 1 and Weapon in [3,5,6] and GunDismantled = false and GetSide(Tatiana) = 3 then
 begin
 
 GunDismantled := True;
@@ -60,7 +60,7 @@ end;
 On Contact(side1,side2) do
 var i;
 begin
-    if ((side1 = 4 and side2 = 3) or (side1 = 3 and side2 = 4) or (side1 = 3 and side2 = 1) or (side1 = 1 and side2 = 3)) and not FirstContact then
+    if (side1 = 4 and side2 = 3) or (side1 = 1 and side2 = 3) and not FirstContact then
     begin
         for i in side1 do
         begin

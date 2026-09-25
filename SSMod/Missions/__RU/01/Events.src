@@ -6,9 +6,20 @@ Begin
      Say(Smirnovsky, 'DVlad-04-04');
      Say(Yakotich, 'DYak-04-05');
      Say(Smirnovsky, 'DVlad-04-06');
-     Say(Kostyliev, 'DBog-04-07');
+     Say(Yakotich,'DYak-04-07');
+     Say(Smirnovsky,'DVlad-04-08');
+     Say(Kostyliev, 'DBog-04-09');
      DialogueOff;
 
+end;
+
+Every 0$1 Trigger See(3, FilterAllUnits([[f_class, class_phororhacos], [f_see, 3]])) do
+var tmp;
+begin
+
+     tmp := FilterAllUnits([[f_class, class_phororhacos], [f_see, 3]]);
+     CenterOnUnits(tmp[1]);
+     Say(Yakotich,'DYak-Bird-01');
 end;
 
 Every 0$1 trigger FilterAllUnits([[f_type, unit_vehicle], [f_side, 3]]) do
@@ -18,8 +29,8 @@ begin
      CenterOnUnits(RuDepot);
      Wait(0$3);
      DialogueOn;
-     Say(Kostyliev,'DBog-04-08');
-     Say(Yakotich,'DYak-04-09');
+     Say(Kostyliev,'DBog-04-10');
+     Say(Yakotich,'DYak-04-11');
      ChangeMissionObjectives('VehOut');
      DialogueOff;
      InGameOff;

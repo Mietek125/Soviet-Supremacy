@@ -1,5 +1,5 @@
 VARIABLES 0
-CHARACTERS 102
+CHARACTERS 107
   Abdul 1
     DEFINE
       NAME Abdul
@@ -852,7 +852,7 @@ CHARACTERS 102
       NAME Phillips
       HUMAN 1 1 1
       ATTR 10 11
-      SKILLS 1 477030 2 152100 1 183210 2 146910
+      SKILLS 1 297030 2 302100 1 273210 2 326910
       LAST_MISSION 1
       CHAR @ 0 0
       RANDSEED 0
@@ -1070,7 +1070,7 @@ CHARACTERS 102
   Balei 1
     DEFINE
       NAME Balei
-      HUMAN 1 1 3
+      HUMAN 1 2 3
       ATTR 11 10
       SKILLS 2 292350 2 229620 1 163950 1 196260
       LAST_MISSION 4
@@ -1121,5 +1121,60 @@ CHARACTERS 102
       CHAR @ 0 0
       RANDSEED 0
       VOICE 1 GALLERY YakotichMod_Female 1
+    END_OF_DEFINE
+  Pompa 1
+    DEFINE
+      NAME Pompa
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 2 372150 1 225030 2 180300 1 61770
+      LAST_MISSION 4
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY BattleModTwarze 1
+    END_OF_DEFINE
+  Radenko 1
+    DEFINE
+      NAME Radenko
+      HUMAN 2 1 3
+      ATTR 10 11
+      SKILLS 3 451470 1 255900 1 330450 1 210390
+      LAST_MISSION 4
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY BattleModTwarze 4
+    END_OF_DEFINE
+  Konajev 1
+    DEFINE
+      NAME Konajev
+      HUMAN 1 3 3
+      ATTR 11 10
+      SKILLS 2 0 1 0 3 0 0 0
+      LAST_MISSION 4
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY BattleModTwarze 6
+    END_OF_DEFINE
+  Petrov 1
+    DEFINE
+      NAME Petrov
+      HUMAN 1 1 3
+      ATTR 11 10
+      SKILLS 3 225180 1 102630 2 196260 0 150390
+      LAST_MISSION 4
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY BattleModTwarze 2
+    END_OF_DEFINE
+  Mielnik 1
+    DEFINE
+      NAME Mielnik
+      HUMAN 1 4 3
+      ATTR 10 11
+      SKILLS 2 222690 1 97050 0 139620 3 163890
+      LAST_MISSION 4
+      CHAR @ 0 0
+      RANDSEED 0
+      VOICE 1 GALLERY BattleModTwarze 3
     END_OF_DEFINE
 END

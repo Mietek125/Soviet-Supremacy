@@ -3,7 +3,7 @@ begin
 JanuszExp([1,2,3,4]);
 Wait(0$05);
 Say(Janusz,'DJanusz-Secret-01');
-TeleportUnit(Janusz,217,4,500,True);
+TeleportUnit(Janusz,145,70,500,True);
 Wait(0$05);
 RemoveUnit(Janusz);
 SaveVariable(1,'SafeJanusz');
@@ -30,22 +30,22 @@ begin
   end;
 end;
 
-Every 1 trigger IsSelected(Rahol) or GetLives(Rahol) < 1000 do
+Every 1 trigger IsSelected(Jakes) or GetLives(Jakes) < 1000 do
 begin
-RaholExp([1,2,3,4]);
+JakesExp([1,2,3,4]);
 Wait(0$05);
-Say(Rahol,'DRahol-Secret-01');
-TeleportUnit(Rahol,214,2,500,True);
+Say(Jakes,'DJakes-Secret-01');
+TeleportUnit(Jakes,140,70,500,True);
 Wait(0$05);
-RemoveUnit(Rahol);
-SaveVariable(1,'SafeRahol');
-SaveCharacters(Rahol,'Rahol');
+RemoveUnit(Jakes);
+SaveVariable(1,'SafeJakes');
+SaveCharacters(Jakes,'Jakes');
 End;
 
-Export Function RaholExp(q);
+Export Function JakesExp(q);
 var dec, q1;
 begin
-  dec = SelectiveQuery('RaholQuery', q);
+  dec = SelectiveQuery('JakesQuery', q);
   case dec of
    1:begin
      AddExperience_NoLimit(Yakotich,1,2500);
@@ -61,3 +61,119 @@ begin
      end;
   end;
 end;
+
+Export Function AdditionalQuestsQuery(q);
+var dec, q1;
+begin
+     dec = SelectiveQuery('AdditionalQuestsQuery', q);
+     case dec of
+          1:begin
+          exit;
+          end;
+     end;
+end;
+
+Every 0$01 trigger StartEnded do
+var crates, oil;
+begin
+enable;
+
+     GameTime := GameTime + 0$1;
+     display_strings := ['#SkrTime', Gametime];
+
+     if BukovConvoysActive then
+     begin
+
+          crates := GetResourceType(GetBase(SouthLenin), mat_cans);
+          oil := GetResourceType(GetBase(SouthLenin), mat_oil);
+
+          display_strings := ['#SkrTime', Gametime] ^ ['#LeninResourcesBarrels', oil, BarrelsToTransport] ^ ['#LeninResourcesCrates', crates, CansToTransport];
+
+
+         if crates >= 2000 and not CratesGathered then
+         begin
+              DialogueOn;
+              Say(Mietek,'DMietek-Crates-01');
+              CratesGathered := True;
+              DialogueOff;
+         end;
+
+         if oil >= 3000 and not OilGathered then
+         begin
+              DialogueOn;
+              Say(Mietek,'DMietek-Barrels-01');
+              OilGathered := True;
+              DialogueOff;
+         end;
+
+         if crates >= CansToTransport and not CratesGatheredExtra then
+            CratesGatheredExtra := True;
+
+         if crates >= CansToTransport and not OilGatheredExtra then
+            OilGatheredExtra := True;
+
+         if CratesGathered and OilGathered then
+            ChangeMissionObjectives('Ob3Out');
+
+         if OilGatheredExtra and CratesGatheredExtra then
+         begin
+              display_strings := ['#SkrTime', Gametime];
+              AddExperience_NoLimit(FilterAllUnits([f_side, 3]),2,1500);
+
+              if Difficulty = 1 then
+                 ChangeMissionObjectives('Ob3aOut') else
+              if Difficulty = 2 then
+                 ChangeMissionObjectives('Ob3bOut') else
+              if Difficulty = 3 then
+                 ChangeMissionObjectives('Ob3cOut');
+         end;
+     end;
+End;
+
+Export Function BukovTransports;
+var veh;
+begin
+     Enable;
+
+     veh := FilterAllUnits([[f_side, 4], [f_type, unit_vehicle], [f_weapon, ru_big_cargo_bay]]);
+     repeat;
+     AddComTransport(veh, BukovBase, mat_cans);
+     AddComMoveXY(veh, 98, 166);
+     AddComUnload(veh);
+     AddComTransport(veh, BukovBase, mat_oil);
+     AddComMoveXY(veh, 98, 166);
+     AddComUnload(veh);
+     Wait(0$1);
+     until BukovEscaped;
+     ComMoveXY(veh, 70, 101);
+     veh := [];
+end;
+
+Export Function BerezovTransports;
+var veh;
+begin
+     Enable;
+
+     veh := FilterAllUnits([[f_side, 7], [f_type, unit_vehicle], [f_weapon, ru_big_cargo_bay]]);
+
+     repeat;
+     AddComTransport(veh, BerezovBase, mat_cans);
+     AddComMoveXY(veh, 66, 99);
+     AddComUnload(veh);
+     AddComTransport(veh, BerezovBase, mat_oil);
+     AddComMoveXY(veh, 66, 99);
+     AddComUnload(veh);
+     Wait(0$1);
+     until BerezovEscaped;
+     SetSide(veh, 6);
+     ComMoveXY(veh, 69, 99);
+end;
+
+Every 0$1 Trigger FilterAllUnits([[[f_not, [f_side, 3]], [f_type, unit_vehicle]]]) do
+var veh, i;
+begin
+       enable;
+       veh := FilterAllUnits([[[f_not, [f_side, 3]], [f_type, unit_vehicle]]]);
+       SetFuel(veh, 99);
+End;
+

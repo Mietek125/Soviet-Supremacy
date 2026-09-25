@@ -1,8 +1,13 @@
-Every 3$0 Trigger if not lenin_control = True do
+Every 0$45 + 0$20 trigger StartEnded do
+var i, tmp;
 begin
-
-CreateCratesArea(rand(3, 5), RuCrates, true);
-
 enable;
 
+wait(rand(0$1, 0$11));
+
+tmp := [CratesArea1, CratesArea2, CratesArea3];
+i := tmp[rand(1, Count(tmp))];
+
+if GetListOfCratesInArea(i) < 5 then
+   CreateCratesArea(rand(1, 5), i, true);
 End;

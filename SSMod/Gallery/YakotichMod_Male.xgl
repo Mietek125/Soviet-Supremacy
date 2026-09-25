@@ -3,7 +3,7 @@ GALLERY
     PAK male
     VOICE 123
     PORT_COMPONENTS
-      NAZEV Smirnovsky
+      NAZEV Vlad
       TYP POZADI
         COMP pokus2-3
         BARVY 304069 85 808080 85 808080 85 808080 85
@@ -184,7 +184,7 @@ GALLERY
     PAK male
     VOICE 125
     PORT_COMPONENTS
-      NAZEV Maxim
+      NAZEV Max
       TYP POZADI
         COMP pokus2-3
         BARVY BEBEBA 85 808080 85 808080 85 808080 85
@@ -275,7 +275,7 @@ GALLERY
     PAK male
     VOICE 124
     PORT_COMPONENTS
-      NAZEV Kostyliev
+      NAZEV Bog
       TYP POZADI
         COMP pokus2-3
         BARVY 1C243C 85 808080 85 808080 85 808080 85
@@ -366,7 +366,7 @@ GALLERY
     PAK male
     VOICE 126
     PORT_COMPONENTS
-      NAZEV Dragunov
+      NAZEV Drag
       TYP POZADI
         COMP pokus2-3
         BARVY 629183 85 808080 85 808080 85 808080 85
@@ -1714,7 +1714,7 @@ GALLERY
     PAK male
     VOICE 120
     PORT_COMPONENTS
-      NAZEV Yakotich
+      NAZEV Yak
       TYP POZADI
         COMP us-pozadi
         BARVY 906060 85 808080 85 808080 85 808080 85
